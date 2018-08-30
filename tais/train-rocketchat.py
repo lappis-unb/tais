@@ -12,8 +12,8 @@ import train
 
 logger = logging.getLogger(__name__)
 
-CREDENTIALS = os.getenv('CREDENTIALS', '/rouana/credentials.yml')
-ROUANA_PORT = int(os.getenv('ROUANA_PORT', 5005))
+CREDENTIALS = os.getenv('CREDENTIALS', '/tais/credentials.yml')
+TAIS_PORT = int(os.getenv('TAIS_PORT', 5005))
 
 def run():
     interpreter = RasaNLUInterpreter('/models/nlu/default/current')
@@ -28,7 +28,7 @@ def run():
         ssl=configs['ssl']
     )
 
-    agent.handle_channel(HttpInputChannel(ROUANA_PORT, '', input_channel))
+    agent.handle_channel(HttpInputChannel(TAIS_PORT, '', input_channel))
 
 
 if __name__ == '__main__':

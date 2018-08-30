@@ -13,13 +13,13 @@ run pip install rasa-nlu[spacy]==0.13.0   && \
 
 run pip uninstall -y tensorflow && pip install tensorflow==1.5
 
-run mkdir /rouana
+run mkdir /tais
 
-add ./rouana /rouana
-workdir /rouana
+add ./tais /tais
+workdir /tais
 
 env TRAINING_EPOCHS=300                    \
-    CREDENTIALS="/rouana/credentials.yml"  \
-    ROUANA_PORT=5005
+    CREDENTIALS="/tais/credentials.yml"  \
+    TAIS_PORT=5005
 
 cmd python train-rocketchat.py

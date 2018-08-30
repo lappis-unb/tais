@@ -8,10 +8,10 @@ run pip install -r /tmp/requirements.txt  && \
     python -m spacy download pt
 
 run apt-get remove --purge -y git         && \
-    mkdir /rouana
+    mkdir /tais
 
-add ./rouana /rouana
-workdir /rouana
+add ./tais /tais
+workdir /tais
 
 env TRAINING_EPOCHS=300
 
