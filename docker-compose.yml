@@ -32,29 +32,29 @@ services:
     depends_on:
       - mongo
 
-  rouana:
+  tais:
     build:
       context: .
       dockerfile: ./docker/rocketchat.Dockerfile
     environment:
       - TRAINING_EPOCHS=300
-      - ROUANA_PORT=5005
-      - CREDENTIALS=/rouana/credentials.yml
+      - TAIS_PORT=5005
+      - CREDENTIALS=/tais/credentials.yml
     ports:
       - 5005:5005
     volumes:
-      - ./rouana:/rouana
+      - ./tais:/tais
     depends_on:
       - rocketchat
 
-  rouana-console:
+  tais-console:
     build:
       context: .
       dockerfile: ./docker/console.Dockerfile
     environment:
       - TRAINING_EPOCHS=300
     volumes:
-      - ./rouana:/rouana
+      - ./tais:/tais
 
   landing-page:
     image: python:3.6

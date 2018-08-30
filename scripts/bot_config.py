@@ -27,19 +27,19 @@ parser = argparse.ArgumentParser()
 
 parser.add_argument(
     '--bot-name', '-bn', type=str, default='Tais',
-    help='Bot username (default: rouana)'
+    help='Bot username (default: Tais)'
 )
 parser.add_argument(
-    '--bot-username', '-bu', type=str, default='rouana',
-    help='Bot username (default: rouana)'
+    '--bot-username', '-bu', type=str, default='Tais',
+    help='Bot username (default: Tais)'
 )
 parser.add_argument(
-    '--bot-password', '-bp', type=str, default='rouana',
-    help='Bot password (default: rouana)'
+    '--bot-password', '-bp', type=str, default='Tais',
+    help='Bot password (default: Tais)'
 )
 parser.add_argument(
-    '--bot-avatar', '-ba', type=str, default='https://raw.githubusercontent.com/lappis-unb/rouana/master/images/rouana_avatar.jpeg',
-    help='Bot avatar photo link (default: rouana\'s github avatar)'
+    '--bot-avatar', '-ba', type=str, default='https://raw.githubusercontent.com/lappis-unb/tais/master/images/tais_avatar.jpeg',
+    help='Bot avatar photo link (default: tais\'s github avatar)'
 )
 parser.add_argument(
     '--admin-name', '-an', type=str, default='admin',
@@ -47,15 +47,15 @@ parser.add_argument(
 )
 parser.add_argument(
     '--admin-password', '-ap', type=str, default='admin',
-    help='Admin password (default: rouana)'
+    help='Admin password (default: Tais)'
 )
 parser.add_argument(
     '--rocketchat-url', '-r', type=str, default='http://localhost:3000',
     help='Rocket chat URL (default: http://localhost:3000)'
 )
 parser.add_argument(
-    '--rasa-url', '-rasa', type=str, default='http://rouana:5005/webhook',
-    help='Rasa URL (default: http://rouana:5005/webhook)'
+    '--rasa-url', '-rasa', type=str, default='http://tais:5005/webhook',
+    help='Rasa URL (default: http://tais:5005/webhook)'
 )
 
 args = parser.parse_args()

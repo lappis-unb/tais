@@ -334,7 +334,7 @@ class ActionOQueEh(Action):
             'E quando o MinC utiliza ele? Após a situação L05',
             'Para saber mais você pode consultar a Instrução Normativa 05/2017, art. 56',
         ],
-        'rouana': [
+        'tais': [
             'Uma assistente virtual, como eu, é um programa de computador criado para ajudar as pessoas a sanarem suas dúvidas de maneira simples',
             'Apesar de eu ser um "computador", eu ainda estou aprendendo várias coisas para poder te ajudar melhor',
             'Conversando comigo você também pode me ajudar a alcançar isso',
