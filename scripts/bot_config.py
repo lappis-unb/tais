@@ -26,16 +26,16 @@ logger.addHandler(ch)
 parser = argparse.ArgumentParser()
 
 parser.add_argument(
-    '--bot-name', '-bn', type=str, default='Tais',
-    help='Bot username (default: Tais)'
+    '--bot-name', '-bn', type=str, default='tais',
+    help='Bot username (default: tais)'
 )
 parser.add_argument(
-    '--bot-username', '-bu', type=str, default='Tais',
-    help='Bot username (default: Tais)'
+    '--bot-username', '-bu', type=str, default='tais',
+    help='Bot username (default: tais)'
 )
 parser.add_argument(
-    '--bot-password', '-bp', type=str, default='Tais',
-    help='Bot password (default: Tais)'
+    '--bot-password', '-bp', type=str, default='tais',
+    help='Bot password (default: tais)'
 )
 parser.add_argument(
     '--bot-avatar', '-ba', type=str, default='https://raw.githubusercontent.com/lappis-unb/tais/master/images/tais_avatar.jpeg',
@@ -47,7 +47,7 @@ parser.add_argument(
 )
 parser.add_argument(
     '--admin-password', '-ap', type=str, default='admin',
-    help='Admin password (default: Tais)'
+    help='Admin password (default: tais)'
 )
 parser.add_argument(
     '--rocketchat-url', '-r', type=str, default='http://localhost:3000',
