@@ -660,9 +660,17 @@ templates:
           - "Se você for uma pessoa física você precisa atuar na área cultural."
           - "Caso você seja uma pessoa jurídica pública tem que atuar na área de administração indireta ou uma pessoa jurídica privada com ou sem fins lucrativos."
   utter_geralIntroduzirContextoNovaProposta:
-    - text:
-        - - "Que bom! É sempre bom trabalhar em novos projetos culturais"
-          - "Se você quiser, posso tirar algumas de suas dúvidas para te ajudar neste novo projeto"
+    - text: |
+        Que bom! Vamos focar no seu projeto!
+        Você tem dúvidas sobre ele?
+
+    - text: | 
+        Que ótimo! Vamos focar no seu projeto!
+        Que tal tirar dúvidas sobre ele?
+
+    - text: |
+        Que maravilha! Vamos focar no seu projeto!
+        Quer sanar alguma dúvida sobre ele?
   utter_geralIntroduzirContextoNaoExecucao:
     - text:
         - - "Então suas dúvidas devem ser sobre as outras etapas do processo"
