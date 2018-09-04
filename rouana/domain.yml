@@ -545,9 +545,28 @@ templates:
         Você já criou uma *proposta de projeto*?
 
   utter_geralDuvidaExecucao:
-    - text: "Você tem dúvida em relação à captação de verba e execução do projeto? (Sim ou Não)"
+    - text: |
+        Sua dúvida é sobre *captação de verba* 
+        para execução de um projeto?
+
+    - text: |
+        Você quer saber como funciona a *captação de verba* 
+        para execução de um projeto?
+
+    - text: |
+        Você quer esclarecer dúvidas sobre *captação de verba*
+        para execução de um projeto?
+
   utter_geralConheceProcesso:
-    - text: "Você sabe como funciona o andamento de um projeto de incentivo a cultura? (Sim ou Não)"
+    - text: |
+        Você já conhece as *etapas de um projeto* pela lei Rouanet?
+    
+    - text: |
+        Você já conhece *as fases de um projeto* pela lei Rouanet?
+    
+    - text: |
+        Você já conhece *o passo a passo de um projeto* pela lei Rouanet?
+
   utter_geralCadastroSalic:
     - text: "Você já tem cadastro no SALIC? (Sim ou Não)"
   utter_geralDespedir:
