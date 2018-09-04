@@ -568,7 +568,15 @@ templates:
         Você já conhece *o passo a passo de um projeto* pela lei Rouanet?
 
   utter_geralCadastroSalic:
-    - text: "Você já tem cadastro no SALIC? (Sim ou Não)"
+    - text: |
+        Você já tem cadastro no SALIC?
+    
+    - text: | 
+        Você já fez seu cadastro no SALIC?
+    
+    - text: |
+        você já se inscreveu no SALIC?
+        
   utter_geralDespedir:
     - text:
         - - "Espero que eu tenha conseguido esclarecer suas dúvidas."
