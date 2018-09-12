@@ -39,6 +39,15 @@ services:
     depends_on:
       - rocketchat
 
+  nginx:
+    build:
+      context: .
+      dockerfile: ./docker/nginx/Dockerfile
+    ports:
+      - 8080:80
+    volumes:
+      - ./nginx/htpasswd:/etc/nginx/.htpasswd
+  
   landing-page:
     build:
       context: .
@@ -47,3 +56,4 @@ services:
       - 8000:8000
     volumes:
       - ./landing_page:/landing_page
+
