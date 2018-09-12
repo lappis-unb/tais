@@ -1,33 +1,28 @@
 ## intent:cumprimentar
-- oi
 - olá
 - oi Taís
-- olá Taís
 - olá Taís, como vai?
 - como vai?
 - bom dia
 - boa tarde
 - boa noite
-- oi, tudo bem?
-- oi, tudo bom?
-- oi, como vai você?
-- como vão as coisas?
-- alô
-- eae
-- eai
+- oi tudo bem
+- oi tudo bom
+- oi como vai voce
+- como vao as coisas
+- alo
+- alou
 - yo
-- com licença
-- tudo bom?
-- posso falar com você?
-- pode me tirar uma dúvida?
+- e ai tudo bem
+- tudo bom
+- posso falar com voce
+- pode me tirar uma duvida
 
 ## intent:afirmar
-- sim
 - claro que sim
 - posso sim
 - quero saber mais
 - quero sim
-- quero
 - por favor
 - se voce puder
 - quero mais detalhes
@@ -36,11 +31,9 @@
 - pode falar
 - já sim
 - já preenchi
-- já conheço
 - ja conheco
-- conheço
 - conheco
-- sei bastante
+- sei
 - preenchi sim
 - já preenchi uma proposta
 - sim, preenchi minha proposta

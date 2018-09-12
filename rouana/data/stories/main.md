@@ -2,9 +2,6 @@
 * cumprimentar
   - utter_cumprimentar
   - utter_definir_perfil
-* negar
-  - utter_explicar_definicao_perfil
-
 * afirmar_curiosidades
   - utter_curiosidades_indicacao
 
