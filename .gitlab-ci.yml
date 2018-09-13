@@ -19,6 +19,8 @@ build tais:
     - docker push $LANDING_PAGE_LATEST_IMAGE
   only:
     - /master/
+    - /develop/
+    - tags
   environment: development
   tags:
     - docker
@@ -32,7 +34,7 @@ deploy_to_development:
     - upgrade --environment Development --stack TAIS --service tais --new-image $TAIS_LATEST_IMAGE --no-finish-upgrade --debug
     - upgrade --environment Development --stack TAIS --service landing-page --new-image $LANDING_PAGE_LATEST_IMAGE --no-finish-upgrade --debug
   only:
-    - /master/
+    - /develop/
   environment: development
   tags:
     - docker
