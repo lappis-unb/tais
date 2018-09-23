@@ -23,11 +23,11 @@ seção de Triggers, clique em `New Trigger`. Preencha o Trigger da seguinte for
 Enabled: Yes
 Name: Start Talk
 Description: Start Talk
-Condition: Visitor page URL
-    Value: http://localhost:8000/
+Condition: Visitor time on site
+    Value: 3
 Action: Send Message
  Value: Impersonate next agent from queue
- Value: Oi eu sou a Taís, assistente virtual do minc, e estou aqui para te ajudar a esclarecer dúvidas sobre a Lei Rouanet, posso também solucionar problemas de proposta e projeto
+ Value: Olá, meu nome é Taís, sou assistente virtual do MinC! Você quer conversar sobre incentivo à cultura?
 ```
 
 
