@@ -29,7 +29,7 @@ class ActionCumprimentar(ActionMultiline):
 class ActionFaseDeTestes(ActionMultiline):
     messages = [
         'Ainda não consigo falar sobre outros assuntos. Estou em fase de testes e a cada dia aprendo mais com vocês.'
-    ]    
+    ]
 
 class ActionDefinirPerfil(ActionMultiline):
     messages = [

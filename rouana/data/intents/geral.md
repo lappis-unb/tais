@@ -61,6 +61,9 @@
 - claro
 - por favor
 - se não for incomodo
+- sim quero conversar sobre incentivo a cultura
+- sim quero conversa
+- sim estou afim de conversar
 
 
 ## intent:negar
