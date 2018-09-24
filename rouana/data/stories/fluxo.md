@@ -1,14 +1,7 @@
-## path0.1
-* negar
-  - action_fase_de_testes
-  - action_definir_perfil
-> identifica_perfil
-
 ## path0.2
-* afirmar
+* afirmar OR cumprimentar
   - action_definir_perfil
 > identifica_perfil
-
 
 <!--- Fluxo Curiosidades --->
 
