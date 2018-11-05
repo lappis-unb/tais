@@ -108,6 +108,28 @@
 - registrar denuncia
 - projeto ilegal
 
+## intent:curiosidades_lei_rouanet_experiencia
+- preciso comprovar experiência na área para apresentar uma proposta ao minc
+- é necessario ter experiencia para apresentar proposta
+- tem que ter experiencia
+- é exigido experiência
+- tem que ter pratica na área
+- preciso comprovar prática na area
+- tem que ter bagagem tecnica para apresentar proposta
+- é cobrado capacitação para levantar proposta
+- é obrigatorio ter capacitaçao na area
+- é indispensável ser capacitado
+- experiencia
+- capacitação
+- capacitado
+- técnica
+- treino
+- bagagem
+- saber
+- prática
+- comprovar
+- conhecimento
+
 ## intent:curiosidades_elegibilidade_de_empresa_para_beneficios
 - Qualquer empresa pode se beneficiar de incentivos fiscais, apoiando projetos culturais
 - Quais empresas podem se beneficiar ao apoiar projetos culturais
@@ -213,7 +235,7 @@
 - valor maximo de proposta
 - quantidade maxima de projetos
 - quantidade maxima de propostas
-- total de projetos em meu nome 
+- total de projetos em meu nome
 - valor maximo por ano
 - quantidade maxima
 - valor maximo
@@ -247,7 +269,7 @@
 - sou uma pessoa juridica
 - sou empresario individual
 - empresario individual
-- empresa individual de responsabilidade limitada 
+- empresa individual de responsabilidade limitada
 - EIRELI
 - segunda opção
 - segundo tópico

@@ -12,6 +12,7 @@ intents:
   - curiosidades_lei_rouanet_elegibilidade
   - curiosidades_lei_rouanet_arrecadamento
   - curiosidades_lei_rouanet_denuncia
+  - curiosidades_lei_rouanet_experiencia
   - curiosidades_elegibilidade_de_empresa_para_beneficios
   - curiosidades_receber_incetivo_de_parentes
   - curiosidades_deducao_imposto_de_renda_incentivador
@@ -22,49 +23,51 @@ intents:
   - curiosidades_valor_maximo_geral
 
 actions:
-  - utter_definir_perfil
-  - utter_default
-  - utter_restart
-  - utter_cumprimentar
-  - utter_despedir
-  - utter_fase_de_testes
-  - utter_explicar_definicao_perfil
-  - utter_nova_proposta
-  - utter_duvida_execucao
-  - utter_conhece_processo
-  - utter_cadastro_salic
-  - utter_aviso
-  - utter_introduzir_execucao
-  - utter_submissao_de_projetos
-  - utter_processo_periodo
-  - utter_ja_eh_proponente
-  - utter_cadastro_salic_video
-  - utter_explicar_cadastro_salic
-  - utter_cadastro_salic_apos_video
-  - utter_inscricao_proponente
-  - utter_mais_alguma_pergunta
-  - utter_nao_aprendi_contexto
-  - utter_proponente_cadastrado
-  - utter_curiosidades_indicacao
-  - utter_curiosidades_mais
-  - utter_curiosidades_mais_sim
-  - utter_curiosidades_mais_nao
-  - utter_curiosidades_falar_sobre_projetos
-  - utter_curiosidades_quantidade_projetos
-  - utter_curiosidades_beneficios_incentivo_projetos_culturais
-  - utter_curiosidades_lei_rouanet_elegibilidade
-  - utter_curiosidades_lei_rouanet_arrecadamento
-  - utter_curiosidades_lei_rouanet_denuncia
-  - utter_curiosidades_elegibilidade_de_empresa_para_beneficios
-  - utter_curiosidades_receber_incetivo_de_parentes
-  - utter_curiosidades_deducao_imposto_de_renda_incentivador
-  - utter_curiosidades_captacao_de_recursos
-  - utter_curiosidades_valor_maximo_projeto
-  - utter_curiosidades_valor_maximo_pessoa_fisica
-  - utter_curiosidades_valor_maximo_pessoa_juridica
-  - utter_curiosidades_valor_maximo_regiao
-  - utter_curiosidades_valor_maximo_outro_perfil
-  - action_o_que_eh
+- utter_definir_perfil
+- utter_default
+- utter_restart
+- utter_cumprimentar
+- utter_despedir
+- utter_fase_de_testes
+- utter_explicar_definicao_perfil
+- utter_nova_proposta
+- utter_duvida_execucao
+- utter_conhece_processo
+- utter_cadastro_salic
+- utter_aviso
+- utter_introduzir_execucao
+- utter_submissao_de_projetos
+- utter_processo_periodo
+- utter_ja_eh_proponente
+- utter_cadastro_salic_video
+- utter_explicar_cadastro_salic
+- utter_cadastro_salic_apos_video
+- utter_inscricao_proponente
+- utter_mais_alguma_pergunta
+- utter_nao_aprendi_contexto
+- utter_proponente_cadastrado
+- utter_curiosidades_indicacao
+- utter_curiosidades_mais
+- utter_curiosidades_mais_sim
+- utter_curiosidades_mais_nao
+- utter_curiosidades_falar_sobre_projetos
+- utter_curiosidades_quantidade_projetos
+- utter_curiosidades_beneficios_incentivo_projetos_culturais
+- utter_curiosidades_lei_rouanet_elegibilidade
+- utter_curiosidades_lei_rouanet_arrecadamento
+- utter_curiosidades_lei_rouanet_denuncia
+- utter_curiosidades_lei_rouanet_experiencia
+- utter_curiosidades_elegibilidade_de_empresa_para_beneficios
+- utter_curiosidades_receber_incetivo_de_parentes
+- utter_curiosidades_deducao_imposto_de_renda_incentivador
+- utter_curiosidades_captacao_de_recursos
+- utter_curiosidades_valor_maximo_projeto
+- utter_curiosidades_valor_maximo_pessoa_fisica
+- utter_curiosidades_valor_maximo_pessoa_juridica
+- utter_curiosidades_valor_maximo_regiao
+- utter_curiosidades_valor_maximo_outro_perfil
+
+- actions.actions_oqueeh.ActionOQueEh
 
 
 templates:
@@ -278,6 +281,15 @@ templates:
     - text: |
         Para entender como fazer uma denúncia, entre em contato com as áreas do MinC: http://rouanet.cultura.gov.br/fale-conosco/ .
 
+  utter_curiosidades_lei_rouanet_experiencia:
+    - text: |
+        A comprovação de experiência não é necessária para a admissão do primeiro projeto de realizadores culturais recém-inseridos no mercado.
+        Com esta regra, o MinC busca apoiar novos empreendedores com bons projetos para que se consolidem.
+        Apoiar o jovem empreendedor gera maiores possibilidades de atuação no campo da inovação.
+        No caso de proponentes experientes, a experiência em atividades culturais deve ser comprovada no ato de inscrição da proposta.
+        No caso de pessoa jurídica, a comprovação é realizada por meio do código de Classificação Nacional de Atividades Econômicas (CNAE),
+        referente à área cultural nos registros do CNPJ da instituição.
+        
   utter_curiosidades_elegibilidade_de_empresa_para_beneficios:
     - text: |
         Somente as Pessoas Jurídicas tributadas com base no Lucro Real podem descontar as doações ou patrocínios do imposto de renda observando

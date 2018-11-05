@@ -161,6 +161,13 @@
   - utter_curiosidades_mais
 > curiosidade_final
 
+## pathCuriosidade.13
+> identificar_curiosidade
+* curiosidades_lei_rouanet_experiencia
+  - utter_curiosidades_lei_rouanet_experiencia
+  - utter_curiosidades_mais
+> curiosidade_final
+
 ## pathCuriosidade.oqueeh
 > identificar_curiosidade
 * o_que_eh
