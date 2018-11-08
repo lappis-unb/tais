@@ -391,3 +391,21 @@
 - pagamento artista solo
 - cache orquestra
 - limite cache artista solo
+
+
+## intent:curiosidades_etapas_aprovacao_projeto:
+- quais as etapas de aprovação de um projeto
+- o que tenho que fazer pra aprovar meu projeto
+- que passos tenho que fazer durante a criação do projeto
+- o que eu tenho que fazer pra ser aprovado na lei rouanet
+- quais sao os passos pra mandar um projeto para avaliacao
+- como faco pra aprovar um projeto no salic
+- quero mandar um projeto na lei rouanet, o que eu tenho que fazer
+- como funciona o processe de analise da proposta
+- por onde a proposta passa para ser aprovada
+- quem analisa a proposta de projeto ate a decisão final
+- etapas projeto
+- passos submissao
+- decisao final proposta
+- etapas analise proposta
+

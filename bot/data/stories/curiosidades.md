@@ -189,6 +189,13 @@
   - utter_curiosidades_mais
 > curiosidade_final
 
+## pathCuriosidade.17
+> identificar_curiosidade
+* curiosidades_etapas_aprovacao_projeto
+  - utter_curiosidades_etapas_aprovacao_projeto
+  - utter_curiosidades_mais
+> curiosidade_final
+
 ## pathCuriosidade.oqueeh
 > identificar_curiosidade
 * o_que_eh
