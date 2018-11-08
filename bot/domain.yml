@@ -3,7 +3,6 @@ intents:
   - cumprimentar
   - afirmar_curiosidades
   - afirmar_projeto
-  - submissao_de_projeto
   - processo_periodo
   - afirmar
   - negar
@@ -24,6 +23,7 @@ intents:
   - curiosidades_comercializacao_de_ingressos
   - curiosidades_comprovacao_experiencia
   - curiosidades_valores_pagamento_caches
+  - curiosidades_promocao_de_marca
 
 actions:
   - utter_definir_perfil
@@ -72,6 +72,7 @@ actions:
   - utter_curiosidades_comercializacao_de_ingressos
   - utter_curiosidades_comprovacao_experiencia
   - utter_curiosidades_valores_pagamento_caches
+  - utter_curiosidades_promocao_de_marca
   - action_o_que_eh
 
 
@@ -401,3 +402,9 @@ templates:
         R$ 90 mil para grupos artísticos e para grupos de modelos de desfiles de moda;
 
         No caso de orquestras, os valores são: R$ 2.250 mil por músico e R$ 45 mil para o maestro; A aprovação de valores superiores aos definidos acima poderá ser feita pelo plenário da Comissão Nacional de Incentivo à Cultura (CNIC), a depender das justificativas apresentadas pelo proponente e pela área técnica.
+
+  utter_curiosidades_promocao_de_marca:
+    - text: |
+        O patrocinador pode ativar sua marca em um projeto, desde que as ações sejam realizadas com recursos próprios, não decorrentes do incentivo fiscal, nas seguintes situações:
+        Veiculação da imagem institucional ou nome do incentivador em peças de divulgação além das aprovadas pelo Ministério da Cultura;
+        Fornecimento de produtos ou serviços do patrocinador ao projeto cultural, desde que comprovada a maior economicidade ou exclusividade;

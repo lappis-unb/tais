@@ -170,14 +170,14 @@
 
 ## pathCuriosidade.14
 > identificar_curiosidade
-* curiosidade_comercializacao_de_ingressos_
+* curiosidades_comercializacao_de_ingressos
   - utter_curiosidades_comercializacao_de_ingressos
   - utter_curiosidades_mais
 > curiosidade_final
 
 ## pathCuriosidade.15
 > identificar_curiosidade
-* curiosidades_comprovacao_experiencia_
+* curiosidades_comprovacao_experiencia
   - utter_curiosidades_comprovacao_experiencia
   - utter_curiosidades_mais
 > curiosidade_final
@@ -186,6 +186,13 @@
 > identificar_curiosidade
 * curiosidades_valores_pagamento_caches
   - utter_curiosidades_valores_pagamento_caches
+  - utter_curiosidades_mais
+> curiosidade_final
+
+## pathCuriosidade.17
+> identificar_curiosidade
+* curiosidades_promocao_de_marca
+  - utter_curiosidades_promocao_de_marca
   - utter_curiosidades_mais
 > curiosidade_final
 
