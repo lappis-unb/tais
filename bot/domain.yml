@@ -405,6 +405,6 @@ templates:
 
   utter_curiosidades_promocao_de_marca:
     - text: |
-        O patrocinador pode ativar sua marca em um projeto, desde que as ações sejam realizadas com recursos próprios, não decorrentes do incentivo fiscal, nas seguintes situações:
-        Veiculação da imagem institucional ou nome do incentivador em peças de divulgação além das aprovadas pelo Ministério da Cultura;
-        Fornecimento de produtos ou serviços do patrocinador ao projeto cultural, desde que comprovada a maior economicidade ou exclusividade;
+        O patrocinador pode divulgar sua marca em um projeto, desde que utilize recursos próprios, não decorrentes do incentivo fiscal, nas seguintes situações:
+        Promoção da imagem da empresa ou nome do patrocinador em peças de divulgação além das aprovadas pelo Ministério da Cultura;
+        Fornecimento de produtos ou serviços do patrocinador ao projeto cultural, desde que seja comprovada uma vantagem econômica ou exclusividade.
