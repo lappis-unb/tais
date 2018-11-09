@@ -67,13 +67,13 @@
 ## intent:curiosidades_lei_rouanet_arrecadamento
 - quanto dinheiro a lei movimenta
 - quanto dinheiro a lei rouanet arrecada
-- De onde vem o dinheiro da lei rouanet
+- de onde vem o dinheiro da lei rouanet
 - de onde vem o dinheiro usado na Lei
 - o dinheiro da lei rouanet é público
-- Porque os cidadãos tem que pagar pelos projetos da lei rouanet
-- a lei rouanet usa dinheiro de empresas?
+- por que os cidadãos tem que pagar pelos projetos
+- a lei rouanet usa dinheiro de empresas
 - eu como cidadão posso contribuir para um projeto
-- quanto a lei ja arrecadou?
+- quanto a lei ja arrecadou
 - o dinheiro da lei é privado ou público
 - dinheiro
 - arrecadou
@@ -109,15 +109,15 @@
 - projeto ilegal
 
 ## intent:curiosidades_elegibilidade_de_empresa_para_beneficios
-- Qualquer empresa pode se beneficiar de incentivos fiscais, apoiando projetos culturais
-- Quais empresas podem se beneficiar ao apoiar projetos culturais
-- Que tipos de empresas podem se beneficiar ao apoiar projetos culturais
-- Apoiando projetos culturais, qualquer empresa se beneficia
-- Empresas que se beneficiam ao apoiar projeto culturais
-- Tenho uma empresa e quero particiar da lei rouanet, como eu sei se posso
+- qualquer empresa pode se beneficiar de incentivos fiscais
+- quais empresas podem se beneficiar ao apoiar projetos culturais
+- que tipos de empresas podem se beneficiar ao apoiar projetos culturais
+- apoiando projetos culturais qualquer empresa se beneficia
+- empresas que se beneficiam ao apoiar projetos
+- tenho uma empresa e quero participar
 - qual o critério de elegibilidade para pessoas jurídicas
 - toda empresa pode usar a lei rouanet
-- tem alguma execeção para uma empresa não utilizar a lei rouanet
+- tem alguma execeção para uma empresa não utilizar
 - quais a regras de elegibilidade no caso de empresas
 - empresa
 - elegibilidade como pessoa juridica
@@ -134,12 +134,12 @@
 - meus parentes podem incentivar meu projeto
 - meus pais e tios podem incentivar meu projeto
 - tem problema parentes incentivarem projetos
-- tenho parentes que desejam incentivar meus projetos, tem alguma restrição
-- parentes incentivando meus projetos. Tem problema
-- tem problema meu irmão ou irmã, tio ou tia, primo ou prima, mãe ou pai incentivar meus projetos
-- minha irmã quer incetivar meu projeto, tem problema
-- meu projeto pode ser incentivado pela minha família?
-- meus familiares podem incentivar meu projeto?
+- tenho parentes que desejam incentivar meus projetos
+- parentes incentivando meus projetos
+- meu irmão ou irmã, tio ou tia, primo ou prima, mãe ou pai incentivar
+- minha irmã quer incetivar meu projeto tem problema
+- meu projeto pode ser incentivado pela minha família
+- meus familiares podem incentivar meu projeto
 - quero saber se meus parentes podem ajudar a financiar o meu projeto
 - incentivar
 - incentivado
@@ -161,8 +161,8 @@
 - qual a porcentagem do imposto que vou abater após incentivar projetos
 - qual é o desconto que recebo no IR ao incentivar um projeto
 - qual a dedução de imposto de renda para incentivadores
-- Se eu incentivar eu vou ter dedução no meu imposto de renda
-- sou incentivador, quanto posso receber como dedução de imposto de renda??
+- se eu incentivar eu vou ter dedução no meu imposto de renda
+- sou incentivador quanto posso receber como dedução de imposto de renda
 - imposto de renda
 - imposto
 - dedução
@@ -284,7 +284,7 @@
 
 
 ## intent:curiosidades_remuneracao_proponente
-- o proponente (autor do projeto) é remunerado
+- o proponente autor do projeto é remunerado
 - ha limite para remuneração do proponente
 - existe remuneração para o proponente
 - quanto e a remuneraçao do proponente
@@ -329,27 +329,27 @@
 ## intent:curiosidades_comercializacao_de_ingressos
 - os produtos culturais podem ser comercializados
 - os ingressos podem ser comercializados
-- há um limite de preço a ser executado por produto realizado com apoio de incentivo fiscal
+- há um limite de preço a ser executado por produto realizado
 - por quanto devo vender os ingressos do meu projeto
 - como funciona a comercialização de ingressos
 - qual deve ser o preço dos ingressos
 - por qunto devo cobrar meus ingressos
+- como estabelecer preços de ingressos
+- há um limite de preço das entradas
+- qual o limite de valor das entradas
 - venda de ingresso
 - valor da entrada
 - comercialização da entrada
 - comercialização do ingresso
-- como vender a entrada
-- qual deve ser o preço da entrada
-- como estabelecer preços de ingressos
-- por qual valor devo vender a entrada
-- pode ter entradas gratuitas
-- como devo distribuir os ingressos
-- quantos ingressos podem ser de graça
-- há um limite de preço das entradas
-- qual o limite de valor das entradas
+- vender a entrada
+- preço da entrada
+- ingressos gratuitos
+- entradas gratuitas
+- distribuir os ingressos
+- ingressos podem ser de graça
 
 ## intent:curiosidades_comprovacao_experiencia
-- é preciso comprovar experiência na área para apresentar uma proposta ao MinC?
+- é preciso comprovar experiência na área para apresentar uma proposta ao MinC
 - tenho que ter experiencia para apresentar proposta
 - e necessario ter experiencia
 - deve se ter prática
@@ -367,5 +367,5 @@
 - capacidade
 - conhecimento
 - técnica no assunto
-- vivencia 
+- vivencia
 - capacitação
