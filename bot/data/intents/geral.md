@@ -88,10 +88,10 @@
 - aprender mais
 
 ## intent:afirmar_projeto
-- prefiro conversar sobre criaçao e andamento de projetos
-- gostaria de saber sobre criacao e andamento de projetos
-- sobre criacao e andamento de projetos
-- criacao e andamento de projetos
+- prefiro conversar sobre propostas e projetos
+- gostaria de saber sobre propostas e projetos
+- sobre propostas e projetos
+- propostas e projetos
 - conversar sobre proposta
 - conversar sobre projetos
 - prefiro falar sobre proposta
@@ -100,20 +100,21 @@
 - conversar sobre proposta
 - projeto
 - propostas e projetos
-- criação
-- andamento
-- criacao de projeto
-- andamento de projeto
-- criaçao e andamento
+- falar proposta
+- falar projeto
+- saber proposta
+- saber projeto
+- conversar proposta
+- conversar projeto
 - sobre proposta
 - sobre projeto
-- sobre criacao
+
 
 ## intent:o_que_eh
 - como funciona a prestacao de contas
 - como funciona a fase de preenchimento
 - me explique melhor o conceito de projeto
-- me explique melhor o que e um proponente
+- me explique melhor o que e proponente
 - pode me explicar a fase de preenchimento
 - o que preenchimento quer dizer
 - o que lei rouanet significa
