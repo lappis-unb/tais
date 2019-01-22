@@ -2,7 +2,7 @@ train-nlu:
 	python3 -m rasa_nlu.train -c nlu_config.yml --fixed_model_name current --data data/intents/ -o models --project nlu --verbose
 
 train-core:
-	python3 train.py
+	python3 train.py -c policy_config.yml
 
 train: train-nlu train-core
 
