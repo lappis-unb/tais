@@ -188,7 +188,7 @@
     - utter_objetivo
 * afirmar
     - utter_manter_conversa
-*lei_rouanet_quantidade_de_projetos
+* lei_rouanet_quantidade_de_projetos
     - utter_lei_rouanet_quantidade_de_projetos
     - utter_continuar_conversa
 
@@ -243,7 +243,7 @@
     - utter_objetivo
 * afirmar
     - utter_manter_conversa
-*lei_rouanet_quantidade_de_projetos
+* lei_rouanet_quantidade_de_projetos
     - utter_lei_rouanet_quantidade_de_projetos
     - utter_continuar_conversa
 
@@ -287,7 +287,7 @@
     - utter_objetivo
 * afirmar
     - utter_manter_conversa
-*lei_rouanet_quantidade_de_projetos
+* lei_rouanet_quantidade_de_projetos
     - utter_lei_rouanet_quantidade_de_projetos
     - utter_continuar_conversa
 
@@ -320,7 +320,7 @@
     - utter_objetivo
 * afirmar
     - utter_manter_conversa
-*lei_rouanet_quantidade_de_projetos
+* lei_rouanet_quantidade_de_projetos
     - utter_lei_rouanet_quantidade_de_projetos
     - utter_continuar_conversa
 
@@ -342,7 +342,7 @@
     - utter_objetivo
 * afirmar
     - utter_manter_conversa
-*lei_rouanet_quantidade_de_projetos
+* lei_rouanet_quantidade_de_projetos
     - utter_lei_rouanet_quantidade_de_projetos
     - utter_continuar_conversa
 
@@ -353,7 +353,7 @@
     - utter_objetivo
 * afirmar
     - utter_manter_conversa
-*lei_rouanet_quantidade_de_projetos
+* lei_rouanet_quantidade_de_projetos
     - utter_lei_rouanet_quantidade_de_projetos
     - utter_continuar_conversa
 
