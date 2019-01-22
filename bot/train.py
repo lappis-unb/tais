@@ -34,59 +34,11 @@ def train_dialogue(domain_file,
                                       stories_file=training_folder,
                                       output_path=model_path,
                                       policy_config=policy_config,
-                                      kwargs={'augmentation_factor': 50,
-                                              'validation_split': 0.2,}
+                                      kwargs={'augmentation_factor': 20,
+                                              'validation_split': VALIDATION_SPLIT,}
                                       )
 
-
-# def train_dialogue(domain_file, model_path, training_folder, policy_config='policy_config.yml'):
-
-#     agent = Agent(domain_file, policies=[MemoizationPolicy(), KerasPolicy()])
-
-#     training_data = agent.load_data(training_folder,augmentation_factor=20)
-
-#     agent.train(training_data, epochs=TRAINING_EPOCHS, 
-#                                 batch_size=BATCH_SIZE,
-#                                 validation_split=VALIDATION_SPLIT)
-#     agent.persist(model_path)
-
-
-#     MemoizationPolicy.USE_NLU_CONFIDENCE_AS_SCORE = True
-#     #keras_1 = KerasPolicy(
-#     #             MaxHistoryTrackerFeaturizer(
-#     #                 BinarySingleStateFeaturizer(),
-#     #                 max_history=MAX_HISTORY
-#     #                 )
-#     #             )
-#     keras_2 = KerasPolicy(
-#                 FullDialogueTrackerFeaturizer(
-#                     LabelTokenizerSingleStateFeaturizer()
-#                 )
-#             )
-#     #agent = Agent(domain_file, policies=[
-#     #        keras_2,
-#     #        MemoizationPolicy(max_history=MAX_HISTORY),
-#     #                                                CustomFallbackPolicy(
-#     #                    fallback_action_name=FALLBACK_ACTION_NAME,
-#     #                    nlu_threshold=NLU_THRESHOLD,
-#     #                    core_threshold=CORE_THRESHOLD)])
-
-
-#     agent = Agent(domain_file, policies=[
-#             keras_2,
-#             MemoizationPolicy(max_history=MAX_HISTORY),
-#                                                     FallbackPolicy(
-#                         nlu_threshold=NLU_THRESHOLD,
-#                         core_threshold=CORE_THRESHOLD)])
-
-#     training_data = agent.load_data(training_folder,augmentation_factor=20)
-
-#     agent.train(training_data, epochs=TRAINING_EPOCHS, 
-#                                 batch_size=BATCH_SIZE,
-#                                 validation_split=VALIDATION_SPLIT)
-#     agent.persist(model_path)
-
 if __name__ == "__main__":
-        #     validate = Validator('domain.yml','data/intents', 'data/stories/' )
-        #     validate.run_verifications()
+    validate = Validator('domain.yml','data/intents', 'data/stories/' )
+    validate.run_verifications()
     train_dialogue('domain.yml', 'models/dialogue', 'data/stories/', 'policy_config.yml')
