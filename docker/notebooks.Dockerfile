@@ -8,7 +8,7 @@ run python -m pip install --upgrade pip
 
 add ./bot.requirements.txt /tmp
 
-run pip install --no-cache-dir -r /tmp/bot.requirements.txt
+run pip install -r /tmp/bot.requirements.txt
 
 run apt-get update && apt-get install -y graphviz libgraphviz-dev pkg-config
 

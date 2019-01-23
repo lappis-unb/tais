@@ -25,7 +25,7 @@ def train_dialogue(domain_file,
                                       output_path=model_path,
                                       policy_config=policy_config,
                                       kwargs={'augmentation_factor': 20,
-                                              'validation_split': VALIDATION_SPLIT,}
+                                              'validation_split': 0.2,}
                                       )
 
 if __name__ == "__main__":

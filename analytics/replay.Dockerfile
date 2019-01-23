@@ -4,7 +4,7 @@ run apt update && apt install -y make curl
 
 run python -m pip install --upgrade pip
 
-run pip install --no-cache-dir requests rocketchat-py-sdk elasticsearch
+run pip install requests rocketchat-py-sdk elasticsearch
 
 add ./analytics /analytics
 workdir /analytics
