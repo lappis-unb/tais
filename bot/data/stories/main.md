@@ -23,11 +23,11 @@
 
 ## Oi Quem e tais 2
 * quem_eh_a_tais
-    - utter_quem_eh_a_tais    
+    - utter_quem_eh_a_tais 
 
 ## Nao entendi
 * diga_mais
-    - utter_diga_mais  
+    - utter_diga_mais 
 
 ## fallback
 * out_of_scope
@@ -35,15 +35,11 @@
 
 ## afirmar
 * afirmar
-    - utter_continuar_conversa
+    - utter_manter_conversa
 
 ## negar sem contexto
 * negar
     - utter_despedir
-
-## me ajuda
-* o_que_sei_falar
-    - utter_o_que_sei_falar
 
 ## elogios
 * elogios
@@ -54,3 +50,12 @@
     - utter_default
 * out_of_scope
     - utter_manter_conversa
+
+## tem wpp
+* tem_wpp
+    - utter_tem_wpp
+
+## o que sei falar
+* o_que_sei_falar
+    - utter_o_que_sei_falar
+
