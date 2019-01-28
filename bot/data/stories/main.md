@@ -41,6 +41,9 @@
 * negar
  - utter_despedir
 
+## me ajuda
+* o_que_sei_falar
+    - utter_o_que_sei_falar
 
 ## elogios
 * elogios
