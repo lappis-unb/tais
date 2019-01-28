@@ -71,6 +71,13 @@ sudo docker-compose run --rm bot make train
 sudo docker-compose run --rm bot make run-console
 ```
 
+* Se necessário execute o `custom_actions`:
+
+```sh
+sudo docker-compose run --rm bot make run-api
+sudo docker-compode up -d actions
+```
+
 ### Train Online
 
 ```

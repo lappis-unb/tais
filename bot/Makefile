@@ -7,16 +7,16 @@ train-core:
 train: train-nlu train-core
 
 run-rocketchat:
-	python3 run-rocketchat.py --endpoits endpoints.yml
+	python3 run-rocketchat.py --endpoints endpoints.yml
 
 run-rest:
 	python3 -m rasa_core.run -d models/dialogue -u models/nlu/current --debug --port 5005 -c rest
 
 run-console:
-	python3 -m rasa_core.run -d models/dialogue -u models/nlu/current --debug
+	python3 -m rasa_core.run -d models/dialogue -u models/nlu/current --debug --endpoints endpoints.yml
 
-run-test:
-	python3 -m rasa_core.run -d models/dialogue -u models/nlu/current --debug --port 5005 --enable_api
+run-api:
+	python3 -m rasa_core.run -d models/dialogue -u models/nlu/current --endpoints endpoints.yml --debug --enable_api 
 
 train-online:
 	python3 -m rasa_core.train -d domain.yml -s data/stories -o models/dialogue --epochs 15 --online --nlu models/nlu/current/

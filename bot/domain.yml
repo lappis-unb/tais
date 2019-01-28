@@ -82,7 +82,7 @@ intents:
   - salic_preenchimento_vinculo_cpf_proposta
   - salic_preenchimento_cadastro_agencia_bancaria
 
-  - custom_action_test
+  - action_test
 
 entities:
   - situacao_processo

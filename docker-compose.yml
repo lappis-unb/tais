@@ -32,7 +32,6 @@ services:
       dockerfile: ./docker/bot.Dockerfile
     restart: unless-stopped
     environment:
-      - TRAINING_EPOCHS=10
       - ROCKETCHAT_URL=rocketchat:3000
       - MAX_TYPING_TIME=8
       - MIN_TYPING_TIME=1
@@ -58,9 +57,14 @@ services:
       # - ELASTICSEARCH_PORT=443
     ports:
       - 5005:5005
+      - 5002:5002
+    depends_on:
+      - actions
     volumes:
       - ./bot:/bot
       - ./scripts:/scripts
+    command: "make run-api"
+
 
   actions:                                                                       
     build:                                                                       
@@ -69,7 +73,7 @@ services:
     ports:                                                                       
       - 5055:5055                                                                
     volumes:                                                                     
-      - ./bot/actions.py:/bot/actions.py                                         
+      - ./bot/actions:/bot/actions
       - ./bot/Makefile:/bot/Makefile                                             
     command: "make run-actions" 
 
