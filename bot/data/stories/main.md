@@ -24,6 +24,7 @@
 ## Oi Quem e tais 2
 * quem_eh_a_tais
     - utter_quem_eh_a_tais 
+    - utter_objetivo
 
 ## Nao entendi
 * diga_mais
@@ -44,6 +45,7 @@
 ## elogios
 * elogios
     - utter_elogios
+    - utter_objetivo
 
 ## objetivo
 * out_of_scope
@@ -54,8 +56,8 @@
 ## tem wpp
 * tem_wpp
     - utter_tem_wpp
+    - utter_objetivo
 
 ## o que sei falar
 * o_que_sei_falar
     - utter_o_que_sei_falar
-
