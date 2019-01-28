@@ -62,6 +62,17 @@ services:
       - ./bot:/bot
       - ./scripts:/scripts
 
+  actions:                                                                       
+    build:                                                                       
+      context: .                                                                 
+      dockerfile: ./docker/actions.Dockerfile                                    
+    ports:                                                                       
+      - 5055:5055                                                                
+    volumes:                                                                     
+      - ./bot/actions.py:/bot/actions.py                                         
+      - ./bot/Makefile:/bot/Makefile                                             
+    command: "make run-actions" 
+
 
   # =================================== Web ===================================
   web:

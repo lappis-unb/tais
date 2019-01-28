@@ -7,7 +7,7 @@ train-core:
 train: train-nlu train-core
 
 run-rocketchat:
-	python3 run-rocketchat.py
+	python3 run-rocketchat.py --endpoits endpoints.yml
 
 run-rest:
 	python3 -m rasa_core.run -d models/dialogue -u models/nlu/current --debug --port 5005 -c rest
@@ -24,3 +24,5 @@ train-online:
 evaluate:
 	python3 -m rasa_core.evaluate -d models/dialogue -s data/core/
 
+run-actions:
+	python -m rasa_core_sdk.endpoint --actions actions

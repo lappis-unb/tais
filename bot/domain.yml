@@ -82,6 +82,8 @@ intents:
   - salic_preenchimento_vinculo_cpf_proposta
   - salic_preenchimento_cadastro_agencia_bancaria
 
+  - custom_action_test
+
 entities:
   - situacao_processo
   - lei_rouanet
@@ -1554,3 +1556,5 @@ actions:
   - utter_salic_cadastro_proponente
   - utter_salic_cadastro_usuario
   - utter_cadastro_salic_video
+
+  - action_test
