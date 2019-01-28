@@ -47,6 +47,7 @@
     - utter_elogios
     - utter_objetivo
 
+<<<<<<< HEAD
 ## objetivo
 * out_of_scope
     - utter_default
@@ -54,9 +55,26 @@
     - utter_manter_conversa
 
 ## tem wpp
+=======
+## tem wpp 1
+>>>>>>> update in stories wpp
 * tem_wpp
     - utter_tem_wpp
     - utter_objetivo
+
+## tem wpp 2
+* cumprimentar
+    - utter_cumprimentar
+* tem_wpp
+    - utter_tem_wpp
+    - utter_objetivo
+
+## tem wpp 3
+* o_que_sei_falar
+    - utter_objetivo
+* tem_wpp
+    - utter_tem_wpp
+    - utter_manter_conversa
 
 ## o que sei falar
 * o_que_sei_falar
