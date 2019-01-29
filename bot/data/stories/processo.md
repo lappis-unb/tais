@@ -135,3 +135,15 @@ cumprimentar
 * processo_prazo_desarquivar
     - utter_processo_prazo_desarquivar
     - utter_continuar_conversa
+
+## Processo 23
+* processo_prazo_desistir_recurso
+    - utter_processo_prazo_desistir_recurso
+    - utter_continuar_conversa
+
+## Processo 24
+* processo_prazo
+    - utter_processo_prazo
+* processo_prazo_desistir_recurso
+    - utter_processo_prazo_desistir_recurso
+    - utter_continuar_conversa
