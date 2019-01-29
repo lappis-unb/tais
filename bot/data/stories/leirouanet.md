@@ -57,7 +57,7 @@
 * lei_rouanet_o_que_eh
     - utter_lei_rouanet_o_que_eh
     - utter_continuar_conversa
-*lei_rouanet_quantidade_de_projetos
+* lei_rouanet_quantidade_de_projetos
     - utter_lei_rouanet_quantidade_de_projetos
     - utter_continuar_conversa
 
