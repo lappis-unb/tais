@@ -99,6 +99,8 @@
 - não sei do que quero conversar
 - nunca
 - nao
+- não
+- n
 - nao conheco
 - não quero
 - escolhi errado
