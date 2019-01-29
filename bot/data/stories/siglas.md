@@ -93,6 +93,55 @@
     - utter_definicao_sefic
     - utter_continuar_conversa
 
+## sigla 1.8
+* processo_como_funciona
+    - utter_processo_como_funciona
+* afirmar
+    - utter_manter_conversa
+
+## sigla 1.9
+* definicao_minc
+    - utter_definicao_minc
+    - utter_continuar_conversa
+
+## sigla 1.10
+* definicao_salic
+    - utter_definicao_salic
+    - utter_continuar_conversa
+
+## sigla 1.11
+* definicao_cnic
+    - utter_definicao_cnic
+    - utter_continuar_conversa
+
+## sigla 1.12
+* definicao_sefic
+    - utter_definicao_sefic
+    - utter_continuar_conversa
+
+## sigla 1.13
+* processo_como_funciona
+    - utter_processo_como_funciona
+* negar
+    - utter_cadastro_salic_video
+* negar
+    - utter_manter_conversa
+
+## sigla 1.14
+* processo_como_funciona
+    - utter_processo_como_funciona
+* negar
+    - utter_cadastro_salic_video
+* afirmar
+    - utter_salic_cadastro_usuario
+    - utter_manter_conversa
+
+## sigla 1.15
+* processo_como_funciona
+* definicao_vinculada
+    - utter_definicao_vinculada
+    - utter_continuar_conversa
+
 ## sigla 2
 * cumprimentar
     - utter_cumprimentar

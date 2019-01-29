@@ -1308,8 +1308,6 @@ templates:
     - text: |
           Espero ter solucionado a sua dúvida, tem mais alguma dúvida?
 
-    - text: |
-
   utter_despedir:
     - text: |
           Foi um prazer te ajudar!
