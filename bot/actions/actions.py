@@ -1,6 +1,7 @@
 from rasa_core_sdk import Action
 from rasa_core_sdk.events import SlotSet
 import requests
+import random
 
 class ActionTest(Action):
    def name(self):
@@ -8,11 +9,11 @@ class ActionTest(Action):
 
    def run(self, dispatcher, tracker, domain):
         try:
-          dispatcher.utter_message("Essa é uma custom action de test!")
+          dispatcher.utter_message("Um dos projetos cadastrados no SALIC")
           req = requests.request('GET', "http://api.salic.cultura.gov.br/v1/projetos/")
-          dispatcher.utter_message(str(req.status_code))
+          quantity = req.json()['count']
+          a = req.json()['_embedded']['projetos'][random.randint(0, quantity)]['nome']
+          dispatcher.utter_message(a)
         except ValueError:
           dispatcher.utter_message(ValueError)
-          dispatcher.utter_message("----------")
-          dispatcher.utter_message("svkjdkjvdhkjfdh")
 
