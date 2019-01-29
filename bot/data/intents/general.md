@@ -99,6 +99,8 @@
 - não sei do que quero conversar
 - nunca
 - nao
+- não
+- n
 - nao conheco
 - não quero
 - escolhi errado
@@ -125,15 +127,21 @@
 - como ter acesso
 
 ## intent:o_que_sei_falar
-- #MEAJUDA
 - sobre o que você sabe falar
 - quais assuntos você fala
 - o que você sabe 
-- menu
 - lista de assuntos possiveis
 - quais as perguntas vc responde
 - quais as perquisar você responde
+- #MEAJUDA
 - MEAJDA
+- #meajuda
+- # me ajuda
+- MEAJUDA
+- meajuda
+- me ajuda
+- ajuda
+- menu
 
 ## intent:erro_resposta_utter
 - #errou
