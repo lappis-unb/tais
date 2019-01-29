@@ -60,10 +60,10 @@ intents:
   - processo_execucao
   - processo_analise_de_resultados
   - processo_reativacao_de_proposta
+  - processo_situacao_processo
   - processo_prazo
   - processo_prazo_envio_cnae
   - processo_prazo_desistir_recurso
-  - processo_situacao_processo
   - processo_prazo_analise_proposta
   - processo_prazo_analise_tecnica
   - processo_prazo_readequacao
@@ -1253,7 +1253,7 @@ templates:
 
   utter_processo_prazo_analise_tecnica:
     - text: |
-          30 dias apos o envio para analise
+          30 dias após o envio para análise técnica
           [as viculadas fazem]
           exceção: projetos complexos e de patrimônio.
 
@@ -1269,7 +1269,7 @@ templates:
   utter_processo_prazo_prestacao_contas:
     - text: |
           Envio da prestação de contas via salic deve 
-          ocorrer em ate 60 dias após a expiração do prazo de execução.
+          ocorrer em até 60 dias após a expiração do prazo de execução.
 
   utter_processo_prazo_diligencias:
     - text: |
@@ -1348,8 +1348,6 @@ templates:
           Gostaria te retirar mais alguma dúvida?
     - text: |
           Espero ter solucionado a sua dúvida, tem mais alguma dúvida?
-
-    - text: |
 
   utter_despedir:
     - text: |
