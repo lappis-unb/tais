@@ -105,7 +105,7 @@
 * definicao_projeto
     - utter_definicao_projeto
     - utter_continuar_conversa
-*lei_rouanet_quantidade_de_projetos
+* lei_rouanet_quantidade_de_projetos
     - utter_lei_rouanet_quantidade_de_projetos
     - utter_continuar_conversa
 
@@ -145,7 +145,7 @@
 * definicao_proposta
     - utter_definicao_proposta
     - utter_continuar_conversa
-*lei_rouanet_quantidade_de_projetos
+* lei_rouanet_quantidade_de_projetos
     - utter_lei_rouanet_quantidade_de_projetos
     - utter_continuar_conversa
 
@@ -177,7 +177,7 @@
 * definicao_projeto
     - utter_definicao_projeto
     - utter_continuar_conversa
-*lei_rouanet_quantidade_de_projetos
+* lei_rouanet_quantidade_de_projetos
     - utter_lei_rouanet_quantidade_de_projetos
     - utter_continuar_conversa
 
@@ -201,7 +201,7 @@
 * lei_rouanet_quem_pode_ser_proponente
     - utter_lei_rouanet_quem_pode_ser_proponente
     - utter_continuar_conversa
-*lei_rouanet_quantidade_de_projetos
+* lei_rouanet_quantidade_de_projetos
     - utter_lei_rouanet_quantidade_de_projetos
     - utter_continuar_conversa
 
@@ -216,7 +216,7 @@
 * lei_rouanet_denuncia
     - utter_lei_rouanet_denuncia
     - utter_continuar_conversa
-*lei_rouanet_quantidade_de_projetos
+* lei_rouanet_quantidade_de_projetos
     - utter_lei_rouanet_quantidade_de_projetos
     - utter_continuar_conversa
 

@@ -339,7 +339,7 @@
  - cache orquestra
  - limite cache artista solo
 
- ## intent:lei_rouanet_etapas_aprovacao_projeto
+## intent:lei_rouanet_etapas_aprovacao_projeto
  - quais as etapas de aprovação de um projeto
  - Andamento do projeto
  - o que tenho que fazer pra aprovar meu projeto
@@ -386,7 +386,7 @@
  - decisãofinal
  - decisaofinal
 
- ## intent:lei_rouanet_valor_maximo_projeto
+## intent:lei_rouanet_valor_maximo_projeto
  - tem valor maximo de projetos
  - qual e o valor maximo de projetos
  - minha proposta pode atingir qual valor
@@ -423,7 +423,7 @@
  - qual e o valor minimo pra projeto
  - qual e o valor minimo de projetos
 
- ## intent:lei_rouanet_valor_maximo_pessoa_fisica
+## intent:lei_rouanet_valor_maximo_pessoa_fisica
  - pessoa fisica
  - MEI
  - sou uma pessoa fisica
@@ -438,7 +438,7 @@
  - opção um
  - categoriga um
 
- ## intent:lei_rouanet_valor_maximo_pessoa_juridica
+## intent:lei_rouanet_valor_maximo_pessoa_juridica
  - pessoa juridica
  - sou uma pessoa juridica
  - sou empresario individual
@@ -453,7 +453,7 @@
  - na segunda
  - categoria 2
 
- ## intent:lei_rouanet_valor_maximo_geral
+## intent:lei_rouanet_valor_maximo_geral
  - terceira opção
  - terceiro tópico
  - todas as opcoes
