@@ -5,6 +5,77 @@
     - utter_lei_rouanet_o_que_eh
     - utter_continuar_conversa
 
+## LeiRouanet 1.1
+* definicao_projeto
+    - utter_definicao_projeto
+    - utter_continuar_conversa
+
+## LeiRouanet 1.1
+* definicao_proposta
+    - utter_definicao_proposta
+    - utter_continuar_conversa
+
+## LeiRouanet 1.2
+* definicao_proponente
+    - utter_definicao_proponente
+    - utter_continuar_conversa
+
+## LeiRouanet 1.3
+* definicao_proponente
+    - utter_definicao_proponente
+    - utter_continuar_conversa
+
+## LeiRouanet 1.4
+* lei_rouanet_denuncia
+    - utter_lei_rouanet_denuncia
+    - utter_continuar_conversa
+
+## LeiRouanet 1.5
+* lei_rouanet_quantidade_de_projetos
+    - utter_lei_rouanet_quantidade_de_projetos
+    - utter_continuar_conversa
+
+## LeiRouanet 1.6
+* lei_rouanet_quem_pode_ser_proponente
+    - utter_lei_rouanet_quem_pode_ser_proponente
+    - utter_continuar_conversa
+
+## LeiRouanet 1.7
+* lei_rouanet_quem_pode_incentivar
+    - utter_lei_rouanet_quem_pode_incentivar
+    - utter_continuar_conversa
+
+## LeiRouanet 1.8
+* lei_rouanet_etapas_aprovacao_projeto
+    - utter_lei_rouanet_etapas_aprovacao_projeto
+    - utter_continuar_conversa
+
+
+## LeiRouanet 1.9
+* lei_rouanet_analise_tecnica
+    - utter_lei_rouanet_analise_tecnica
+    - utter_continuar_conversa
+
+## LeiRouanet 1.10
+* lei_rouanet_analise_de_admissibilidade
+    - utter_lei_rouanet_analise_de_admissibilidade
+    - utter_continuar_conversa
+
+## LeiRouanet 1.11
+* lei_rouanet_apresentacao_de_proposta
+    - utter_lei_rouanet_apresentacao_de_proposta
+    - utter_continuar_conversa
+
+## LeiRouanet 1.12
+* lei_rouanet_analise_pela_cnic
+    - utter_lei_rouanet_analise_pela_cnic
+    - utter_continuar_conversa
+
+## LeiRouanet 1.13
+* lei_rouanet_decisao_final
+    - utter_lei_rouanet_decisao_final
+    - utter_continuar_conversa
+
 ## LeiRouanet 2
 * lei_rouanet_o_que_eh
     - utter_lei_rouanet_o_que_eh
