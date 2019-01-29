@@ -41,30 +41,36 @@
 ## intent:lei_rouanet_quem_pode_ser_proponente
 - quem pode se inscrever na lei rouanet
 - quem pode participar
-- quem pode submeter projetos?
-- quero me inscrever na lei rouanet
-- posso me inscrever na lei rouanet
-- Quem pode iniciar um projeto na lei rouanet
-- quero participar da lei
-- Quem pode apresentar proposta cultural
-- quero me inscrever
-- eu posso usar a lei
+- quem pode submeter projetos
+- quem pode se inscrever
+- quem pode propor propostas
+- quem pode propor projetos
+- quem pode fazer inscrição na lei
+- quem pode fazer inscricao na lei
+- quem pode iniciar um projeto na lei rouanet
+- quem pode apresentar proposta cultural
 - quem pode se aplicar
-- Tenho uma banda de musica posso propor um projeto  
-- Posso inscrever uma proposta como pessoa fisica
-- Como pessoa fisica eu posso inscrever uma proposta
-- quero me tornar um proponente
-- eu posso participar da lei rouanet
-- quero ser proponente
-- agente publico pode enviar propostas
-- pessoa fisica pode ser proponente
-- Qualquer pessao pode apresentar um projeto
-- como ser proponente
 - quem pode propor
+- quero participar da lei
+- quero me inscrever na lei rouanet
+- quero me inscrever
+- quero me tornar um proponente
+- quero ser proponente
+- eu posso participar da lei rouanet
+- eu posso usar a lei
+- posso inscrever uma proposta como pessoa fisica
+- posso me inscrever na lei rouanet 
+- como pessoa fisica eu posso inscrever uma proposta
+- como ser proponente
 - como me inscrever
 - como me tornar proponente
+- tenho uma banda de musica posso propor um projeto 
+- agente publico pode enviar propostas
+- pessoa fisica pode ser proponente
+- qualquer pessao pode apresentar um projeto
 - elegibilidade
 - inscrever
+- inscrição na lei
 - participar
 - aplicar
 - usar a lei
