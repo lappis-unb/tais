@@ -1248,7 +1248,7 @@ templates:
 
   utter_processo_prazo_analise_proposta:
     - text: |
-          60 dias a apresentação da proposta pelo proponente
+          60 dias após a apresentação da proposta pelo proponente
           [a Secretaria Especial da Cultura faz].
 
   utter_processo_prazo_analise_tecnica:
