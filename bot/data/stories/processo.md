@@ -147,3 +147,15 @@ cumprimentar
 * processo_prazo_desistir_recurso
     - utter_processo_prazo_desistir_recurso
     - utter_continuar_conversa
+
+## Processo 25
+* processo_prazo
+    - utter_processo_prazo
+* processo_prazo_envio_cnae
+    - utter_processo_prazo_envio_cnae
+    - utter_continuar_conversa
+
+## Processo 26
+* processo_prazo_envio_cnae
+    - utter_processo_prazo_envio_cnae
+    - utter_continuar_conversa
