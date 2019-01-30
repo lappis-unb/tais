@@ -353,3 +353,15 @@
 * lei_rouanet_decisao_final
     - utter_lei_rouanet_decisao_final
     - utter_continuar_conversa
+
+## LeiRouanet 35
+* lei_rouanet_divulgacao_patrocinio
+    - utter_lei_rouanet_divulgacao_patrocinio
+    - utter_continuar_conversa
+
+## LeiRouanet 36
+* cumprimentar
+    - utter_cumprimentar
+* lei_rouanet_divulgacao_patrocinio
+    - utter_lei_rouanet_divulgacao_patrocinio
+    - utter_continuar_conversa

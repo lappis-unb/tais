@@ -50,6 +50,7 @@ intents:
   - lei_rouanet_valor_maximo_pessoa_juridica
   - lei_rouanet_valor_maximo_geral
   - lei_rouanet_democratizacao
+  - lei_rouanet_divulgacao_patrocinio
 
   - processo
   - processo_como_funciona
@@ -789,6 +790,14 @@ templates:
           O mecanismo de incentivos fiscais da Lei Rouanet é uma forma de estimular o apoio da iniciativa privada ao setor cultural.
           Ou seja, o governo abre mão de parte dos impostos, para que esses valores sejam investidos na Cultura.
 
+  utter_lei_rouanet_divulgacao_patrocinio:
+    - text: |
+          De acordo com o Art. 44. § 1º do art. 23 da Lei nº 8.313, de 1991: 
+          I - Ações adicionais realizadas pelo patrocinador, pelos proponentes ou pelos captadores destinadas à prospecção comercial, programas de relacionamento, ampliação da divulgação ou promoção do patrocinador e de suas marcas e produtos, desde que com a comprovada anuência do proponente e custeadas com recursos não-incentivados;
+          II - Fornecimento de produtos ou serviços do incentivador ao projeto cultural, desde que comprovada a maior economicidade ou exclusividade;
+          III - Concessão de acesso a ensaios, apresentações, visitas ou quaisquer atividades associadas ou não ao projeto cultural; e
+          IV - A comercialização de produtos e subprodutos do projeto cultural em condições promocionais.
+
   utter_diga_mais:
     - text: |
         Por enquanto, só entendo perguntas completas. Então é melhor você me perguntar "como funciona a Lei Rouanet" ao invés de "Como funciona"
@@ -1448,6 +1457,7 @@ actions:
   - utter_lei_rouanet_analise_tecnica
   - utter_lei_rouanet_analise_pela_cnic
   - utter_lei_rouanet_decisao_final
+  - utter_lei_rouanet_divulgacao_patrocinio
 
   - utter_processo
   - utter_processo_reativacao_de_proposta
