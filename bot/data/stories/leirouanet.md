@@ -365,3 +365,11 @@
 * lei_rouanet_divulgacao_patrocinio
     - utter_lei_rouanet_divulgacao_patrocinio
     - utter_continuar_conversa
+
+## LeiRouanet 37
+* lei_rouanet_o_que_eh
+    - utter_lei_rouanet_o_que_eh
+    - utter_continuar_conversa
+* lei_rouanet_divulgacao_patrocinio
+    - utter_lei_rouanet_divulgacao_patrocinio
+    - utter_continuar_conversa
