@@ -31,15 +31,15 @@
 
 ## fallback
 * out_of_scope
-  - utter_default
+    - utter_default
 
 ## afirmar
 * afirmar
- - utter_manter_conversa
+    - utter_continuar_conversa
 
 ## negar sem contexto
 * negar
- - utter_despedir
+    - utter_despedir
 
 ## me ajuda
 * o_que_sei_falar
@@ -47,4 +47,4 @@
 
 ## elogios
 * elogios
-   - utter_elogios
+    - utter_elogios
