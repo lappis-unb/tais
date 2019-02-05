@@ -3,7 +3,6 @@
     - utter_cumprimentar
 * definicao_tais
     - utter_definicao_tais
-    - utter_objetivo_siglas
     - utter_objetivo
 * afirmar
     - utter_manter_conversa
@@ -13,7 +12,6 @@
     - utter_cumprimentar
 * definicao_tais
     - utter_definicao_tais
-    - utter_objetivo_siglas
     - utter_objetivo
 * negar
     - utter_processo_como_funciona
@@ -27,7 +25,6 @@
     - utter_cumprimentar
 * definicao_tais
     - utter_definicao_tais
-    - utter_objetivo_siglas
     - utter_objetivo
 * negar
     - utter_processo_como_funciona
@@ -42,7 +39,6 @@
     - utter_cumprimentar
 * definicao_tais
     - utter_definicao_tais
-    - utter_objetivo_siglas
     - utter_objetivo
 * negar
     - utter_processo_como_funciona
@@ -52,7 +48,6 @@
 ## sigla 1.4
 * definicao_tais
     - utter_definicao_tais
-    - utter_objetivo_siglas
     - utter_objetivo
 * afirmar
     - utter_manter_conversa
@@ -63,7 +58,6 @@
 ## sigla 1.5
 * definicao_tais
     - utter_definicao_tais
-    - utter_objetivo_siglas
     - utter_objetivo
 * afirmar
     - utter_manter_conversa
@@ -74,7 +68,6 @@
 ## sigla 1.6
 * definicao_tais
     - utter_definicao_tais
-    - utter_objetivo_siglas
     - utter_objetivo
 * afirmar
     - utter_manter_conversa
@@ -85,7 +78,6 @@
 ## sigla 1.7
 * definicao_tais
     - utter_definicao_tais
-    - utter_objetivo_siglas
     - utter_objetivo
 * afirmar
     - utter_manter_conversa
@@ -147,7 +139,6 @@
     - utter_cumprimentar
 * definicao_salic
     - utter_definicao_salic
-    - utter_objetivo_siglas
     - utter_objetivo
 * afirmar
     - utter_manter_conversa
@@ -157,7 +148,6 @@
     - utter_cumprimentar
 * definicao_salic
     - utter_definicao_salic
-    - utter_objetivo_siglas
     - utter_objetivo
 * negar
     - utter_processo_como_funciona
@@ -171,7 +161,6 @@
     - utter_cumprimentar
 * definicao_salic
     - utter_definicao_salic
-    - utter_objetivo_siglas
     - utter_objetivo
 * negar
     - utter_processo_como_funciona
@@ -186,7 +175,6 @@
     - utter_cumprimentar
 * definicao_salic
     - utter_definicao_salic
-    - utter_objetivo_siglas
     - utter_objetivo
 * negar
     - utter_processo_como_funciona
@@ -196,7 +184,6 @@
 ## sigla 2.4
 * definicao_salic
     - utter_definicao_salic
-    - utter_objetivo_siglas
     - utter_objetivo
 * afirmar
     - utter_manter_conversa
@@ -207,7 +194,6 @@
 ## sigla 2.5
 * definicao_salic
     - utter_definicao_salic
-    - utter_objetivo_siglas
     - utter_objetivo
 * afirmar
     - utter_manter_conversa
@@ -218,7 +204,6 @@
 ## sigla 2.6
 * definicao_salic
     - utter_definicao_salic
-    - utter_objetivo_siglas
     - utter_objetivo
 * afirmar
     - utter_manter_conversa
@@ -229,7 +214,6 @@
 ## sigla 2.7
 * definicao_salic
     - utter_definicao_salic
-    - utter_objetivo_siglas
     - utter_objetivo
 * afirmar
     - utter_manter_conversa
@@ -242,7 +226,6 @@
     - utter_cumprimentar
 * definicao_vinculada
     - utter_definicao_vinculada
-    - utter_objetivo_siglas
     - utter_objetivo
 * afirmar
     - utter_manter_conversa
@@ -252,7 +235,6 @@
     - utter_cumprimentar
 * definicao_vinculada
     - utter_definicao_vinculada
-    - utter_objetivo_siglas
     - utter_objetivo
 * negar
     - utter_processo_como_funciona
@@ -266,7 +248,6 @@
     - utter_cumprimentar
 * definicao_vinculada
     - utter_definicao_vinculada
-    - utter_objetivo_siglas
     - utter_objetivo
 * negar
     - utter_processo_como_funciona
@@ -281,7 +262,6 @@
     - utter_cumprimentar
 * definicao_vinculada
     - utter_definicao_vinculada
-    - utter_objetivo_siglas
     - utter_objetivo
 * negar
     - utter_processo_como_funciona
@@ -291,7 +271,6 @@
 ## sigla 3.4
 * definicao_vinculada
     - utter_definicao_vinculada
-    - utter_objetivo_siglas
     - utter_objetivo
 * afirmar
     - utter_manter_conversa
@@ -304,7 +283,6 @@
     - utter_cumprimentar
 * definicao_minc
     - utter_definicao_minc
-    - utter_objetivo_siglas
     - utter_objetivo
 * afirmar
     - utter_manter_conversa
@@ -314,7 +292,6 @@
     - utter_cumprimentar
 * definicao_minc
     - utter_definicao_minc
-    - utter_objetivo_siglas
     - utter_objetivo
 * negar
     - utter_processo_como_funciona
@@ -328,7 +305,6 @@
     - utter_cumprimentar
 * definicao_minc
     - utter_definicao_minc
-    - utter_objetivo_siglas
     - utter_objetivo
 
 ## sigla 4.3
@@ -336,7 +312,6 @@
     - utter_cumprimentar
 * definicao_minc
     - utter_definicao_minc
-    - utter_objetivo_siglas
     - utter_objetivo
 * negar
     - utter_processo_como_funciona
@@ -346,7 +321,6 @@
 ## sigla 4.4
 * definicao_minc
     - utter_definicao_minc
-    - utter_objetivo_siglas
     - utter_objetivo
 * afirmar
     - utter_manter_conversa
@@ -357,7 +331,6 @@
 ## sigla 4.5
 * definicao_minc
     - utter_definicao_minc
-    - utter_objetivo_siglas
     - utter_objetivo
 * afirmar
     - utter_manter_conversa
@@ -368,7 +341,6 @@
 ## sigla 4.6
 * definicao_minc
     - utter_definicao_minc
-    - utter_objetivo_siglas
     - utter_objetivo
 * afirmar
     - utter_manter_conversa
@@ -379,7 +351,6 @@
 ## sigla 4.7
 * definicao_minc
     - utter_definicao_minc
-    - utter_objetivo_siglas
     - utter_objetivo
 * afirmar
     - utter_manter_conversa
@@ -390,7 +361,6 @@
 ## sigla 4.8
 * definicao_minc
     - utter_definicao_minc
-    - utter_objetivo_siglas
     - utter_objetivo
 * afirmar
     - utter_manter_conversa
@@ -403,7 +373,6 @@
     - utter_cumprimentar
 * definicao_cnic
     - utter_definicao_cnic
-    - utter_objetivo_siglas
     - utter_objetivo
 * afirmar
     - utter_manter_conversa
@@ -413,7 +382,6 @@
     - utter_cumprimentar
 * definicao_cnic
     - utter_definicao_cnic
-    - utter_objetivo_siglas
     - utter_objetivo
 * negar
     - utter_processo_como_funciona
@@ -427,7 +395,6 @@
     - utter_cumprimentar
 * definicao_cnic
     - utter_definicao_cnic
-    - utter_objetivo_siglas
     - utter_objetivo
 * negar
     - utter_processo_como_funciona
@@ -442,7 +409,6 @@
     - utter_cumprimentar
 * definicao_cnic
     - utter_definicao_cnic
-    - utter_objetivo_siglas
     - utter_objetivo
 * negar
     - utter_processo_como_funciona
@@ -452,7 +418,6 @@
 ## sigla 5.4
 * definicao_cnic
     - utter_definicao_cnic
-    - utter_objetivo_siglas
     - utter_objetivo
 * afirmar
     - utter_manter_conversa
@@ -463,7 +428,6 @@
 ## sigla 5.5
 * definicao_cnic
     - utter_definicao_cnic
-    - utter_objetivo_siglas
     - utter_objetivo
 * afirmar
     - utter_manter_conversa
@@ -474,7 +438,6 @@
 ## sigla 5.6
 * definicao_cnic
     - utter_definicao_cnic
-    - utter_objetivo_siglas
     - utter_objetivo
 * afirmar
     - utter_manter_conversa
@@ -487,7 +450,6 @@
     - utter_cumprimentar
 * definicao_sefic
     - utter_definicao_sefic
-    - utter_objetivo_siglas
     - utter_objetivo
 * afirmar
     - utter_manter_conversa
@@ -497,7 +459,6 @@
     - utter_cumprimentar
 * definicao_sefic
     - utter_definicao_sefic
-    - utter_objetivo_siglas
     - utter_objetivo
 * negar
     - utter_processo_como_funciona
@@ -511,7 +472,6 @@
     - utter_cumprimentar
 * definicao_sefic
     - utter_definicao_sefic
-    - utter_objetivo_siglas
     - utter_objetivo
 * negar
     - utter_processo_como_funciona
@@ -526,7 +486,6 @@
     - utter_cumprimentar
 * definicao_sefic
     - utter_definicao_sefic
-    - utter_objetivo_siglas
     - utter_objetivo
 * negar
     - utter_processo_como_funciona
@@ -538,7 +497,6 @@
     - utter_cumprimentar
 * quem_eh_a_tais
     - utter_quem_eh_a_tais
-    - utter_objetivo_siglas
     - utter_objetivo
 * afirmar
     - utter_manter_conversa
@@ -548,7 +506,6 @@
     - utter_cumprimentar
 * quem_eh_a_tais
     - utter_quem_eh_a_tais
-    - utter_objetivo_siglas
     - utter_objetivo
 * negar
     - utter_processo_como_funciona
@@ -562,7 +519,6 @@
     - utter_cumprimentar
 * quem_eh_a_tais
     - utter_quem_eh_a_tais
-    - utter_objetivo_siglas
     - utter_objetivo
 * negar
     - utter_processo_como_funciona
@@ -577,7 +533,6 @@
     - utter_cumprimentar
 * quem_eh_a_tais
     - utter_quem_eh_a_tais
-    - utter_objetivo_siglas
     - utter_objetivo
 * negar
     - utter_processo_como_funciona
