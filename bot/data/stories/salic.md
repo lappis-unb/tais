@@ -6,6 +6,7 @@
     - utter_continuar_conversa
 * salic_cadastro_proponente
     - salic_cadastro_proponente
+    - utter_continuar_conversa
 
 ## salic 2
 * salic_cadastro_proponente
