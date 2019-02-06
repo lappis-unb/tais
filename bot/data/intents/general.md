@@ -32,8 +32,7 @@
 - tais, obrigado
 
 ## intent:cumprimentar
-- ola tais, como vai
-- oi, tudo bem
+- oi
 - como vai
 - oi, como vai voce
 - como vao as coisas
@@ -43,6 +42,7 @@
 - pode me tirar uma duvida
 - gostaria de tirar uma duvida
 - ola tais
+- oi tais
 - to bem
 - tranquilo
 - estou bem
@@ -54,7 +54,6 @@
 - olá
 - oie
 - oiee
-- opa tudo bem
 - ola boa tarde
 
 ## intent:elogios
@@ -158,7 +157,6 @@
 
 ## intent:tudo_bem
 - Tudo bem
-- Oi Tais. Tudo bem
 - Como vocês esta
 - como ta
 - joia
@@ -167,9 +165,8 @@
 - bom dia flor do dia
 - Tudo bem e você
 - como vc esta
-- oi tais. como vai vc
-- ola tais. tudo bem
--  como vai
+- como vai vc
+- como vai
 
 ## intent:quem_eh_a_tais
 - Quem te criou? 
