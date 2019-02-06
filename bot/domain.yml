@@ -1293,7 +1293,7 @@ templates:
 
   utter_continuar_conversa:
     - text: |
-          Espero estar te ajudando, você possui mais alguma pergunta?
+          Você possui mais alguma pergunta?
     - text: |
           Em que mais posso te ajudar?
     - text: |
@@ -1305,7 +1305,7 @@ templates:
     - text: |
           Gostaria te retirar mais alguma dúvida?
     - text: |
-          Espero ter solucionado a sua dúvida, tem mais alguma dúvida?
+          Tem mais alguma dúvida?
 
   utter_despedir:
     - text: |
