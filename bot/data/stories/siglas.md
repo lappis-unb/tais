@@ -4,7 +4,7 @@
 * definicao_tais
     - utter_definicao_tais
     - utter_objetivo
-* afirmar
+* negar
     - utter_continuar_conversa
 
 ## sigla 1.1
@@ -13,9 +13,9 @@
 * definicao_tais
     - utter_definicao_tais
     - utter_objetivo
-* negar
+* afirmar
     - utter_processo_como_funciona
-* negar
+* afirmar
     - utter_cadastro_salic_video
 * negar
     - utter_continuar_conversa
@@ -26,9 +26,9 @@
 * definicao_tais
     - utter_definicao_tais
     - utter_objetivo
-* negar
+* afirmar
     - utter_processo_como_funciona
-* negar
+* afirmar
     - utter_cadastro_salic_video
 * afirmar
     - utter_salic_cadastro_usuario
@@ -42,14 +42,14 @@
     - utter_objetivo
 * negar
     - utter_processo_como_funciona
-* afirmar
+* negar
     - utter_continuar_conversa
 
 ## sigla 1.4
 * definicao_tais
     - utter_definicao_tais
     - utter_objetivo
-* afirmar
+* negar
     - utter_continuar_conversa
 * definicao_minc
     - utter_definicao_minc
@@ -59,7 +59,7 @@
 * definicao_tais
     - utter_definicao_tais
     - utter_objetivo
-* afirmar
+* negar
     - utter_continuar_conversa
 * definicao_salic
     - utter_definicao_salic
@@ -69,7 +69,7 @@
 * definicao_tais
     - utter_definicao_tais
     - utter_objetivo
-* afirmar
+* negar
     - utter_continuar_conversa
 * definicao_cnic
     - utter_definicao_cnic
@@ -79,7 +79,7 @@
 * definicao_tais
     - utter_definicao_tais
     - utter_objetivo
-* afirmar
+* negar
     - utter_continuar_conversa
 * definicao_sefic
     - utter_definicao_sefic
@@ -88,7 +88,7 @@
 ## sigla 1.8
 * processo_como_funciona
     - utter_processo_como_funciona
-* afirmar
+* negar
     - utter_continuar_conversa
 
 ## sigla 1.9
@@ -114,7 +114,7 @@
 ## sigla 1.13
 * processo_como_funciona
     - utter_processo_como_funciona
-* negar
+* afirmar
     - utter_cadastro_salic_video
 * negar
     - utter_continuar_conversa
@@ -122,7 +122,7 @@
 ## sigla 1.14
 * processo_como_funciona
     - utter_processo_como_funciona
-* negar
+* afirmar
     - utter_cadastro_salic_video
 * afirmar
     - utter_salic_cadastro_usuario
@@ -140,7 +140,7 @@
 * definicao_salic
     - utter_definicao_salic
     - utter_objetivo
-* afirmar
+* negar
     - utter_continuar_conversa
 
 ## sigla 2.1
@@ -149,9 +149,9 @@
 * definicao_salic
     - utter_definicao_salic
     - utter_objetivo
-* negar
+* afirmar
     - utter_processo_como_funciona
-* negar
+* afirmar
     - utter_cadastro_salic_video
 * negar
     - utter_continuar_conversa
@@ -162,9 +162,9 @@
 * definicao_salic
     - utter_definicao_salic
     - utter_objetivo
-* negar
+* afirmar
     - utter_processo_como_funciona
-* negar
+* afirmar
     - utter_cadastro_salic_video
 * afirmar
     - utter_salic_cadastro_usuario
@@ -176,16 +176,16 @@
 * definicao_salic
     - utter_definicao_salic
     - utter_objetivo
-* negar
-    - utter_processo_como_funciona
 * afirmar
+    - utter_processo_como_funciona
+* negar
     - utter_continuar_conversa
 
 ## sigla 2.4
 * definicao_salic
     - utter_definicao_salic
     - utter_objetivo
-* afirmar
+* negar
     - utter_continuar_conversa
 * definicao_cnic
     - utter_definicao_cnic
@@ -195,7 +195,7 @@
 * definicao_salic
     - utter_definicao_salic
     - utter_objetivo
-* afirmar
+* negar
     - utter_continuar_conversa
 * definicao_sefic
     - utter_definicao_sefic
@@ -205,7 +205,7 @@
 * definicao_salic
     - utter_definicao_salic
     - utter_objetivo
-* afirmar
+* negar
     - utter_continuar_conversa
 * definicao_vinculada
     - utter_definicao_vinculada
@@ -215,7 +215,7 @@
 * definicao_salic
     - utter_definicao_salic
     - utter_objetivo
-* afirmar
+* negar
     - utter_continuar_conversa
 * quem_eh_a_tais
     - utter_quem_eh_a_tais
@@ -227,7 +227,7 @@
 * definicao_vinculada
     - utter_definicao_vinculada
     - utter_objetivo
-* afirmar
+* negar
     - utter_continuar_conversa
 
 ## sigla 3.1
@@ -236,9 +236,9 @@
 * definicao_vinculada
     - utter_definicao_vinculada
     - utter_objetivo
-* negar
+* afirmar
     - utter_processo_como_funciona
-* negar
+* afirmar
     - utter_cadastro_salic_video
 * negar
     - utter_continuar_conversa
@@ -249,9 +249,9 @@
 * definicao_vinculada
     - utter_definicao_vinculada
     - utter_objetivo
-* negar
+* afirmar
     - utter_processo_como_funciona
-* negar
+* afirmar
     - utter_cadastro_salic_video
 * afirmar
     - utter_salic_cadastro_usuario
@@ -263,16 +263,16 @@
 * definicao_vinculada
     - utter_definicao_vinculada
     - utter_objetivo
-* negar
-    - utter_processo_como_funciona
 * afirmar
+    - utter_processo_como_funciona
+* negar
     - utter_continuar_conversa
 
 ## sigla 3.4
 * definicao_vinculada
     - utter_definicao_vinculada
     - utter_objetivo
-* afirmar
+* negar
     - utter_continuar_conversa
 * quem_eh_a_tais
     - utter_quem_eh_a_tais
@@ -284,7 +284,7 @@
 * definicao_minc
     - utter_definicao_minc
     - utter_objetivo
-* afirmar
+* negar
     - utter_continuar_conversa
 
 ## sigla 4.1
@@ -293,9 +293,9 @@
 * definicao_minc
     - utter_definicao_minc
     - utter_objetivo
-* negar
+* afirmar
     - utter_processo_como_funciona
-* negar
+* afirmar
     - utter_cadastro_salic_video
 * negar
     - utter_continuar_conversa
@@ -313,16 +313,16 @@
 * definicao_minc
     - utter_definicao_minc
     - utter_objetivo
-* negar
-    - utter_processo_como_funciona
 * afirmar
+    - utter_processo_como_funciona
+* negar
     - utter_continuar_conversa
 
 ## sigla 4.4
 * definicao_minc
     - utter_definicao_minc
     - utter_objetivo
-* afirmar
+* negar
     - utter_continuar_conversa
 * definicao_salic
     - utter_definicao_salic
@@ -332,7 +332,7 @@
 * definicao_minc
     - utter_definicao_minc
     - utter_objetivo
-* afirmar
+* negar
     - utter_continuar_conversa
 * definicao_cnic
     - utter_definicao_cnic
@@ -342,7 +342,7 @@
 * definicao_minc
     - utter_definicao_minc
     - utter_objetivo
-* afirmar
+* negar
     - utter_continuar_conversa
 * definicao_sefic
     - utter_definicao_sefic
@@ -352,7 +352,7 @@
 * definicao_minc
     - utter_definicao_minc
     - utter_objetivo
-* afirmar
+* negar
     - utter_continuar_conversa
 * definicao_vinculada
     - utter_definicao_vinculada
@@ -362,7 +362,7 @@
 * definicao_minc
     - utter_definicao_minc
     - utter_objetivo
-* afirmar
+* negar
     - utter_continuar_conversa
 * quem_eh_a_tais
     - utter_quem_eh_a_tais
@@ -374,7 +374,7 @@
 * definicao_cnic
     - utter_definicao_cnic
     - utter_objetivo
-* afirmar
+* negar
     - utter_continuar_conversa
 
 ## sigla 5.1
@@ -383,9 +383,9 @@
 * definicao_cnic
     - utter_definicao_cnic
     - utter_objetivo
-* negar
+* afirmar
     - utter_processo_como_funciona
-* negar
+* afirmar
     - utter_cadastro_salic_video
 * negar
     - utter_continuar_conversa
@@ -396,9 +396,9 @@
 * definicao_cnic
     - utter_definicao_cnic
     - utter_objetivo
-* negar
+* afirmar
     - utter_processo_como_funciona
-* negar
+* afirmar
     - utter_cadastro_salic_video
 * afirmar
     - utter_salic_cadastro_usuario
@@ -410,16 +410,16 @@
 * definicao_cnic
     - utter_definicao_cnic
     - utter_objetivo
-* negar
-    - utter_processo_como_funciona
 * afirmar
+    - utter_processo_como_funciona
+* negar
     - utter_continuar_conversa
 
 ## sigla 5.4
 * definicao_cnic
     - utter_definicao_cnic
     - utter_objetivo
-* afirmar
+* negar
     - utter_continuar_conversa
 * definicao_sefic
     - utter_definicao_sefic
@@ -429,7 +429,7 @@
 * definicao_cnic
     - utter_definicao_cnic
     - utter_objetivo
-* afirmar
+* negar
     - utter_continuar_conversa
 * definicao_vinculada
     - utter_definicao_vinculada
@@ -439,7 +439,7 @@
 * definicao_cnic
     - utter_definicao_cnic
     - utter_objetivo
-* afirmar
+* negar
     - utter_continuar_conversa
 * quem_eh_a_tais
     - utter_quem_eh_a_tais
@@ -451,7 +451,7 @@
 * definicao_sefic
     - utter_definicao_sefic
     - utter_objetivo
-* afirmar
+* negar
     - utter_continuar_conversa
 
 ## sigla 6.1
@@ -460,9 +460,9 @@
 * definicao_sefic
     - utter_definicao_sefic
     - utter_objetivo
-* negar
+* afirmar
     - utter_processo_como_funciona
-* negar
+* afirmar
     - utter_cadastro_salic_video
 * negar
     - utter_continuar_conversa
@@ -473,9 +473,9 @@
 * definicao_sefic
     - utter_definicao_sefic
     - utter_objetivo
-* negar
+* afirmar
     - utter_processo_como_funciona
-* negar
+* afirmar
     - utter_cadastro_salic_video
 * afirmar
     - utter_salic_cadastro_usuario
@@ -487,9 +487,9 @@
 * definicao_sefic
     - utter_definicao_sefic
     - utter_objetivo
-* negar
-    - utter_processo_como_funciona
 * afirmar
+    - utter_processo_como_funciona
+* negar
     - utter_continuar_conversa
 
 ## sigla 7
@@ -498,7 +498,7 @@
 * quem_eh_a_tais
     - utter_quem_eh_a_tais
     - utter_objetivo
-* afirmar
+* negar
     - utter_continuar_conversa
 
 ## sigla 7.1
@@ -507,9 +507,9 @@
 * quem_eh_a_tais
     - utter_quem_eh_a_tais
     - utter_objetivo
-* negar
+* afirmar
     - utter_processo_como_funciona
-* negar
+* afirmar
     - utter_cadastro_salic_video
 * negar
     - utter_continuar_conversa
@@ -520,9 +520,9 @@
 * quem_eh_a_tais
     - utter_quem_eh_a_tais
     - utter_objetivo
-* negar
+* afirmar
     - utter_processo_como_funciona
-* negar
+* afirmar
     - utter_cadastro_salic_video
 * afirmar
     - utter_salic_cadastro_usuario
@@ -534,7 +534,7 @@
 * quem_eh_a_tais
     - utter_quem_eh_a_tais
     - utter_objetivo
-* negar
-    - utter_processo_como_funciona
 * afirmar
+    - utter_processo_como_funciona
+* negar
     - utter_continuar_conversa

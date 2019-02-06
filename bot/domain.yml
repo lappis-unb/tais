@@ -1262,8 +1262,8 @@ templates:
 
   utter_objetivo:
     - text: |
-          Mas, antes de tudo, para que a nossa conversa seja mais eficiente,
-          gostaria de te fazer uma pergunta, você quer saber como submeter uma proposta?
+          Mas antes, para a nossa conversa ser mais eficiente, 
+          você quer saber como submeter uma proposta?
 
   utter_objetivo_siglas:
     - text: |
