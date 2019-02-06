@@ -24,8 +24,10 @@ train-online:
 evaluate:
 	python3 -m rasa_core.evaluate -d models/dialogue -s data/core/
 
-# Force Makefile to execute e2e command every time
 .PHONY: all e2e clean
 e2e:
 	python3 -m rasa_core.evaluate default --core models/dialogue --nlu models/nlu/current --stories e2e/e2e_stories.md --e2e
 	python3 -m rasa_core.evaluate default --core models/dialogue --nlu models/nlu/current --stories e2e/e2e_stories_erro.md --e2e
+
+test-stories:
+	python -m rasa_core.evaluate default --core models/dialogue --nlu models/nlu/current --stories tests/e2e_stories.md --e2e
