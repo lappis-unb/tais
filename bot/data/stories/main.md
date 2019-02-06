@@ -48,3 +48,9 @@
 ## elogios
 * elogios
     - utter_elogios
+
+## objetivo
+* out_of_scope
+    - utter_default
+* out_of_scope
+    - utter_manter_conversa
