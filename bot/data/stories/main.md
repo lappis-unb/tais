@@ -54,7 +54,3 @@
     - utter_default
 * out_of_scope
     - utter_manter_conversa
-
-## missao
-    - utter_default
-    - utter_manter_conversa
