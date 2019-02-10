@@ -862,7 +862,7 @@ templates:
 
   utter_processo_como_funciona:
     - text: |
-          Aqui vai um resumo do processo da Lei de Incentivo a Cultura
+          Então, já que você não sabe como submeter uma proposta, aqui vai um resumo do processo:
           A pessoa responsável, chamada de proponente, insere uma proposta cultural no Sistema de Apoio às Leis de Incentivo à Cultura (Salic), de forma eletrônica.
 
           Essa proposta é analisada pelo MinC. Se for admitida, autoriza o proponente a captar recursos.
@@ -872,7 +872,7 @@ templates:
           A prestação de contas é analisada pela área responsável do Ministério.
 
           O primeiro passo para você participar deste processo é ter cadastro no SALIC
-          Você já tem um cadastro no SALIC?
+          Você quer saber como fazer um cadastro no SALIC?
 
   utter_cadastro_salic_video:
     - text: |
@@ -895,7 +895,7 @@ templates:
           Agora aguarde a chegada de um e-mail de confirmação. Este vai conter uma senha temporária
           É interessante você alterar esta senha, por isso, no seu primeiro acesso, vá em "Usuário > Alterar Senha", para mudar a mesma
 
-          Agora que você já se cadastrou, o próximo passo cadastrar um proponente
+          Agora que você já se cadastrou, o próximo passo é cadastrar um proponente
 
   utter_lei_rouanet_quantidade_de_projetos:
     - text: |
@@ -1262,8 +1262,8 @@ templates:
 
   utter_objetivo:
     - text: |
-          Mas, antes de tudo, para que a nossa conversa seja mais eficiente,
-          gostaria de te fazer uma pergunta, você já submeteu uma proposta?
+          Mas antes, para a nossa conversa ser mais eficiente, 
+          você quer saber como submeter uma proposta?
 
   utter_objetivo_siglas:
     - text: |
@@ -1288,13 +1288,12 @@ templates:
   utter_manter_conversa:
     - text: |
           A minha missão é te guiar para a inscrição da sua proposta,
-          Se você já sabe como submeter uma proposta e já fez seu cadastro no salic,
-          é porque você já tem um conhecimento avançado e talvez eu não consiga sanar as suas dúvidas.
-          Se você quiser podemos continuar conversando sobre alguns conceitos básicos da lei Rouanet (:
+          Se você já sabe isso é porque você já tem um conhecimento avançado e talvez eu não consiga sanar as suas dúvidas.
+          Mas podemos continuar conversando sobre alguns conceitos básicos da lei Rouanet (:
 
   utter_continuar_conversa:
     - text: |
-          Espero estar te ajudando, você possui mais alguma pergunta?
+          Você possui mais alguma pergunta?
     - text: |
           Em que mais posso te ajudar?
     - text: |
@@ -1306,7 +1305,7 @@ templates:
     - text: |
           Gostaria te retirar mais alguma dúvida?
     - text: |
-          Espero ter solucionado a sua dúvida, tem mais alguma dúvida?
+          Tem mais alguma dúvida?
 
   utter_despedir:
     - text: |
