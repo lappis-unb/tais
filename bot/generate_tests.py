@@ -1,4 +1,6 @@
 import logging
+import shutil
+import random
 import os
 from os import listdir
 from os.path import isfile, join
@@ -19,7 +21,7 @@ parser.add_argument(
     help='Path for the intents file or directory'
 )
 
-class TestGenerator():
+class TestsGenerator():
 
     def __init__(self, intents_path, stories_path):
         self.intents_files = []
@@ -66,15 +68,45 @@ class TestGenerator():
                 elif line != '' and intent_key != '':
                     self.intents_texts[intent_key].append(line[2:].strip())
 
-            for intent_name, intent_texts in self.intents_texts.items():
-                print("\n\n")
-                print("INTENT NAME:",intent_name)
-                print(intent_texts)
-                print("\n\n")
+            #for intent_name, intent_texts in self.intents_texts.items():
+            #    print("\n\n")
+            #    print("INTENT NAME:",intent_name)
+            #    print(intent_texts)
+            #    print("\n\n")
+
+    def generate_test_stories(self):
+        path = 'tests'
+        if os.path.exists(path):
+            shutil.rmtree(path)
+
+        os.makedirs(path)
+
+        for storie in self.stories_files:
+            f = open(storie, 'r')
+            storie_lines = f.readlines()
+            f.close()
+
+            storie_key = ''
+
+            storie_test_file = open('tests/' + 'test_' +storie.split('/')[-1:][0], 'w+')
+
+            for line in storie_lines:
+                if re.search('^ *## *', line):
+                    line = re.sub('^ *## *', '## Test ', line)
+                    storie_test_file.write(line)
+                elif re.search('^ *\* *', line):
+                    intent = re.sub('^ *\* *', '', line).strip()
+                    intent_line = "* " + intent + ": " + random.choice(self.intents_texts[intent]) + '\n'
+                    storie_test_file.write(intent_line)
+                elif re.search('^ *- *', line):
+                    storie_test_file.write(line)
+                else:
+                    storie_test_file.write("\n")
 
 if __name__ == '__main__':
     stories = parser.parse_args().stories
     intents = parser.parse_args().intents
 
-    test_generator = TestGenerator(intents, stories)
-    test_generator.load_intents_texts()
+    tests_generator = TestsGenerator(intents, stories)
+    tests_generator.load_intents_texts()
+    tests_generator.generate_test_stories()
