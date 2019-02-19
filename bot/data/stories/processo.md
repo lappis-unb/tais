@@ -6,7 +6,7 @@
     - utter_continuar_conversa
 
 ## Processo 2
-cumprimentar
+* cumprimentar
     - utter_cumprimentar
 * processo_reativacao_de_proposta
     - utter_processo_reativacao_de_proposta
