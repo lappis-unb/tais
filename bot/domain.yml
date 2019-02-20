@@ -1082,6 +1082,7 @@ templates:
           Prazo: até 60 dias, podendo ser ampliado para até 120 dias quando os projetos forem de restauração do patrimônio histórico ou construção de imóveis.
 
           Após a admissibilidade, o MinC publica portaria de autorização para captação de recursos incentivados no Diário Oficial da União (DOU).
+
   utter_lei_rouanet_analise_tecnica:
      - text: |
 
