@@ -51,17 +51,13 @@
     - utter_elogios
     - utter_objetivo
 
-<<<<<<< HEAD
 ## objetivo
 * out_of_scope
     - utter_default
 * out_of_scope
     - utter_manter_conversa
 
-## tem wpp
-=======
 ## tem wpp 1
->>>>>>> update in stories wpp
 * tem_wpp
     - utter_tem_wpp
     - utter_objetivo
