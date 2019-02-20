@@ -131,6 +131,99 @@
 - prazo de envio de cnae
 - cnae
 
+## intent:processo_prazo_analise_proposta
+- qual é o prazo para análise de proposta
+- qual e o prazo para analise de proposta
+- período análise de proposta
+- periodo analise de proposta
+- prazo de análise de proposta
+- prazo de analise de proposta
+- data avaliação de proposta
+- data avaliacao de proposta
+- análise de proposta
+- analise de proposta
+
+## intent:processo_prazo_analise_tecnica
+- qual é o prazo para análise técnica
+- qual e o prazo para analise tecnica
+- périodo técnica
+- periodo analise tecnica
+- prazo análise técnica
+- prazo analise tecnica
+- data avaliação técnica
+- data avaliacao tecnica
+- análise técnica
+- analise tecnica
+
+## intent:processo_prazo_readequacao
+- qual é o prazo para readequação
+- qual e o prazo para readequacao
+- périodo readequação
+- periodo readequacao
+- prazo readequação
+- prazo readequacao
+- data readequação
+- data readequacao
+- readequação
+- readequacao
+
+## intent:processo_prazo_periodo_captacao
+- qual é o prazo para captacao
+- qual e o prazo para captacao
+- périodo captacao
+- periodo captacao
+- prazo captacao
+- prazo captacao
+- data captacao
+- data captacao
+
+## intent:processo_prazo_prestacao_contas
+- qual é o prazo para prestação de contas
+- qual e o prazo para prestacao de contas
+- périodo prestação de contas
+- periodo prestacao contas
+- prazo prestação de contas
+- prazo prestacao de contas
+- data prestação de contas
+- data prestacao de contas
+- prestação de contas
+- prestacao de contas
+
+## intent:processo_prazo_diligencias
+- qual é o prazo para diligências
+- qual e o prazo para diligencias
+- périodo diligências
+- periodo diligencias
+- prazo diligências
+- prazo diligencias
+- data diligências
+- data diligencias
+- diligências
+- diligencias
+
+## intent:processo_prazo_desarquivar
+- qual é o prazo para desarquivar proposta
+- qual e o prazo para desarquivar proposta
+- périodo desarquivar
+- periodo desarquivar
+- prazo desarquivar
+- data desarquivar
+- desarquivar
+
+## intent:processo_prazo_desistir_recurso
+- desistir do prazo recursal
+- desistir do recurso
+- prazo pra encaminhar recurso
+- como é a desistência do prazo de recurso
+- sobre o prazo de ecaminhamento de recurso, como desisto dele
+- da pra desistir do prazo de recurso
+- após o enquadramento, como desisto do prazo de recurso?
+- qual o prazo para desisitr de entrar com o recurso?
+- não quero entrar com o recurso
+- quero desistir do prazo de recurso
+- desistência
+- desistir
+
 ## intent:processo_prazo_desistir_recurso
 - desistir do prazo recursal
 - desistir do recurso
