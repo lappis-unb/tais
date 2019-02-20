@@ -1221,7 +1221,6 @@ templates:
     - text: |
           Eu não tenho wpp, eu só posso me comunicar com você aqui pelo portal da Lei Rouanet, 
           aqui é minha casa. 
-          Mas, eu tenho amigas que tem wpp, como a Bia do Bradesco (:
 
   utter_processo_reativacao_de_proposta:
     - text: |
