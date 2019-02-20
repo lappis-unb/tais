@@ -494,3 +494,26 @@
 - formação de plateia
 - democratizacao
 - plateia
+
+## intent:lei_rouanet_divulgacao_patrocinio
+- como é feita a divulgação de patrocínio
+- como e feita a divulgacao de patrocinio
+- como promover marca do patrocinador
+- como promover minha marca
+- como fazer promoção de marca
+- como fazer promocao de marca
+- como fazer divulgação de marca
+- como fazer divulgacao de marca
+- como divulgar marca
+- promover marca do patrocinador
+- promoção de marca
+- promocao de marca
+- divulgacao de marca
+- divulgação de marca
+- marcas e produtos
+- divulgação de patrocínio
+- divulgacao de patrocinio
+- prospecção comercial
+- prospeccao comercial
+- divulgação
+- divulgacao
