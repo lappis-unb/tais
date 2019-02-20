@@ -10,6 +10,7 @@ intents:
   - diga_mais
   - tudo_bem
   - elogios
+  - tem_wpp
 
   - captacao
   - captacao_quando_captar
@@ -1216,6 +1217,11 @@ templates:
     - text: |
           Obrigada! É sempre bom dar e receber elogios :P
 
+  utter_tem_wpp:
+    - text: |
+          Eu não tenho wpp, eu só posso me comunicar com você aqui pelo portal da Lei Rouanet, 
+          aqui é minha casa. 
+
   utter_processo_reativacao_de_proposta:
     - text: |
           Pra reativar uma proposta indeferida você deve enviar um pedido de reativação
@@ -1418,6 +1424,7 @@ actions:
   - utter_quem_eh_a_tais
   - utter_diga_mais
   - utter_elogios
+  - utter_tem_wpp
 
   - utter_captacao
   - utter_captacao_quando_captar

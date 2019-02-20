@@ -196,3 +196,28 @@
 - Taís
 - vc é um humano
 - você eh um robo
+
+## intent:tem_wpp
+- vamos conversar pelo whatsapp
+- vamos conversar pelo wpp
+- vamos falar pelo wpp
+- podemos conversar pelo whatsapp
+- podemos conversar pelo zap
+- podemos conversar pelo wpp
+- me passa seu whatsapp
+- me manda teu wpp
+- me passa seu wpp
+- me passa seu zap
+- vc tem whatsapp
+- você ta no whatapp
+- voce ta no whatsapp
+- vc tá no whatsapp
+- você tem whatsapp
+- você tem zap
+- vc tem zap
+- vc tem wpp
+- você tem wpp
+- vc ta no wpp
+- whatsapp
+- wpp
+- zap
