@@ -221,30 +221,6 @@
 - projeto ilegal
 - como Denúncia de projetos
 
-## intent:lei_rouanet_receber_incetivo_de_parentes
-- meus parentes podem incentivar meu projeto
-- meus pais e tios podem incentivar meu projeto
-- tem problema parentes incentivarem projetos
-- tenho parentes que desejam incentivar meus projetos
-- parentes incentivando meus projetos
-- Parentes pode participar do mesmo projeto
-- meu irmão ou irmã, tio ou tia, primo ou prima, mãe ou pai incentivar
-- minha irmã quer incetivar meu projeto tem problema
-- meu projeto pode ser incentivado pela minha família
-- meus familiares podem incentivar meu projeto
-- parentes podem ser patrocinador
-- quero saber se meus parentes podem ajudar a financiar o meu projeto
-- incentivar
-- incentivado
-- incentivo
-- familiares
-- família
-- parente
-- ajudar
-- financiar
-- estimular
-- pais
-
 ## intent:lei_rouanet_remuneracao_proponente
 - o proponente autor do projeto é remunerado
 - ha limite para remuneração do proponente
@@ -472,28 +448,6 @@
  - os dois perfis
  - sobre todos os perfis
  - de todos
-
-## intent:lei_rouanet_democratizacao
-- o que é democratização do acesso e formação de plateia
-- o que é democratização ao acesso
-- o que é formação de plateia
-- democratização de acesso formação de plateia
-- formação de plateia e democratização do acesso
-- é obrigatório realizar a formação de plateia 
-- é obrigatória realizar a formação de plateia 
-- é necessário a formação de plateia
-- como funciona a democratização do acesso
-- democratização de acesso à cultura
-- democratização e plateia
-- democratização de acesso
-- obrigatoriedade de formação de plateia
-- obrigatoriedade de democratização de acesso
-- realizar formação de plateia
-- promover o acesso cultural
-- promover acesso à cultura
-- formação de plateia
-- democratizacao
-- plateia
 
 ## intent:lei_rouanet_divulgacao_patrocinio
 - como é feita a divulgação de patrocínio

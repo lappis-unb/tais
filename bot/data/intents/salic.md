@@ -1,14 +1,4 @@
 <!-- Salic -->
-## intent:salic
-- me fale sobre o salic
-- quero saber sobre o salic
-- opção salic
-- o que é salic
-- o que eh salic
-- sobre salic
-- escolho salic
-- salic
-
 ## intent:salic_cadastro_usuario
 - como me cadastro no salic
 - como criar login no salic

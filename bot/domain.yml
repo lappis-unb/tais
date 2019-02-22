@@ -5,7 +5,6 @@ intents:
   - afirmar
   - negar
   - o_que_sei_falar
-  - erro_resposta_utter
   - quem_eh_a_tais
   - diga_mais
   - tudo_bem
@@ -16,7 +15,6 @@ intents:
   - captacao_quando_captar
   - captacao_como_captar
 
-  - definicao
   - definicao_tais
   - definicao_minc
   - definicao_cnic
@@ -35,7 +33,6 @@ intents:
   - lei_rouanet_denuncia
   - lei_rouanet_quem_pode_incentivar
   - lei_rouanet_porcentagem_de_deducao_do_imposto
-  - lei_rouanet_receber_incetivo_de_parentes
   - lei_rouanet_remuneracao_proponente
   - lei_rouanet_comercializacao_de_ingressos
   - lei_rouanet_promocao_de_marca
@@ -50,7 +47,6 @@ intents:
   - lei_rouanet_valor_maximo_pessoa_fisica
   - lei_rouanet_valor_maximo_pessoa_juridica
   - lei_rouanet_valor_maximo_geral
-  - lei_rouanet_democratizacao
   - lei_rouanet_divulgacao_patrocinio
 
   - processo
@@ -66,9 +62,7 @@ intents:
   - processo_prazo_envio_cnae
   - processo_prazo_desistir_recurso
   - processo_situacao_processo
-  - processo_periodo
 
-  - salic
   - salic_cadastro_usuario
   - salic_cadastro_proponente
   - salic_recuperacao_de_senha
@@ -179,29 +173,6 @@ templates:
 
     - text: |
         Vamos tentar mais uma vez? Eu não consegui te entender direito, me pergunta de outro jeito?
-
-  utter_restart:
-    - text: |
-        reiniciando =D
-
-  utter_retorno:
-    - text: |
-          Olá, que bom que você voltou!
-          Estou ansiosa para tirar suas novas dúvidas sobre a Lei Rouanet!
-          Como posso te ajudar?
-
-  utter_introducao_processo_situacao:
-    - text: |
-          Olha, eu pesquisei e descobri que a situação do seu processo é essa:
-
-    - text: |
-          Vamos lá, descobrir qual a situação do seu processo:
-
-    - text: |
-          A situação do seu processo é a seguinte:
-
-    - text: |
-          Dá uma olhada e vê se a situação do seu processo é essa:
 
   utter_processo_situacao_processo_A12:
     - text: |
@@ -803,10 +774,6 @@ templates:
     - text: |
         Por enquanto, só entendo perguntas completas. Então é melhor você me perguntar "como funciona a Lei Rouanet" ao invés de "Como funciona"
 
-  utter_definicao:
-    - text: |
-          Sei conceituar sobre o que é o MinC, Salic, Sefic, proposta, projeto e proponente, assim como falar sobre mim.
-
   utter_definicao_minc:
     - text: |
           O Ministério da Cultura (MinC) é o responsável pela aprovação e monitoramento dos projetos submetidos.
@@ -1118,15 +1085,6 @@ templates:
     - text: |
           Este campo não precisa ser preenchido agora, isso vai ser preenchido na prestação de contas.
 
-  utter_preenchimentoVinculoDePropostas:
-    - text: |
-          Você deve ir em:
-          Orçamento do projeto > Custos por produto > Clicar no produto
-          desejado
-
-          Clicar no Local de realização > por último na aba Assessoria
-          contábil e jurídica.
-
   utter_salic_preenchimento_valor_ingresso:
     - text: |
           Esse valor é usado para conferir a viabilidade do projeto e não
@@ -1207,12 +1165,6 @@ templates:
           Prazos
           Reativação da proposta
 
-  utter_processoProcessoCaptacaoDeRecursos:
-    - text: |
-          A captação só pode começar depois que o projeto passa pela fase de enquadramento, pela análise documental e pela publicação.
-
-          Assim que o projeto é publicado no Diário Oficial da União você pode começar a captar recursos.
-
   utter_elogios:
     - text: |
           Obrigada! É sempre bom dar e receber elogios :P
@@ -1271,35 +1223,10 @@ templates:
 
           Agora pode me fazer tua pergunta!
 
-  utter_erro_resposta_utter:
-    - text: |
-          Obrigada pelo feedback. Espero que na próxima vez vou conseguir responder a tua pergunta corretamente
-          Gostaria de fazer uma nova pergunta?
-
   utter_objetivo:
     - text: |
           Mas antes, para a nossa conversa ser mais eficiente, 
           você quer saber como submeter uma proposta?
-
-  utter_objetivo_siglas:
-    - text: |
-          Se a sua dúvida foi sobre algum desses conceitos, talvez você queira saber mais sobre outras definições.
-          Eu consigo explicar o que é MinC, Salic, Cnic, Sefic, Vinculadas, meu nome (Tais) e quem sou eu.
-          Se você tiver alguma dúvida sobre outra sigla, fique a vontade para perguntar a qualquer momento.
-
-  utter_objetivo_money:
-    - text: |
-          Se a sua pergunta está relacionada sobre as finanças da lei Rouanet, talvez você queira aprofundar seu conhecimento sobre isso.
-          Eu posso te informar sobre benefícios de incentivar, origem do dinheiro, valor máximo de um projeto, bem como seu valor mínimo, remuneração do proponente, comercialização de ingressos, promoção de marca, pagamento de caches e dúvidas sobre captação.
-          Você pode me perguntar sobre esses tópicos quando desejar.
-
-  utter_objetivo_lei_rouanet:
-    - text: |
-          Se você perguntou sobre alguma definição ou curiosidade da lei Rouanet,
-          talvez você tenha interesse de continuar aprendendo sobre os seguintes tópicos:
-          o que é a lei, conceitos básicos como proposta, projeto e proponente.
-          Quem pode ser um proponente e as etapas de aprovação de um projeto.
-          A qualquer momento você pode tirar dúvidas sobre esses assuntos.
 
   utter_manter_conversa:
     - text: |
@@ -1383,31 +1310,13 @@ templates:
     - text: |
           Tudo bem, obrigada! Em que posso te ajudar?
 
-  utter_salic:
-    - text: |
-          Posso tirar dúvidas sobre o SALIC, por exemplo, como se cadastrar, como recuperar senha, e sobre alguns erros do sistema.
-
   utter_salic_preenchimento_cadastro_rubrica_advogado_contador:
     - text: |
           Orçamento do projeto > Custos por produto > Clicar no produto desejado
           Clicar no Local de realização > por último na aba Assessoria contábil e jurídica.
 
-  utter_introducao_passo_a_passo:
-    - text: |
-          Aqui vai um passo a passo do que você deve fazer:
-
-    - text: |
-          Vou te explicar as etapas do que você deve fazer:
-
-    - text: |
-          Você deve ir em:
-
-    - text: |
-          É só seguir as seguintes instruções:
-
 actions:
   - utter_default
-  - utter_restart
   - utter_cumprimentar
   - utter_despedir
   - utter_menu
@@ -1415,12 +1324,7 @@ actions:
   - utter_manter_conversa
   - utter_continuar_conversa
   - utter_objetivo
-  - utter_objetivo_siglas
-  - utter_objetivo_money
-  - utter_objetivo_lei_rouanet
-  - utter_retorno
   - utter_o_que_sei_falar
-  - utter_erro_resposta_utter
   - utter_quem_eh_a_tais
   - utter_diga_mais
   - utter_elogios
@@ -1430,7 +1334,6 @@ actions:
   - utter_captacao_quando_captar
   - utter_captacao_como_captar
 
-  - utter_definicao
   - utter_definicao_tais
   - utter_definicao_minc
   - utter_definicao_cnic
@@ -1478,8 +1381,6 @@ actions:
   - utter_processo_execucao
   - utter_processo_analise_de_resultados
   - utter_processo_como_funciona
-  - utter_processoProcessoCaptacaoDeRecursos
-  - utter_introducao_processo_situacao
   - utter_processo_situacao_processo_A12
   - utter_processo_situacao_processo_A14
   - utter_processo_situacao_processo_A20
@@ -1551,14 +1452,11 @@ actions:
   - utter_processo_situacao_processo_E47
   - utter_processo_situacao_processo_L06
 
-  - utter_salic
-  - utter_introducao_passo_a_passo
   - utter_salic_preenchimento_cadastro_rubrica_advogado_contador
   - utter_salic_preenchimento
   - utter_salic_preenchimento_campo_custo_auditoria
   - utter_salic_preenchimento_valor_ingresso
   - utter_salic_preenchimento_vinculo_cpf_proposta
-  - utter_preenchimentoVinculoDePropostas
   - utter_salic_preenchimento_cadastro_agencia_bancaria
   - utter_salic_erros
   - utter_salic_erros_planilha_desapareceu

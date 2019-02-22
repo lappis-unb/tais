@@ -1,14 +1,4 @@
 <!-- Definições -->
-## intent:definicao
-- o que você sabe conceituar
-- quais definições você conhece
-- definicoes
-- definições
-- qual é a definição
-- sobre definições
-- sobre definição
-- o que significa
-
 ## intent:definicao_tais
 - o que é Tais
 - o que significa Tais

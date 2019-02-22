@@ -142,19 +142,6 @@
 - ajuda
 - menu
 
-## intent:erro_resposta_utter
-- #errou
-- #erro
-- errou
-- erro
-- #erou
-- #errado
-- a tais errou
-- bot burro
-- burro
-- burra
-- tais burra
-
 ## intent:tudo_bem
 - Tudo bem
 - Como vocês esta
