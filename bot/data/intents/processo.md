@@ -134,6 +134,10 @@
 ## intent:processo_prazo_analise_proposta
 - qual é o prazo para análise de proposta
 - qual e o prazo para analise de proposta
+- análise de proposta, qual é o prazo
+- analise de proposta, qual e o prazo
+- analise de propostas, quanto tempo
+- qual é a data de avaliação de proposta
 - período análise de proposta
 - periodo analise de proposta
 - prazo de análise de proposta
@@ -170,6 +174,10 @@
 ## intent:processo_prazo_periodo_captacao
 - qual é o prazo para captacao
 - qual e o prazo para captacao
+- quanto tempo para a captacao de recursos
+- periodo de captacao
+- prazo de captacao
+- captacao, qual é o prazo
 - périodo captacao
 - periodo captacao
 - prazo captacao

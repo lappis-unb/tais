@@ -685,13 +685,6 @@ templates:
           Orçamento do projeto > Custos por produto > Clicar no produto desejado
           Clicar no Local de realização > por último na aba Assessoria contábil e jurídica.
 
-  utter_processo_prazo_desistir_recurso:
-    - text: |
-          A partir do momento em que seu projeto foi enquadrado, iniciou-se o prazo de 10 dias corridos para recorrer ao enquadramento proposto para o projeto
-          Caso concorde com o enquadramento dado é possível desistir desse prazo.
-
-          Ambas as manifestações se dão por via da aba "recurso" no Menu ao lado esquerdo da tela do projeto, no Salic
-
   utter_processo_prazo_analise_proposta:
     - text: |
           A Secretaria Especial da Cultura tem 60 dias para resposta, após a apresentação da proposta pelo proponente.
