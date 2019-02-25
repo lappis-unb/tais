@@ -10,24 +10,12 @@ train: train-nlu train-core
 run-rocketchat:
 	python3 run-rocketchat.py
 
-<<<<<<< Updated upstream
-run-console:
-	python3 -m rasa_core.run -d models/dialogue -u models/nlu/current --debug
-
 run-api:
-	python3 -m rasa_core.run -d models/dialogue -u models/nlu/current --debug --port 5005 --enable_api
-=======
-run-rest:
 	python3 -m rasa_core.run -d models/dialogue -u models/nlu/current --debug \
-	 --port 5005 -c rest
+  --port 5005 --enable_api
 
 run-console:
 	python3 -m rasa_core.run -d models/dialogue -u models/nlu/current --debug
-
-run-test:
-	python3 -m rasa_core.run -d models/dialogue -u models/nlu/current --debug \
-	  --port 5005 --enable_api
->>>>>>> Stashed changes
 
 train-online:
 	python3 -m rasa_core.train -d domain.yml -s data/stories -o \
@@ -38,6 +26,5 @@ evaluate:
 
 e2e:
 	python -m rasa_core.evaluate default --core models/dialogue \
-  --nlu models/nlu/current \
-  --stories e2e_stories.md --e2e
-
+	--nlu models/nlu/current \
+	--stories e2e/e2e_stories.md --e2e

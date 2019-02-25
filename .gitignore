@@ -2,6 +2,7 @@
 bot/models
 rasa_core.log
 errors.json
+bot/e2e/results
 
 ### Rasa evaluation ###
 notebooks/models/

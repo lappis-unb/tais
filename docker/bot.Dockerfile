@@ -14,8 +14,7 @@ add ./scripts /scripts
 
 workdir /bot
 
-env TRAINING_EPOCHS=20                    \
-    ROCKETCHAT_URL=rocketchat:3000         \
+env ROCKETCHAT_URL=rocketchat:3000         \
     MAX_TYPING_TIME=10                     \
     MIN_TYPING_TIME=1                      \
     WORDS_PER_SECOND_TYPING=5              \
@@ -26,7 +25,7 @@ env TRAINING_EPOCHS=20                    \
     ENVIRONMENT_NAME=localhost             \
     BOT_VERSION=last-commit-hash           \
     ENABLE_ANALYTICS=False                 \
-    ELASTICSEARCH_URL=elasticsearch:9200
+    ELASTICSEARCH_URL=elasticsearch:9200   
 
 cmd python /scripts/bot_config.py -r $ROCKETCHAT_URL                        \
            -an $ROCKETCHAT_ADMIN_USERNAME -ap $ROCKETCHAT_ADMIN_PASSWORD    \
