@@ -265,8 +265,6 @@
 - quantos ingressos podem ser de graça
 - há um limite de preço das entradas
 - qual o limite de valor das entradas
-- ingresso
-- ingressos
 
 ## intent:lei_rouanet_promocao_de_marca
 - é possível que o patrocinador faça a prospecção da sua marca em um projeto realizado com incentivo fiscal
@@ -290,7 +288,6 @@
 - há regras para a divulgação da marca do patrocinador no projeto
 - como a marca do patrocinador deve aparecer na divulgação
 - marca
-- patrocinador
 - divulgar marca
 
 ## intent:lei_rouanet_valores_pagamento_caches
@@ -427,7 +424,6 @@
  - acho que na 2
  - opção 2
  - na segunda
- - categoria 2
 
 ## intent:lei_rouanet_valor_maximo_geral
  - terceira opção
@@ -442,7 +438,6 @@
  - na 3
  - opção três
  - três
- - categoria 3
  - sobre todos
  - todos os perfis
  - os dois perfis

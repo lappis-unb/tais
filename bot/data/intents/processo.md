@@ -1,11 +1,4 @@
 <!-- Processo -->
-## intent:processo
-- quero falar sobre processo
-- vamos para processo
-- processo
-- acho que é processo
-- sobre processo
-
 ## intent:processo_como_funciona
 - como funciona o processo
 - como funciona a lei rouanet   
@@ -35,10 +28,8 @@
 
 ## intent:processo_preenchimento
 - o que é preenchimento
-- sobre preenchimento
 - defina preenchimento
 - o que devo fazer no preenchimento
-- preenchimento
 - documentos necessários
 - quais documentos anexar
 - o que anexar no preenchimento

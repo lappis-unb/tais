@@ -49,7 +49,6 @@ intents:
   - lei_rouanet_valor_maximo_geral
   - lei_rouanet_divulgacao_patrocinio
 
-  - processo
   - processo_como_funciona
   - processo_definicao_etapas
   - processo_preenchimento
@@ -1156,15 +1155,6 @@ templates:
           2- Clicar em CPF Proponente > Selecionar o CNPJ aparecerão todas as
           propostas ativas no sistema
 
-  utter_processo:
-    - text: |
-          Na categoria de processos eu posso responder dúvidas sobre:
-          Como Funciona
-          Situação do Processo
-          Definição das Etapas
-          Prazos
-          Reativação da proposta
-
   utter_elogios:
     - text: |
           Obrigada! É sempre bom dar e receber elogios :P
@@ -1369,7 +1359,6 @@ actions:
   - utter_lei_rouanet_decisao_final
   - utter_lei_rouanet_divulgacao_patrocinio
 
-  - utter_processo
   - utter_processo_reativacao_de_proposta
   - utter_processo_prazo
   - utter_processo_prazo_envio_cnae

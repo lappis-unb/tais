@@ -33,28 +33,21 @@
 
 ## intent:cumprimentar
 - oi
-- como vai
-- oi, como vai voce
-- como vao as coisas
-- com licenca
-- tudo bom
-- posso falar com voce
-- pode me tirar uma duvida
-- gostaria de tirar uma duvida
-- ola tais
-- oi tais
-- to bem
-- tranquilo
-- estou bem
-- estou otimo
-- muito bem
-- bom dia
-- boa tarde
-- boa noite
 - olá
 - oie
 - oiee
 - ola boa tarde
+- oi tais
+- ola tais, tudo bom
+- ola tais, que saudade de vc
+- oi tais saudades
+- oi, como vai você
+- posso falar com voce
+- pode me tirar uma duvida
+- gostaria de tirar uma duvida
+- bom dia
+- boa tarde
+- boa noite
 
 ## intent:elogios
 - Tais, você é muito educada!
@@ -75,7 +68,6 @@
 - sim, preenchi minha proposta
 - quero
 - por favor
-- tudo bem
 - ja
 - já
 - sim
@@ -99,7 +91,6 @@
 - nunca
 - nao
 - não
-- n
 - nao conheco
 - não quero
 - escolhi errado
@@ -145,7 +136,7 @@
 ## intent:tudo_bem
 - Tudo bem
 - Como vocês esta
-- como ta
+- como vc ta
 - joia
 - joinha
 - tudo bom
@@ -153,7 +144,7 @@
 - Tudo bem e você
 - como vc esta
 - como vai vc
-- como vai
+- esta tudo bem com você, Tais
 
 ## intent:quem_eh_a_tais
 - Quem te criou? 

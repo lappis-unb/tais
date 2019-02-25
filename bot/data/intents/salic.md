@@ -98,7 +98,6 @@
 - perdi a proposta
 
 ## intent:salic_preenchimento
-- sobre o preenchimento
 - instruções de preenchimento 
 - quero preencher proposta
 - instruir preenchimento
@@ -107,7 +106,6 @@
 - como preencher uma proposta
 - como preencher propostas
 - preencher proposta
-- preenchimento
 
 ## intent:salic_preenchimento_campo_custo_auditoria
 - campo custo de auditoria
@@ -143,7 +141,6 @@
 - como calcula o valor do ingresso
 - o ingresso do evento pode ser gratuito
 - valor do ingresso
-- ingresso
 
 ## intent:salic_preenchimento_vinculo_cpf_proposta
 - vincular uma proposta ao cpf do responsável

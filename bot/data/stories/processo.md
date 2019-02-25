@@ -1,10 +1,3 @@
-## Processo 0
-* cumprimentar 
-    - utter_cumprimentar 
-* processo
-    - utter_processo
-    - utter_continuar_conversa
-
 ## Processo 1
 * cumprimentar 
     - utter_cumprimentar 

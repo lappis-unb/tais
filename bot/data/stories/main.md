@@ -43,6 +43,12 @@
     - utter_despedir
 
 ## me ajuda
+* cumprimentar
+    - utter_cumprimentar
+* o_que_sei_falar
+    - utter_o_que_sei_falar
+
+## me ajuda 2
 * o_que_sei_falar
     - utter_o_que_sei_falar
 
