@@ -23,8 +23,7 @@
 
 ## Oi Quem e tais 2
 * quem_eh_a_tais
-    - utter_quem_eh_a_tais 
-    - utter_objetivo
+    - utter_quem_eh_a_tais
 
 ## Nao entendi
 * diga_mais
