@@ -221,30 +221,6 @@
 - projeto ilegal
 - como Denúncia de projetos
 
-## intent:lei_rouanet_receber_incetivo_de_parentes
-- meus parentes podem incentivar meu projeto
-- meus pais e tios podem incentivar meu projeto
-- tem problema parentes incentivarem projetos
-- tenho parentes que desejam incentivar meus projetos
-- parentes incentivando meus projetos
-- Parentes pode participar do mesmo projeto
-- meu irmão ou irmã, tio ou tia, primo ou prima, mãe ou pai incentivar
-- minha irmã quer incetivar meu projeto tem problema
-- meu projeto pode ser incentivado pela minha família
-- meus familiares podem incentivar meu projeto
-- parentes podem ser patrocinador
-- quero saber se meus parentes podem ajudar a financiar o meu projeto
-- incentivar
-- incentivado
-- incentivo
-- familiares
-- família
-- parente
-- ajudar
-- financiar
-- estimular
-- pais
-
 ## intent:lei_rouanet_remuneracao_proponente
 - o proponente autor do projeto é remunerado
 - ha limite para remuneração do proponente
@@ -289,8 +265,6 @@
 - quantos ingressos podem ser de graça
 - há um limite de preço das entradas
 - qual o limite de valor das entradas
-- ingresso
-- ingressos
 
 ## intent:lei_rouanet_promocao_de_marca
 - é possível que o patrocinador faça a prospecção da sua marca em um projeto realizado com incentivo fiscal
@@ -314,7 +288,6 @@
 - há regras para a divulgação da marca do patrocinador no projeto
 - como a marca do patrocinador deve aparecer na divulgação
 - marca
-- patrocinador
 - divulgar marca
 
 ## intent:lei_rouanet_valores_pagamento_caches
@@ -451,7 +424,6 @@
  - acho que na 2
  - opção 2
  - na segunda
- - categoria 2
 
 ## intent:lei_rouanet_valor_maximo_geral
  - terceira opção
@@ -466,31 +438,31 @@
  - na 3
  - opção três
  - três
- - categoria 3
  - sobre todos
  - todos os perfis
  - os dois perfis
  - sobre todos os perfis
  - de todos
 
-## intent:lei_rouanet_democratizacao
-- o que é democratização do acesso e formação de plateia
-- o que é democratização ao acesso
-- o que é formação de plateia
-- democratização de acesso formação de plateia
-- formação de plateia e democratização do acesso
-- é obrigatório realizar a formação de plateia 
-- é obrigatória realizar a formação de plateia 
-- é necessário a formação de plateia
-- como funciona a democratização do acesso
-- democratização de acesso à cultura
-- democratização e plateia
-- democratização de acesso
-- obrigatoriedade de formação de plateia
-- obrigatoriedade de democratização de acesso
-- realizar formação de plateia
-- promover o acesso cultural
-- promover acesso à cultura
-- formação de plateia
-- democratizacao
-- plateia
+## intent:lei_rouanet_divulgacao_patrocinio
+- como é feita a divulgação de patrocínio
+- como e feita a divulgacao de patrocinio
+- como promover marca do patrocinador
+- como promover minha marca
+- como fazer promoção de marca
+- como fazer promocao de marca
+- como fazer divulgação de marca
+- como fazer divulgacao de marca
+- como divulgar marca
+- promover marca do patrocinador
+- promoção de marca
+- promocao de marca
+- divulgacao de marca
+- divulgação de marca
+- marcas e produtos
+- divulgação de patrocínio
+- divulgacao de patrocinio
+- prospecção comercial
+- prospeccao comercial
+- divulgação
+- divulgacao

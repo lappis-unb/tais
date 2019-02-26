@@ -1,14 +1,4 @@
 <!-- Salic -->
-## intent:salic
-- me fale sobre o salic
-- quero saber sobre o salic
-- opção salic
-- o que é salic
-- o que eh salic
-- sobre salic
-- escolho salic
-- salic
-
 ## intent:salic_cadastro_usuario
 - como me cadastro no salic
 - como criar login no salic
@@ -108,7 +98,6 @@
 - perdi a proposta
 
 ## intent:salic_preenchimento
-- sobre o preenchimento
 - instruções de preenchimento 
 - quero preencher proposta
 - instruir preenchimento
@@ -117,7 +106,6 @@
 - como preencher uma proposta
 - como preencher propostas
 - preencher proposta
-- preenchimento
 
 ## intent:salic_preenchimento_campo_custo_auditoria
 - campo custo de auditoria
@@ -153,7 +141,6 @@
 - como calcula o valor do ingresso
 - o ingresso do evento pode ser gratuito
 - valor do ingresso
-- ingresso
 
 ## intent:salic_preenchimento_vinculo_cpf_proposta
 - vincular uma proposta ao cpf do responsável
