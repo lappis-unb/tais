@@ -68,7 +68,6 @@ intents:
   - processo_prazo_diligencias
   - processo_prazo_desarquivar
 
-  - processo_situacao_processo
 
   - salic_cadastro_usuario
   - salic_cadastro_proponente
@@ -712,22 +711,6 @@ templates:
   utter_processo_prazo_desarquivar:
     - text: |
           Não tem prazo para desarquivar a proposta.
-
-
-
-
-  utter_introducao_passo_a_passo:
-    - text: |
-          Aqui vai um passo a passo do que você deve fazer:
-
-    - text: |
-          Vou te explicar as etapas do que você deve fazer:
-
-    - text: |
-          Você deve ir em:
-
-    - text: |
-          É só seguir as seguintes instruções:
 
 actions:
   - utter_default
