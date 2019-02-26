@@ -148,9 +148,9 @@
 - analise de proposta
 
 ## intent:processo_prazo_analise_tecnica
-- qual é o prazo da analise de proposta
-- sobre analise de propostas, qual é o prazo
-- qual é o periodo de analise de proposta
+- qual é o prazo da analise tecnica
+- sobre analise técnica, qual é o prazo
+- qual é o periodo de analise tecnica
 - saber sobre analise tecnica
 - périodo técnica
 - periodo analise tecnica
@@ -197,8 +197,6 @@
 - prazo prestacao de contas
 - data prestação de contas
 - data prestacao de contas
-- prestação de contas
-- prestacao de contas
 
 ## intent:processo_prazo_diligencias
 - tenho duvida sobre o prazo de diligencias
