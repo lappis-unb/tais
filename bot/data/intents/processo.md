@@ -122,6 +122,9 @@
 - solicitar prorrogação de prazo
 
 ## intent:processo_prazo_envio_cnae
+- tenho duvida sobre o prazo de envio cnae
+- envio do cnae, qual é o prazo
+- envio do cnae, qual é o prazo limite
 - qual é o prazo limite para envio do cnae
 - até quando posso enviar o cnae
 - tem algum prazo para enviar o cnae
@@ -132,12 +135,9 @@
 - cnae
 
 ## intent:processo_prazo_analise_proposta
-- qual é o prazo para análise de proposta
-- qual e o prazo para analise de proposta
-- análise de proposta, qual é o prazo
-- analise de proposta, qual e o prazo
-- analise de propostas, quanto tempo
-- qual é a data de avaliação de proposta
+- qual é o prazo da analise de proposta
+- sobre analise de propostas, qual é o prazo
+- qual é o periodo de analise de proposta
 - período análise de proposta
 - periodo analise de proposta
 - prazo de análise de proposta
@@ -148,8 +148,10 @@
 - analise de proposta
 
 ## intent:processo_prazo_analise_tecnica
-- qual é o prazo para análise técnica
-- qual e o prazo para analise tecnica
+- qual é o prazo da analise de proposta
+- sobre analise de propostas, qual é o prazo
+- qual é o periodo de analise de proposta
+- saber sobre analise tecnica
 - périodo técnica
 - periodo analise tecnica
 - prazo análise técnica
@@ -160,8 +162,10 @@
 - analise tecnica
 
 ## intent:processo_prazo_readequacao
-- qual é o prazo para readequação
-- qual e o prazo para readequacao
+- posso saber sobre o periodo de readequacao
+- sobre o prazo de readequaçao
+- qual é o periodo de readequacao
+- qual é o prazo de readequacao
 - périodo readequação
 - periodo readequacao
 - prazo readequação
@@ -172,9 +176,6 @@
 - readequacao
 
 ## intent:processo_prazo_periodo_captacao
-- qual é o prazo para captacao
-- qual e o prazo para captacao
-- quanto tempo para a captacao de recursos
 - periodo de captacao
 - prazo de captacao
 - captacao, qual é o prazo
@@ -186,11 +187,13 @@
 - data captacao
 
 ## intent:processo_prazo_prestacao_contas
-- qual é o prazo para prestação de contas
-- qual e o prazo para prestacao de contas
+- qual é o periodo para prestar contas
+- qual é o prazo de prestação de contas
 - périodo prestação de contas
 - periodo prestacao contas
 - prazo prestação de contas
+- prazo para prestar contas
+- periodo para prestar contas
 - prazo prestacao de contas
 - data prestação de contas
 - data prestacao de contas
@@ -198,20 +201,22 @@
 - prestacao de contas
 
 ## intent:processo_prazo_diligencias
-- qual é o prazo para diligências
-- qual e o prazo para diligencias
-- périodo diligências
+- tenho duvida sobre o prazo de diligencias
+- diligências, qual é o prazo
+- diligências, qual é o prazo limite
+- qual é o prazo de diligências
+- periodo diligência
+- periodo de diligencia
 - periodo diligencias
 - prazo diligências
 - prazo diligencias
-- data diligências
+- data de diligencia
 - data diligencias
 - diligências
 - diligencias
 
 ## intent:processo_prazo_desarquivar
-- qual é o prazo para desarquivar proposta
-- qual e o prazo para desarquivar proposta
+- qual é o periodo para desarquivar propostas
 - périodo desarquivar
 - periodo desarquivar
 - prazo desarquivar

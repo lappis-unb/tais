@@ -560,7 +560,7 @@ templates:
   utter_processo_prazo:
     - text: |
           Posso responder suas dúvidas a respeito de Datas
-          e Prazos do seu projeto. Como: envio do CNAE e desistência de recurso
+          e Prazos do seu projeto. Como: envio do CNAE e desistência de recurso Envio de CNAE, prazos de análise de proposta e de readequação
 
   utter_processo_prazo_envio_cnae:
     - text: |
