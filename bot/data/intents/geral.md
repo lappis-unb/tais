@@ -32,30 +32,22 @@
 - tais, obrigado
 
 ## intent:cumprimentar
-- ola tais, como vai
-- oi, tudo bem
-- como vai
-- oi, como vai voce
-- como vao as coisas
-- com licenca
-- tudo bom
-- posso falar com voce
-- pode me tirar uma duvida
-- gostaria de tirar uma duvida
-- ola tais
-- to bem
-- tranquilo
-- estou bem
-- estou otimo
-- muito bem
-- bom dia
-- boa tarde
-- boa noite
+- oi
 - olá
 - oie
 - oiee
-- opa tudo bem
 - ola boa tarde
+- oi tais
+- ola tais, tudo bom
+- ola tais, que saudade de vc
+- oi tais saudades
+- oi, como vai você
+- posso falar com voce
+- pode me tirar uma duvida
+- gostaria de tirar uma duvida
+- bom dia
+- boa tarde
+- boa noite
 
 ## intent:elogios
 - Tais, você é muito educada!
@@ -76,7 +68,6 @@
 - sim, preenchi minha proposta
 - quero
 - por favor
-- tudo bem
 - ja
 - já
 - sim
@@ -99,6 +90,7 @@
 - não sei do que quero conversar
 - nunca
 - nao
+- não
 - nao conheco
 - não quero
 - escolhi errado
@@ -125,43 +117,34 @@
 - como ter acesso
 
 ## intent:o_que_sei_falar
-- #MEAJUDA
 - sobre o que você sabe falar
 - quais assuntos você fala
 - o que você sabe 
-- menu
 - lista de assuntos possiveis
 - quais as perguntas vc responde
 - quais as perquisar você responde
+- #MEAJUDA
 - MEAJDA
-
-## intent:erro_resposta_utter
-- #errou
-- #erro
-- errou
-- erro
-- #erou
-- #errado
-- a tais errou
-- bot burro
-- burro
-- burra
-- tais burra
+- #meajuda
+- # me ajuda
+- MEAJUDA
+- meajuda
+- me ajuda
+- ajuda
+- menu
 
 ## intent:tudo_bem
 - Tudo bem
-- Oi Tais. Tudo bem
 - Como vocês esta
-- como ta
+- como vc ta
 - joia
 - joinha
 - tudo bom
 - bom dia flor do dia
 - Tudo bem e você
 - como vc esta
-- oi tais. como vai vc
-- ola tais. tudo bem
--  como vai
+- como vai vc
+- esta tudo bem com você, Tais
 
 ## intent:quem_eh_a_tais
 - Quem te criou? 
@@ -191,3 +174,26 @@
 - Taís
 - vc é um humano
 - você eh um robo
+
+## intent:tem_wpp
+- vamos conversar pelo whatsapp
+- vamos conversar pelo wpp
+- vamos falar pelo wpp
+- podemos conversar pelo whatsapp
+- podemos conversar pelo zap
+- podemos conversar pelo wpp
+- me passa seu whatsapp
+- me manda teu wpp
+- me passa seu wpp
+- me passa seu zap
+- vc tem whatsapp
+- você ta no whatapp
+- voce ta no whatsapp
+- vc tá no whatsapp
+- você tem whatsapp
+- você tem zap
+- vc tem zap
+- vc tem wpp
+- você tem wpp
+- vc ta no wpp
+- whatsapp

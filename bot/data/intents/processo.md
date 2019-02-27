@@ -1,33 +1,4 @@
 <!-- Processo -->
-## intent:processo
-- quero falar sobre processo
-- vamos para processo
-- processo
-- acho que é processo
-- sobre processo
-
-## intent:processo_periodo
-- que data devo apresentar proposta
-- qual data devo me inscrever
-- que época devo enviar proposta
-- quando posso apresentar proposta
-- qual periodo para apresentar proposta
-- qual periodo para apresentar projeto
-- qual o periodo de submissao
-- quando posso enviar projeto
-- quando posso submeter uma proposta
-- periodo para submissao de proposta
-- periodo de submissao
-- inscrever proposta
-- inscrever projeto
-- data inscriçao
-- data para enviar
-- epoca inscriçao
-- prazo inscriçao
-- prazo submissao
-- prazo enviar
-- prazo envio
-
 ## intent:processo_como_funciona
 - como funciona o processo
 - como funciona a lei rouanet   
@@ -57,10 +28,8 @@
 
 ## intent:processo_preenchimento
 - o que é preenchimento
-- sobre preenchimento
 - defina preenchimento
 - o que devo fazer no preenchimento
-- preenchimento
 - documentos necessários
 - quais documentos anexar
 - o que anexar no preenchimento
@@ -153,6 +122,9 @@
 - solicitar prorrogação de prazo
 
 ## intent:processo_prazo_envio_cnae
+- tenho duvida sobre o prazo de envio cnae
+- envio do cnae, qual é o prazo
+- envio do cnae, qual é o prazo limite
 - qual é o prazo limite para envio do cnae
 - até quando posso enviar o cnae
 - tem algum prazo para enviar o cnae
@@ -161,6 +133,93 @@
 - prazo para enviar cnae
 - prazo de envio de cnae
 - cnae
+
+## intent:processo_prazo_analise_proposta
+- qual é o prazo da analise de proposta
+- sobre analise de propostas, qual é o prazo
+- qual é o periodo de analise de proposta
+- período análise de proposta
+- periodo analise de proposta
+- prazo de análise de proposta
+- prazo de analise de proposta
+- data avaliação de proposta
+- data avaliacao de proposta
+- análise de proposta
+- analise de proposta
+
+## intent:processo_prazo_analise_tecnica
+- qual é o prazo da analise tecnica
+- sobre analise técnica, qual é o prazo
+- qual é o periodo de analise tecnica
+- saber sobre analise tecnica
+- périodo técnica
+- periodo analise tecnica
+- prazo análise técnica
+- prazo analise tecnica
+- data avaliação técnica
+- data avaliacao tecnica
+- análise técnica
+- analise tecnica
+
+## intent:processo_prazo_readequacao
+- posso saber sobre o periodo de readequacao
+- sobre o prazo de readequaçao
+- qual é o periodo de readequacao
+- qual é o prazo de readequacao
+- périodo readequação
+- periodo readequacao
+- prazo readequação
+- prazo readequacao
+- data readequação
+- data readequacao
+- readequação
+- readequacao
+
+## intent:processo_prazo_periodo_captacao
+- periodo de captacao
+- prazo de captacao
+- captacao, qual é o prazo
+- périodo captacao
+- periodo captacao
+- prazo captacao
+- prazo captacao
+- data captacao
+- data captacao
+
+## intent:processo_prazo_prestacao_contas
+- qual é o periodo para prestar contas
+- qual é o prazo de prestação de contas
+- périodo prestação de contas
+- periodo prestacao contas
+- prazo prestação de contas
+- prazo para prestar contas
+- periodo para prestar contas
+- prazo prestacao de contas
+- data prestação de contas
+- data prestacao de contas
+
+## intent:processo_prazo_diligencias
+- tenho duvida sobre o prazo de diligencias
+- diligências, qual é o prazo
+- diligências, qual é o prazo limite
+- qual é o prazo de diligências
+- periodo diligência
+- periodo de diligencia
+- periodo diligencias
+- prazo diligências
+- prazo diligencias
+- data de diligencia
+- data diligencias
+- diligências
+- diligencias
+
+## intent:processo_prazo_desarquivar
+- qual é o periodo para desarquivar propostas
+- périodo desarquivar
+- periodo desarquivar
+- prazo desarquivar
+- data desarquivar
+- desarquivar
 
 ## intent:processo_prazo_desistir_recurso
 - desistir do prazo recursal
@@ -176,261 +235,16 @@
 - desistência
 - desistir
 
-## intent:processo_situacao_processo
-- o que significa [a12](situacao_processo)
-- o que significa [a14](situacao_processo)
-- tenho dúvida sobre o estado [a14](situacao_processo)
-- o que é estado [a14](situacao_processo)
-- onde posso saber mais sobre o estado [a14](situacao_processo)
-- o que significa [a20](situacao_processo)
-- tenho dúvida sobre o estado [a20](situacao_processo)
-- o que é estado [a20](situacao_processo)
-- onde posso saber mais sobre o estado [a20](situacao_processo)
-- o que significa [a23](situacao_processo)
-- tenho dúvida sobre o estado [a23](situacao_processo)
-- o que é estado [a23](situacao_processo)
-- onde posso saber mais sobre o estado [a23](situacao_processo)
-- o que significa [b01](situacao_processo)
-- tenho dúvida sobre o estado [b01](situacao_processo)
-- o que é estado [b01](situacao_processo)
-- onde posso saber mais sobre o estado [b01](situacao_processo)
-- o que significa [b14](situacao_processo)
-- tenho dúvida sobre o estado [b14](situacao_processo)
-- o que é estado [b14](situacao_processo)
-- onde posso saber mais sobre o estado [b14](situacao_processo)
-- o que significa [a13](situacao_processo)
-- tenho dúvida sobre o estado [a13](situacao_processo)
-- o que é estado [a13](situacao_processo)
-- onde posso saber mais sobre o estado [a13](situacao_processo)
-- o que significa [a16](situacao_processo)
-- tenho dúvida sobre o estado [a16](situacao_processo)
-- o que é estado [a16](situacao_processo)
-- onde posso saber mais sobre o estado [a16](situacao_processo)
-- o que significa [a17](situacao_processo)
-- tenho dúvida sobre o estado [a17](situacao_processo)
-- o que é estado [a17](situacao_processo)
-- onde posso saber mais sobre o estado [a17](situacao_processo)
-- o que significa [a42](situacao_processo)
-- tenho dúvida sobre o estado [a42](situacao_processo)
-- o que é estado [a42](situacao_processo)
-- onde posso saber mais sobre o estado [a42](situacao_processo)
-- o que significa [b11](situacao_processo)
-- tenho dúvida sobre o estado [b11](situacao_processo)
-- o que é estado [b11](situacao_processo)
-- onde posso saber mais sobre o estado [b11](situacao_processo)
-- o que significa [b20](situacao_processo)
-- tenho dúvida sobre o estado [b20](situacao_processo)
-- o que é estado [b20](situacao_processo)
-- onde posso saber mais sobre o estado [b20](situacao_processo)
-- o que significa [c09](situacao_processo)
-- tenho dúvida sobre o estado [c09](situacao_processo)
-- o que é estado [c09](situacao_processo)
-- onde posso saber mais sobre o estado [c09](situacao_processo)
-- o que significa [c10](situacao_processo)
-- tenho dúvida sobre o estado [c10](situacao_processo)
-- o que é estado [c10](situacao_processo)
-- onde posso saber mais sobre o estado [c10](situacao_processo)
-- o que significa [c20](situacao_processo)
-- tenho dúvida sobre o estado [c20](situacao_processo)
-- o que é estado [c20](situacao_processo)
-- onde posso saber mais sobre o estado [c20](situacao_processo)
-- o que significa [c26](situacao_processo)
-- tenho dúvida sobre o estado [c26](situacao_processo)
-- o que é estado [c26](situacao_processo)
-- onde posso saber mais sobre o estado [c26](situacao_processo)
-- o que significa [c30](situacao_processo)
-- tenho dúvida sobre o estado [c30](situacao_processo)
-- o que é estado [c30](situacao_processo)
-- onde posso saber mais sobre o estado [c30](situacao_processo)
-- o que significa [d03](situacao_processo)
-- tenho dúvida sobre o estado [d03](situacao_processo)
-- o que é estado [d03](situacao_processo)
-- onde posso saber mais sobre o estado [d03](situacao_processo)
-- o que significa [d14](situacao_processo)
-- tenho dúvida sobre o estado [d14](situacao_processo)
-- o que é estado [d14](situacao_processo)
-- onde posso saber mais sobre o estado [d14](situacao_processo)
-- o que significa [d20](situacao_processo)
-- tenho dúvida sobre o estado [d20](situacao_processo)
-- o que é estado [d20](situacao_processo)
-- onde posso saber mais sobre o estado [d20](situacao_processo)
-- o que significa [d25](situacao_processo)
-- tenho dúvida sobre o estado [d25](situacao_processo)
-- o que é estado [d25](situacao_processo)
-- onde posso saber mais sobre o estado [d25](situacao_processo)
-- o que significa [d27](situacao_processo)
-- tenho dúvida sobre o estado [d27](situacao_processo)
-- o que é estado [d27](situacao_processo)
-- onde posso saber mais sobre o estado [d27](situacao_processo)
-- o que significa [e25](situacao_processo)
-- tenho dúvida sobre o estado [e25](situacao_processo)
-- o que é estado [e25](situacao_processo)
-- onde posso saber mais sobre o estado [e25](situacao_processo)
-- o que significa [e62](situacao_processo)
-- tenho dúvida sobre o estado [e62](situacao_processo)
-- o que é estado [e62](situacao_processo)
-- onde posso saber mais sobre o estado [e62](situacao_processo)
-- o que significa [e66](situacao_processo)
-- tenho dúvida sobre o estado [e66](situacao_processo)
-- o que é estado [e66](situacao_processo)
-- onde posso saber mais sobre o estado [e66](situacao_processo)
-- o que significa [e20](situacao_processo)
-- tenho dúvida sobre o estado [e20](situacao_processo)
-- o que é estado [e20](situacao_processo)
-- onde posso saber mais sobre o estado [e20](situacao_processo)
-- o que significa [e27](situacao_processo)
-- tenho dúvida sobre o estado [e27](situacao_processo)
-- o que é estado [e27](situacao_processo)
-- onde posso saber mais sobre o estado [e27](situacao_processo)
-- o que significa [e30](situacao_processo)
-- tenho dúvida sobre o estado [e30](situacao_processo)
-- o que é estado [e30](situacao_processo)
-- onde posso saber mais sobre o estado [e30](situacao_processo)
-- o que significa [e68](situacao_processo)
-- tenho dúvida sobre o estado [e68](situacao_processo)
-- o que é estado [e68](situacao_processo)
-- onde posso saber mais sobre o estado [e68](situacao_processo)
-- o que significa [e77](situacao_processo)
-- tenho dúvida sobre o estado [e77](situacao_processo)
-- o que é estado [e77](situacao_processo)
-- onde posso saber mais sobre o estado [e77](situacao_processo)
-- o que significa [l03](situacao_processo)
-- tenho dúvida sobre o estado [l03](situacao_processo)
-- o que é estado [l03](situacao_processo)
-- onde posso saber mais sobre o estado [l03](situacao_processo)
-- o que significa [l05](situacao_processo)
-- tenho dúvida sobre o estado [l05](situacao_processo)
-- o que é estado [l05](situacao_processo)
-- onde posso saber mais sobre o estado [l05](situacao_processo)
-- o que significa [l08](situacao_processo)
-- tenho dúvida sobre o estado [l08](situacao_processo)
-- o que é estado [l08](situacao_processo)
-- onde posso saber mais sobre o estado [l08](situacao_processo)
-- o que significa [l10](situacao_processo)
-- tenho dúvida sobre o estado [l10](situacao_processo)
-- o que é estado [l10](situacao_processo)
-- onde posso saber mais sobre o estado [l10](situacao_processo)
-- o que significa [l11](situacao_processo)
-- tenho dúvida sobre o estado [l11](situacao_processo)
-- o que é estado [l11](situacao_processo)
-- onde posso saber mais sobre o estado [l11](situacao_processo)
-- o que significa [d22](situacao_processo)
-- tenho dúvida sobre o estado [d22](situacao_processo)
-- o que é estado [d22](situacao_processo)
-- onde posso saber mais sobre o estado [d22](situacao_processo)
-- o que significa [d28](situacao_processo)
-- tenho dúvida sobre o estado [d28](situacao_processo)
-- o que é estado [d28](situacao_processo)
-- onde posso saber mais sobre o estado [d28](situacao_processo)
-- o que significa [d29](situacao_processo)
-- tenho dúvida sobre o estado [d29](situacao_processo)
-- o que é estado [d29](situacao_processo)
-- onde posso saber mais sobre o estado [d29](situacao_processo)
-- o que significa [e10](situacao_processo)
-- tenho dúvida sobre o estado [e10](situacao_processo)
-- o que é estado [e10](situacao_processo)
-- onde posso saber mais sobre o estado [e10](situacao_processo)
-- o que significa [e11](situacao_processo)
-- tenho dúvida sobre o estado [e11](situacao_processo)
-- o que é estado [e11](situacao_processo)
-- onde posso saber mais sobre o estado [e11](situacao_processo)
-- o que significa [e12](situacao_processo)
-- tenho dúvida sobre o estado [e12](situacao_processo)
-- o que é estado [e12](situacao_processo)
-- onde posso saber mais sobre o estado [e12](situacao_processo)
-- o que significa [e13](situacao_processo)
-- tenho dúvida sobre o estado [e13](situacao_processo)
-- o que é estado [e13](situacao_processo)
-- onde posso saber mais sobre o estado [e13](situacao_processo)
-- o que significa [e15](situacao_processo)
-- tenho dúvida sobre o estado [e15](situacao_processo)
-- o que é estado [e15](situacao_processo)
-- onde posso saber mais sobre o estado [e15](situacao_processo)
-- o que significa [e16](situacao_processo)
-- tenho dúvida sobre o estado [e16](situacao_processo)
-- o que é estado [e16](situacao_processo)
-- onde posso saber mais sobre o estado [e16](situacao_processo)
-- o que significa [e23](situacao_processo)
-- tenho dúvida sobre o estado [e23](situacao_processo)
-- o que é estado [e23](situacao_processo)
-- onde posso saber mais sobre o estado [e23](situacao_processo)
-- o que significa [e24](situacao_processo)
-- tenho dúvida sobre o estado [e24](situacao_processo)
-- o que é estado [e24](situacao_processo)
-- onde posso saber mais sobre o estado [e24](situacao_processo)
-- o que significa [e36](situacao_processo)
-- tenho dúvida sobre o estado [e36](situacao_processo)
-- o que é estado [e36](situacao_processo)
-- onde posso saber mais sobre o estado [e36](situacao_processo)
-- o que significa [e59](situacao_processo)
-- tenho dúvida sobre o estado [e59](situacao_processo)
-- o que é estado [e59](situacao_processo)
-- onde posso saber mais sobre o estado [e59](situacao_processo)
-- o que significa [e63](situacao_processo)
-- tenho dúvida sobre o estado [e63](situacao_processo)
-- o que é estado [e63](situacao_processo)
-- onde posso saber mais sobre o estado [e63](situacao_processo)
-- o que significa [e64](situacao_processo)
-- tenho dúvida sobre o estado [e64](situacao_processo)
-- o que é estado [e64](situacao_processo)
-- onde posso saber mais sobre o estado [e64](situacao_processo)
-- o que significa [e65](situacao_processo)
-- tenho dúvida sobre o estado [e65](situacao_processo)
-- o que é estado [e65](situacao_processo)
-- onde posso saber mais sobre o estado [e65](situacao_processo)
-- o que significa [e75](situacao_processo)
-- tenho dúvida sobre o estado [e75](situacao_processo)
-- o que é estado [e75](situacao_processo)
-- onde posso saber mais sobre o estado [e75](situacao_processo)
-- o que significa [e79](situacao_processo)
-- tenho dúvida sobre o estado [e79](situacao_processo)
-- o que é estado [e79](situacao_processo)
-- onde posso saber mais sobre o estado [e79](situacao_processo)
-- o que significa [e80](situacao_processo)
-- tenho dúvida sobre o estado [e80](situacao_processo)
-- o que é estado [e80](situacao_processo)
-- onde posso saber mais sobre o estado [e80](situacao_processo)
-- o que significa [e81](situacao_processo)
-- tenho dúvida sobre o estado [e81](situacao_processo)
-- o que é estado [e81](situacao_processo)
-- onde posso saber mais sobre o estado [e81](situacao_processo)
-- o que significa [e60](situacao_processo)
-- tenho dúvida sobre o estado [e60](situacao_processo)
-- o que é estado [e60](situacao_processo)
-- onde posso saber mais sobre o estado [e60](situacao_processo)
-- o que significa [e72](situacao_processo)
-- tenho dúvida sobre o estado [e72](situacao_processo)
-- o que é estado [e72](situacao_processo)
-- onde posso saber mais sobre o estado [e72](situacao_processo)
-- o que significa [e50](situacao_processo)
-- tenho dúvida sobre o estado [e50](situacao_processo)
-- o que é estado [e50](situacao_processo)
-- onde posso saber mais sobre o estado [e50](situacao_processo)
-- o que significa [l09](situacao_processo)
-- tenho dúvida sobre o estado [l09](situacao_processo)
-- o que é estado [l09](situacao_processo)
-- onde posso saber mais sobre o estado [l09](situacao_processo)
-- o que significa [d38](situacao_processo)
-- tenho dúvida sobre o estado [d38](situacao_processo)
-- o que é estado [d38](situacao_processo)
-- onde posso saber mais sobre o estado [d38](situacao_processo)
-- o que significa [e22](situacao_processo)
-- tenho dúvida sobre o estado [e22](situacao_processo)
-- o que é estado [e22](situacao_processo)
-- onde posso saber mais sobre o estado [e22](situacao_processo)
-- o que significa [e73](situacao_processo)
-- tenho dúvida sobre o estado [e73](situacao_processo)
-- o que é estado [e73](situacao_processo)
-- onde posso saber mais sobre o estado [e73](situacao_processo)
-- o que significa [e78](situacao_processo)
-- tenho dúvida sobre o estado [e78](situacao_processo)
-- o que é estado [e78](situacao_processo)
-- onde posso saber mais sobre o estado [e78](situacao_processo)
-- o que significa [e47](situacao_processo)
-- tenho dúvida sobre o estado [e47](situacao_processo)
-- o que é estado [e47](situacao_processo)
-- onde posso saber mais sobre o estado [e47](situacao_processo)
-- o que significa [l06](situacao_processo)
-- tenho dúvida sobre o estado [l06](situacao_processo)
-- o que é estado [l06](situacao_processo)
-- onde posso saber mais sobre o estado [l06](situacao_processo)
+## intent:processo_prazo_desistir_recurso
+- desistir do prazo recursal
+- desistir do recurso
+- prazo pra encaminhar recurso
+- como é a desistência do prazo de recurso
+- sobre o prazo de ecaminhamento de recurso, como desisto dele
+- da pra desistir do prazo de recurso
+- após o enquadramento, como desisto do prazo de recurso?
+- qual o prazo para desisitr de entrar com o recurso?
+- não quero entrar com o recurso
+- quero desistir do prazo de recurso
+- desistência
+- desistir

@@ -106,16 +106,6 @@ Você pode acessar o site por padrão na url `localhost:8000`
 
 
 
-## Tests
-
-Para executar os testes automatizados do bot faça:
-
-```sh
-sudo docker-compose -f docker/pytest-docker-compose.yml up
-```
-
-
-
 ## Analytics
 
 ### Setup
