@@ -63,8 +63,6 @@ services:
     volumes:
       - ./bot:/bot
       - ./scripts:/scripts
-    command: "make run-api"
-
 
   actions:
     build:
