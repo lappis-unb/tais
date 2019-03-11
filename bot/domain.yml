@@ -84,7 +84,7 @@ intents:
   - salic_preenchimento_vinculo_cpf_proposta
   - salic_preenchimento_cadastro_agencia_bancaria
 
-  - action_test
+  - projeto_aleatorio
 
 entities:
   - situacao_processo
@@ -803,4 +803,4 @@ actions:
   - utter_salic_cadastro_usuario
   - utter_cadastro_salic_video
 
-  - action_test
+  - projeto_aleatorio
