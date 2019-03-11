@@ -86,6 +86,29 @@ services:
     volumes:
       - ./web/postgres-data:/var/lib/postgresql/data
 
+  # =================================== Kibana-Web ===================================
+  kibana-web:
+    build:
+      context: .
+      dockerfile: ./docker/kibana-web.Dockerfile
+    restart: unless-stopped
+    environment:
+      - PORT=8080
+      - ALLOWED_HOSTS=localhost
+      - PREFIX_URL=
+    volumes:
+      - ./kibana-web:/kibana-web
+    ports:
+      - 8080:8080
+    depends_on:
+      - kibana-webdb
+
+  kibana-webdb:
+    image: postgres:10.5
+    restart: unless-stopped
+    volumes:
+      - ./kibana-web/postgres-data:/var/lib/postgresql/data
+
 
 
   # =============================== Analytics =================================
