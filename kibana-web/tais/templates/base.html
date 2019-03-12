@@ -22,19 +22,26 @@
 
 	<body>
 		<main>
-            {% if user.is_authenticated %}
-                <button type="button" class="btn btn-outline-dark" id="btLogout" onclick="location.href='{% url 'logout'  %}'">Sair</button>
-            {% endif %}
-
-			<div class="jumbotron jumbotron-fluid">
-				<div class="container">
-					<div id="avatar">
-						<img src="{% static 'img/avatar.jpg' %}" />
+      {% if user.is_authenticated %}
+				<div id="topbar-collapsed" style="display: flex;">
+					<img id="icon-collapsed" src="{% static 'img/avatar.jpg' %}" />
+					<div id="description-collapsed" class="title-collapsed">
+						<p>Assistente Virtual da Secretaria Especial da Cultura</p>
 					</div>
-					<h1 class="display-3">Taís</h1>
-					<h2>Assistente Virtual da Secretaria Especial da Cultura</h2>
+					<button type="button" class="btn btn-outline-dark" id="btLogout" onclick="location.href='{% url 'logout'  %}'">Sair</button>
 				</div>
-			</div>
+			{% else %}
+				<div class="jumbotron jumbotron-fluid">
+					<div class="container">
+						<div id="avatar">
+							<img src="{% static 'img/avatar.jpg' %}" />
+						</div>
+						<h1 class="display-3">Taís</h1>
+						<h2>Assistente Virtual da Secretaria Especial da Cultura</h2>
+					</div>
+				</div>
+			{% endif %}
+
 
 			{% block content %}
 			{% endblock %}

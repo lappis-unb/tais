@@ -35,7 +35,22 @@ H1, H2{font-weight: bold;}
 #btLogout{
 	position: absolute;
 	right: 24px;
-	top:120px;
+  margin-top: 5px;
+}
+
+#topbar-collapsed {
+  width: 100%;
+  background: #34a853;
+  height: 50px;
+}
+
+#icon-collapsed {
+  height: 45px;
+  margin: 2.5px 0 0 5.75px;
+}
+
+#description-collapsed {
+  margin: 13px;
 }
 
 .jumbotron{
