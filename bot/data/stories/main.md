@@ -34,6 +34,10 @@
 * out_of_scope
     - utter_default
 
+## xingamento
+* xingamento
+    - utter_xingamento
+
 ## afirmar
 * afirmar
     - utter_manter_conversa
