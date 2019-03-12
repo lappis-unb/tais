@@ -1,14 +1,12 @@
 from python:3.6-slim
 
-run apt update && apt install -y git gcc make curl python3-tk
+run apt update && apt install -y git gcc make curl
 
 run python -m pip install --upgrade pip
 
 add ./bot.requirements.txt /tmp
-add ./dev.requirements.txt /tmp
 
 run pip install -r /tmp/bot.requirements.txt
-run pip install -r /tmp/dev.requirements.txt
 run python -c "import nltk; nltk.download('stopwords');"
 
 add ./bot /bot
