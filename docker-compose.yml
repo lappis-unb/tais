@@ -57,9 +57,23 @@ services:
       # - ELASTICSEARCH_PORT=443
     ports:
       - 5005:5005
+      - 5002:5002
+    depends_on:
+      - actions
     volumes:
       - ./bot:/bot
       - ./scripts:/scripts
+
+  actions:
+    build:
+      context: .
+      dockerfile: ./docker/actions.Dockerfile
+    ports:
+      - 5055:5055
+    volumes:
+      - ./bot/actions:/bot/actions
+      - ./bot/Makefile:/bot/Makefile
+    command: "make run-actions"
 
 
   # =================================== Web ===================================

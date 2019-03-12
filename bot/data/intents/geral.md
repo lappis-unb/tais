@@ -197,5 +197,3 @@
 - você tem wpp
 - vc ta no wpp
 - whatsapp
-- wpp
-- zap
