@@ -68,12 +68,6 @@ class TestsGenerator():
                 elif line != '' and intent_key != '':
                     self.intents_texts[intent_key].append(line[2:].strip())
 
-            #for intent_name, intent_texts in self.intents_texts.items():
-            #    print("\n\n")
-            #    print("INTENT NAME:",intent_name)
-            #    print(intent_texts)
-            #    print("\n\n")
-
     def generate_test_stories(self):
         path = 'tests'
         if os.path.exists(path):
