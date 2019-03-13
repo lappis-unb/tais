@@ -2,6 +2,9 @@ from rasa_core_sdk import Action
 from rasa_core_sdk.events import SlotSet
 import requests
 import random
+import logging
+
+logger = logging.getLogger(__name__) 
 
 class ActionTest(Action):
    def name(self):
@@ -16,5 +19,23 @@ class ActionTest(Action):
           dispatcher.utter_message(a)
         except ValueError:
           dispatcher.utter_message("Não consegui me conectar com o SALIC :/")
-          dispatcher.utter_message(ValueError)
+          logger.error(ValueError)
+
+class ActionInformacaoProjeto(Action):
+  def name(self):
+    return "informacao_projeto"
+  
+  def run(self, dispatcher, tracker, domain):
+    pronac = tracker.current_slot_values()['pronac']
+    try:
+      req = requests.request('GET', "http://api.salic.cultura.gov.br/v1/projetos/{}".format(pronac))
+      logger.warning('===================================')
+      logger.warning(req.json()['nome'])
+      logger.warning(req.json()['ano'])
+      logger.warning(req.json()['etapa'])
+      logger.warning('===================================')
+      dispatcher.utter_message("seu pronac é {}".format(pronac))
+    except ValueError:
+      dispatcher.utter_message("Não consegui me conectar com o SALIC :/")
+      logger.error(ValueError)
 

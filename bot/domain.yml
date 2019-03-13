@@ -85,10 +85,16 @@ intents:
   - salic_preenchimento_cadastro_agencia_bancaria
 
   - projeto_aleatorio
+  - pronac
 
 entities:
   - situacao_processo
   - lei_rouanet
+  - pronac
+
+slots:
+  pronac:
+    type: unfeaturized
 
 templates:
   utter_default:
@@ -804,3 +810,4 @@ actions:
   - utter_cadastro_salic_video
 
   - projeto_aleatorio
+  - informacao_projeto
