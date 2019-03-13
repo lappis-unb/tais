@@ -36,11 +36,13 @@ class ActionInformacaoProjeto(Action):
       proponente = req.json()['proponente']
       date = req.json()['data_inicio'].split('-')
       project_start_date = datetime.datetime(int(date[0]), int(date[1]), int(date[2]))
+      project_situation = req.json()["situacao"]
 
-      message = "Projeto {}\nEnviado por {} em {}\n{}\n".format(project_name.lower().title(),
+      message = "Projeto {}\nEnviado por {} em {}\n{}\nSituação do projeto: {}\n".format(project_name.lower().title(),
                                                               proponente.lower().title(),
                                                               project_start_date.strftime("%d/%m/%Y"),
-                                                              project_abstract)
+                                                              project_abstract,
+                                                              project_situation)
       logger.warning(message)
       dispatcher.utter_message(message)
 
