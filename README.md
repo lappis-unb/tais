@@ -110,8 +110,8 @@ Você pode acessar o site por padrão na url `localhost:8000`
 ### Setup
 
 ```
-sudo docker-compose run --rm -v $PWD/analytics:/analytics bot python /analytics/setup_elastic.py
 sudo docker-compose up -d elasticsearch
+sudo docker-compose run --rm -v $PWD/analytics:/analytics bot python /analytics/setup_elastic.py
 ```
 
 Lembre-se de setar as seguintes variaveis de ambiente no `docker-compose`.
