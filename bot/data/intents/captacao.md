@@ -1,5 +1,4 @@
 <!-- Captação -->
-
 ## intent:captacao
 - quero falar sobre captacao
 - tenho duvidas sobre captacao

@@ -1,5 +1,4 @@
 <!-- Lei Rouanet -->
-
 ## intent:lei_rouanet_o_que_eh
 - o que é [lei rouanet](lei_rouanet)
 - o que significa [ruane](lei_rouanet)

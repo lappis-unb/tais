@@ -1,4 +1,4 @@
-
+<!-- Geral -->
 ## intent:xingamento
 - abestado
 - anus
