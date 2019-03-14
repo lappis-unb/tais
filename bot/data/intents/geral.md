@@ -20,10 +20,12 @@
 - blefando
 - blefe
 - boazuda
+- boba
 - bobo
 - boboca
 - bobao
 - bobinho
+- bobinha
 - boceta
 - boco
 - bocó
@@ -44,6 +46,7 @@
 - bunda
 - bunduda
 - burro
+- burra
 - busseta
 - cabeça
 - chata
