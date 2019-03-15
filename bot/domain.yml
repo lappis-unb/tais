@@ -10,7 +10,7 @@ intents:
   - tudo_bem
   - elogios
   - tem_wpp
-  - xingamento
+  - expressoes_indesejadas
 
   - captacao
   - captacao_quando_captar
@@ -109,7 +109,7 @@ templates:
     - text: |
         Vamos tentar mais uma vez? Eu não consegui te entender direito, me pergunta de outro jeito?
 
-  utter_xingamento:
+  utter_expressoes_indesejadas:
     - text: |
         Hummm… Acho que o jeito que você está falando está um pouco estranho hein?!
         Que tal perguntar de novo de outra forma?
@@ -732,7 +732,7 @@ actions:
   - utter_diga_mais
   - utter_elogios
   - utter_tem_wpp
-  - utter_xingamento
+  - utter_expressoes_indesejadas
 
   - utter_captacao
   - utter_captacao_quando_captar

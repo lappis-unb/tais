@@ -34,9 +34,9 @@
 * out_of_scope
     - utter_default
 
-## xingamento
-* xingamento
-    - utter_xingamento
+## expressoes_indesejadas
+* expressoes_indesejadas
+    - utter_expressoes_indesejadas
 
 ## afirmar
 * afirmar

@@ -1,5 +1,5 @@
 <!-- Geral -->
-## intent:xingamento
+## intent:expressoes_indesejadas
 - abestado
 - anus
 - ânus
