@@ -45,8 +45,7 @@
 - bunduda
 - burra
 - busseta
-- cabeça
-- chata
+- cabeça chata
 - cachorra
 - cachorro
 - cadela
@@ -78,8 +77,6 @@
 - chota
 - chupada
 - chupado
-- clitoris
-- clitóris
 - cocaina
 - cocaína
 - coco
@@ -168,7 +165,6 @@
 - furão
 - furnica
 - furnicar
-- gay
 - golpista
 - gonorrea
 - gonorreia
