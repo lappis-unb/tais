@@ -18,3 +18,14 @@
 - me fale sobre o projeto do pronac [0927493](pronac)
 - quero saber do projeto [0439582](pronac)
 - me fale sobre o projeto do pronac [029385](pronac)
+
+## intent:informacoes_de_projeto
+- Queria saber sobre o meu projeto
+- Quero informacoes sobre um projeto
+- Você sabe informar o assunto do projeto 
+- Como está o andamento do projeto 
+- Tem como me informar sobre o projeto do meu amigo
+- Sabe do projeto do João
+- Como anda o projeto da Maria
+- Qual o assunto daquele projeto
+- Sabe me informar como esta o projeto

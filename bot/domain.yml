@@ -86,6 +86,7 @@ intents:
 
   - projeto_aleatorio
   - pronac
+  - informacoes_de_projeto
 
 entities:
   - situacao_processo
@@ -720,6 +721,10 @@ templates:
     - text: |
           Não tem prazo para desarquivar a proposta.
 
+  utter_informacoes_de_projeto:
+      - text: |
+            Você teria o pronac do projeto? Posso achar rapidinho aqui :)
+
 actions:
   - utter_default
   - utter_cumprimentar
@@ -811,3 +816,4 @@ actions:
 
   - projeto_aleatorio
   - informacao_projeto
+  - utter_informacoes_de_projeto
