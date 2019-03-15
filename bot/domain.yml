@@ -59,6 +59,7 @@ intents:
   - processo_analise_de_resultados
   - processo_reativacao_de_proposta
   - processo_prazo
+  - processo_prazo_apresentar_proposta
   - processo_prazo_envio_cnae
   - processo_prazo_desistir_recurso
   - processo_prazo_analise_proposta
@@ -690,6 +691,12 @@ templates:
           Orçamento do projeto > Custos por produto > Clicar no produto desejado
           Clicar no Local de realização > por último na aba Assessoria contábil e jurídica.
 
+  utter_processo_prazo_apresentar_proposta:
+    - text: |
+          O período anual para apresentação da sua proposta é de 1 fevereiro até 30 de setembro 
+          e nos demais casos de 1 fevereiro 30 de novembro. Sendo assim, o envio da proposta deve ocorrer com no mínimo 90 dias antes do início da execução.
+          Não vai esquecer de enviar na data certa, hein!
+
   utter_processo_prazo_analise_proposta:
     - text: |
           A Secretaria Especial da Cultura tem 60 dias para resposta, após a apresentação da proposta pelo proponente.
@@ -775,6 +782,7 @@ actions:
 
   - utter_processo_reativacao_de_proposta
   - utter_processo_prazo
+  - utter_processo_prazo_apresentar_proposta
   - utter_processo_prazo_envio_cnae
   - utter_processo_prazo_analise_proposta
   - utter_processo_prazo_analise_tecnica

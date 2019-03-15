@@ -121,6 +121,30 @@
 - prorrogação de prazo
 - solicitar prorrogação de prazo
 
+## intent: processo_prazo_apresentar_proposta
+- qual a data para apresentar um projeto
+- qual a data para apresentar uma proposta
+- qual a data para apresentação de projeto
+- qual a data para apresentação de proposta
+- quando devo enviar meu projeto
+- quando devo enviar a minha proposta
+- prazo para apresentar projeto
+- prazo para apresentar proposta
+- data de envio de projeto
+- data de envio de proposta
+- data para iniciar projeto
+- data para inciar proposta
+- data para apresentar projeto
+- data para apresentar proposta
+- apresentacao de projeto
+- apresentacao de proposta
+- apresentação de projeto
+- apresentação de proposta
+- apresentar projeto
+- apresentar proposta
+- enviar projeto
+- enviar proposta
+
 ## intent:processo_prazo_envio_cnae
 - tenho duvida sobre o prazo de envio cnae
 - envio do cnae, qual é o prazo
