@@ -60,6 +60,14 @@ intents:
   - processo_prazo
   - processo_prazo_envio_cnae
   - processo_prazo_desistir_recurso
+  - processo_prazo_analise_proposta
+  - processo_prazo_analise_tecnica
+  - processo_prazo_readequacao
+  - processo_prazo_periodo_captacao
+  - processo_prazo_prestacao_contas
+  - processo_prazo_diligencias
+  - processo_prazo_desarquivar
+
 
   - salic_cadastro_usuario
   - salic_cadastro_proponente
@@ -551,7 +559,7 @@ templates:
   utter_processo_prazo:
     - text: |
           Posso responder suas dúvidas a respeito de Datas
-          e Prazos do seu projeto. Como: envio do CNAE e desistência de recurso
+          e Prazos do seu projeto. Como: envio do CNAE e desistência de recurso Envio de CNAE, prazos de análise de proposta e de readequação
 
   utter_processo_prazo_envio_cnae:
     - text: |
@@ -676,6 +684,34 @@ templates:
           Orçamento do projeto > Custos por produto > Clicar no produto desejado
           Clicar no Local de realização > por último na aba Assessoria contábil e jurídica.
 
+  utter_processo_prazo_analise_proposta:
+    - text: |
+          A Secretaria Especial da Cultura tem 60 dias para resposta, após a apresentação da proposta pelo proponente.
+
+  utter_processo_prazo_analise_tecnica:
+    - text: |
+          Com exceção de projetos complexos e de patrimônio, as vinculadas tem o prazo de 30 dias após o envio para análise técnica.
+
+  utter_processo_prazo_readequacao:
+    - text: |
+          Para readequações orçamentais, o prazo é de 60 dias. Já solicitações diversas, o prazo é de 30 dias.
+
+  utter_processo_prazo_periodo_captacao:
+    - text: |
+          Em relação ao prazo de captação, são 36 meses a partir da data da publicação da portaria de autorização.
+
+  utter_processo_prazo_prestacao_contas:
+    - text: |
+          Envio da prestação de contas via salic deve ocorrer em até 60 dias após a expiração do prazo de execução.
+
+  utter_processo_prazo_diligencias:
+    - text: |
+           O prazo de diligências é 20 dias prorrogáveis por mais 20 dias.
+
+  utter_processo_prazo_desarquivar:
+    - text: |
+          Não tem prazo para desarquivar a proposta.
+
 actions:
   - utter_default
   - utter_cumprimentar
@@ -733,6 +769,13 @@ actions:
   - utter_processo_reativacao_de_proposta
   - utter_processo_prazo
   - utter_processo_prazo_envio_cnae
+  - utter_processo_prazo_analise_proposta
+  - utter_processo_prazo_analise_tecnica
+  - utter_processo_prazo_readequacao
+  - utter_processo_prazo_periodo_captacao
+  - utter_processo_prazo_prestacao_contas
+  - utter_processo_prazo_diligencias
+  - utter_processo_prazo_desarquivar
   - utter_processo_prazo_desistir_recurso
   - utter_processo_definicao_etapas
   - utter_processo_preenchimento
