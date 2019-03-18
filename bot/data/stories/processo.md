@@ -200,7 +200,9 @@
     - utter_cumprimentar
 * processo_prazo_apresentar_proposta
     - utter_processo_prazo_apresentar_proposta
+    - utter_continuar_conversa
 
 ## Processo 42
 * processo_prazo_apresentar_proposta
     - utter_processo_prazo_apresentar_proposta
+    - utter_continuar_conversa
