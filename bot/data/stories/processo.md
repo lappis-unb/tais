@@ -206,3 +206,10 @@
 * processo_prazo_apresentar_proposta
     - utter_processo_prazo_apresentar_proposta
     - utter_continuar_conversa
+
+## Processo 43
+* processo_prazo
+ - utter_processo_prazo
+* processo_prazo_apresentar_proposta
+    - utter_processo_prazo_apresentar_proposta
+    - utter_continuar_conversa
