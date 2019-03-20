@@ -694,9 +694,9 @@ templates:
 
   utter_processo_prazo_apresentar_proposta:
     - text: |
-          O período anual para apresentação da sua proposta é de 1 fevereiro até 30 de setembro 
-          e nos demais casos de 1 fevereiro até 30 de novembro. Sendo assim, o envio da proposta deve ocorrer com no mínimo 90 dias antes do início da execução.
-          Não vai esquecer de enviar na data certa, hein!
+          O período anual para apresentação da sua proposta é de 1 fevereiro até 30 de novembro. 
+          Sendo assim, o envio da proposta deve ocorrer com no mínimo 90 dias antes do início da execução.
+          Fique de olho no calendário (:
 
   utter_processo_prazo_analise_proposta:
     - text: |
