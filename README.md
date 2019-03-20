@@ -97,6 +97,25 @@ sudo docker-compose up -d web
 Você pode acessar o site por padrão na url `localhost:8000`
 
 
+## Dashboards Visualização
+
+Dashboards que disponibilizamos para a Secretaria Especial da Cultura. 
+
+### Setup
+
+```
+sudo docker-compose run --rm kibana-web python manage.py migrate
+sudo docker-compose run --rm kibana-web python manage.py createsuperuser
+```
+
+### Execução
+
+```
+sudo docker-compose up -d kibana-web
+```
+
+Você pode acessar o site por padrão na url `localhost:8080`
+
 
 
 ## Analytics
@@ -137,7 +156,6 @@ docker-compose up -d notebooks
 ```
 
 Acesse o notebook em `localhost:8888`
-
 
 
 ## Tutorial para levantar toda a stack
