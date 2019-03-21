@@ -613,19 +613,19 @@ templates:
 
   utter_continuar_conversa:
     - text: |
-          Você possui mais alguma pergunta?
+          O que mais você gostaria de perguntar?
     - text: |
           Em que mais posso te ajudar?
     - text: |
-          Você tem mais alguma dúvida?
+          Qual a sua próxima dúvida?
     - text: |
           Qual o próximo tema te interessa?
     - text: |
           O que mais você deseja saber?
     - text: |
-          Gostaria te retirar mais alguma dúvida?
+          O que mais você gostaria de saber?
     - text: |
-          Tem mais alguma dúvida?
+          O que mais você deseja perguntar?
 
   utter_despedir:
     - text: |
