@@ -712,6 +712,7 @@ templates:
   utter_processo_prazo_prestacao_contas:
     - text: |
           Envio da prestação de contas via salic deve ocorrer em até 60 dias após a expiração do prazo de execução.
+          Esse prazo não pode ser prorrogado.
 
   utter_processo_prazo_diligencias:
     - text: |

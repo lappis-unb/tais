@@ -81,6 +81,10 @@
 - o que devo fazer no análise de resultados
 - o que devo fazer no prestação de contas
 - tenho algumas duvidas sobre prestaçao de contas
+- posso prorrogar a entrega da prestação de contas
+- posso fazer prorrogação para a entrega de contas
+- posso prorrogar a prestação e contas
+- como prorrogar a prestação de contas
 - prestaçao de contas
 - prestacao de contas
 - analise de resultados
@@ -90,6 +94,7 @@
 - como funciona a prestação de contas
 - prestar contas
 - prestação de contas
+- prorrogar prestação de contas
 
 ## intent:processo_reativacao_de_proposta
 - posso encaminhar pedido de reativação
