@@ -278,14 +278,9 @@ templates:
 
   utter_lei_rouanet_quem_pode_ser_proponente:
     - text: |
-          Todo projeto cultural, de qualquer artista, produtor e agente cultural brasileiro, pode se beneficiar desta Lei e se candidatar à captação de recursos de renúncia fiscal.
-          A proponência pode ser feita por Pessoas físicas com atuação comprovada na área cultural, ou Pessoas jurídicas de natureza cultural com, no mínimo, dois anos de atividade,
-          podendo ser:
-
-          Pessoas jurídicas públicas da administração indireta
-          (autarquias, fundações culturais etc.)
-          ou pessoas jurídicas privadas com ou sem fins lucrativos
-          (empresas, cooperativas, fundações, ONGs, organizações culturais etc.)
+          Proponente é a pessoa responsável por apresentar, realizar e responder pelo projeto cultural. 
+          Pode ser uma pessoa física com atuação na área cultural ou pessoa jurídica de direito público ou privado, com ou sem fins lucrativos, 
+          cujo ato constitutivo ou instrumento congênere disponha sobre sua finalidade cultural.
 
   utter_lei_rouanet_origem_do_dinheiro:
     - text: |

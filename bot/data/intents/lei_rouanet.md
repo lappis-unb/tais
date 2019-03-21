@@ -44,8 +44,9 @@
 - quem pode apresentar projetos
 - quem pode apresentar proposta cultural
 - quem pode apresentar proposta
-- quem pode propor projetos via Lei Rouanet
+- quem pode propor projetos via lei rouanet
 - quem pode cadastrar projetos lei de incentivo
+- quem pode se cadastrar na lei rouanet
 - quem pode iniciar um projeto na lei rouanet
 - quem pode se aplicar
 - quem pode propor
