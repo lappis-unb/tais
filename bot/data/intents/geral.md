@@ -530,3 +530,26 @@
 - whatsapp
 - wpp
 - zap
+
+## intent:erro_resposta_utter
+- #errou
+- #erro
+- errou
+- erro
+- #erou
+- #errado
+- a tais errou
+- bot burro
+- burro
+- burra
+- tais burra
+
+## intent:definicao
+- o que você sabe conceituar
+- quais definições você conhece
+- definicoes
+- definições
+- qual é a definição
+- sobre definições
+- sobre definição
+- o que significa
