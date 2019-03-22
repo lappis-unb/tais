@@ -373,3 +373,11 @@
 * lei_rouanet_divulgacao_patrocinio
     - utter_lei_rouanet_divulgacao_patrocinio
     - utter_continuar_conversa
+
+## LeiRouanet 38
+* cumprimentar
+    - utter_cumprimentar
+    - utter_menu
+* lei_rouanet_democratizacao
+    - utter_lei_rouanet_democratizacao
+    - utter_manter_conversa
