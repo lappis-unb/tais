@@ -530,3 +530,17 @@
 - whatsapp
 - wpp
 - zap
+
+## intent:erro_resposta_utter
+- #errou
+- #erro
+- errou
+- erro
+- #erou
+- #errado
+- errado
+- respondeu errado
+- voce errou
+- voce respondeu errado
+- resposta errada
+- errou na resposta

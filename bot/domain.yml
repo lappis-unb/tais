@@ -49,6 +49,8 @@ intents:
   - lei_rouanet_valor_maximo_pessoa_juridica
   - lei_rouanet_valor_maximo_geral
   - lei_rouanet_divulgacao_patrocinio
+  - lei_rouanet_receber_incetivo_de_parentes
+  - lei_rouanet_democratizacao
 
   - processo_como_funciona
   - processo_definicao_etapas
@@ -70,7 +72,6 @@ intents:
   - processo_prazo_diligencias
   - processo_prazo_desarquivar
 
-
   - salic_cadastro_usuario
   - salic_cadastro_proponente
   - salic_recuperacao_de_senha
@@ -85,6 +86,8 @@ intents:
   - salic_preenchimento_valor_ingresso
   - salic_preenchimento_vinculo_cpf_proposta
   - salic_preenchimento_cadastro_agencia_bancaria
+
+  - erro_resposta_utter
 
 entities:
   - situacao_processo
@@ -722,6 +725,18 @@ templates:
     - text: |
           Não tem prazo para desarquivar a proposta.
 
+  utter_erro_resposta_utter:
+    - text: |
+          Obrigada pelo feedback. Espero que na próxima vez vou conseguir responder a tua pergunta corretamente Gostaria de fazer uma nova pergunta?
+
+  utter_lei_rouanet_democratizacao:
+    - text: |
+          A formação de plateia não é mais obrigatória e não é mais utilizado desde a IN 5.
+          Já a democratização ao acesso são medidas previstas nos artigos 20 e 21 da IN
+          que promovem e ampliam a possibilidade de fruição dos bens, produtos e ações culturais,
+          em especial para as camadas da população menos assistidas ou excluídas do exercício de seus diretos culturais
+          por sua condição socioeconômica ou outras circunstancias.
+
 actions:
   - utter_default
   - utter_cumprimentar
@@ -776,6 +791,7 @@ actions:
   - utter_lei_rouanet_analise_pela_cnic
   - utter_lei_rouanet_decisao_final
   - utter_lei_rouanet_divulgacao_patrocinio
+  - utter_lei_rouanet_democratizacao
 
   - utter_processo_reativacao_de_proposta
   - utter_processo_prazo
@@ -812,3 +828,5 @@ actions:
   - utter_salic_cadastro_proponente
   - utter_salic_cadastro_usuario
   - utter_cadastro_salic_video
+
+  - utter_erro_resposta_utter

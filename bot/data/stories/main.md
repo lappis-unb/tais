@@ -89,3 +89,7 @@
 ## o que sei falar
 * o_que_sei_falar
     - utter_o_que_sei_falar
+
+## erro resposta
+* erro_resposta_utter
+    - utter_erro_resposta_utter
