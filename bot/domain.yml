@@ -10,6 +10,7 @@ intents:
   - tudo_bem
   - elogios
   - tem_wpp
+  - expressoes_indesejadas
 
   - captacao
   - captacao_quando_captar
@@ -58,6 +59,7 @@ intents:
   - processo_analise_de_resultados
   - processo_reativacao_de_proposta
   - processo_prazo
+  - processo_prazo_apresentar_proposta
   - processo_prazo_envio_cnae
   - processo_prazo_desistir_recurso
   - processo_prazo_analise_proposta
@@ -107,6 +109,11 @@ templates:
 
     - text: |
         Vamos tentar mais uma vez? Eu não consegui te entender direito, me pergunta de outro jeito?
+
+  utter_expressoes_indesejadas:
+    - text: |
+        Hummm… Não gostei muito dessa expressão que você usou. 
+        Que tal falar de outra forma?
 
   utter_definicao_tais:
     - text: |
@@ -271,14 +278,9 @@ templates:
 
   utter_lei_rouanet_quem_pode_ser_proponente:
     - text: |
-          Todo projeto cultural, de qualquer artista, produtor e agente cultural brasileiro, pode se beneficiar desta Lei e se candidatar à captação de recursos de renúncia fiscal.
-          A proponência pode ser feita por Pessoas físicas com atuação comprovada na área cultural, ou Pessoas jurídicas de natureza cultural com, no mínimo, dois anos de atividade,
-          podendo ser:
-
-          Pessoas jurídicas públicas da administração indireta
-          (autarquias, fundações culturais etc.)
-          ou pessoas jurídicas privadas com ou sem fins lucrativos
-          (empresas, cooperativas, fundações, ONGs, organizações culturais etc.)
+          Proponente é a pessoa responsável por apresentar, realizar e responder pelo projeto cultural. 
+          Pode ser uma pessoa física com atuação na área cultural ou pessoa jurídica de direito público ou privado, com ou sem fins lucrativos, 
+          cujo ato constitutivo ou instrumento congênere disponha sobre sua finalidade cultural.
 
   utter_lei_rouanet_origem_do_dinheiro:
     - text: |
@@ -559,7 +561,8 @@ templates:
   utter_processo_prazo:
     - text: |
           Posso responder suas dúvidas a respeito de Datas
-          e Prazos do seu projeto. Como: envio do CNAE e desistência de recurso Envio de CNAE, prazos de análise de proposta e de readequação
+          e Prazos do seu projeto. Como: envio do CNAE e desistência de recurso Envio de CNAE, 
+          prazos de apresentação de um projeto, análise de proposta e de readequação. 
 
   utter_processo_prazo_envio_cnae:
     - text: |
@@ -605,19 +608,19 @@ templates:
 
   utter_continuar_conversa:
     - text: |
-          Você possui mais alguma pergunta?
+          O que mais você gostaria de perguntar?
     - text: |
           Em que mais posso te ajudar?
     - text: |
-          Você tem mais alguma dúvida?
+          Qual a sua próxima dúvida?
     - text: |
           Qual o próximo tema te interessa?
     - text: |
           O que mais você deseja saber?
     - text: |
-          Gostaria te retirar mais alguma dúvida?
+          O que mais você gostaria de saber?
     - text: |
-          Tem mais alguma dúvida?
+          O que mais você deseja perguntar?
 
   utter_despedir:
     - text: |
@@ -684,6 +687,12 @@ templates:
           Orçamento do projeto > Custos por produto > Clicar no produto desejado
           Clicar no Local de realização > por último na aba Assessoria contábil e jurídica.
 
+  utter_processo_prazo_apresentar_proposta:
+    - text: |
+          O período anual para apresentação da sua proposta é de 1 fevereiro até 30 de novembro. 
+          Sendo assim, o envio da proposta deve ocorrer com no mínimo 90 dias antes do início da execução.
+          Fique de olho no calendário (:
+
   utter_processo_prazo_analise_proposta:
     - text: |
           A Secretaria Especial da Cultura tem 60 dias para resposta, após a apresentação da proposta pelo proponente.
@@ -703,6 +712,7 @@ templates:
   utter_processo_prazo_prestacao_contas:
     - text: |
           Envio da prestação de contas via salic deve ocorrer em até 60 dias após a expiração do prazo de execução.
+          Esse prazo não pode ser prorrogado.
 
   utter_processo_prazo_diligencias:
     - text: |
@@ -726,6 +736,7 @@ actions:
   - utter_diga_mais
   - utter_elogios
   - utter_tem_wpp
+  - utter_expressoes_indesejadas
 
   - utter_captacao
   - utter_captacao_quando_captar
@@ -768,6 +779,7 @@ actions:
 
   - utter_processo_reativacao_de_proposta
   - utter_processo_prazo
+  - utter_processo_prazo_apresentar_proposta
   - utter_processo_prazo_envio_cnae
   - utter_processo_prazo_analise_proposta
   - utter_processo_prazo_analise_tecnica

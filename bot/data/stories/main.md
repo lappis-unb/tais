@@ -34,6 +34,10 @@
 * out_of_scope
     - utter_default
 
+## expressoes_indesejadas
+* expressoes_indesejadas
+    - utter_expressoes_indesejadas
+
 ## afirmar
 * afirmar
     - utter_manter_conversa

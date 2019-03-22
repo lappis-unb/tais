@@ -194,3 +194,22 @@
 ## Processo 40
 * processo_definicao_etapas
     - utter_processo_definicao_etapas
+
+## Processo 41
+* cumprimentar
+    - utter_cumprimentar
+* processo_prazo_apresentar_proposta
+    - utter_processo_prazo_apresentar_proposta
+    - utter_continuar_conversa
+
+## Processo 42
+* processo_prazo_apresentar_proposta
+    - utter_processo_prazo_apresentar_proposta
+    - utter_continuar_conversa
+
+## Processo 43
+* processo_prazo
+ - utter_processo_prazo
+* processo_prazo_apresentar_proposta
+    - utter_processo_prazo_apresentar_proposta
+    - utter_continuar_conversa
