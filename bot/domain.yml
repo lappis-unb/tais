@@ -729,10 +729,6 @@ templates:
     - text: |
           Obrigada pelo feedback. Espero que na próxima vez vou conseguir responder a tua pergunta corretamente Gostaria de fazer uma nova pergunta?
 
-  utter_definicao:
-    - text: |
-          Sei conceituar sobre o que é o MinC, Salic, Sefic, proposta, projeto e proponente, assim como falar sobre mim.
-
   utter_lei_rouanet_democratizacao:
     - text: |
           A formação de plateia não é mais obrigatória e não é mais utilizado desde a IN 5.
