@@ -581,7 +581,7 @@ templates:
     - text: |
           Oi, sou assistente virtual da Secretaria Especial da Cultura, me chamo Tais.
           Estou aqui para te guiar na inscrição do seu projeto ou esclarecer algumas dúvidas sobre a lei Rouanet,
-          Para saber de quais assuntos podemos conversar use a #MEAJUDA.
+          para saber de quais assuntos podemos conversar use a #MEAJUDA.
 
   utter_o_que_sei_falar:
     - text: |
@@ -677,7 +677,7 @@ templates:
 
   utter_tudo_bem:
     - text: |
-          Tudo bem, obrigada! Em que posso te ajudar?
+          Tudo bem, obrigada! Quero te ajudar!
 
   utter_salic_preenchimento_cadastro_rubrica_advogado_contador:
     - text: |
