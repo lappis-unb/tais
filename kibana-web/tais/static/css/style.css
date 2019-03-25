@@ -57,6 +57,14 @@ H1, H2{font-weight: bold;}
 .btn.focus, .btn:focus {
   box-shadow: none;
 }
+
+#subtitle-dropdown {
+  margin-left: 10px;
+  font-size: 12px;
+  margin-bottom: 5px;
+  color: #384356; 
+  font-weight: bold;
+}
 #topbar-collapsed {
   width: 100%;
   background: #384356;
