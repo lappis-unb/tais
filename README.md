@@ -78,6 +78,12 @@ sudo docker-compose run --rm bot make train
 sudo docker-compose run --rm bot make train-online
 ```
 
+### Gerar casos de teste
+
+Para gerar casos de teste a partir da base de dados atual, utilize o comando abaixo:
+```
+sudo docker-compose run --rm bot make test-dataset
+```
 
 ## Site do Beta
 
