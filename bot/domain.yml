@@ -96,13 +96,18 @@ entities:
 templates:
   utter_default:
     - text: |
-        Desculpa, eu não consegui entender a sua pergunta, eu sou uma AI (inteligência artificial) 
-        para eu entender melhor a linguagem humana, fica mais fácil quando você escreve uma pergunta de cada vez, 
-        fazendo perguntas curtas sobre os temas que eu sei responder, caso você tenha dúvida 
-        sobre o que podemos conversar, use a #MEAJUDA. 
-        A cada dia que passa aprendo mais com vocês!
-        Exemplos de perguntas: Como funciona a Lei Rouanet?
-                               Quem pode participar? 
+        Desculpe, ainda não sei falar sobre isso ou talvez não consegui entender direito
+        Você pode perguntar de novo de outro jeito?
+    - text: |
+        Poxa, acho que ainda não sei isso... Se não consegui responder tua pergunta,
+        entre no site da Rouanet (http://rouanet.cultura.gov.br/perguntas_frequentes_28_12/)
+        Mas se você perguntar de outra forma talvez eu consiga te responder
+    - text: |
+        Hummmm... Não sei se entendi. Pode escrever de outra forma?
+    - text: |
+        Acho que não te entendi, você pode me perguntar de novo usando outras palavras?
+    - text: |
+        Vamos tentar mais uma vez? Eu não consegui te entender direito, me pergunta de outro jeito?
 
   utter_expressoes_indesejadas:
     - text: |
@@ -576,7 +581,7 @@ templates:
     - text: |
           Oi, sou assistente virtual da Secretaria Especial da Cultura, me chamo Tais.
           Estou aqui para te guiar na inscrição do seu projeto ou esclarecer algumas dúvidas sobre a lei Rouanet,
-          Para saber de quais assuntos podemos conversar. Use e abuse da #MEAJUDA.
+          Para saber de quais assuntos podemos conversar use a #MEAJUDA.
 
   utter_o_que_sei_falar:
     - text: |
