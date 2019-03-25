@@ -35,13 +35,36 @@ H1, H2{font-weight: bold;}
 #btLogout{
 	position: absolute;
 	right: 24px;
-  margin-top: 5px;
+  margin-top: 3.5px;
+  color: white;
+  border-color: white;
 }
 
+.dropdown-collapsed {
+  background-color: transparent;
+  border: none;
+  color: white;
+  border-color: white !important;
+}
+
+.dropdown-collapsed:hover {
+  background-color: transparent;
+}
+
+.dropdown-collapsed:active {
+  border: none;
+}
+.btn.focus, .btn:focus {
+  box-shadow: none;
+}
 #topbar-collapsed {
   width: 100%;
-  background: #34a853;
-  height: 50px;
+  background: #384356;
+  height: 45px;
+}
+
+#topbar-collapsed img {
+  height: 88.8%;
 }
 
 #icon-collapsed {
@@ -50,9 +73,14 @@ H1, H2{font-weight: bold;}
 }
 
 #description-collapsed {
-  margin: 13px;
+  margin: 11.5px;
 }
 
+#description-collapsed p {
+  font-family: “Segoe UI”,Arial,Helvetica,sans-serif;
+  color: white;
+  font-weight: bold;
+}
 .jumbotron{
   background: #11998e;  /* fallback for old browsers */
   background: -webkit-linear-gradient(to bottom, #11998e, #38ef7d);  /* Chrome 10-25, Safari 5.1-6 */

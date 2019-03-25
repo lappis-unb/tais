@@ -9,7 +9,7 @@
 
 		<link rel="shortcut icon" href="{% static 'img/favicon.ico' %}" type="image/x-icon">
 		<link rel="icon" href="{% static 'img/favicon.ico' %}" type="image/x-icon">
-
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 		<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700&amp;subset=latin-ext" rel="stylesheet">
 
 		{% load bootstrap4 %}
@@ -24,11 +24,21 @@
 		<main>
       {% if user.is_authenticated %}
 				<div id="topbar-collapsed" style="display: flex;">
-					<img id="icon-collapsed" src="{% static 'img/avatar.jpg' %}" />
+					<img id="icon-collapsed" src="{% static 'img/Tdetais.svg' %}" />
 					<div id="description-collapsed" class="title-collapsed">
-						<p>Assistente Virtual da Secretaria Especial da Cultura</p>
+						<p>Visualização de Dados: Tais-Usuário</p>
 					</div>
-					<button type="button" class="btn btn-outline-dark" id="btLogout" onclick="location.href='{% url 'logout'  %}'">Sair</button>
+					<div class="btn-group" style="margin-left: auto" >
+					  <button class="btn dropdown-collapsed" data-toggle="dropdown">
+					    <i class="fa fa-th-list btn "></i>
+					  </button>
+					  <div class="dropdown-menu dropdown-menu-right">
+					    <a class="dropdown-item" href="#">Perfil de Usuário</a>
+					    <a class="dropdown-item" href="#">Trending</a>
+					    <div class="dropdown-divider"></div>
+					    <a class="dropdown-item" onclick="location.href='{% url 'logout'  %}'">Sair</a>
+					  </div>
+					</div>
 				</div>
 			{% else %}
 				<div class="jumbotron jumbotron-fluid">
