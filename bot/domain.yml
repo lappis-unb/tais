@@ -665,8 +665,6 @@ templates:
           Para lembrar dos assuntos que eu domino, é só digitar: #MEAJUDA :)
           Use e Abuse da #meajuda
 
-          E ai, como posso te ajudar?
-
   utter_tudo_bem:
     - text: |
           Tudo bem, obrigada! Em que posso te ajudar?
