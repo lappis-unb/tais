@@ -256,8 +256,6 @@ templates:
           Agora aguarde a chegada de um e-mail de confirmação. Este vai conter uma senha temporária
           É interessante você alterar esta senha, por isso, no seu primeiro acesso, vá em "Usuário > Alterar Senha", para mudar a mesma
 
-          Agora que você já se cadastrou, o próximo passo é cadastrar um proponente
-
   utter_lei_rouanet_quantidade_de_projetos:
     - text: |
           Até o momento foram enviadas mais de 240.000 propostas, das quais mais de 89.000 foram aprovadas, se tornando projetos.
@@ -554,6 +552,7 @@ templates:
 
   utter_salic_cadastro_proponente:
     - text: |
+          Agora que você já se cadastrou, o próximo passo é cadastrar um proponente
           Basta você entrar no Salic...
           clicar em Administrativo > Cadastrar proponente e preencher todos os dados
 
