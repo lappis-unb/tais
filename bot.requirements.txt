@@ -1,4 +1,3 @@
-tensorflow==1.13.0rc2
 rasa-core==0.13.1
 rasa-nlu==0.14.1
 rocketchat-py-sdk==0.0.8
