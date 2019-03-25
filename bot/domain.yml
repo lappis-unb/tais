@@ -96,8 +96,13 @@ entities:
 templates:
   utter_default:
     - text: |
-        Desculpe, ainda não sei falar sobre isso ou talvez não consegui entender direito
-        Você pode perguntar de novo de outro jeito?
+        Desculpa, eu não consegui entender a sua pergunta, eu sou uma AI (inteligência artificial) 
+        para eu entender melhor a linguagem humana, fica mais fácil quando você escreve uma pergunta de cada vez, 
+        fazendo perguntas curtas sobre os temas que eu sei responder, caso você tenha dúvida 
+        sobre o que podemos conversar, use a #MEAJUDA. 
+        A cada dia que passa aprendo mais com vocês!
+        Exemplos de perguntas: Como funciona a Lei Rouanet?
+                               Quem pode participar? 
 
   utter_expressoes_indesejadas:
     - text: |
