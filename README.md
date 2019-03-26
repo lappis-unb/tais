@@ -210,6 +210,6 @@ git push origin 0.7.0
 
 # Licença
 
-Todo o framework da Tais é desenvolvido sob a licença AGPL3 https://github.com/lappis-unb/tais/blob/master/LICENSE
+Todo o framework da Tais é desenvolvido sob a licença (GPL3)[https://github.com/lappis-unb/tais/blob/master/LICENSE]
 
 Uma lista da lista de dependência das licenças do projeto podem ser encontradas [aqui](https://github.com/lappis-unb/tais/network/dependencies)
