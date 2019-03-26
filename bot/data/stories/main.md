@@ -5,7 +5,6 @@
 ## Oi Tudo Bem Story
 * tudo_bem
     - utter_tudo_bem
-    - utter_menu
 
 ## Oi Tudo Bem Story 1
 * cumprimentar

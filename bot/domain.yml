@@ -98,18 +98,14 @@ templates:
     - text: |
         Desculpe, ainda não sei falar sobre isso ou talvez não consegui entender direito
         Você pode perguntar de novo de outro jeito?
-
     - text: |
         Poxa, acho que ainda não sei isso... Se não consegui responder tua pergunta,
         entre no site da Rouanet (http://rouanet.cultura.gov.br/perguntas_frequentes_28_12/)
         Mas se você perguntar de outra forma talvez eu consiga te responder
-
     - text: |
         Hummmm... Não sei se entendi. Pode escrever de outra forma?
-
     - text: |
         Acho que não te entendi, você pode me perguntar de novo usando outras palavras?
-
     - text: |
         Vamos tentar mais uma vez? Eu não consegui te entender direito, me pergunta de outro jeito?
 
@@ -259,8 +255,6 @@ templates:
 
           Agora aguarde a chegada de um e-mail de confirmação. Este vai conter uma senha temporária
           É interessante você alterar esta senha, por isso, no seu primeiro acesso, vá em "Usuário > Alterar Senha", para mudar a mesma
-
-          Agora que você já se cadastrou, o próximo passo é cadastrar um proponente
 
   utter_lei_rouanet_quantidade_de_projetos:
     - text: |
@@ -558,6 +552,7 @@ templates:
 
   utter_salic_cadastro_proponente:
     - text: |
+          Agora que você já se cadastrou, o próximo passo é cadastrar um proponente
           Basta você entrar no Salic...
           clicar em Administrativo > Cadastrar proponente e preencher todos os dados
 
@@ -585,7 +580,7 @@ templates:
     - text: |
           Oi, sou assistente virtual da Secretaria Especial da Cultura, me chamo Tais.
           Estou aqui para te guiar na inscrição do seu projeto ou esclarecer algumas dúvidas sobre a lei Rouanet,
-          Para saber de quais assuntos podemos conversar. Use e abuse da #MEAJUDA.
+          para saber de quais assuntos podemos conversar use a #MEAJUDA.
 
   utter_o_que_sei_falar:
     - text: |
@@ -679,11 +674,9 @@ templates:
           Para lembrar dos assuntos que eu domino, é só digitar: #MEAJUDA :)
           Use e Abuse da #meajuda
 
-          E ai, como posso te ajudar?
-
   utter_tudo_bem:
     - text: |
-          Tudo bem, obrigada! Em que posso te ajudar?
+          Tudo bem, obrigada! Quero te ajudar!
 
   utter_salic_preenchimento_cadastro_rubrica_advogado_contador:
     - text: |

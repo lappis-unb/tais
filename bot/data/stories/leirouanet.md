@@ -380,7 +380,7 @@
     - utter_menu
 * lei_rouanet_democratizacao
     - utter_lei_rouanet_democratizacao
-    - utter_manter_conversa
+    - utter_continuar_conversa
 
 ## LeiRouanet 39
 * cumprimentar
