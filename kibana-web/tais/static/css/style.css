@@ -1,11 +1,20 @@
-HTML, BODY{
+HTML, body {
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
-  height: 100%;
-  background-image: url("../img/background-kibana.png");
-  background-repeat: no-repeat;
+}
+
+body {
   background-size: cover;
-  background-position: center;
+  background-image: url("../img/background-kibana.png");
+  /* background-repeat: no-repeat;
+  background-position: center; */
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 H1, H2{font-weight: bold;}
@@ -131,19 +140,41 @@ H1, H2{font-weight: bold;}
 }
 
 .container {
-  border: 2px solid  #384356;
+  background: #384356;
+  position: relative;
   padding: 0;
   border-radius: 8px;
   display: flex;
   box-shadow:3px 3px 4px rgba(0, 0, 0, .3);
-
-}
-
-.description-tais {
   width: 50%;
-  background-color:  #384356;
+  height: 300px;
+  margin: auto;
+  overflow: hidden;
 }
 
+.tais-container {
+  width: 50%;
+  display: block;
+  margin: auto 0;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.tais-container img{
+  width: 105px;
+}
+
+.tais-container p{
+  margin: 0;
+  font-family: “Segoe UI”,Arial,Helvetica,sans-serif;
+  color: white;
+}
+
+.login-container {
+    width: 50%;
+    background-color: white;
+}
 HEADER P{
   font-size: 1.1em;
 }

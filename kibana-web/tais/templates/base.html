@@ -21,7 +21,6 @@
 	</head>
 
 	<body>
-		<main>
       {% if user.is_authenticated %}
 				<div id="topbar-collapsed" style="display: flex;">
 					<img id="icon-collapsed" src="{% static 'img/Tdetais.svg' %}" />
@@ -56,6 +55,5 @@
 
 			{% block content %}
 			{% endblock %}
-		</main>
 	</body>
 </html>
