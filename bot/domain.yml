@@ -670,9 +670,8 @@ templates:
     - text: |
           Podemos conversar sobre como submeter um projeto, as etapas, algumas dúvidas operacionais…
           Ou se você já tiver um projeto cadastrado, a gente pode falar sobre isso também.
-
+          E aí, por onde vamos começar?
           Para lembrar dos assuntos que eu domino, é só digitar: #MEAJUDA :)
-          Use e Abuse da #meajuda
 
   utter_tudo_bem:
     - text: |
