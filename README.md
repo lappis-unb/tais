@@ -10,23 +10,20 @@ Esse repositório contém o código do framework do chatbot Tais, composto por:
 * **Web:** Página com verificação de usuário para BetaTesters.
 ---
 <!-- Links uteis: -->
-* **O que é a Tais? 🤔** [Conheça a Tais](https://github.com/lappis-unb/tais/wiki)
+* **O que é a Tais? 🤔** [Conheça a Tais](#O-que-é-a-Tais?)
 
+* **Quero ler a documentação! 📚** [Veja a nossa wiki](https://github.com/lappis-unb/tais/wiki) 
 * **O que é o Lappis? ✏️** [Conheça o Lappis](https://lappis-unb.gitlab.io)
 
 * **Estou preparado para testar a Tais! 💻** [Teste a tais em produção](http://rouanet.cultura.gov.br)
 
 * **Como posso rodar a Tais no meu computador? ❓** [Veja como subir o ambiente de desenvolvimento da Taís](#Como-rodar-a-TAIS)
 
-* **Gostaria de Contribuir! 🤗** [Veja como contribuir]()
+* **Gostaria de Contribuir! 🤗** [Veja como contribuir](#Como-Contribuir)
 
 ---
-
-# Como conseguir ajuda
-
-Parte da documentação técnica do framework da Tais está disponível na [wiki do repositório](https://github.com/lappis-unb/tais/wiki). Caso não encontre sua resposta, abra uma issue que tentaremos responder o mais rápido possível.
-
-Também estamos presentes no grupo [Telegram Rasa Stack Brasil](https://t.me/RasaBrasil).
+# O que é a Tais?
+A Tais é um chatbot desenvolvido pelo [LAPPIS](https://lappis-unb.gitlab.io) junto com o Ministerio da Cultura para o projeto da Lei Rouanet. A Lei Rouanet é o principal mecanismo de fomento a cultura do Brasil, e a Tais tem o objetivo de ajudar os proponentes nos momentos de dúvida. Para saber mais sobre o que é a Lei Rouanet, SALIC e como funciona todo o processo acesse o [Portal da Lei Rouanet](http://rouanet.cultura.gov.br/) lá Tais está em produção e também pode explicar esses conceitos.
 
 # Como Contribuir
 
@@ -34,12 +31,18 @@ Ficaremos muito felizes de receber e incorporar suas contribuições. Tem alguma
 
 Em geral o processo é bem simples:
 
-- Crie uma issue descrevendo uma feature  que você queira trabalhar (ou olhe as issues com o label `help wanted` e `good-first-issue`)
+- Crie uma issue descrevendo uma feature  que você queira trabalhar (ou olhe as issues com o label `help-wanted` e `good-first-issue`)
 - Escreva seu código, testes e documentação 
 - Abra um pull request descrevendo as suas alterações propostas
 - Seu pull request será revisado por um dos mantenedores, que pode levantar questões para você sobre eventuais mudanças necessárias ou questões. 
 
 Leia o código de [Conduta]() e [Contribuição]() para melhores informações.
+
+# Como conseguir ajuda
+
+Parte da documentação técnica do framework da Tais está disponível na [wiki do repositório](https://github.com/lappis-unb/tais/wiki). Caso não encontre sua resposta, abra uma issue que tentaremos responder o mais rápido possível.
+
+Também estamos presentes no grupo [Telegram Rasa Stack Brasil](https://t.me/RasaBrasil).
 
 
 # Como Rodar a TAIS
@@ -111,6 +114,7 @@ sudo docker-compose run --rm bot make run-console
 Essa forma de rodar tras também os logs e previsão de intents do Rasa.
 
 ### Train Online
+<!-- ??? -->
 
 ```
 sudo docker-compose run --rm bot make train
@@ -119,8 +123,10 @@ sudo docker-compose run --rm bot make train-online
 
 
 ## Site do Beta
+Nesse repositório temos tambem o site para beta testers da Tais. Ele se conecta com a Tais via RocketChat, então para ela estar hospedada é necessário [subir o RocketChat](#RocketChat).
 
 ### Setup
+Antes de roda-lo é necessário fazer algumas configurações e criar um usuário. Para isso rode os comandos abaixo e crie o seu usuário.
 
 ```
 sudo docker-compose run --rm web python manage.py migrate
@@ -128,17 +134,15 @@ sudo docker-compose run --rm web python manage.py createsuperuser
 ```
 
 ### Execução
-
+Para rodar o site em `localhost`suba o container com esse comando:
 ```
 sudo docker-compose up -d web
 ```
 
-Você pode acessar o site por padrão na url `localhost:8000`
-
-
-
+Você pode acessar o site por padrão na url `http://localhost:8000`. Será necessário fazer o login, com o usuário criado, esse usuário é um super usuário, então ele tem acesso a parte admin, que poderá ser acessada em `http://localhost:8000/admin/` e poderá criar novos usuários.
 
 ## Analytics
+<!-- Ver exatamente como funciona isso -->
 
 ### Setup
 
@@ -192,6 +196,10 @@ sudo docker-compose run --rm -v $PWD/analytics:/analytics bot python /analytics/
 # aguarde 3 minutos para o rocketchat terminar de levantar
 sudo docker-compose up -d bot
 ```
+
+# Entenda a Arquitetura
+
+<!-- Falar sobre a arquitetura que estamos usando e as tecnologias -->
 
 
 # Passos necessários para gerar uma nova release
