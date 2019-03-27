@@ -2,6 +2,10 @@ HTML, BODY{
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
   height: 100%;
+  background-image: url("../img/background-kibana.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
 H1, H2{font-weight: bold;}
@@ -62,7 +66,7 @@ H1, H2{font-weight: bold;}
   margin-left: 10px;
   font-size: 12px;
   margin-bottom: 5px;
-  color: #384356; 
+  color: #384356;
   font-weight: bold;
 }
 #topbar-collapsed {
@@ -124,6 +128,20 @@ H1, H2{font-weight: bold;}
 
 #maintenance{
 	text-align: center;
+}
+
+.container {
+  border: 2px solid  #384356;
+  padding: 0;
+  border-radius: 8px;
+  display: flex;
+  box-shadow:3px 3px 4px rgba(0, 0, 0, .3);
+
+}
+
+.description-tais {
+  width: 50%;
+  background-color:  #384356;
 }
 
 HEADER P{
