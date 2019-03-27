@@ -98,20 +98,16 @@ templates:
     - text: |
           Desculpe, ainda não sei falar sobre isso ou talvez não consegui entender direito
           Você pode perguntar de novo de outro jeito?
-          Se precisar lembrar dos assuntos que eu sei falar, digite #MEAJUDA
     - text: |
           Poxa, acho que ainda não sei isso... Se não consegui responder tua pergunta,
           entre no site da Rouanet (http://rouanet.cultura.gov.br/perguntas_frequentes_28_12/)
           Mas se você perguntar de outra forma talvez eu consiga te responder
     - text: |
           Hummmm... Não sei se entendi. Pode escrever de outra forma?
-          Caso queira lembrar dos assuntos que eu sei falar, digite #MEAJUDA
     - text: |
           Acho que não te entendi, você pode me perguntar de novo usando outras palavras?
-          Para lembrar dos assuntos que eu sei falar, digite #MEAJUDA
     - text: |
           Vamos tentar mais uma vez? Eu não consegui te entender direito, me pergunta de outro jeito?
-          Caso precise lembrar dos assuntos que eu sei falar, digite #MEAJUDA
 
   utter_expressoes_indesejadas:
     - text: |
@@ -589,12 +585,19 @@ templates:
   utter_o_que_sei_falar:
     - text: |
           Veja alguns dos assuntos que eu posso te ajudar (:
-          O que é a Lei de Incentivo Cultural e como funciona
-          Dúvidas operacionais sobre a execução do projeto (ex: perdi minha senha no SALIC)
-          Ou dúvidas sobre definições, nomenclaturas, e informações relacionadas à lei e sobre Secretaria Especial da Cultura.
-          Para eu entender melhor a linguagem humana, fica mais fácil quando você escreve uma pergunta de cada vez e faz perguntas curtas sobre os temas que eu sei responder. 
-          Exemplos de perguntas: Como funciona a Lei Rouanet?
-          Agora pode me fazer tua pergunta!
+          O que é a Lei Rouanet e como funciona
+          Dúvidas operacionais sobre a execução do projeto 
+          (ex: perdi minha senha no SALIC)
+          Ou dúvidas sobre definições e siglas 
+          (ex: o que é SEFIC?)
+
+          Agora que você já sabe do que podemos conversa, vou te dar algumas dicas...
+          Eu consigo te entender melhor quando você me faz perguntas curtas
+          e me manda uma pergunta de cada vez. 
+          Assim... espera eu responder uma pergunta
+          daí você me manda outra!
+
+          Espero poder te ajudar, qual a sua pergunta?
 
   utter_objetivo:
     - text: |
@@ -673,8 +676,9 @@ templates:
     - text: |
           Podemos conversar sobre como submeter um projeto, as etapas, algumas dúvidas operacionais…
           Ou se você já tiver um projeto cadastrado, a gente pode falar sobre isso também.
-          E aí, por onde vamos começar?
           Para lembrar dos assuntos que eu domino, é só digitar: #MEAJUDA :)
+          E aí, por onde vamos começar?
+
 
   utter_tudo_bem:
     - text: |
