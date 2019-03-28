@@ -6,13 +6,12 @@ HTML, body {
 body {
   background-size: cover;
   background-image: url("../img/background-kibana.png");
-  /* background-repeat: no-repeat;
-  background-position: center; */
   width: 100%;
   height: 100%;
   position: absolute;
-  overflow: hidden;
   display: flex;
+  flex-direction: column;
+  overflow: hidden;
   justify-content: center;
   align-items: center;
 }
@@ -171,9 +170,53 @@ H1, H2{font-weight: bold;}
   color: white;
 }
 
-.login-container {
-    width: 50%;
-    background-color: white;
+.login-container{
+  background-color: white;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+#login-struct p {
+  color: #384356;
+  font-weight: bold;
+}
+
+#login-submit {
+  background-color: #68c171;
+  padding-top: 0;
+  padding-bottom: 3;
+  font-weight: bold;
+  color: white;
+  font-variant: small-caps;
+  height: 30px;
+  vertical-align: middle;
+}
+
+.form-group input{
+  font-family: “Segoe UI”,Arial,Helvetica,sans-serif;
+  font-size: 12px;
+  height: 35px;
+}
+
+.form-group input:first-child {
+  background-image: url("../img/icone_usuario.svg");
+  background-repeat: no-repeat;
+  background-size: 20px;
+  background-position: 5px;
+  padding-left: 30px;
+  margin-top: 30px;
+  margin-bottom: 15px;
+}
+
+.form-group input:last-child {
+  background-image: url("../img/icone_chave.svg");
+  background-repeat: no-repeat;
+  background-size: 20px;
+  background-position: 5px;
+  padding-left: 30px;
 }
 HEADER P{
   font-size: 1.1em;
