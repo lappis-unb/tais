@@ -13,11 +13,12 @@ variables:
 
 cache:
   paths:
-    - .cache/pip
+    - .cache/pip/
     - venv/
 
 .prepare_tests_dependencies: &tests_dependencies
   before_script:
+    - echo $CI_PROJECT_DIR
     - python -V # Print out python version for debugging
     - pip -V
     - python -m pip install --upgrade pip
@@ -30,7 +31,7 @@ test style:
   stage: test
   script:
     - pip install -r dev.requirements.txt
-    - flake8
+    - flake8 --exclude venv
 
 run dataset validator:
   <<: *tests_dependencies
