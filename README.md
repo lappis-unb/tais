@@ -1,5 +1,7 @@
 # Tais - Assistente Virtual da Cultura
 <!-- badges -->
+<a href="https://www.gnu.org/licenses/gpl-3.0.pt-br.html"><img src="https://img.shields.io/badge/licence-GPL3-green.svg"/></a>
+<a href="https://codeclimate.com/github/lappis-unb/tais/maintainability"><img src="https://api.codeclimate.com/v1/badges/64786c126eb53a061bb6/maintainability" /></a>
 
 A Taís é uma assistente virtual desenvolvida pelo LAPPIS - Laboratório Avançado de Produção, Pesquisa e Inovação em Software (FGA/UnB), em parceria com o Ministério da Cultura. O nome é uma sigla para Tecnologia de Aprendizado Interativo do Salic. 
 
