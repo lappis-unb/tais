@@ -10,7 +10,7 @@ Esse repositório contém o código do framework do chatbot Tais, composto por:
 * **Web:** Página com verificação de usuário para Beta Testers.
 ---
 <!-- Links uteis: -->
-* **O que é a Tais? 🤔** [Conheça a Tais](#O-que-é-a-Tais?)
+* **O que é a Tais? 🤔** [Conheça a Tais](#o-que-é-a-tais)
 * **Quero ler a documentação! 📚** [Veja a nossa wiki](https://github.com/lappis-unb/tais/wiki)
 * **O que é o Lappis? ✏️** [Conheça o Lappis](https://lappis-unb.gitlab.io)
 * **Estou preparado para testar a Tais! 💻** [Teste a tais em produção no Portal da Lei Rouanet](http://rouanet.cultura.gov.br) ou [veja ela em produção em nosso github pages](http://lappis-unb.github.io/tais)
