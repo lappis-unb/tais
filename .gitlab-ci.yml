@@ -1,87 +1,124 @@
+image: python:latest
+
 stages:
-  - build
-  - deploy
+  - test
+#  - build
+#  - deploy
 
 variables:
   BOT_LATEST_IMAGE: $CI_REGISTRY_IMAGE/bot:latest
   ACTIONS_LATEST_IMAGE: $CI_REGISTRY_IMAGE/actions:latest
   WEB_LATEST_IMAGE: $CI_REGISTRY_IMAGE/web:latest
+  PIP_CACHE_DIR: "$CI_PROJECT_DIR/.cache/pip"
 
-  BOT_STABLE_IMAGE: $CI_REGISTRY_IMAGE/bot:stable
-  ACTIONS_STABLE_IMAGE: $CI_REGISTRY_IMAGE/actions:stable
-  WEB_STABLE_IMAGE: $CI_REGISTRY_IMAGE/web:stable
+cache:
+  paths:
+    - .cache/pip
+    - venv/
 
-build stable:
-  image: docker:latest
-  stage: build
-  services:
-    - docker:dind
+.prepare_tests_dependencies: &tests_dependencies
+  before_script:
+    - python -V # Print out python version for debugging
+    - pip -V
+    - python -m pip install --upgrade pip
+    - pip install virtualenv
+    - virtualenv venv
+    - source venv/bin/activate
+
+test style:
+  <<: *tests_dependencies
+  stage: test
   script:
-    - docker login -u "gitlab-ci-token" -p "$CI_JOB_TOKEN" $CI_REGISTRY
+    - pip install -r dev.requirements.txt
+    - flake8
 
-    - docker build -f docker/bot.Dockerfile -t $BOT_STABLE_IMAGE .
-    - docker push $BOT_STABLE_IMAGE
-
-    - docker build -f docker/actions.Dockerfile -t $ACTIONS_STABLE_IMAGE .
-    - docker push $ACTIONS_STABLE_IMAGE
-
-    - docker build -f docker/web.Dockerfile -t $WEB_STABLE_IMAGE .
-    - docker push $WEB_STABLE_IMAGE
-  only:
-    - tags
-  environment: production
-  tags:
-    - docker
-
-deploy_to_production:
-  image: cdrx/rancher-gitlab-deploy
-  stage: deploy
-  services:
-    - docker:dind
+run dataset validator:
+  <<: *tests_dependencies
+  stage: test
   script:
-    - upgrade --environment Production --stack TAIS --service bot --new-image $BOT_STABLE_IMAGE --no-finish-upgrade --debug
-    - upgrade --environment Production --stack TAIS --service actions --new-image $ACTIONS_STABLE_IMAGE --no-finish-upgrade --debug
-    - upgrade --environment Production --stack TAIS --service web --new-image $WEB_STABLE_IMAGE --no-finish-upgrade --debug
-  only:
-    - tags
-  environment: production
-  tags:
-    - docker
+    - pip install -r bot.requirements.txt 
+    - cd bot/
+    - make run-validator
 
-
-build latest:
-  image: docker:latest
-  stage: build
-  services:
-    - docker:dind
+test stories:
+  <<: *tests_dependencies
+  stage: test
   script:
-    - docker login -u "gitlab-ci-token" -p "$CI_JOB_TOKEN" $CI_REGISTRY
+    - pip install -r bot.requirements.txt 
+    - cd bot/
+    - make e2e
 
-    - docker build -f docker/bot.Dockerfile -t $BOT_LATEST_IMAGE .
-    - docker push $BOT_LATEST_IMAGE
-
-    - docker build -f docker/actions.Dockerfile -t $ACTIONS_LATEST_IMAGE .
-    - docker push $ACTIONS_LATEST_IMAGE
-
-    - docker build -f docker/web.Dockerfile -t $WEB_LATEST_IMAGE .
-    - docker push $WEB_LATEST_IMAGE
-  only:
-    - /master/
-  environment: development
-  tags:
-    - docker
-
-deploy_to_development:
-  image: cdrx/rancher-gitlab-deploy
-  stage: deploy
-  services:
-    - docker:dind
-  script:
-    - upgrade --environment Development --stack TAIS --service bot --new-image $BOT_LATEST_IMAGE --debug
-    - upgrade --environment Development --stack TAIS --service actions --new-image $ACTIONS_LATEST_IMAGE --debug
-    - upgrade --environment Development --stack TAIS --service web --new-image $WEB_LATEST_IMAGE --debug
-  only:
-    - /master/
-  environment: development
-  tags:
-    - docker
+#build:
+#  image: docker:latest
+#  stage: build
+#  services:
+#    - docker:dind
+#  script:
+#    - docker login -u "gitlab-ci-token" -p "$CI_JOB_TOKEN" $CI_REGISTRY
+#
+#    - docker build -f docker/bot.Dockerfile -t $BOT_STABLE_IMAGE .
+#    - docker push $BOT_STABLE_IMAGE
+#
+#    - docker build -f docker/actions.Dockerfile -t $ACTIONS_STABLE_IMAGE .
+#    - docker push $ACTIONS_STABLE_IMAGE
+#
+#    - docker build -f docker/web.Dockerfile -t $WEB_STABLE_IMAGE .
+#    - docker push $WEB_STABLE_IMAGE
+#  only:
+#    - tags
+#  environment: production
+#  tags:
+#    - docker
+#
+#deploy_to_homologation:
+#  image: cdrx/rancher-gitlab-deploy
+#  stage: deploy
+#  services:
+#    - docker:dind
+#  script:
+#    - upgrade --environment Production --stack TAIS --service bot --new-image $BOT_STABLE_IMAGE --no-finish-upgrade --debug
+#    - upgrade --environment Production --stack TAIS --service actions --new-image $ACTIONS_STABLE_IMAGE --no-finish-upgrade --debug
+#    - upgrade --environment Production --stack TAIS --service web --new-image $WEB_STABLE_IMAGE --no-finish-upgrade --debug
+#  only:
+#    - tags
+#  environment: production
+#  tags:
+#    - docker
+#
+#
+#build latest:
+#  image: docker:latest
+#  stage: build
+#  services:
+#    - docker:dind
+#  script:
+#    - docker login -u "gitlab-ci-token" -p "$CI_JOB_TOKEN" $CI_REGISTRY
+#
+#    - docker build -f docker/bot.Dockerfile -t $BOT_LATEST_IMAGE .
+#    - docker push $BOT_LATEST_IMAGE
+#
+#    - docker build -f docker/actions.Dockerfile -t $ACTIONS_LATEST_IMAGE .
+#    - docker push $ACTIONS_LATEST_IMAGE
+#
+#    - docker build -f docker/web.Dockerfile -t $WEB_LATEST_IMAGE .
+#    - docker push $WEB_LATEST_IMAGE
+#  only:
+#    - /master/
+#  environment: development
+#  tags:
+#    - docker
+#
+#deploy:
+#  image: cdrx/rancher-gitlab-deploy
+#  stage: deploy
+#  services:
+#    - docker:dind
+#  script:
+#    - upgrade --environment Development --stack TAIS --service bot --new-image $BOT_LATEST_IMAGE --debug
+#    - upgrade --environment Development --stack TAIS --service actions --new-image $ACTIONS_LATEST_IMAGE --debug
+#    - upgrade --environment Development --stack TAIS --service web --new-image $WEB_LATEST_IMAGE --debug
+#  only:
+#    - /master/
+#  environment: development
+#  tags:
+#    - docker
