@@ -17,7 +17,9 @@ Esse repositório contém o código do framework do chatbot Tais, composto por:
 
 * **Estou preparado para testar a Tais! 💻** [Teste a tais em produção](http://rouanet.cultura.gov.br)
 
-* **Como posso rodar a Tais no meu computador? ❓** [Veja como subir o ambiente de desenvolvimento da Taís](#Como-rodar-a-TAIS)
+* **Como posso rodar a Tais no meu computador? ⚙️** [Veja como subir o ambiente de desenvolvimento da Taís](#Como-rodar-a-TAIS)
+
+* **Estou com dúvidas... ❓** [Veja como conseguir ajuda](#Como-conseguir-ajuda)
 
 * **Gostaria de Contribuir! 🤗** [Veja como contribuir](#Como-Contribuir)
 
@@ -25,32 +27,13 @@ Esse repositório contém o código do framework do chatbot Tais, composto por:
 # O que é a Tais?
 A Tais é um chatbot desenvolvido pelo [LAPPIS](https://lappis-unb.gitlab.io) junto com o Ministerio da Cultura para o projeto da Lei Rouanet. A Lei Rouanet é o principal mecanismo de fomento a cultura do Brasil, e a Tais tem o objetivo de ajudar os proponentes nos momentos de dúvida. Para saber mais sobre o que é a Lei Rouanet, SALIC e como funciona todo o processo acesse o [Portal da Lei Rouanet](http://rouanet.cultura.gov.br/) lá Tais está em produção e também pode explicar esses conceitos.
 
-# Como Contribuir
-
-Ficaremos muito felizes de receber e incorporar suas contribuições. Tem algumas informações adicionais sobre o estilo do código e a documentação.
-
-Em geral o processo é bem simples:
-
-- Crie uma issue descrevendo uma feature  que você queira trabalhar (ou olhe as issues com o label `help-wanted` e `good-first-issue`)
-- Escreva seu código, testes e documentação 
-- Abra um pull request descrevendo as suas alterações propostas
-- Seu pull request será revisado por um dos mantenedores, que pode levantar questões para você sobre eventuais mudanças necessárias ou questões. 
-
-Leia o código de [Conduta]() e [Contribuição]() para melhores informações.
-
-# Como conseguir ajuda
-
-Parte da documentação técnica do framework da Tais está disponível na [wiki do repositório](https://github.com/lappis-unb/tais/wiki). Caso não encontre sua resposta, abra uma issue que tentaremos responder o mais rápido possível.
-
-Também estamos presentes no grupo [Telegram Rasa Stack Brasil](https://t.me/RasaBrasil).
-
 
 # Como Rodar a TAIS
 
 ## Subindo o chatbot
 
 ### RocketChat
-Para testar a Tais utilizando da plataforma do Rocket Chat, siga os seguintes comandos para subir os containers em seu computador:
+Para testar a Tais utilizando da plataforma do RocketChat, siga os seguintes comandos para subir os containers em seu computador:
 
 ```sh
 sudo docker-compose up -d rocketchat
@@ -58,7 +41,7 @@ sudo docker-compose up -d rocketchat
 sudo docker-compose up bot
 ```
 
-Apos esses comandos o Rocket Chat deve estar disponivel na porta `3000`do seu computador. Entre em `http://localhost:3000` para acessar. Será pedido que faça login. Por padrão é gerado um usuário admin:
+Apos esses comandos o RocketChat deve estar disponivel na porta `3000`do seu computador. Entre em `http://localhost:3000` para acessar. Será pedido que faça login. Por padrão é gerado um usuário admin:
 *username:* `admin`
 *senha:* `admin`
 
@@ -104,7 +87,7 @@ Para colocar a Taís em um site você precisa inserir o seguinte Javascript na s
 **Atenção**: Você precisa alterar a variavel `host` dentro do código acima para a url do site onde estará o seu Rocket.Chat.
 
 ### Console
-Para testar somente a conversação do bot, não é necessário rodar o RocketChat. Caso queira apenas rodar a Tais pelo seu terminal, rode os seguintes comandos:
+Para testar somente o dialogo com o bot, não é necessário rodar o RocketChat. Caso queira apenas rodar a Tais pelo seu terminal, rode os seguintes comandos:
 
 ```sh
 sudo docker-compose run --rm bot make train
@@ -142,9 +125,11 @@ sudo docker-compose up -d web
 Você pode acessar o site por padrão na url `http://localhost:8000`. Será necessário fazer o login, com o usuário criado, esse usuário é um super usuário, então ele tem acesso a parte admin, que poderá ser acessada em `http://localhost:8000/admin/` e poderá criar novos usuários.
 
 ## Analytics
-<!-- Ver exatamente como funciona isso -->
+Para a analise dos dados das conversas com o usuário, utilize o kibana, e veja como os usuários estão interagindo com o bot, os principais assuntos, média de usuários e outras informações da analise de dados.
 
 ### Setup
+
+Para subir o ambiente do kibana rode os seguintes comandos:
 
 ```
 sudo docker-compose run --rm -v $PWD/analytics:/analytics bot python /analytics/setup_elastic.py
@@ -160,14 +145,18 @@ BOT_VERSION=last-commit-hash
 
 ### Vizualização
 
+Para visualização do site rode o comando:
 ```
 sudo docker-compose up -d kibana
 ```
+
+Para acesso do site é necessário fazer o login. Por padrão o usuário criado é `admin` e a senha é `admin`
 
 Você pode acessar o kibana no `locahost:5601`
 
 
 ## Notebooks - Análise de dados
+Para analise de como estão as intents e stories construidas, se está havendo alguma confusão por intents similares ou outros problemas, utilize os notebooks para gerar os gráficos de matriz de confusão e diagrama da estrutura das stories.
 
 ### Setup
 
@@ -182,6 +171,8 @@ Acesse o notebook em `localhost:8888`
 
 
 ## Como para levantar toda a stack
+
+A Tais, em se ambiente de produção consiste no Rasa, RocketChat, pagina para Beta testers e o kibana. Para levantar todo esse ambiente, use os seguintes comandos:
 
 ```sh
 sudo docker-compose up -d rocketchat
@@ -199,7 +190,8 @@ sudo docker-compose up -d bot
 
 # Entenda a Arquitetura
 
-<!-- Falar sobre a arquitetura que estamos usando e as tecnologias -->
+É utilizado na Tais diversas tecnologias que interagem entre si para obter um melhor resultado. Veja a arquitetura e como interagir com ela:
+![]()
 
 
 # Passos necessários para gerar uma nova release
@@ -214,6 +206,33 @@ A criação de uma nova versão Release é bem simples. Os seguintes passos são
 git tag -f 0.7.0 -m "Some helpful line describing the release"
 git push origin 0.7.0
 ```
+
+# Tecnologias do Projeto:
+- [Rasa](http://rasa.com) - Inteligencia Artificial do Bot
+- [RocketChat](https://rocket.chat) - Mesageiro de comunicação do Bot
+- [Django](https://www.djangoproject.com) - Site para beta testers
+- [Jupyter Notebook](https://jupyter.org) - Notebooks para analise da estrutura de intents e stories
+- [Kibana](https://www.elastic.co/pt/products/kibana) - Analise dos dados coletados a partir das conversas
+- [Docker](https://www.docker.com) - Os ambientes são todos dockerizados
+
+# Como Contribuir
+
+Ficaremos muito felizes de receber e incorporar suas contribuições. Tem algumas informações adicionais sobre o estilo do código e a documentação.
+
+Em geral o processo é bem simples:
+
+- Crie uma issue descrevendo uma feature  que você queira trabalhar (ou olhe as issues com o label `help-wanted` e `good-first-issue`)
+- Escreva seu código, testes e documentação 
+- Abra um pull request descrevendo as suas alterações propostas
+- Seu pull request será revisado por um dos mantenedores, que pode levantar questões para você sobre eventuais mudanças necessárias ou questões. 
+
+Leia o código de [Manual de Contribuição]() para melhores informações.
+
+# Como conseguir ajuda
+
+Parte da documentação técnica do framework da Tais está disponível na [wiki do repositório](https://github.com/lappis-unb/tais/wiki). Caso não encontre sua resposta, abra uma issue que tentaremos responder o mais rápido possível.
+
+Também estamos presentes no grupo [Telegram Rasa Stack Brasil](https://t.me/RasaBrasil).
 
 
 # Licença
