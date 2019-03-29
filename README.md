@@ -133,6 +133,25 @@ Para acesso do site é necessário fazer o login. Por padrão o usuário criado 
 
 Você pode acessar o kibana no `http://locahost:5601`
 
+## Dashboards Visualização do Kibana
+
+Dashboards mais básicos do Analytics, sem permissão de `admin`, que disponibilizamos para a Secretaria Especial da Cultura. 
+
+### Setup
+
+Rode as configurações: 
+``` sh
+sudo docker-compose run --rm kibana-web python manage.py migrate
+sudo docker-compose run --rm kibana-web python manage.py createsuperuser
+```
+
+### Execução
+Para visualização do site, rode o comando:
+``` sh
+sudo docker-compose up -d kibana-web
+```
+Você pode acessar o site por padrão na url `http://localhost:8080`
+
 
 ## Notebooks - Análise de dados
 Para análise de como estão as intents e stories construidas, se está havendo alguma confusão por intents similares ou outros problemas, utilize os notebooks para gerar os gráficos de matriz de confusão e diagrama da estrutura das stories.
