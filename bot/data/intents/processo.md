@@ -1,7 +1,7 @@
 <!-- Processo -->
 ## intent:processo_como_funciona
 - como funciona o processo
-- como funciona a lei rouanet   
+- como funciona a lei rouanet
 - como faço para enviar um projeto
 - como é o processo de envio de projeto
 - como criar um projeto
