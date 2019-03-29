@@ -119,15 +119,16 @@ H1, H2{font-weight: bold;}
 
 .tais-container {
   width: 50%;
-  display: block;
-  margin: auto 0;
+  display: flex;
   text-align: center;
+  background-color: white;
   align-items: center;
   justify-content: center;
 }
 
 .tais-container img{
-  width: 105px;
+  margin: auto 0;
+  width: 150px;
 }
 
 .tais-container p{
@@ -137,7 +138,6 @@ H1, H2{font-weight: bold;}
 }
 
 .login-container{
-  background-color: white;
   width: 50%;
   display: flex;
   justify-content: center;
@@ -146,8 +146,30 @@ H1, H2{font-weight: bold;}
 }
 
 #login-struct p {
-  color: #384356;
+  color: white;
   font-weight: bold;
+}
+
+/* Change autocomplete color */
+input:-webkit-autofill,
+input:-webkit-autofill:focus
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:focus,
+select:-webkit-autofill,
+select:-webkit-autofill:focus {
+  -webkit-text-fill-color: white;
+  -webkit-box-shadow: 0 transparent inset;
+  transition: background-color 5000s ease-in-out 0s;
+}
+
+input[type="text"]:focus, input[type="password"]:focus, input[type="text"], input[type="password"]{
+    background: transparent;
+    border-color: white;
+    color: white;
+}
+
+input[type="text"]::placeholder, input[type="password"]::placeholder {
+  color: white;
 }
 
 #login-submit {
@@ -186,6 +208,7 @@ H1, H2{font-weight: bold;}
   margin-top: 10px;
   margin-bottom: 15px;
 }
+
 .alert-error{
   display: block;
   margin: auto 0;
@@ -193,6 +216,7 @@ H1, H2{font-weight: bold;}
   align-items: center;
   justify-content: center;
 }
+
 .alert-error img{
   width: 18px;
   height: 18px;
