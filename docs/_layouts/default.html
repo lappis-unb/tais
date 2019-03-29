@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+
+  {%- include head.html -%}
+  <body>
+      {%- include header.html -%}
+
+      <main class="page-content" aria-label="Content">
+          {%- include sidebar.html -%} 
+          <div class="wrapper">
+            {{ content }}
+          </div>
+      </main>
+      {%- include footer.html -%}
+      
+  </body>
+</html>
+
+<!-- Start of Rocket.Chat Livechat Script -->
+<script type="text/javascript">
+  (function(w, d, s, u) {
+      // !!! Mudar para o seu host AQUI !!!
+      host = 'https://lappis.cultura.gov.br';
+      // !!! ^^^^^^^^^^^^^^^^^^^^^^^^^^ !!!
+  
+      w.RocketChat = function(c) { w.RocketChat._.push(c) }; w.RocketChat._ = []; w.RocketChat.url = u;
+      var h = d.getElementsByTagName(s)[0], j = d.createElement(s);
+      j.async = true; j.src = host + '/packages/rocketchat_livechat/assets/rocketchat-livechat.min.js?_=201702160944';
+      h.parentNode.insertBefore(j, h);
+  })(window, document, 'script', host + '/livechat');
+  </script>
+  <!-- End of Rocket.Chat Livechat Script -->
+
