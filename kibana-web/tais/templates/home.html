@@ -10,14 +10,15 @@
     <div class="container">
       <div class="tais-container">
         <img src="{% static 'img/Tdetais.svg' %}" />
-        <p><br>TAIS<br><i>Tecnologia de Aprendizado Interativo Salic</i></p>
+        <p style="margin-top: 7px;">TAIS</p>
+        <p style="font-size: 15px;"><i>Tecnologia de Aprendizado Interativo Salic</i></p>
       </div>
       <div class="login-container">
         <div class="login-data">
           <form id="login-struct" action="{% url 'login' %}" method="post">{% csrf_token %}
             <p>Visualização de Dados<br>Tais-Usuário</p>
             <div class="form-group">
-              <input type="text" class="form-control" name="username" placeholder="Email" id="username">
+              <input id="email-login" type="text" class="form-control" name="username" placeholder="Email" id="username">
 
               <input type="password" class="form-control" name="password" placeholder="Senha" id="password">
             </div>
