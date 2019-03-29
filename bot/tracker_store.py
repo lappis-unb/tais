@@ -53,7 +53,7 @@ class ElasticTrackerStore(InMemoryTrackerStore):
             '%Y/%m/%d %H:%M:%S'
         )
 
-        #Bag of words
+        # Bag of words
         tags = []
         for word in tracker.latest_message.text.replace('. ',' ').replace(',',' ').replace('"','').replace("'",'').replace('*','').replace('(','').replace(')','').split(' '):
             if word.lower() not in stopwords.words('portuguese') and len(word) > 1:

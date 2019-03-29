@@ -2,7 +2,8 @@ import logging
 import os
 import yaml
 
-from rasa_core.utils import configure_colored_logging, read_yaml_file, AvailableEndpoints
+from rasa_core.utils import configure_colored_logging,
+                            read_yaml_file, AvailableEndpoints
 from rasa_core.run import start_server, load_agent
 from rasa_core.interpreter import NaturalLanguageInterpreter
 from rasa_core.tracker_store import TrackerStore

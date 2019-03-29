@@ -5,10 +5,9 @@ def index(request):
     maintainance = Maintainance.objects.all().first()
     maintainance_is_set = False
 
-    if maintainance != None:
+    if maintainance is not None:
         maintainance_is_set = maintainance.set_maintainance_page
 
     return render(request, 'home.html', {
         'maintainance_is_set': maintainance_is_set,
     })
-

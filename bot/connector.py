@@ -20,7 +20,7 @@ class RocketChatBot(OutputChannel):
         from rocketchat_py_sdk.driver import Driver
 
         self.username = user
-        self.connector = Driver(url=server , ssl=ssl)
+        self.connector = Driver(url=server, ssl=ssl)
         self.users = {}
         self.user = user
         self.password = password
