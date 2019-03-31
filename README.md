@@ -218,7 +218,7 @@ Em geral o processo é bem simples:
 
 - Crie uma issue descrevendo uma feature  que você queira trabalhar (ou olhe as issues com o label `help-wanted` e `good-first-issue`)
 - Escreva seu código, testes e documentação 
-- Abra um pull request descrevendo as suas alterações propostas
+- Abra um pull request descrevendo as suas alterações propostas https://lappis.rocks
 - Seu pull request será revisado por um dos mantenedores, que pode levantar questões para você sobre eventuais mudanças necessárias ou questões.
 
 Leia o [Manual de Contribuição](./CONTRIBUTING.md) para melhores informações.
@@ -229,7 +229,7 @@ Parte da documentação técnica do framework da Tais está disponível na [wiki
 
 Em caso de dúvidas em relação ao Rasa, veja o grupo [Telegram Rasa Stack Brasil](https://t.me/RasaBrasil), estamos lá também para ajudar.
 
-Veja mais informações de contato em nosso site: https://lappis-unb.gitlab.io/
+Veja mais informações de contato em nosso site: 
 
 # Licença
 
