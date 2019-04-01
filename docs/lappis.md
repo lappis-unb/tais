@@ -1,7 +1,5 @@
 ---
-layout: page
 title: Lappis
-permalink: /lappis/
 ---
 
-Esse é o lappis
+<script language= "JavaScript"> location.href="http://lappis.rocks" </script>

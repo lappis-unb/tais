@@ -188,6 +188,14 @@ sudo docker-compose run --rm -v $PWD/analytics:/analytics bot python /analytics/
 sudo docker-compose up -d bot
 ```
 
+## Documentação
+A documentação feita está no github pages, veja no link: [lappis-unb.github.io/tais](http://lappis-unb.github.io/tais)
+A documentação se encontra na pasta `docs` deste repositório. É feita com `Jekyll` para o github pages. Para rodar a página em seu computador basta rodar o comando:
+```
+jekyll serve
+```
+Acesse a pagina em `http://localhost:4000`.
+
 # Passos necessários para gerar uma nova release
 
 A criação de uma nova versão Release é bem simples. Os seguintes passos são necessários para lançar uma nova versão
