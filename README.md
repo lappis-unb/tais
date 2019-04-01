@@ -192,7 +192,7 @@ sudo docker-compose up -d bot
 
 A criação de uma nova versão Release é bem simples. Os seguintes passos são necessários para lançar uma nova versão
 
-- edite o [CHANGELOG.rst](./CHANGELOG.rst), crie uma nova seção para a release e crie uma nova master loggins section
+- edite o [CHANGELOG.rst](./docs/CHANGELOG.rst), crie uma nova seção para a release e crie uma nova master loggins section
 - Edite o guia de migração para dar assistência para usuários atualizarem para a nova versão
 - Commite todas as mudanças acima e gere uma tag para a nova versão usando
 
@@ -218,18 +218,18 @@ Em geral o processo é bem simples:
 
 - Crie uma issue descrevendo uma feature  que você queira trabalhar (ou olhe as issues com o label `help-wanted` e `good-first-issue`)
 - Escreva seu código, testes e documentação 
-- Abra um pull request descrevendo as suas alterações propostas https://lappis.rocks
+- Abra um pull request descrevendo as suas alterações propostas 
 - Seu pull request será revisado por um dos mantenedores, que pode levantar questões para você sobre eventuais mudanças necessárias ou questões.
 
-Leia o [Manual de Contribuição](./CONTRIBUTING.md) para melhores informações.
+Leia o [Manual de Contribuição](./docs/CONTRIBUTING.md) para melhores informações.
 
 # Como conseguir ajuda
 
-Parte da documentação técnica do framework da Tais está disponível na [wiki do repositório](https://github.com/lappis-unb/tais/wiki). Caso não encontre sua resposta, abra uma issue que tentaremos responder o mais rápido possível.
+Parte da documentação técnica do framework da Tais está disponível na [wiki do repositório](https://github.com/lappis-unb/tais/wiki). Caso não encontre sua resposta, abra uma issue com a tag `duvida` que tentaremos responder o mais rápido possível.
 
 Em caso de dúvidas em relação ao Rasa, veja o grupo [Telegram Rasa Stack Brasil](https://t.me/RasaBrasil), estamos lá também para ajudar.
 
-Veja mais informações de contato em nosso site: 
+Veja mais informações de contato em nosso site: https://lappis.rocks
 
 # Licença
 
