@@ -19,7 +19,7 @@
               {% for error in field.errors %}
                   <div class="alert-error" style="display: flex;">
                     <img class="error-icon" src="../../static/img/icone-aviso.svg" alt="Text">
-                    <strong class="message-error">Email ou Senha inválidos</strong>
+                    <strong class="message-error">Usuário ou Senha inválidos</strong>
                   </div>
               {% endfor %}
             {% endfor %}
@@ -27,7 +27,7 @@
               {% for error in form.non_field_errors %}
               <div class="alert-error" style="display: flex;">
                 <img id="error-icon" src="../../static/img/icone-aviso.svg" alt="Text">
-                <strong class="message-error">Email ou Senha inválidos</strong>
+                <strong class="message-error">Usuário ou Senha inválidos</strong>
               </div>
               {% endfor %}
             {% endif %}
