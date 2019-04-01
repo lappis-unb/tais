@@ -4,11 +4,9 @@ from jsonschema import validate
 import yaml
 from os import listdir
 from os.path import isfile, join
-from rasa_core import utils
-import traceback
 import argparse
 
-logger = logging.getLogger(__name__) 
+logger = logging.getLogger(__name__)
 
 parser = argparse.ArgumentParser()
 
@@ -164,7 +162,7 @@ class Validator:
 
     def verify_intents_in_stories(self):
         if self.valid_intents == []:
-            self.verify_intents() 
+            self.verify_intents()
 
         for file in self.stories:
             f = open(file, 'r')
@@ -173,11 +171,11 @@ class Validator:
 
             for line in stories_lines:
                 s_line = line.split()
-                if len(s_line) == 2 and s_line[0] == '*':  
+                if len(s_line) == 2 and s_line[0] == '*':
                     intent = s_line[1]
                     if '{' in intent:
                         intent = intent[:intent.find('{')]
-                
+
                     found = self.search(self.valid_intents, intent)
                     if not found:
                         logger.error('The intent ' + intent +
@@ -188,8 +186,8 @@ class Validator:
 
     def verify_intents_being_used(self):
         if self.valid_intents == []:
-            self.verify_intents() 
-        
+            self.verify_intents()
+
         stories_intents = []
         for file in self.stories:
             f = open(file, 'r')
@@ -210,7 +208,7 @@ class Validator:
                 logger.warning('The intent ' + intent + ' is not being used \
                                 in any story')
 
-    def verify_utters(self): 
+    def verify_utters(self):
         file = open(self.domain, 'r')
         domain_lines = file.readlines()
         file.close()
@@ -226,8 +224,8 @@ class Validator:
                 if utter.endswith(':'):
                     utter = utter[:utter.find(':')]
                 utter_templates.append(utter)
-            elif(len(s_line.split()) >= 1 and s_line.split()[0] != '-') and
-                (s_line.endswith(':') and not line.startswith(' ')):
+            elif(len(s_line.split()) >= 1 and s_line.split()[0] != '-') and \
+                    (s_line.endswith(':') and not line.startswith(' ')):
                 break
 
         start = domain_lines.index('actions:\n') + 1
@@ -247,16 +245,17 @@ class Validator:
                 logger.error('There is no template for utter ' + utter)
             else:
                 self.valid_utters.append(utter)
-        
+
         for utter in utter_templates:
             found = self.search(utter_actions, utter)
             if not found:
-                logger.error('The utter ' + utter+ ' is not listed in actions')
+                logger.error('The utter ' + utter +
+                             ' is not listed in actions')
 
     def verify_utters_in_stories(self):
         if self.valid_utters == []:
-            self.verify_utters() 
-        
+            self.verify_utters()
+
         for file in self.stories:
             f = open(file, 'r')
             stories_lines = f.readlines()
@@ -264,11 +263,11 @@ class Validator:
 
             for line in stories_lines:
                 s_line = line.split()
-                if len(s_line) == 2 and s_line[0] == '-':  
+                if len(s_line) == 2 and s_line[0] == '-':
                     utter = s_line[1]
                     found = self.search(self.valid_utters, utter)
                     if not found:
-                        logger.error('The utter ' + utter + 
+                        logger.error('The utter ' + utter +
                                      ' is used in the stories' +
                                      ' story file ' + file + ' (line: ' +
                                      str(stories_lines.index(line)+1) +
@@ -276,8 +275,8 @@ class Validator:
 
     def verify_utters_being_used(self):
         if self.valid_utters == []:
-            self.verify_utters() 
-        
+            self.verify_utters()
+
         stories_utters = []
         for file in self.stories:
             f = open(file, 'r')
@@ -305,6 +304,7 @@ class Validator:
         self.verify_utters_in_stories()
         self.verify_utters_being_used()
 
+
 if __name__ == '__main__':
     domain = parser.parse_args().domain
     stories = parser.parse_args().stories
@@ -330,4 +330,3 @@ if __name__ == '__main__':
         validator.verify_utters_in_stories()
         if warning:
             validator.verify_utters_being_used()
-    

@@ -1,7 +1,9 @@
 image: python:latest
 
 stages:
-  - test
+  - test style
+  - validate format
+  - test stories
 #  - build
 #  - deploy
 
@@ -9,45 +11,58 @@ variables:
   BOT_LATEST_IMAGE: $CI_REGISTRY_IMAGE/bot:latest
   ACTIONS_LATEST_IMAGE: $CI_REGISTRY_IMAGE/actions:latest
   WEB_LATEST_IMAGE: $CI_REGISTRY_IMAGE/web:latest
-  PIP_CACHE_DIR: "$CI_PROJECT_DIR/.cache/pip"
 
-cache:
-  paths:
-    - .cache/pip/
-    - venv/
+#cache:
+#  untracked: true
+#  key: "$CI_PROJECT_ID"
+#  paths:
+#    - .pip/
 
 .prepare_tests_dependencies: &tests_dependencies
   before_script:
-    - echo $CI_PROJECT_DIR
     - python -V # Print out python version for debugging
-    - pip -V
     - python -m pip install --upgrade pip
+    - pip -V
     - pip install virtualenv
     - virtualenv venv
     - source venv/bin/activate
+    - mkdir -p .pip
+    - pip --cache-dir=.pip install -r dev.requirements.txt
+    - echo $CI_PROJECT_DIR
 
 test style:
   <<: *tests_dependencies
-  stage: test
+  stage: test style
   script:
-    - pip install -r dev.requirements.txt
     - flake8 --exclude venv
+  cache:
+    paths:
+      - venv/
+      - .pip
 
 run dataset validator:
-  <<: *tests_dependencies
-  stage: test
+  stage: validate format
   script:
-    - pip install -r bot.requirements.txt 
+    - source venv/bin/activate
+    - flake8 --exclude venv
     - cd bot/
     - make run-validator
+  cache:
+    paths:
+      - venv/
+      - .pip
 
 test stories:
-  <<: *tests_dependencies
-  stage: test
+  stage: test stories
   script:
+    - source venv/bin/activate
     - pip install -r bot.requirements.txt 
     - cd bot/
     - make e2e
+  cache:
+    paths:
+      - venv/
+      - .pip
 
 #build:
 #  image: docker:latest

@@ -32,7 +32,8 @@ class RocketChatBot(OutputChannel):
 
     def login(self):
         while not self.logged_in:
-            logger.info('Trying to login to rocketchat as {}'.format(self.user))
+            logger.info('Trying to login to rocketchat as {}'
+                        .format(self.user))
             self.connector.login(user=self.user, password=self.password,
                                  callback=self._login_callback)
             time.sleep(10)
@@ -59,7 +60,6 @@ class RocketChatBot(OutputChannel):
 
         for message_part in message.split("\n\n"):
             self.users[recipient_id].add_message(message_part)
-
 
 
 class RocketChatInput(InputChannel):
@@ -124,6 +124,7 @@ class RocketChatInput(InputChannel):
 
         return rocketchat_webhook
 
+
 class RocketchatHandleMessages:
     def __init__(self, rid, bot):
         self.rid = rid
@@ -172,8 +173,8 @@ class RocketchatHandleMessages:
 
             words_per_sec = int(os.getenv('WORDS_PER_SECOND_TYPING', 5))
             wait_time = min(max_time,
-                max(1, n_words // words_per_sec)
-            ) + last_msg['time']
+                            max(1, n_words // words_per_sec)
+                            ) + last_msg['time']
 
         threading.Timer(wait_time, self.send_message).start()
 
@@ -187,4 +188,3 @@ class RocketchatHandleMessages:
     def deactivate_typing(self, error, data):
         if not error:
             self.is_typing = False
-

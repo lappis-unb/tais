@@ -57,7 +57,7 @@ parser.add_argument(
 )
 parser.add_argument(
     '--rasa-url', '-rasa', type=str,
-     default='http://bot:5005/webhooks/rocketchat/webhook',
+    default='http://bot:5005/webhooks/rocketchat/webhook',
     help='Rasa URL (default: http://bot:5005/webhooks/rocketchat/webhook)'
 )
 
@@ -201,17 +201,16 @@ def configure_webhooks():
             return
 
     api_post('integrations.create',
-        {
-            'name': name,
-            'type': 'webhook-outgoing',
-            'enabled': True,
-            'scriptEnabled': False,
-            'event': 'sendMessage',
-            'urls': [rasa_url],
-            'username': bot['username'],
-            'channel': '@' + bot['username'],
-        }
-    )
+             {
+                 'name': name,
+                 'type': 'webhook-outgoing',
+                 'enabled': True,
+                 'scriptEnabled': False,
+                 'event': 'sendMessage',
+                 'urls': [rasa_url],
+                 'username': bot['username'],
+                 'channel': '@' + bot['username'],
+             })
 
 
 def configure_rocketchat():
@@ -251,6 +250,7 @@ def create_department(bot_agent_id):
                 'order': 0
             }]
         })
+
 
 if __name__ == '__main__':
     logger.info('===== Automatic env configuration =====')

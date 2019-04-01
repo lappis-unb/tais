@@ -1,6 +1,7 @@
 from django.shortcuts import render
 from information.models import Maintainance
 
+
 def index(request):
     maintainance = Maintainance.objects.all().first()
     maintainance_is_set = False

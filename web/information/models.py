@@ -1,5 +1,6 @@
 from django.db import models
 
+
 class Maintainance(models.Model):
     set_maintainance_page = models.BooleanField()
 
@@ -9,4 +10,3 @@ class Maintainance(models.Model):
 
     def __str__(self):
         return 'Maintainance Period'
-

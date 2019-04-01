@@ -33,6 +33,7 @@ bot = {
 
 logged_in = False
 
+
 def connect_bot():
     def login_callback(error, data):
         global logged_in
@@ -78,7 +79,7 @@ def get_rooms_history(rooms):
 
         bot['driver'].call(
             'loadHistory',
-            [ room_id, None, 1000, None ],
+            [room_id, None, 1000, None],
             replay_room
         )
 
@@ -96,7 +97,6 @@ def replay_room(error, data):
 
     for message in data['messages'][::-1]:
         expected_answer = None
-        user_msg = ""
 
         if message['u']['username'] != bot['username']:
             print('User said: {}'.format(message['msg']))
@@ -133,4 +133,3 @@ if __name__ == '__main__':
 
     while True:
         time.sleep(10)
-
