@@ -1,3 +1,8 @@
+---
+layout: page
+permalink: /como-contribuir/
+---
+
 # Guia de Contribuição da Tais
 Este é um documento para orientação em como contribuir para o repositório da Tais. Antes de começar a contribuir veja as [issues já abertas](http://github.com/lappis-unb/tais/issues), e a nossa [documentação](http://lappis-unb.github.io/tais/), principalmente o funcionamento de nossa [arquitetura](http://lappis-unb.github.io/tais/).
 
