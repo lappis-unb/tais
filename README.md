@@ -14,7 +14,7 @@ Esse repositório contém o código do framework do chatbot Tais, composto por:
 <!-- Links uteis: -->
 * **O que é a Tais? 🤔** [Conheça a Tais](#o-que-é-a-tais)
 * **Quero ler a documentação! 📚** [Veja a nossa wiki](https://github.com/lappis-unb/tais/wiki)
-* **O que é o Lappis? ✏️** [Conheça o Lappis](https://lappis-unb.gitlab.io)
+* **O que é o Lappis? ✏️** [Conheça o Lappis](https://lappis.rocks)
 * **Estou preparado para testar a Tais! 💻** [Teste a tais em produção no Portal da Lei Rouanet](http://rouanet.cultura.gov.br) ou [veja ela em produção em nosso github pages](http://lappis-unb.github.io/tais)
 * **Como posso rodar a Tais no meu computador? ⚙️** [Veja e entenda como subir cada parte do ambiente de desenvolvimento da Taís](#Como-rodar-a-TAIS) ou [simplesmente rode os comandos do QuickStart](#QuickStart)
 * **Estou com dúvidas... ❓** [Veja como conseguir ajuda](#Como-conseguir-ajuda)
@@ -22,7 +22,7 @@ Esse repositório contém o código do framework do chatbot Tais, composto por:
 
 ---
 # O que é a Tais?
-A Tais é um chatbot desenvolvido pelo [LAPPIS](https://lappis-unb.gitlab.io) junto com a [Secretaria Especial da Cultura](http://www.cultura.gov.br) para o projeto da Lei Rouanet. A Lei Rouanet é o principal mecanismo de fomento a cultura do Brasil, e a Tais tem o objetivo de ajudar os proponentes nos momentos de dúvida. Para saber mais sobre o que é a Lei Rouanet, SALIC e como funciona todo o processo acesse o [Portal da Lei Rouanet](http://rouanet.cultura.gov.br/) lá Tais está em produção e também pode explicar esses conceitos.
+A Tais é um chatbot desenvolvido pelo [LAPPIS](https://lappis.rocks) junto com a [Secretaria Especial da Cultura](http://www.cultura.gov.br) para o projeto da Lei Rouanet. A Lei Rouanet é o principal mecanismo de fomento a cultura do Brasil, e a Tais tem o objetivo de ajudar os proponentes nos momentos de dúvida. Para saber mais sobre o que é a Lei Rouanet, SALIC e como funciona todo o processo acesse o [Portal da Lei Rouanet](http://rouanet.cultura.gov.br/) lá Tais está em produção e também pode explicar esses conceitos.
 
 
 # Entenda a Arquitetura
