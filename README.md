@@ -192,7 +192,7 @@ sudo docker-compose up -d bot
 
 A criação de uma nova versão Release é bem simples. Os seguintes passos são necessários para lançar uma nova versão
 
-- edite o [CHANGELOG.rst](./docs/CHANGELOG.rst), crie uma nova seção para a release e crie uma nova master loggins section
+- edite o [CHANGELOG.rst](./CHANGELOG.rst), crie uma nova seção para a release e crie uma nova master loggins section
 - Edite o guia de migração para dar assistência para usuários atualizarem para a nova versão
 - Commite todas as mudanças acima e gere uma tag para a nova versão usando
 
@@ -221,7 +221,7 @@ Em geral o processo é bem simples:
 - Abra um pull request descrevendo as suas alterações propostas 
 - Seu pull request será revisado por um dos mantenedores, que pode levantar questões para você sobre eventuais mudanças necessárias ou questões.
 
-Leia o [Manual de Contribuição](./docs/CONTRIBUTING.md) para melhores informações.
+Leia o [Guia de Contribuição](./docs/CONTRIBUTING.md) para melhores informações.
 
 # Como conseguir ajuda
 
