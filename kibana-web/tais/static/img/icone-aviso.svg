@@ -1,17 +1,1 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!-- Generator: Adobe Illustrator 22.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 24.6 22" style="enable-background:new 0 0 24.6 22;" xml:space="preserve">
-<style type="text/css">
-	.st0{fill:none;stroke:#C95050;stroke-width:1.6;stroke-linejoin:round;}
-	.st1{fill:#C95050;}
-</style>
-<g>
-	<path class="st0" d="M23.4,16.7L14.9,2.3c-0.6-0.9-1.5-1.5-2.6-1.5s-2,0.6-2.6,1.5L1.2,16.7c-0.6,0.9-0.6,2.1,0,3
-		c0.6,1,1.5,1.5,2.6,1.5h17.1c1.1,0,2.1-0.6,2.6-1.5C24,18.7,24,17.6,23.4,16.7z"/>
-	<path class="st1" d="M12.4,6.3c-0.4,0-0.8,0.4-0.8,0.8v6.4c0,0.4,0.4,0.8,0.8,0.8c0.4,0,0.8-0.4,0.8-0.8V7.1
-		C13.1,6.6,12.8,6.3,12.4,6.3z"/>
-	<path class="st1" d="M12.4,15.7c-0.5,0-0.9,0.4-0.9,0.8v0.4c0,0.4,0.4,0.8,0.9,0.8c0.5,0,0.9-0.4,0.9-0.8v-0.4
-		C13.2,16,12.8,15.7,12.4,15.7z"/>
-</g>
-</svg>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 25.62 22.95"><defs><style>.cls-1{fill:none;stroke-linejoin:round;stroke-width:2.6px;}.cls-1,.cls-2{stroke:#c95050;}.cls-2{fill:#c95050;stroke-miterlimit:10;stroke-width:0.5px;}</style></defs><title>icone_aviso</title><path class="cls-1" d="M551.6,545.71l-8.5-14.39a3,3,0,0,0-5.18,0l-8.5,14.39a2.88,2.88,0,0,0,0,3A2.94,2.94,0,0,0,532,550.2h17a3,3,0,0,0,2.56-4.49Z" transform="translate(-527.7 -528.55)"/><path class="cls-2" d="M540.55,535.33a.79.79,0,0,0-.78.79v6.37a.79.79,0,0,0,.78.79.8.8,0,0,0,.79-.79v-6.37A.8.8,0,0,0,540.55,535.33Z" transform="translate(-527.7 -528.55)"/><path class="cls-2" d="M540.55,544.72a.84.84,0,0,0-.87.79v.41a.88.88,0,0,0,1.74,0v-.41A.81.81,0,0,0,540.55,544.72Z" transform="translate(-527.7 -528.55)"/></svg>
