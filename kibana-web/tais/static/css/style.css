@@ -242,3 +242,7 @@ HEADER P{
 .tab-pane{
   padding-top: 1em;
 }
+
+.dropdown-item:active {
+  background-color: #2da082;
+}
