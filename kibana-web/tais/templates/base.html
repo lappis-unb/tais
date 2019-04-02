@@ -33,13 +33,13 @@
 					  </button>
 					  <div class="dropdown-menu dropdown-menu-right">
 							<p id="subtitle-dropdown">Dashboards</p>
-					    <a class="dropdown-item" href="#">Perfil de Usuário</a>
-					    <a class="dropdown-item" href="#">Trending</a>
+					    <a class="dropdown-item" onclick="location.href='{% url 'user_profile' %}'">Perfil de Usuário</a>
+					    <a class="dropdown-item" onclick="location.href='{% url 'trending' %}'">Trending</a>
 					    <div class="dropdown-divider"></div>
 					    <a class="dropdown-item" onclick="location.href='{% url 'logout'  %}'">Sair</a>
 					  </div>
 					</div>
-				</div>				
+				</div>
 			{% endif %}
 
 

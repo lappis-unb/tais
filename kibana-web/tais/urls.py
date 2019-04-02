@@ -15,13 +15,17 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path, include
-from django.views.generic.base import TemplateView
 from django.conf import settings
 from django.conf.urls.static import static
-from tais.views import index
+import tais.views
 
 urlpatterns = [
-    path(settings.PREFIX_URL + '', index, name='home'),
+    path(settings.PREFIX_URL + 'user_profile/', tais.views.index,
+         name='user_profile'),
+    path(settings.PREFIX_URL + 'trending/', tais.views.trending,
+         name='trending'),
+    path(settings.PREFIX_URL + '', tais.views.index, name='home'),
     path(settings.PREFIX_URL + 'admin/', admin.site.urls),
-    path(settings.PREFIX_URL + 'accounts/', include('django.contrib.auth.urls')),
+    path(settings.PREFIX_URL + 'accounts/', include(
+                                                'django.contrib.auth.urls')),
 ] + static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
