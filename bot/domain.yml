@@ -585,19 +585,21 @@ templates:
   utter_o_que_sei_falar:
     - text: |
           Veja alguns dos assuntos que eu posso te ajudar (:
-          O que é a Lei Rouanet e como funciona
-          Dúvidas operacionais sobre a execução do projeto 
-          (ex: perdi minha senha no SALIC)
-          Ou dúvidas sobre definições e siglas 
-          (ex: o que é SEFIC?)
 
-          Agora que você já sabe do que podemos conversa, vou te dar algumas dicas...
-          Eu consigo te entender melhor quando você me faz perguntas curtas
-          e me manda uma pergunta de cada vez. 
-          Assim... espera eu responder uma pergunta
+          O que é a Lei Rouanet e como funciona
+          Dúvidas operacionais sobre a execução do projeto (ex: perdi minha senha no SALIC)
+          Ou dúvidas sobre definições e siglas (ex: o que é SEFIC?)
+
+          Agora que você já sabe do que podemos conversar, vou te dar algumas dicas...
+
+          Eu consigo te entender melhor quando você faz perguntas curtas
+          e manda uma pergunta de cada vez.
+
+          Assim... espera eu te responder
           daí você me manda outra!
 
-          Espero poder te ajudar, qual a sua pergunta?
+          Bom, acho que já falei demais! Sua vez...
+          o que você deseja saber?
 
   utter_objetivo:
     - text: |
