@@ -43,10 +43,23 @@ H1, H2{font-weight: bold;}
   color: #384356;
   font-weight: bold;
 }
+
 #topbar-collapsed {
   width: 100%;
-  background: #384356;
+  background-color: #005c75;
   height: 45px;
+}
+
+#logout-user:hover {
+  background-color: transparent;
+  color: white;
+  border-color: white;
+  text-decoration: underline;
+}
+
+#logout-user {
+  margin: auto 11px;
+  height: 80%;
 }
 
 #topbar-collapsed img {
@@ -88,11 +101,6 @@ H1, H2{font-weight: bold;}
 }
 .btn-subtitle{
 	font-size:0.7em;
-}
-
-#btFeedback{
-	margin-top: 24px;
-	width: 200px;
 }
 
 #mainContainer{
