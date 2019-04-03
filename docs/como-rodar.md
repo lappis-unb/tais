@@ -1,9 +1,8 @@
 ---
 layout: page
 permalink: /como-rodar/
+title: Como rodar a Tais em seu computador
 ---
-
-# Como rodar a Tais em seu computador
 
 A Tais possui vários ambientes e vários componentes para rodar. Veja e entenda todos eles:
 

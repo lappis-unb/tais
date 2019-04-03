@@ -1,8 +1,7 @@
 ---
 layout: page
 permalink: /notebooks/
+title: Notebooks com Jupyter
+
 ---
-
-# Notebooks com Jupyter
-
 <!-- Explicação e funcionamento dos Notebooks -->

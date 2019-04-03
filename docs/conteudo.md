@@ -1,8 +1,8 @@
 ---
 layout: page
 permalink: /conteudo/
+title: Conteúdo da Tais
 ---
-# Conteúdo da Tais
 
 Veja em nossa wiki a documentação do conteúdo da Tais.
 

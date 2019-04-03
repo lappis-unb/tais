@@ -1,8 +1,8 @@
 ---
 layout: page
 permalink: /arquitetura/
+title: Arquitetura
 ---
-# Arquitetura
 
 ![](../assets/arquitetura.png)
 

@@ -1,9 +1,8 @@
 ---
 layout: page
 permalink: /estudos/
+title: Estudos feitos durante o projeto
 ---
-
-# Estudos feitos durante o projeto
 
 Veja em nossa wiki os estudos realizados durante o desenvolvimento da Tais.
 
