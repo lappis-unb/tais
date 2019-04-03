@@ -10,6 +10,7 @@ intents:
   - tudo_bem
   - elogios
   - tem_wpp
+  - expressoes_indesejadas
 
   - captacao
   - captacao_quando_captar
@@ -48,6 +49,8 @@ intents:
   - lei_rouanet_valor_maximo_pessoa_juridica
   - lei_rouanet_valor_maximo_geral
   - lei_rouanet_divulgacao_patrocinio
+  - lei_rouanet_receber_incetivo_de_parentes
+  - lei_rouanet_democratizacao
 
   - processo_como_funciona
   - processo_definicao_etapas
@@ -58,6 +61,7 @@ intents:
   - processo_analise_de_resultados
   - processo_reativacao_de_proposta
   - processo_prazo
+  - processo_prazo_apresentar_proposta
   - processo_prazo_envio_cnae
   - processo_prazo_desistir_recurso
   - processo_prazo_analise_proposta
@@ -67,7 +71,6 @@ intents:
   - processo_prazo_prestacao_contas
   - processo_prazo_diligencias
   - processo_prazo_desarquivar
-
 
   - salic_cadastro_usuario
   - salic_cadastro_proponente
@@ -84,6 +87,8 @@ intents:
   - salic_preenchimento_vinculo_cpf_proposta
   - salic_preenchimento_cadastro_agencia_bancaria
 
+  - erro_resposta_utter
+
 entities:
   - situacao_processo
   - lei_rouanet
@@ -93,20 +98,21 @@ templates:
     - text: |
         Desculpe, ainda não sei falar sobre isso ou talvez não consegui entender direito
         Você pode perguntar de novo de outro jeito?
-
     - text: |
         Poxa, acho que ainda não sei isso... Se não consegui responder tua pergunta,
         entre no site da Rouanet (http://rouanet.cultura.gov.br/perguntas_frequentes_28_12/)
         Mas se você perguntar de outra forma talvez eu consiga te responder
-
     - text: |
         Hummmm... Não sei se entendi. Pode escrever de outra forma?
-
     - text: |
         Acho que não te entendi, você pode me perguntar de novo usando outras palavras?
-
     - text: |
         Vamos tentar mais uma vez? Eu não consegui te entender direito, me pergunta de outro jeito?
+
+  utter_expressoes_indesejadas:
+    - text: |
+        Hummm… Não gostei muito dessa expressão que você usou. 
+        Que tal falar de outra forma?
 
   utter_definicao_tais:
     - text: |
@@ -250,8 +256,6 @@ templates:
           Agora aguarde a chegada de um e-mail de confirmação. Este vai conter uma senha temporária
           É interessante você alterar esta senha, por isso, no seu primeiro acesso, vá em "Usuário > Alterar Senha", para mudar a mesma
 
-          Agora que você já se cadastrou, o próximo passo é cadastrar um proponente
-
   utter_lei_rouanet_quantidade_de_projetos:
     - text: |
           Até o momento foram enviadas mais de 240.000 propostas, das quais mais de 89.000 foram aprovadas, se tornando projetos.
@@ -271,14 +275,9 @@ templates:
 
   utter_lei_rouanet_quem_pode_ser_proponente:
     - text: |
-          Todo projeto cultural, de qualquer artista, produtor e agente cultural brasileiro, pode se beneficiar desta Lei e se candidatar à captação de recursos de renúncia fiscal.
-          A proponência pode ser feita por Pessoas físicas com atuação comprovada na área cultural, ou Pessoas jurídicas de natureza cultural com, no mínimo, dois anos de atividade,
-          podendo ser:
-
-          Pessoas jurídicas públicas da administração indireta
-          (autarquias, fundações culturais etc.)
-          ou pessoas jurídicas privadas com ou sem fins lucrativos
-          (empresas, cooperativas, fundações, ONGs, organizações culturais etc.)
+          Proponente é a pessoa responsável por apresentar, realizar e responder pelo projeto cultural. 
+          Pode ser uma pessoa física com atuação na área cultural ou pessoa jurídica de direito público ou privado, com ou sem fins lucrativos, 
+          cujo ato constitutivo ou instrumento congênere disponha sobre sua finalidade cultural.
 
   utter_lei_rouanet_origem_do_dinheiro:
     - text: |
@@ -553,13 +552,15 @@ templates:
 
   utter_salic_cadastro_proponente:
     - text: |
+          Agora que você já se cadastrou, o próximo passo é cadastrar um proponente
           Basta você entrar no Salic...
           clicar em Administrativo > Cadastrar proponente e preencher todos os dados
 
   utter_processo_prazo:
     - text: |
           Posso responder suas dúvidas a respeito de Datas
-          e Prazos do seu projeto. Como: envio do CNAE e desistência de recurso Envio de CNAE, prazos de análise de proposta e de readequação
+          e Prazos do seu projeto. Como: envio do CNAE e desistência de recurso Envio de CNAE, 
+          prazos de apresentação de um projeto, análise de proposta e de readequação. 
 
   utter_processo_prazo_envio_cnae:
     - text: |
@@ -579,7 +580,7 @@ templates:
     - text: |
           Oi, sou assistente virtual da Secretaria Especial da Cultura, me chamo Tais.
           Estou aqui para te guiar na inscrição do seu projeto ou esclarecer algumas dúvidas sobre a lei Rouanet,
-          Para saber de quais assuntos podemos conversar. Use e abuse da #MEAJUDA.
+          para saber de quais assuntos podemos conversar use a #MEAJUDA.
 
   utter_o_que_sei_falar:
     - text: |
@@ -605,19 +606,19 @@ templates:
 
   utter_continuar_conversa:
     - text: |
-          Você possui mais alguma pergunta?
+          O que mais você gostaria de perguntar?
     - text: |
           Em que mais posso te ajudar?
     - text: |
-          Você tem mais alguma dúvida?
+          Qual a sua próxima dúvida?
     - text: |
           Qual o próximo tema te interessa?
     - text: |
           O que mais você deseja saber?
     - text: |
-          Gostaria te retirar mais alguma dúvida?
+          O que mais você gostaria de saber?
     - text: |
-          Tem mais alguma dúvida?
+          O que mais você deseja perguntar?
 
   utter_despedir:
     - text: |
@@ -673,16 +674,20 @@ templates:
           Para lembrar dos assuntos que eu domino, é só digitar: #MEAJUDA :)
           Use e Abuse da #meajuda
 
-          E ai, como posso te ajudar?
-
   utter_tudo_bem:
     - text: |
-          Tudo bem, obrigada! Em que posso te ajudar?
+          Tudo bem, obrigada! Quero te ajudar!
 
   utter_salic_preenchimento_cadastro_rubrica_advogado_contador:
     - text: |
           Orçamento do projeto > Custos por produto > Clicar no produto desejado
           Clicar no Local de realização > por último na aba Assessoria contábil e jurídica.
+
+  utter_processo_prazo_apresentar_proposta:
+    - text: |
+          O período anual para apresentação da sua proposta é de 1 fevereiro até 30 de novembro. 
+          Sendo assim, o envio da proposta deve ocorrer com no mínimo 90 dias antes do início da execução.
+          Fique de olho no calendário (:
 
   utter_processo_prazo_analise_proposta:
     - text: |
@@ -703,6 +708,7 @@ templates:
   utter_processo_prazo_prestacao_contas:
     - text: |
           Envio da prestação de contas via salic deve ocorrer em até 60 dias após a expiração do prazo de execução.
+          Esse prazo não pode ser prorrogado.
 
   utter_processo_prazo_diligencias:
     - text: |
@@ -711,6 +717,18 @@ templates:
   utter_processo_prazo_desarquivar:
     - text: |
           Não tem prazo para desarquivar a proposta.
+
+  utter_erro_resposta_utter:
+    - text: |
+          Obrigada pelo feedback. Espero que na próxima vez vou conseguir responder a tua pergunta corretamente Gostaria de fazer uma nova pergunta?
+
+  utter_lei_rouanet_democratizacao:
+    - text: |
+          A formação de plateia não é mais obrigatória e não é mais utilizado desde a IN 5.
+          Já a democratização ao acesso são medidas previstas nos artigos 20 e 21 da IN
+          que promovem e ampliam a possibilidade de fruição dos bens, produtos e ações culturais,
+          em especial para as camadas da população menos assistidas ou excluídas do exercício de seus diretos culturais
+          por sua condição socioeconômica ou outras circunstancias.
 
 actions:
   - utter_default
@@ -726,6 +744,7 @@ actions:
   - utter_diga_mais
   - utter_elogios
   - utter_tem_wpp
+  - utter_expressoes_indesejadas
 
   - utter_captacao
   - utter_captacao_quando_captar
@@ -765,9 +784,11 @@ actions:
   - utter_lei_rouanet_analise_pela_cnic
   - utter_lei_rouanet_decisao_final
   - utter_lei_rouanet_divulgacao_patrocinio
+  - utter_lei_rouanet_democratizacao
 
   - utter_processo_reativacao_de_proposta
   - utter_processo_prazo
+  - utter_processo_prazo_apresentar_proposta
   - utter_processo_prazo_envio_cnae
   - utter_processo_prazo_analise_proposta
   - utter_processo_prazo_analise_tecnica
@@ -800,3 +821,5 @@ actions:
   - utter_salic_cadastro_proponente
   - utter_salic_cadastro_usuario
   - utter_cadastro_salic_video
+
+  - utter_erro_resposta_utter

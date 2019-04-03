@@ -373,3 +373,23 @@
 * lei_rouanet_divulgacao_patrocinio
     - utter_lei_rouanet_divulgacao_patrocinio
     - utter_continuar_conversa
+
+## LeiRouanet 38
+* cumprimentar
+    - utter_cumprimentar
+    - utter_menu
+* lei_rouanet_democratizacao
+    - utter_lei_rouanet_democratizacao
+    - utter_continuar_conversa
+
+## LeiRouanet 39
+* cumprimentar
+    - utter_cumprimentar
+* lei_rouanet_receber_incetivo_de_parentes
+    - utter_lei_rouanet_quem_pode_incentivar
+    - utter_continuar_conversa
+
+## LeiRouanet 40
+* lei_rouanet_receber_incetivo_de_parentes
+    - utter_lei_rouanet_quem_pode_incentivar
+    - utter_continuar_conversa

@@ -18,6 +18,7 @@
 * afirmar
     - utter_cadastro_salic_video
 * negar
+    - utter_salic_cadastro_proponente
     - utter_continuar_conversa
 
 ## sigla 1.2
@@ -32,6 +33,7 @@
     - utter_cadastro_salic_video
 * afirmar
     - utter_salic_cadastro_usuario
+    - utter_salic_cadastro_proponente
     - utter_continuar_conversa
 
 ## sigla 1.3
@@ -117,6 +119,7 @@
 * afirmar
     - utter_cadastro_salic_video
 * negar
+    - utter_salic_cadastro_proponente
     - utter_continuar_conversa
 
 ## sigla 1.14
@@ -126,6 +129,7 @@
     - utter_cadastro_salic_video
 * afirmar
     - utter_salic_cadastro_usuario
+    - utter_salic_cadastro_proponente
     - utter_continuar_conversa
 
 ## sigla 1.15
@@ -154,6 +158,7 @@
 * afirmar
     - utter_cadastro_salic_video
 * negar
+    - utter_salic_cadastro_proponente
     - utter_continuar_conversa
 
 ## sigla 2.2
@@ -168,6 +173,7 @@
     - utter_cadastro_salic_video
 * afirmar
     - utter_salic_cadastro_usuario
+    - utter_salic_cadastro_proponente
     - utter_continuar_conversa
 
 ## sigla 2.3
@@ -241,6 +247,7 @@
 * afirmar
     - utter_cadastro_salic_video
 * negar
+    - utter_salic_cadastro_proponente
     - utter_continuar_conversa
 
 ## sigla 3.2
@@ -255,6 +262,7 @@
     - utter_cadastro_salic_video
 * afirmar
     - utter_salic_cadastro_usuario
+    - utter_salic_cadastro_proponente
     - utter_continuar_conversa
 
 ## sigla 3.3
@@ -266,6 +274,7 @@
 * afirmar
     - utter_processo_como_funciona
 * negar
+    - utter_salic_cadastro_proponente
     - utter_continuar_conversa
 
 ## sigla 3.4
@@ -298,6 +307,7 @@
 * afirmar
     - utter_cadastro_salic_video
 * negar
+    - utter_salic_cadastro_proponente
     - utter_continuar_conversa
 
 ## sigla 4.2
@@ -388,6 +398,7 @@
 * afirmar
     - utter_cadastro_salic_video
 * negar
+    - utter_salic_cadastro_proponente
     - utter_continuar_conversa
 
 ## sigla 5.2
@@ -402,6 +413,7 @@
     - utter_cadastro_salic_video
 * afirmar
     - utter_salic_cadastro_usuario
+    - utter_salic_cadastro_proponente
     - utter_continuar_conversa
 
 ## sigla 5.3
@@ -465,6 +477,7 @@
 * afirmar
     - utter_cadastro_salic_video
 * negar
+    - utter_salic_cadastro_proponente
     - utter_continuar_conversa
 
 ## sigla 6.2
@@ -479,6 +492,7 @@
     - utter_cadastro_salic_video
 * afirmar
     - utter_salic_cadastro_usuario
+    - utter_salic_cadastro_proponente
     - utter_continuar_conversa
 
 ## sigla 6.3
@@ -512,6 +526,7 @@
 * afirmar
     - utter_cadastro_salic_video
 * negar
+    - utter_salic_cadastro_proponente
     - utter_continuar_conversa
 
 ## sigla 7.2
@@ -526,6 +541,7 @@
     - utter_cadastro_salic_video
 * afirmar
     - utter_salic_cadastro_usuario
+    - utter_salic_cadastro_proponente
     - utter_continuar_conversa
 
 ## sigla 7.3

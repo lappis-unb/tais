@@ -1,7 +1,7 @@
 <!-- Processo -->
 ## intent:processo_como_funciona
 - como funciona o processo
-- como funciona a lei rouanet   
+- como funciona a lei rouanet
 - como faço para enviar um projeto
 - como é o processo de envio de projeto
 - como criar um projeto
@@ -121,6 +121,30 @@
 - prorrogação de prazo
 - solicitar prorrogação de prazo
 
+## intent: processo_prazo_apresentar_proposta
+- qual a data para apresentar um projeto
+- qual a data para apresentar uma proposta
+- qual a data para apresentação de projeto
+- qual a data para apresentação de proposta
+- quando devo enviar meu projeto
+- quando devo enviar a minha proposta
+- prazo para apresentar projeto
+- prazo para apresentar proposta
+- data de envio de projeto
+- data de envio de proposta
+- data para iniciar projeto
+- data para inciar proposta
+- data para apresentar projeto
+- data para apresentar proposta
+- apresentacao de projeto
+- apresentacao de proposta
+- apresentação de projeto
+- apresentação de proposta
+- apresentar projeto
+- apresentar proposta
+- enviar projeto
+- enviar proposta
+
 ## intent:processo_prazo_envio_cnae
 - tenho duvida sobre o prazo de envio cnae
 - envio do cnae, qual é o prazo
@@ -189,6 +213,10 @@
 ## intent:processo_prazo_prestacao_contas
 - qual é o periodo para prestar contas
 - qual é o prazo de prestação de contas
+- posso prorrogar a entrega da prestação de contas
+- posso fazer prorrogação para a entrega de contas
+- posso prorrogar a prestação e contas
+- como prorrogar a prestação de contas
 - périodo prestação de contas
 - periodo prestacao contas
 - prazo prestação de contas
@@ -197,6 +225,7 @@
 - prazo prestacao de contas
 - data prestação de contas
 - data prestacao de contas
+- prorrogar prestação de contas
 
 ## intent:processo_prazo_diligencias
 - tenho duvida sobre o prazo de diligencias

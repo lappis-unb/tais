@@ -5,7 +5,6 @@
 ## Oi Tudo Bem Story
 * tudo_bem
     - utter_tudo_bem
-    - utter_menu
 
 ## Oi Tudo Bem Story 1
 * cumprimentar
@@ -23,8 +22,7 @@
 
 ## Oi Quem e tais 2
 * quem_eh_a_tais
-    - utter_quem_eh_a_tais 
-    - utter_objetivo
+    - utter_quem_eh_a_tais
 
 ## Nao entendi
 * diga_mais
@@ -33,6 +31,10 @@
 ## fallback
 * out_of_scope
     - utter_default
+
+## expressoes_indesejadas
+* expressoes_indesejadas
+    - utter_expressoes_indesejadas
 
 ## afirmar
 * afirmar
@@ -85,3 +87,7 @@
 ## o que sei falar
 * o_que_sei_falar
     - utter_o_que_sei_falar
+
+## erro resposta
+* erro_resposta_utter
+    - utter_erro_resposta_utter

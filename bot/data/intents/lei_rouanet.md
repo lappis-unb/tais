@@ -1,5 +1,4 @@
 <!-- Lei Rouanet -->
-
 ## intent:lei_rouanet_o_que_eh
 - o que é [lei rouanet](lei_rouanet)
 - o que significa [ruane](lei_rouanet)
@@ -41,32 +40,48 @@
 ## intent:lei_rouanet_quem_pode_ser_proponente
 - quem pode se inscrever na lei rouanet
 - quem pode participar
-- quem pode submeter projetos?
-- quero me inscrever na lei rouanet
-- posso me inscrever na lei rouanet
-- Quem pode iniciar um projeto na lei rouanet
-- quero participar da lei
-- Quem pode apresentar proposta cultural
-- quero me inscrever
-- eu posso usar a lei
+- quem pode submeter projetos
+- quem pode apresentar projetos
+- quem pode apresentar proposta cultural
+- quem pode apresentar proposta
+- quem pode propor projetos via lei rouanet
+- quem pode cadastrar projetos lei de incentivo
+- quem pode se cadastrar na lei rouanet
+- quem pode iniciar um projeto na lei rouanet
 - quem pode se aplicar
-- Tenho uma banda de musica posso propor um projeto  
-- Posso inscrever uma proposta como pessoa fisica
-- Como pessoa fisica eu posso inscrever uma proposta
-- quero me tornar um proponente
-- eu posso participar da lei rouanet
-- quero ser proponente
-- agente publico pode enviar propostas
-- pessoa fisica pode ser proponente
-- Qualquer pessao pode apresentar um projeto
-- como ser proponente
 - quem pode propor
+- quem não pode participar
+- quero participar da lei
+- quero me tornar um proponente
+- quero me inscrever na lei rouanet
+- quero ser proponente
+- posso me inscrever na lei rouanet
+- posso ser preponente
+- posso inscrever uma proposta como pessoa fisica
+- eu posso usar a lei
+- eu posso participar da lei rouanet 
+- o proponente pode ser pessoa física ou jurídica
+- o proponente pode ser pessoa fisica ou juridica
+- parentes de proponente podem apresentar projetos
+- parentes podem propor projetos
+- pessoa física pode ser proponente
+- quais projetos se encaixam na lei rouanet
+- qualquer empresa pode apresentar um projeto
+- qualquer pessoa pode apresentar um projeto
+- qualquer segmento cultural pode propor um projeto na lei rouanet
+- qual tipo de projeto pode ser apresentado na lei rouanet
+- como pessoa fisica eu posso inscrever uma proposta
+- como ser proponente
 - como me inscrever
 - como me tornar proponente
+- é necessário comprovar experiência cultural para ser proponente
+- minha empresa pode ser proponente
+- mei pode ser proponente
+- tenho uma banda de musica posso propor um projeto 
+- agente publico pode enviar propostas
 - elegibilidade
 - inscrever
 - participar
-- aplicar
 - usar a lei
 
 ## intent:lei_rouanet_origem_do_dinheiro
@@ -107,7 +122,6 @@
 - que beneficios tem para quem incentiva
 - um incentivador pode receber beneficio
 - qual é a vantagem de incentivar
-- quem pode patrocinar um proejto
 - quais as vantagens de ser incentivador
 - quais as vantagens para o patrocinador
 - quais os beneficios de ser incentivador
@@ -178,10 +192,9 @@
 - Apoiando projetos culturais, qualquer empresa se beneficia
 - Empresas que se beneficiam ao apoiar projeto culturais
 - como pessoa fisica como posso patrocinar
+- quem pode patrocinar um proejto
 - Quem pode incentivar um proejto cultural
 - Quem pode incentivar projetos culturais
-- quem pode propor um projeto
-- quem pode ser proponente de um projeto
 - Tenho uma empresa e quero particiar da lei rouanet, como eu sei se posso
 - qual o critério de elegibilidade para pessoas jurídicas
 - toda empresa pode usar a lei rouanet
@@ -466,3 +479,49 @@
 - prospeccao comercial
 - divulgação
 - divulgacao
+
+## intent:lei_rouanet_receber_incetivo_de_parentes
+- meus parentes podem incentivar meu projeto
+- meus pais e tios podem incentivar meu projeto
+- tem problema parentes incentivarem projetos
+- tenho parentes que desejam incentivar meus projetos
+- parentes incentivando meus projetos
+- Parentes pode participar do mesmo projeto
+- meu irmão ou irmã, tio ou tia, primo ou prima, mãe ou pai incentivar
+- minha irmã quer incetivar meu projeto tem problema
+- meu projeto pode ser incentivado pela minha família
+- meus familiares podem incentivar meu projeto
+- parentes podem ser patrocinador
+- quero saber se meus parentes podem ajudar a financiar o meu projeto
+- incentivar
+- incentivado
+- incentivo
+- familiares
+- família
+- parente
+- ajudar
+- financiar
+- estimular
+- pais
+
+## intent:lei_rouanet_democratizacao
+- o que é democratização do acesso e formação de plateia
+- o que é democratização ao acesso
+- o que é formação de plateia
+- democratização de acesso formação de plateia
+- formação de plateia e democratização do acesso
+- é obrigatório realizar a formação de plateia
+- é obrigatória realizar a formação de plateia
+- é necessário a formação de plateia
+- como funciona a democratização do acesso
+- democratização de acesso à cultura
+- democratização e plateia
+- democratização de acesso
+- obrigatoriedade de formação de plateia
+- obrigatoriedade de democratização de acesso
+- realizar formação de plateia
+- promover o acesso cultural
+- promover acesso à cultura
+- formação de plateia
+- democratizacao
+- plateia
