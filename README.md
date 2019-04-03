@@ -3,7 +3,7 @@
 <a href="https://www.gnu.org/licenses/gpl-3.0.pt-br.html"><img src="https://img.shields.io/badge/licence-GPL3-green.svg"/></a>
 <a href="https://codeclimate.com/github/lappis-unb/tais/maintainability"><img src="https://api.codeclimate.com/v1/badges/64786c126eb53a061bb6/maintainability" /></a>
 
-A Taís é uma assistente virtual desenvolvida pelo LAPPIS - Laboratório Avançado de Produção, Pesquisa e Inovação em Software (FGA/UnB), em parceria com o Ministério da Cultura. O nome é uma sigla para Tecnologia de Aprendizado Interativo do Salic. 
+A Taís é uma assistente virtual desenvolvida pelo LAPPIS - Laboratório Avançado de Produção, Pesquisa e Inovação em Software (FGA/UnB), em parceria com o Ministério da Cultura. O nome é uma sigla para Tecnologia de Aprendizado Interativo do Salic.
 
 Esse repositório contém o código do framework do chatbot Tais, composto por:
 * **Bot:** Inteligencia artificial do próprio bot, feito em Rasa.
@@ -105,6 +105,27 @@ sudo docker-compose up -d web
 
 Você pode acessar o site por padrão na url `http://localhost:8000`. Será necessário fazer o login, com o usuário criado, esse usuário é um super usuário, então ele tem acesso a parte admin, que poderá ser acessada em `http://localhost:8000/admin/` e poderá criar novos usuários.
 
+## Dashboards Visualização
+
+Dashboards que disponibilizamos para a Secretaria Especial da Cultura.
+
+### Setup
+
+```
+sudo docker-compose run --rm kibana-web python manage.py migrate
+sudo docker-compose run --rm kibana-web python manage.py createsuperuser
+```
+
+### Execução
+
+```
+sudo docker-compose up -d kibana-web
+```
+
+Você pode acessar o site por padrão na url `localhost:8080`
+
+
+
 ## Analytics
 Para a análise dos dados das conversas com o usuário, utilize o kibana, e veja como os usuários estão interagindo com o bot, os principais assuntos, média de usuários e outras informações da análise de dados.
 
@@ -137,11 +158,11 @@ Você pode acessar o kibana no `http://locahost:5601`
 
 ## Dashboards Visualização do Kibana
 
-Dashboards mais básicos do Analytics, sem permissão de `admin`, que disponibilizamos para a Secretaria Especial da Cultura. 
+Dashboards mais básicos do Analytics, sem permissão de `admin`, que disponibilizamos para a Secretaria Especial da Cultura.
 
 ### Setup
 
-Rode as configurações: 
+Rode as configurações:
 ``` sh
 sudo docker-compose run --rm kibana-web python manage.py migrate
 sudo docker-compose run --rm kibana-web python manage.py createsuperuser
@@ -225,8 +246,8 @@ Ficaremos muito felizes de receber e incorporar suas contribuições. Tem alguma
 Em geral o processo é bem simples:
 
 - Crie uma issue descrevendo uma feature  que você queira trabalhar (ou olhe as issues com o label `help-wanted` e `good-first-issue`)
-- Escreva seu código, testes e documentação 
-- Abra um pull request descrevendo as suas alterações propostas 
+- Escreva seu código, testes e documentação
+- Abra um pull request descrevendo as suas alterações propostas
 - Seu pull request será revisado por um dos mantenedores, que pode levantar questões para você sobre eventuais mudanças necessárias ou questões.
 
 Leia o [Guia de Contribuição](./docs/CONTRIBUTING.md) para melhores informações.
