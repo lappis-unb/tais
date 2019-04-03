@@ -356,8 +356,14 @@
 
 ## intent:lei_rouanet_analise_tecnica
  - #análisetécnica
+ - #análisetecnica
+ - #analisetecnica
+ - #analisetécnica
  - #analisetecnica
  - análisetécnica
+ - análisetecnica
+ - analisetecnica
+ - analisetécnica
  - analisetecnica
 
 ## intent:lei_rouanet_analise_pela_cnic
