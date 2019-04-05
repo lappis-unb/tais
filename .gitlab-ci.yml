@@ -1,15 +1,14 @@
-image: python:latest
+image: python:3.6-slim
 
 stages:
   - test style
   - validate format
-  - test stories
-#  - build
+#  - test stories
+  - build
 #  - deploy
 
 variables:
   BOT_LATEST_IMAGE: $CI_REGISTRY_IMAGE/bot:latest
-  ACTIONS_LATEST_IMAGE: $CI_REGISTRY_IMAGE/actions:latest
   WEB_LATEST_IMAGE: $CI_REGISTRY_IMAGE/web:latest
 
 #cache:
@@ -18,74 +17,70 @@ variables:
 #  paths:
 #    - .pip/
 
+.cache: &cache
+  cache:
+    key: "$CI_BUILD_REF_NAME"
+    paths:
+      - venv/
+      - .pip
+
 .prepare_tests_dependencies: &tests_dependencies
   before_script:
-    - python -V # Print out python version for debugging
     - python -m pip install --upgrade pip
-    - pip -V
     - pip install virtualenv
     - virtualenv venv
+    - pip -V
+    - python -V # Print out python version for debugging
     - source venv/bin/activate
     - mkdir -p .pip
     - pip --cache-dir=.pip install -r dev.requirements.txt
     - echo $CI_PROJECT_DIR
 
 test style:
-  <<: *tests_dependencies
   stage: test style
+  <<: *cache
+  <<: *tests_dependencies
   script:
+    - pip -V
+    - python -V # Print out python version for debugging
     - flake8 --exclude venv
-  cache:
-    paths:
-      - venv/
-      - .pip
 
 run dataset validator:
   stage: validate format
+  <<: *cache
   script:
-    - source venv/bin/activate
-    - flake8 --exclude venv
-    - cd bot/
-    - make run-validator
-  cache:
-    paths:
-      - venv/
-      - .pip
-
-test stories:
-  stage: test stories
-  script:
+    - python -m pip install --upgrade pip
     - source venv/bin/activate
     - pip install -r bot.requirements.txt 
     - cd bot/
-    - make e2e
-  cache:
-    paths:
-      - venv/
-      - .pip
+    - flake8 --exclude venv
+    - make run-validator
 
-#build:
-#  image: docker:latest
-#  stage: build
-#  services:
-#    - docker:dind
+#test stories:
+#  stage: test stories
+#  <<: *cache
 #  script:
-#    - docker login -u "gitlab-ci-token" -p "$CI_JOB_TOKEN" $CI_REGISTRY
-#
-#    - docker build -f docker/bot.Dockerfile -t $BOT_STABLE_IMAGE .
-#    - docker push $BOT_STABLE_IMAGE
-#
-#    - docker build -f docker/actions.Dockerfile -t $ACTIONS_STABLE_IMAGE .
-#    - docker push $ACTIONS_STABLE_IMAGE
-#
-#    - docker build -f docker/web.Dockerfile -t $WEB_STABLE_IMAGE .
-#    - docker push $WEB_STABLE_IMAGE
-#  only:
-#    - tags
-#  environment: production
-#  tags:
-#    - docker
-#
+#    - source venv/bin/activate
+#    - cd bot/
+#    - make e2e
+
+build:
+  stage: build
+  image: docker:latest
+  services:
+    - docker:dind
+  script:
+    - docker login -u "gitlab-ci-token" -p "$CI_JOB_TOKEN" $CI_REGISTRY
+
+    - docker build -f docker/bot.Dockerfile -t $BOT_STABLE_IMAGE .
+    - docker push $BOT_STABLE_IMAGE
+
+    - docker build -f docker/web.Dockerfile -t $WEB_STABLE_IMAGE .
+    - docker push $WEB_STABLE_IMAGE
+  environment: homolog
+  tags:
+    - docker
+
 #deploy_to_homologation:
 #  image: cdrx/rancher-gitlab-deploy
 #  stage: deploy
