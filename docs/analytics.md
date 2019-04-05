@@ -1,8 +1,7 @@
 ---
 layout: page
 permalink: /analytics/
+title: Analytics
 ---
-
-# Analytics
 
 <!-- Explicação do eue é o analytics e como ele funciona -->

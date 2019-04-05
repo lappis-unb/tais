@@ -1,35 +1,37 @@
-<footer class="site-footer h-card">
-    <data class="u-url" href="{{ "/" | relative_url }}"></data>
-  
-    <div class="wrapper">
-  
-      <div class="footer-col-wrapper">
-        <div class="footer-col one-half">
-        <h2 class="footer-heading">Tais</h2>
-          <ul class="contact-list">
-              <li><a class="u-email" href="mailto:tais.betateste@gmail.com">tais.betateste@gmail.com</a></li>
-              <li><a href="http://lappis.rocks">lappis.rocks</a></li>
-              <li>
-                <a style="color: grey; align-self: left" href="https://github.com/lappis-unb/tais" title="lappis-unb/tais">
-                    <svg style="width:25px" class="svg-icon grey">
-                        <use xlink:href="{{ '/assets/minima-social-icons.svg#github' | relative_url }}"></use>
-                    </svg>
-                    lappis-unb/tais
-                </a>
-              </li>
-          </ul>
-        </div>
-  
-        <div class="footer-col one-half">
-            <p> 
-                A Taís é uma assistente virtual desenvolvida pelo LAPPIS - Laboratório Avançado de Produção,
-                Pesquisa e Inovação em Software (FGA/UnB), em parceria com o Ministério da Cultura. O nome é
-                uma sigla para Tecnologia de Aprendizado Interativo do Salic.
-            </p>
-        </div>
-
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<footer>
+  <div class="footer">
+    <div class="container row">
+      <div class="collumn" style="width: 50%; margin-right: 8%">
+        <h4>Tais</h4>
+        <p style="text-align: justify">A Taís é uma assistente virtual desenvolvida pelo LAPPIS - Laboratório Avançado de Produção, Pesquisa e Inovação em
+        Software (FGA/UnB), em parceria com o Ministério da Cultura. O nome é uma sigla para Tecnologia de Aprendizado
+        Interativo do Salic.</p>
       </div>
-  
+      <div class="collumn" style="width: 22%;">
+        <br/>
+        <a href="http://lappis.rocks"><img src="{{ '/assets/favicon.png' | relative_url }}" style="width: 10%"/> Conheça o Lappis</a><br/>
+        <a href="http://github.com/lappis-unb/tais"><img src="{{ '/assets/GitHub-Mark-32px.png' | relative_url }}" style="width: 10%"/> lappis-unb/tais</a><br/>
+        <a href="mailto:tais.betateste@gmail.com"><i class="fa fa-envelope" style="color: black;"></i> tais.betateste@gmail.com</a>
+      </div>
     </div>
-  
-  </footer>
+  </div>
+</footer>
+
+
+<style>
+a{
+  color:green;
+}
+.highlighter-rouge{
+  color: grey
+}
+footer {
+    margin-left: 20%;
+    clear: both;
+    position: relative;
+    width: 100%;
+}
+
+</style>

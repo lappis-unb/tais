@@ -1,16 +1,88 @@
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-
-<div class="w3-sidebar w3-bar-block" style="width:15%; margin-left: 15px"> 
-  <h3>Menu</h3>
-  <button onclick="window.location.href = '/como-rodar';" class="w3-bar-item w3-button">Como rodar a Tais?</button>
-  <button onclick="window.location.href = '/como-contribuir';" class="w3-bar-item w3-button">Guia de Contribuição</button>
-  <button onclick="window.location.href = '/arquitetura';" class="w3-bar-item w3-button">Arquitetura</button>
-  <button onclick="window.location.href = '/rasa-bot';" class="w3-bar-item w3-button">Tais com Rasa</button>
-  <button onclick="window.location.href = '/analytics';" class="w3-bar-item w3-button">Analytics</button>
-  <button onclick="window.location.href = '/plataforma-conteudo';" class="w3-bar-item w3-button">Plataforma de Conteúdo</button>
-  <button onclick="window.location.href = '/notebooks';" class="w3-bar-item w3-button">Notebooks</button>
-  <button onclick="window.location.href = '/beta-testers';" class="w3-bar-item w3-button">Página de Beta Testers</button>
-  <button onclick="window.location.href = '/ambientes';" class="w3-bar-item w3-button">Ambientes da Tais</button>
-  <button onclick="window.location.href = '/conteudo';" class="w3-bar-item w3-button">Conteúdo da Tais</button>
-  <button onclick="window.location.href = '/estudos';" class="w3-bar-item w3-button">Estudos Feitos</button>
+<div class="wrapper">
+    <!-- Sidebar  -->
+    <nav id="sidebar">
+      <div class="container"style="margin-top:20px;">
+          <!-- <div class="sidebar-header" style="margin-top:20px;">
+              <h3>Menu</h3>
+              <strong>BS</strong>
+          </div> -->
+          <div class="btn-group-vertical" style="width:100%">
+              <button onclick="window.location.href = '/tais/como-rodar';" type="button" class="bt btn btn-default btn-block">Como rodar a Tais?</button>
+              <button onclick="window.location.href = '/tais/como-contribuir';" type="button" class="bt btn btn-default btn-block">Guia de Contribuição</button>
+              <button onclick="window.location.href = '/tais/arquitetura';" type="button" class="bt btn btn-default btn-block">Arquitetura</button>
+              <button onclick="window.location.href = '/tais/rasa-bot';" type="button" class="bt btn btn-default btn-block">Tais com Rasa</button>
+              <button onclick="window.location.href = '/tais/analytics';" type="button" class="bt btn btn-default btn-block">Analytics</button>
+              <button onclick="window.location.href = '/tais/plataforma-conteudo';" type="button" class="bt btn btn-default btn-block">Plataforma de Conteúdo</button>
+              <button onclick="window.location.href = '/tais/notebooks';" type="button" class="bt btn btn-default btn-block">Notebooks</button>
+              <button onclick="window.location.href = '/tais/beta-testers';" type="button" class="bt btn btn-default btn-block">Página de Beta Testers</button>
+              <button onclick="window.location.href = '/tais/ambientes';" type="button" class="bt btn btn-default btn-block">Ambientes da Tais</button>
+              <button onclick="window.location.href = '/tais/conteudo';" type="button" class="bt btn btn-default btn-block">Conteúdo da Tais</button>
+              <button onclick="window.location.href = '/tais/estudos';" type="button" class="bt btn btn-default btn-block">Estudos Feitos</button>
+          </div>
+      </div>
+    </nav>
 </div>
+
+
+<style>
+
+  .bt{
+    border-radius: 10px;
+  }
+  .bt:hover {
+  background-color: #4CAF50; /* Green */
+  color: white;
+}
+
+  /* Shrinking the sidebar from 250px to 80px and center aligining its content*/
+#sidebar.active {
+    min-width: 80px;
+    max-width: 80px;
+    text-align: center;
+}
+
+/* Toggling the sidebar header content, hide the big heading [h3] and showing the small heading [strong] and vice versa*/
+#sidebar .sidebar-header strong {
+    display: none;
+}
+#sidebar.active .sidebar-header h3 {
+    display: none;
+}
+#sidebar.active .sidebar-header strong {
+    display: block;
+}
+
+#sidebar ul li a {
+    text-align: left;
+}
+
+#sidebar.active ul li a {
+    padding: 20px 10px;
+    text-align: center;
+    font-size: 0.85em;
+}
+
+#sidebar.active ul li a i {
+    margin-right:  0;
+    display: block;
+    font-size: 1.8em;
+    margin-bottom: 5px;
+}
+
+/* Same dropdown links padding*/
+#sidebar.active ul ul a {
+    padding: 10px !important;
+}
+
+/* Changing the arrow position to bottom center position, 
+   translateX(50%) works with right: 50% 
+   to accurately  center the arrow */
+#sidebar.active .dropdown-toggle::after {
+    top: auto;
+    bottom: 10px;
+    right: 50%;
+    -webkit-transform: translateX(50%);
+    -ms-transform: translateX(50%);
+    transform: translateX(50%);
+}
+</style>
