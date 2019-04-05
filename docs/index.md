@@ -4,7 +4,6 @@
 # See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 layout: page
 title: "Tais: Assistente Virtual do Ministério da Cultura"
-permalink: /
 ---
 
 <!-- Elaborar uma página inicial do pages -->
