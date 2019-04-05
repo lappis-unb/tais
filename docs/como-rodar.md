@@ -20,7 +20,7 @@ A Tais possui vários ambientes e vários componentes para rodar. Veja e entenda
 ### RocketChat
 Para testar a Tais utilizando da plataforma do RocketChat, siga os seguintes comandos para subir os containers em seu computador:
 
-```sh
+``` sh
 sudo docker-compose up -d rocketchat
 # aguarde o container subir
 sudo docker-compose up bot
@@ -35,7 +35,7 @@ Após esses comandos o RocketChat deve estar disponível na porta `3000` do seu 
 
 Para colocar a Tais em um site você precisa inserir o seguinte código em Javascript na sua página:
 
-```js
+``` js
 <!-- Start of Rocket.Chat Livechat Script -->
 <script type="text/javascript">
 (function(w, d, s, u) {

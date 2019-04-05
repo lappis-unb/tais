@@ -12,14 +12,16 @@
   {%- include navbar.html -%} 
 
   <body>
-    
-    <div style="float: left">
-      {%- include sidebar.html -%} 
+    <div>
+      <div style="float: left">
+        {%- include sidebar.html -%} 
+      </div>
+      <div class="container" style="float:left; padding: 50px">
+          {{content}}
+      </div>
     </div>
-    <div class="container" style="float:left; padding: 50px">
-        {{content}}
-    </div>
-    
+ 
+
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
@@ -42,6 +44,7 @@
       </script>
       <!-- End of Rocket.Chat Livechat Script -->
   </body>
+    {%- include footer.html -%}
 </html>
 
 
