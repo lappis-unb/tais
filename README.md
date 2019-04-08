@@ -13,7 +13,7 @@ Esse repositório contém o código do framework do chatbot Tais, composto por:
 ---
 <!-- Links uteis: -->
 * **O que é a Tais? 🤔** [Conheça a Tais](#o-que-é-a-tais)
-* **Quero ler a documentação! 📚** [Veja a nossa wiki](https://github.com/lappis-unb/tais/wiki)
+* **Quero ler a documentação! 📚** [Acesse nosso GitHub Pages](https://lappis-unb.github.io/tais/) e [veja a nossa wiki](https://github.com/lappis-unb/tais/wiki)
 * **O que é o Lappis? ✏️** [Conheça o Lappis](https://lappis.rocks)
 * **Estou preparado para testar a Tais! 💻** [Teste a tais em produção no Portal da Lei Rouanet](http://rouanet.cultura.gov.br) ou [veja ela em produção em nosso github pages](http://lappis-unb.github.io/tais)
 * **Como posso rodar a Tais no meu computador? ⚙️** [Veja e entenda como subir cada parte do ambiente de desenvolvimento da Taís](#Como-rodar-a-TAIS) ou [simplesmente rode os comandos do QuickStart](#QuickStart)
@@ -264,4 +264,4 @@ Veja mais informações de contato em nosso site: https://lappis.rocks
 
 Todo o framework da Tais é desenvolvido sob a licença [GPL3](https://github.com/lappis-unb/tais/blob/master/LICENSE)
 
-Uma lista da lista de dependência das licenças do projeto podem ser encontradas [aqui](https://github.com/lappis-unb/tais/network/dependencies)
+Veja a lista de dependências de licenças [aqui](https://libraries.io/github/lappis-unb/tais)
