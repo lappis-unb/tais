@@ -56,6 +56,14 @@
     - utter_lei_rouanet_analise_tecnica
     - utter_continuar_conversa
 
+## LeiRouanet 1.9.1
+* lei_rouanet_etapas_aprovacao_projeto
+    - utter_lei_rouanet_etapas_aprovacao_projeto
+    - utter_continuar_conversa
+* lei_rouanet_analise_tecnica
+    - utter_lei_rouanet_analise_tecnica
+    - utter_continuar_conversa
+
 ## LeiRouanet 1.10
 * lei_rouanet_analise_de_admissibilidade
     - utter_lei_rouanet_analise_de_admissibilidade

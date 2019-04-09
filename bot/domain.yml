@@ -96,23 +96,23 @@ entities:
 templates:
   utter_default:
     - text: |
-        Desculpe, ainda não sei falar sobre isso ou talvez não consegui entender direito
-        Você pode perguntar de novo de outro jeito?
+          Desculpe, ainda não sei falar sobre isso ou talvez não consegui entender direito
+          Você pode perguntar de novo de outro jeito?
     - text: |
-        Poxa, acho que ainda não sei isso... Se não consegui responder tua pergunta,
-        entre no site da Rouanet (http://rouanet.cultura.gov.br/perguntas_frequentes_28_12/)
-        Mas se você perguntar de outra forma talvez eu consiga te responder
+          Poxa, acho que ainda não sei isso... Se não consegui responder tua pergunta,
+          entre no site da Rouanet (http://rouanet.cultura.gov.br/perguntas_frequentes_28_12/)
+          Mas se você perguntar de outra forma talvez eu consiga te responder
     - text: |
-        Hummmm... Não sei se entendi. Pode escrever de outra forma?
+          Hummmm... Não sei se entendi. Pode escrever de outra forma?
     - text: |
-        Acho que não te entendi, você pode me perguntar de novo usando outras palavras?
+          Acho que não te entendi, você pode me perguntar de novo usando outras palavras?
     - text: |
-        Vamos tentar mais uma vez? Eu não consegui te entender direito, me pergunta de outro jeito?
+          Vamos tentar mais uma vez? Eu não consegui te entender direito, me pergunta de outro jeito?
 
   utter_expressoes_indesejadas:
     - text: |
-        Hummm… Não gostei muito dessa expressão que você usou. 
-        Que tal falar de outra forma?
+          Hummm… Não gostei muito dessa expressão que você usou. 
+          Que tal falar de outra forma?
 
   utter_definicao_tais:
     - text: |
@@ -584,14 +584,22 @@ templates:
 
   utter_o_que_sei_falar:
     - text: |
-          Veja alguns dos assuntos que eu posso te ajudar:
-          O que é a Lei de Incentivo Culturais e como funciona
-          Dúvidas operacionais encontradas durante a execução do projeto cultural (tipo, perdi minha senha no SALIC)
+          Veja alguns dos assuntos que eu posso te ajudar (:
 
-          Duvidas sobre Definições, nomenclaturas, e informações relacionadas à lei e ao Ministério da Cultura (MinC)
-          Além desses, também sei responder sobre outros assuntos como definições, nomenclaturas, e informações sobre a lei e sobre o MinC
+          O que é a Lei Rouanet e como funciona
+          Dúvidas operacionais sobre a execução do projeto (ex: perdi minha senha no SALIC)
+          Ou dúvidas sobre definições e siglas (ex: o que é TAIS?)
 
-          Agora pode me fazer tua pergunta!
+          Agora que você já sabe do que podemos conversar, vou te dar algumas dicas...
+
+          Eu consigo te entender melhor quando você faz perguntas curtas
+          e manda uma pergunta de cada vez.
+
+          Assim... espera eu te responder
+          daí você me manda outra!
+
+          Bom, acho que já falei demais! Sua vez...
+          o que você deseja saber?
 
   utter_objetivo:
     - text: |
@@ -670,9 +678,9 @@ templates:
     - text: |
           Podemos conversar sobre como submeter um projeto, as etapas, algumas dúvidas operacionais…
           Ou se você já tiver um projeto cadastrado, a gente pode falar sobre isso também.
-
           Para lembrar dos assuntos que eu domino, é só digitar: #MEAJUDA :)
-          Use e Abuse da #meajuda
+          E aí, por onde vamos começar?
+
 
   utter_tudo_bem:
     - text: |
