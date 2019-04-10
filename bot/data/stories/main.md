@@ -60,12 +60,6 @@
     - utter_elogios
     - utter_objetivo
 
-## objetivo
-* out_of_scope
-    - utter_default
-* out_of_scope
-    - utter_manter_conversa
-
 ## tem wpp 1
 * tem_wpp
     - utter_tem_wpp
@@ -77,13 +71,6 @@
 * tem_wpp
     - utter_tem_wpp
     - utter_objetivo
-
-## tem wpp 3
-* o_que_sei_falar
-    - utter_objetivo
-* tem_wpp
-    - utter_tem_wpp
-    - utter_manter_conversa
 
 ## o que sei falar
 * o_que_sei_falar
