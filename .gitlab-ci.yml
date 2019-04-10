@@ -1,21 +1,15 @@
 image: python:3.6-slim
 
 stages:
-  - test style
-  - validate format
+#  - test style
+#  - validate format
 #  - test stories
-  - build
-#  - deploy
+#  - build
+  - deploy
 
 variables:
   BOT_LATEST_IMAGE: $CI_REGISTRY_IMAGE/bot:latest
   WEB_LATEST_IMAGE: $CI_REGISTRY_IMAGE/web:latest
-
-#cache:
-#  untracked: true
-#  key: "$CI_PROJECT_ID"
-#  paths:
-#    - .pip/
 
 .cache: &cache
   cache:
@@ -36,25 +30,65 @@ variables:
     - pip --cache-dir=.pip install -r dev.requirements.txt
     - echo $CI_PROJECT_DIR
 
-test style:
-  stage: test style
-  <<: *cache
-  <<: *tests_dependencies
-  script:
-    - pip -V
-    - python -V # Print out python version for debugging
-    - flake8 --exclude venv
+#.set_private_key: &set_private_key
+#  before_script:
+#    - 'which ssh-agent || ( apt-get update && apt-get install -y openssh-client )'
+#    - eval "$(ssh-agent -s)"
+#    - echo "$SSH_PRIVATE_KEY" | tr -d '\r' | ssh-add - > /dev/null
+#    - mkdir -p ~/.ssh
+#    - '[[ -f /.dockerenv ]] && echo -e "Host *\n\tStrictHostKeyChecking no\n\n" > ~/.ssh/config'
 
-run dataset validator:
-  stage: validate format
-  <<: *cache
-  script:
-    - python -m pip install --upgrade pip
-    - source venv/bin/activate
-    - pip install -r bot.requirements.txt 
-    - cd bot/
-    - flake8 --exclude venv
-    - make run-validator
+.set_private_key: &set_private_key
+  before_script:
+    - 'which ssh-agent || ( apt-get update && apt-get install -y openssh-client )'
+    - eval "$(ssh-agent -s)"
+    - mkdir -p ~/.ssh
+    - chmod 700 ~/.ssh
+    - echo "$SSH_PRIVATE_KEY" | tr -d '\r' > ~/.ssh/id_rsa
+    - chmod 600 ~/.ssh/id_rsa
+    - '[[ -f /.dockerenv ]] && echo -e "Host *\n\tStrictHostKeyChecking no\n\n" > ~/.ssh/config'
+    #- eval "ssh-agent -s"
+    - eval `ssh-agent`
+    - echo -e "\n" | ssh-add ~/.ssh/id_rsa
+    #- printf '%s\n' "$SSH_PRIVATE_KEY" | ssh-add -
+    - ssh-keyscan -H $DEPLOY_SERVER_IP >> ~/.ssh/known_host
+
+#before_script:
+#    - yum install which -y
+#    # install ssh-agent if not already installed, it is required by docker
+#    - 'which ssh-agent || ( yum install openssh-clients -y )'
+#    # run ssh-agent (inside the build environment)
+#    - eval $(ssh-agent -s)
+#    # add the ssh key stored in SSH_PRIVATE_KEY variable to the agent store
+#    - ssh-add <(echo "$SSH_PRIVATE_KEY")
+#    # for docker builds disable host key checking although this can lead to
+#    # mitm attacks; only use this in docker or it will overwrite the host
+#    # ssh config!
+#    - mkdir -p ~/.ssh
+#    - '[[ -f /.dockerenv ]] && echo -e "Host *\n\tStrictHostKeyChecking no\n\n" > ~/.ssh/config'
+
+
+#test style:
+#  stage: test style
+#  <<: *cache
+#  <<: *tests_dependencies
+#  script:
+#    - pip -V
+#    - python -V # Print out python version for debugging
+#    - flake8 --exclude venv
+#
+#run dataset validator:
+#  stage: validate format
+#  <<: *cache
+#  script:
+#    - python -m pip install --upgrade pip
+#    - source venv/bin/activate
+#    - pip install -r bot.requirements.txt
+#    - cd bot/
+#    - flake8 --exclude venv
+#    - make run-validator
+#  only:
+#    - add_ci_and_cd
 
 #test stories:
 #  stage: test stories
@@ -64,42 +98,9 @@ run dataset validator:
 #    - cd bot/
 #    - make e2e
 
-build:
-  stage: build
-  image: docker:latest
-  services:
-    - docker:dind
-  script:
-    - docker login -u "gitlab-ci-token" -p "$CI_JOB_TOKEN" $CI_REGISTRY
-
-    - docker build -f docker/bot.Dockerfile -t $BOT_STABLE_IMAGE .
-    - docker push $BOT_STABLE_IMAGE
-
-    - docker build -f docker/web.Dockerfile -t $WEB_STABLE_IMAGE .
-    - docker push $WEB_STABLE_IMAGE
-  environment: homolog
-  tags:
-    - docker
-
-#deploy_to_homologation:
-#  image: cdrx/rancher-gitlab-deploy
-#  stage: deploy
-#  services:
-#    - docker:dind
-#  script:
-#    - upgrade --environment Production --stack TAIS --service bot --new-image $BOT_STABLE_IMAGE --no-finish-upgrade --debug
-#    - upgrade --environment Production --stack TAIS --service actions --new-image $ACTIONS_STABLE_IMAGE --no-finish-upgrade --debug
-#    - upgrade --environment Production --stack TAIS --service web --new-image $WEB_STABLE_IMAGE --no-finish-upgrade --debug
-#  only:
-#    - tags
-#  environment: production
-#  tags:
-#    - docker
-#
-#
-#build latest:
-#  image: docker:latest
+#build_bot:
 #  stage: build
+#  image: docker:latest
 #  services:
 #    - docker:dind
 #  script:
@@ -108,28 +109,27 @@ build:
 #    - docker build -f docker/bot.Dockerfile -t $BOT_LATEST_IMAGE .
 #    - docker push $BOT_LATEST_IMAGE
 #
-#    - docker build -f docker/actions.Dockerfile -t $ACTIONS_LATEST_IMAGE .
-#    - docker push $ACTIONS_LATEST_IMAGE
-#
 #    - docker build -f docker/web.Dockerfile -t $WEB_LATEST_IMAGE .
 #    - docker push $WEB_LATEST_IMAGE
 #  only:
-#    - /master/
-#  environment: development
+#    refs:
+#      - add_ci_and_cd
+#    except:
+#      changes:
+#        - web
+#  environment: homolog
 #  tags:
 #    - docker
-#
-#deploy:
-#  image: cdrx/rancher-gitlab-deploy
-#  stage: deploy
-#  services:
-#    - docker:dind
-#  script:
-#    - upgrade --environment Development --stack TAIS --service bot --new-image $BOT_LATEST_IMAGE --debug
-#    - upgrade --environment Development --stack TAIS --service actions --new-image $ACTIONS_LATEST_IMAGE --debug
-#    - upgrade --environment Development --stack TAIS --service web --new-image $WEB_LATEST_IMAGE --debug
-#  only:
-#    - /master/
-#  environment: development
-#  tags:
-#    - docker
+
+deploy_bot_to_homolog:
+  stage: deploy
+  <<: *set_private_key
+  services:
+    - docker:dind
+  script:
+    - ssh root@$DEPLOY_SERVER_IP "docker login -u 'gitlab-ci-token' -p ${CI_JOB_TOKEN} ${CI_REGISTRY}; docker-compose -f docker-compose stop bot; docker-compose -f docker-compose.autodeploy.yml rm bot --force; docker pull $CI_REGISTRY_IMAGE/bot:latest; docker-compose -f docker-compose up -d bot"
+  only:
+    - add_ci_and_cd
+  environment: homolog
+  tags:
+    - docker
