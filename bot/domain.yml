@@ -108,6 +108,10 @@ templates:
           Acho que não te entendi, você pode me perguntar de novo usando outras palavras?
     - text: |
           Vamos tentar mais uma vez? Eu não consegui te entender direito, me pergunta de outro jeito?
+    - text:
+          A minha missão é te guiar para a inscrição da sua proposta,
+          Se você já sabe isso é porque você já tem um conhecimento avançado e talvez eu não consiga sanar as suas dúvidas.
+          Mas podemos continuar conversando sobre alguns conceitos básicos da lei Rouanet =)
 
   utter_expressoes_indesejadas:
     - text: |
