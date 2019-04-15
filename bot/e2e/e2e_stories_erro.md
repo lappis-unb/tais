@@ -1,7 +1,7 @@
 ## end-to-end story 1
 * quem_eh_a_tais: quem é a tais?
-    - utter_definicao_tais
-    - utter_continuar_conversa
+    - utter_quem_eh_a_tais
+    - utter_objetivo
 * afirmar: sim
     - utter_processo_como_funciona
 * afirmar: sim
