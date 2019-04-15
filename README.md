@@ -235,6 +235,11 @@ A documentação se encontra na pasta `docs` deste repositório. É feita com `J
 ```
 jekyll serve
 ```
+Ou rode com docker:
+```
+docker-compose up
+```
+
 Acesse a pagina em `http://localhost:4000`.
 
 # Passos necessários para gerar uma nova release
