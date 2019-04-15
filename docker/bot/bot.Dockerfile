@@ -1,4 +1,4 @@
-FROM bot:latest
+FROM requirements:latest
 
 COPY ./bot /bot
 COPY ./scripts /scripts

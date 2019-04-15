@@ -27,6 +27,7 @@ services:
 
   # ================================= Bot =====================================
   bot:
+    image: bot:latest
     build:
       context: .
       dockerfile: ./docker/bot/bot.Dockerfile
@@ -41,7 +42,7 @@ services:
       - ./scripts:/scripts
   
   coach:
-    image: coach_bot:latest
+    image: coach:latest
     build:
       context: .
       dockerfile: ./docker/bot/coach.Dockerfile
