@@ -29,7 +29,7 @@ services:
   bot:
     build:
       context: .
-      dockerfile: ./docker/bot.Dockerfile
+      dockerfile: ./docker/bot/bot.Dockerfile
     restart: unless-stopped
     environment:
       - ROCKETCHAT_URL=rocketchat:3000
