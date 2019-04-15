@@ -36,9 +36,20 @@ services:
     ports:
       - 5005:5005
     volumes:
+      - ./models:/bot/models/:ro
       - ./bot:/bot
       - ./scripts:/scripts
-
+  
+  coach:
+    image: coach_bot:latest
+    build:
+      context: .
+      dockerfile: ./docker/bot/coach.Dockerfile
+    command: cp -a /src_models/. /models/
+    volumes:
+      - ./models:/models/
+      - ./coach:/coach
+      - ./scripts:/scripts
 
   # =================================== Web ===================================
   web:
