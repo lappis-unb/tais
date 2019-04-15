@@ -1,0 +1,4 @@
+rasa-nlu>=0.14.1
+rasa-core>=0.13.1
+sklearn-crfsuite==0.3.6
+nltk==3.3
