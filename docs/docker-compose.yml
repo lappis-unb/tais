@@ -7,5 +7,7 @@ services:
             - .:/docs/
         working_dir: /docs/
         network_mode: "host"
+        ports:
+          - "4000:4000"
         command: bash -c 'gem install bundler && bundle && jekyll serve'
 
