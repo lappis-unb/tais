@@ -113,7 +113,9 @@ services:
 
   # =============================== Analytics =================================
   elasticsearch:
-    image: docker.elastic.co/elasticsearch/elasticsearch:6.4.2
+    build:
+      context: .
+      dockerfile: ./docker/elasticsearch.Dockerfile
     restart: unless-stopped
     ports:
       - 9200:9200
@@ -121,6 +123,8 @@ services:
     environment:
       - discovery.type=single-node
     volumes:
+      - esbackup:/usr/share/elasticsearch/backup
+      - ./elasticsearch/elasticsearch.yml:/usr/share/elasticsearch/config/elasticsearch.yml
       - esdata:/usr/share/elasticsearch/data
 
   kibana:
@@ -189,3 +193,4 @@ services:
 volumes:
   esdata:
     driver: local
+  esbackup:
