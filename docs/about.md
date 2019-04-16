@@ -9,20 +9,20 @@ permalink: /about/
 
 A Tais, Tecnologia de Aprendizado Interativo Salic, é uma assistente virtual de suporte para o Sistema de Apoio às Leis de Incentivo à Cultura, o Salic. Desenvolvida pelo Laboratório Avançado de Produção, Pesquisa e Inovação em Software (Lappis) da Universidade de Brasília (FGA/UnB), em parceria com o Ministério da Cultura, tem como função tirar dúvidas do público sobre a Lei Rouanet e o Salic e responde a questões básicas de forma simplificada, com objetivo de apoiar os cidadãos no entendimento.
 
-* Salic <!-- Explicação do que é o Salic-->
-O Salic, Sistema de Apoio às Leis de Incentivo à Cultura, é um sistema unificado, utilizado para apresentação de propostas e acompanhamento de projetos culturais. Todas as fases de tramitação, da admissibilidade à prestação de contas, estão registradas e automatizadas no sistema. O Salic proporciona acesso a dados da Lei Rouanet como o número de propostas apresentadas, os projetos aprovados e os recursos captados – por período de tempo, linguagem cultural ou região / estado do País.
-
-* MinC <!-- Explicação do que é o Minc -->
+* **MinC:** <!-- Explicação do que é o Minc -->
 Ministério da Cultura (MinC) foi um ministério do governo brasileiro responsável pelas letras, artes, folclore e outras formas de expressão da cultura nacional e pelo patrimônio histórico, arqueológico, artístico e cultural do Brasil e tinha como objetivo promover o crescimento cultural, ampliar o acesso à cultura e fortalecer a economia criativa em todas as regiões do país, contribuindo para o desenvolvimento do Brasil.
+
+* **Salic:** <!-- Explicação do que é o Salic-->
+O Salic, Sistema de Apoio às Leis de Incentivo à Cultura, é um sistema unificado, utilizado para apresentação de propostas e acompanhamento de projetos culturais. Todas as fases de tramitação, da admissibilidade à prestação de contas, estão registradas e automatizadas no sistema. O Salic proporciona acesso a dados da Lei Rouanet como o número de propostas apresentadas, os projetos aprovados e os recursos captados – por período de tempo, linguagem cultural ou região / estado do País.
 
 #### Léxicos:
 <!-- Explicação de termos utilizados -->
-* Intent: Possíveis frases que um usuário enviariam para falar sobre um determinado tópico. Servem de base para o treinamento de análise de linguagem natural do chatbot, que as manipula para reconhecer frases não listadas.
-* Utter: Ação de resposta do bot após uma intent ser acionada. É a resposta do bot para o usuário após receber uma mensagem.
-* Storie: Local onde se determina qual Utter se relaciona com qual Intent. Também serve para explicitar possíveis fluxos de conversa que o bot terá.
-							
-Intents e Stories podem ser encontradas na pasta bot/data, ondem ficam listadas em suas respectivas pastas, já as Utters ficam listadas no arquivo domain.yml, encontrado na pasta bot.
-Para gerar mais conteúdo para o chatbot é necessário criar uma nova Intent, gerar exemplos de frases do usuário, em seguida criar a Utter de resposta para essa Intent e por fim criar uma Storie que relacione as duas. Todas Utter, Intents e Stories devem ser listada no arquivo domain.yml.
+* **Lei Rouanet:** Lei de incentivo a cultura.
+* **PRONAC:** Programa Nacional de Apoio à Cultura
+* **SEFIC:** Secretaria de Fomento e Incentivo à Cultura
+* **CNIC:** Conselho Nacional de Incentivo à Cultura
+* **Proposta:** Proposta é o conjunto de formulários que devem ser preenchidos pelo proponente afim de se tornar um projeto.
+* **Proponente:** Aquele que envia uma proposta de projeto para a Lei Rouanet.
 
 ## Tais no Lappis
 <!-- Explicação geral da história da Tais no Lappis -->
