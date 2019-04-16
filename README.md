@@ -235,7 +235,8 @@ A documentação se encontra na pasta `docs` deste repositório. É feita com `J
 ```
 jekyll serve
 ```
-Ou rode com docker:
+Ou rode com docker (atualmente nem sempre funciona o mapeamento de porta - issue #441):
+
 ```
 docker-compose up
 ```
