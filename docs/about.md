@@ -13,7 +13,7 @@ A Tais, Tecnologia de Aprendizado Interativo Salic, é uma assistente virtual de
 O Salic, Sistema de Apoio às Leis de Incentivo à Cultura, é um sistema unificado, utilizado para apresentação de propostas e acompanhamento de projetos culturais. Todas as fases de tramitação, da admissibilidade à prestação de contas, estão registradas e automatizadas no sistema. O Salic proporciona acesso a dados da Lei Rouanet como o número de propostas apresentadas, os projetos aprovados e os recursos captados – por período de tempo, linguagem cultural ou região / estado do País.
 
 * MinC <!-- Explicação do que é o Minc -->
-Ministério da Cultura (MinC) foi um ministério do governo brasileiro responsável pelas letras, artes, folclore e outras formas de expressão da cultura nacional e pelo patrimônio histórico, arqueológico, artístico e cultural do Brasil e tinha como objetivo promover o crescimento cultural, ampliar o acesso à cultura e fortalecer a economia criativa em todas as regiões do país, contribuindo para o desenvolvimento do Brasi.
+Ministério da Cultura (MinC) foi um ministério do governo brasileiro responsável pelas letras, artes, folclore e outras formas de expressão da cultura nacional e pelo patrimônio histórico, arqueológico, artístico e cultural do Brasil e tinha como objetivo promover o crescimento cultural, ampliar o acesso à cultura e fortalecer a economia criativa em todas as regiões do país, contribuindo para o desenvolvimento do Brasil.
 
 #### Léxicos:
 <!-- Explicação de termos utilizados -->
