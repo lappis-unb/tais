@@ -18,6 +18,7 @@
 - você é um robo
 - vc é um humano
 - você eh um robo
+- quem é a tais
 - quem é voce
 - quem e vc
 - definição de tais
