@@ -2,7 +2,8 @@
 ## intent:definicao_tais
 - o que é Tais
 - o que significa Tais
-- quem é você
+- quem é voce
+- quem e vc
 - por que esse nome
 - da onde surgiu Tais
 - qual significado de Tais
@@ -10,6 +11,20 @@
 - qual é seu nome
 - definição de Tais
 - defina tais
+- me conte mais sobre voce
+- o que significa uma assistente virtual
+- assistente virtual
+- o que e um chatbot
+- o que um chatbot faz
+- me fale sobre voce
+- Tais, me fale sobre vc
+- qual sua tecnologia
+- vc é homem ou mulher
+- você é um robo
+- Tais
+- Taís
+- vc é um humano
+- você eh um robo
 
 ## intent:definicao_minc
 - o que é Minc
