@@ -479,16 +479,24 @@
 - esta tudo bem com você, Tais
 
 ## intent:quem_criou_a_tais
-- quem te criou? 
-- quem te desenvolveu? 
+- quem te criou
+- quem te desenvolveu
+- quem te programou
 - você tem pai
-- como faço pra ter um chatbot maneiro assim?
 - qual seu pai
 - onde voce nasceu
 - quando vc nasceu
 - quem te fez
 - quem te produziu
 - quem é seu pai
+- fez a tais
+- criou a tais
+- produziu a tais
+- desenvolveu a tais
+- desenvolveu
+- criou
+- produziu
+- programou
 
 ## intent:tem_wpp
 - vamos conversar pelo whatsapp
