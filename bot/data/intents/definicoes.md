@@ -13,7 +13,6 @@
 - qual sua tecnologia
 - me conte mais sobre voce
 - me fale sobre voce
-- da onde surgiu Tais
 - tais, me fale sobre vc
 - vc é homem ou mulher
 - você é um robo
