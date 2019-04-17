@@ -478,34 +478,17 @@
 - como vai vc
 - esta tudo bem com você, Tais
 
-## intent:quem_eh_a_tais
-- Quem te criou? 
-- Quem te desenvolveu? 
-- quem é voce
-- quem e vc
+## intent:quem_criou_a_tais
+- quem te criou? 
+- quem te desenvolveu? 
 - você tem pai
-- Como faço pra ter um chatbot maneiro assim?
-- me conte mais sobre voce
-- o que significa uma assistente virtual
-- assistente virtual
-- chatbot
-- o que e um chatbot
-- o que um chatbot faz
-- qual o seu papel no ministerio da cultura
-- qual o seu papel no ministerio
-- o que faz para o minc
-- me fale sobre voce
-- Tais, me fale sobre vc
-- qual sua tecnologia
+- como faço pra ter um chatbot maneiro assim?
 - qual seu pai
 - onde voce nasceu
 - quando vc nasceu
-- vc é homem ou mulher
-- você é um robo
-- Tais
-- Taís
-- vc é um humano
-- você eh um robo
+- quem te fez
+- quem te produziu
+- quem é seu pai
 
 ## intent:tem_wpp
 - vamos conversar pelo whatsapp

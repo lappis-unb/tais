@@ -120,9 +120,13 @@ templates:
 
   utter_definicao_tais:
     - text: |
+          Eu sou uma assistente virtual do MinC,
+          meu objetivo é sanar dúvidas sobre a lei Rouanet.
+
           Uma assistente virtual é um programa de computador
           criado para interagir com as pessoas.
-          Meu objetivo é sanar dúvidas sobre a lei Rouanet.
+          Utilizo algoritmos de aprendizagem profundo (deep learning) 
+          e sou toda desenvolvida como software livre :P
 
           Em cada interação que temos aqui, eu aprendendo mais
           para que a gente se comunique melhor.
@@ -131,15 +135,12 @@ templates:
 
   utter_quem_eh_a_tais:
     - text: |
-          Eu sou uma assistente virtual do MinC
-
-          Fui desenvolvida pelo excelente e magnífico LAPPIS (Laboratório Avançado de Produção Pesquisa e Inovação em Software)
+          Fui desenvolvida pelo LAPPIS (Laboratório Avançado de Produção Pesquisa e Inovação em Software)
           na Universidade de Brasilia
+          Um laboratório super inovador e descolado!
 
-          Utilizo algoritmos de aprendizagem profundo (deep learning) e sou toda desenvolvida como software livre :P
-
-          Se quiser me conhecer mais, entre no nosso projeto :P e entre em contato conosco do LAPPIS ;)
-          https://github.com/lappis-unb
+          Se quiser me conhecer mais, acesse o meu projeto =)
+          https://github.com/lappis-unb/tais
 
   utter_lei_rouanet_o_que_eh:
     - text: |
