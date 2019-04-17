@@ -5,7 +5,7 @@ intents:
   - afirmar
   - negar
   - o_que_sei_falar
-  - quem_eh_a_tais
+  - quem_criou_a_tais
   - diga_mais
   - tudo_bem
   - elogios
@@ -133,7 +133,7 @@ templates:
 
           Obrigada por conversar comigo!
 
-  utter_quem_eh_a_tais:
+  utter_quem_criou_a_tais:
     - text: |
           Fui desenvolvida pelo LAPPIS (Laboratório Avançado de Produção Pesquisa e Inovação em Software)
           na Universidade de Brasilia
@@ -753,7 +753,7 @@ actions:
   - utter_continuar_conversa
   - utter_objetivo
   - utter_o_que_sei_falar
-  - utter_quem_eh_a_tais
+  - utter_quem_criou_a_tais
   - utter_diga_mais
   - utter_elogios
   - utter_tem_wpp
