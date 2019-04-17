@@ -135,9 +135,9 @@ templates:
 
   utter_quem_criou_a_tais:
     - text: |
-          Fui desenvolvida pelo LAPPIS (Laboratório Avançado de Produção Pesquisa e Inovação em Software)
-          na Universidade de Brasilia
-          Um laboratório super inovador e descolado!
+          Fui desenvolvida em uma parceria entre a Secretaria Especial da Cultura 
+          e o LAPPIS (Laboratório Avançado de Produção Pesquisa e Inovação em Software)
+          na Universidade de Brasília, um laboratório super inovador e descolado!
 
           Se quiser me conhecer mais, acesse o meu projeto =)
           https://github.com/lappis-unb/tais
