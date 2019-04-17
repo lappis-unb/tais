@@ -18,12 +18,12 @@
 * cumprimentar
     - utter_cumprimentar
     - utter_menu
-* quem_eh_a_tais
-    - utter_quem_eh_a_tais
+* quem_criou_a_tais
+    - utter_quem_criou_a_tais
 
 ## Oi Quem e tais 2
-* quem_eh_a_tais
-    - utter_quem_eh_a_tais
+* quem_criou_a_tais
+    - utter_quem_criou_a_tais
 
 ## Nao entendi
 * diga_mais

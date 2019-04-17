@@ -5,7 +5,7 @@ intents:
   - afirmar
   - negar
   - o_que_sei_falar
-  - quem_eh_a_tais
+  - quem_criou_a_tais
   - diga_mais
   - tudo_bem
   - elogios
@@ -120,26 +120,27 @@ templates:
 
   utter_definicao_tais:
     - text: |
-          Uma assistente virtual é um programa de computador
-          criado para interagir com as pessoas.
-          Meu objetivo é sanar dúvidas sobre a lei Rouanet.
+          Eu sou uma assistente virtual da Secretaria Especial da Cultura,
+          meu objetivo é sanar dúvidas sobre a Lei Rouanet.
+
+          Uma assistente virtual é uma inteligência artificial
+          criada para interagir com as pessoas.
+          Para me comunicar com vocês utilizo algoritmos de aprendizagem profundo (deep learning) 
+          e sou toda software livre :P
 
           Em cada interação que temos aqui, eu aprendendo mais
           para que a gente se comunique melhor.
 
           Obrigada por conversar comigo!
 
-  utter_quem_eh_a_tais:
+  utter_quem_criou_a_tais:
     - text: |
-          Eu sou uma assistente virtual do MinC
+          Fui desenvolvida em uma parceria entre a Secretaria Especial da Cultura 
+          e o LAPPIS (Laboratório Avançado de Produção Pesquisa e Inovação em Software)
+          na Universidade de Brasília, um laboratório super inovador e descolado!
 
-          Fui desenvolvida pelo excelente e magnífico LAPPIS (Laboratório Avançado de Produção Pesquisa e Inovação em Software)
-          na Universidade de Brasilia
-
-          Utilizo algoritmos de aprendizagem profundo (deep learning) e sou toda desenvolvida como software livre :P
-
-          Se quiser me conhecer mais, entre no nosso projeto :P e entre em contato conosco do LAPPIS ;)
-          https://github.com/lappis-unb
+          Se quiser me conhecer mais, acesse o meu projeto :)
+          https://github.com/lappis-unb/tais
 
   utter_lei_rouanet_o_que_eh:
     - text: |
@@ -752,7 +753,7 @@ actions:
   - utter_continuar_conversa
   - utter_objetivo
   - utter_o_que_sei_falar
-  - utter_quem_eh_a_tais
+  - utter_quem_criou_a_tais
   - utter_diga_mais
   - utter_elogios
   - utter_tem_wpp
