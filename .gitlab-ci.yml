@@ -38,20 +38,25 @@ variables:
 #    - mkdir -p ~/.ssh
 #    - '[[ -f /.dockerenv ]] && echo -e "Host *\n\tStrictHostKeyChecking no\n\n" > ~/.ssh/config'
 
-.set_private_key: &set_private_key
+#.set_private_key: &set_private_key
+#  before_script:
+#    - 'which ssh-agent || ( apt-get update && apt-get install -y openssh-client )'
+#    - eval "$(ssh-agent -s)"
+#    - mkdir -p ~/.ssh
+#    - chmod 700 ~/.ssh
+#    - echo "$SSH_PRIVATE_KEY" | tr -d '\r' > ~/.ssh/id_rsa
+#    - chmod 600 ~/.ssh/id_rsa
+#    - '[[ -f /.dockerenv ]] && echo -e "Host *\n\tStrictHostKeyChecking no\n\n" > ~/.ssh/config'
+#    #- eval "ssh-agent -s"
+#    - eval `ssh-agent`
+#    - echo -e "\n" | ssh-add ~/.ssh/id_rsa
+#    #- printf '%s\n' "$SSH_PRIVATE_KEY" | ssh-add -
+#    - ssh-keyscan -H $DEPLOY_SERVER_IP >> ~/.ssh/known_host
+
+.set_ssh_config: &set_ssh_config
   before_script:
-    - 'which ssh-agent || ( apt-get update && apt-get install -y openssh-client )'
-    - eval "$(ssh-agent -s)"
-    - mkdir -p ~/.ssh
-    - chmod 700 ~/.ssh
-    - echo "$SSH_PRIVATE_KEY" | tr -d '\r' > ~/.ssh/id_rsa
-    - chmod 600 ~/.ssh/id_rsa
-    - '[[ -f /.dockerenv ]] && echo -e "Host *\n\tStrictHostKeyChecking no\n\n" > ~/.ssh/config'
-    #- eval "ssh-agent -s"
-    - eval `ssh-agent`
-    - echo -e "\n" | ssh-add ~/.ssh/id_rsa
-    #- printf '%s\n' "$SSH_PRIVATE_KEY" | ssh-add -
-    - ssh-keyscan -H $DEPLOY_SERVER_IP >> ~/.ssh/known_host
+    - apt-get update -y
+    - apt-get install sshpass -y
 
 #before_script:
 #    - yum install which -y
@@ -121,15 +126,17 @@ variables:
 #  tags:
 #    - docker
 
-deploy_bot_to_homolog:
+#deploy_bot_to_homolog:
+#  stage: deploy
+#  <<: *set_ssh_config
+#  script:
+#    - ./scripts/deploy_service.sh $TAIS_SERVER_PASSWORD $TAIS_SERVER_IP bot $BOT_LATEST_IMAGE
+
+deploy_web_to_homolog:
   stage: deploy
-  <<: *set_private_key
-  services:
-    - docker:dind
-  script:
-    - ssh root@$DEPLOY_SERVER_IP "docker login -u 'gitlab-ci-token' -p ${CI_JOB_TOKEN} ${CI_REGISTRY}; docker-compose -f docker-compose stop bot; docker-compose -f docker-compose.autodeploy.yml rm bot --force; docker pull $CI_REGISTRY_IMAGE/bot:latest; docker-compose -f docker-compose up -d bot"
+  <<: *set_ssh_config
   only:
     - add_ci_and_cd
+  script:
+    - ./scripts/deploy_service.sh $TAIS_SERVER_PASSWORD $TAIS_SERVER_IP web $WEB_LATEST_IMAGE
   environment: homolog
-  tags:
-    - docker
