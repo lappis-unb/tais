@@ -223,8 +223,8 @@
     - utter_objetivo
 * negar
     - utter_continuar_conversa
-* quem_eh_a_tais
-    - utter_quem_eh_a_tais
+* quem_criou_a_tais
+    - utter_quem_criou_a_tais
     - utter_continuar_conversa
 
 ## sigla 3
@@ -283,8 +283,8 @@
     - utter_objetivo
 * negar
     - utter_continuar_conversa
-* quem_eh_a_tais
-    - utter_quem_eh_a_tais
+* quem_criou_a_tais
+    - utter_quem_criou_a_tais
     - utter_continuar_conversa
 
 ## sigla 4
@@ -374,8 +374,8 @@
     - utter_objetivo
 * negar
     - utter_continuar_conversa
-* quem_eh_a_tais
-    - utter_quem_eh_a_tais
+* quem_criou_a_tais
+    - utter_quem_criou_a_tais
     - utter_continuar_conversa
 
 ## sigla 5
@@ -453,8 +453,8 @@
     - utter_objetivo
 * negar
     - utter_continuar_conversa
-* quem_eh_a_tais
-    - utter_quem_eh_a_tais
+* quem_criou_a_tais
+    - utter_quem_criou_a_tais
     - utter_continuar_conversa
 
 ## sigla 6
@@ -509,8 +509,8 @@
 ## sigla 7
 * cumprimentar
     - utter_cumprimentar
-* quem_eh_a_tais
-    - utter_quem_eh_a_tais
+* quem_criou_a_tais
+    - utter_quem_criou_a_tais
     - utter_objetivo
 * negar
     - utter_continuar_conversa
@@ -518,8 +518,8 @@
 ## sigla 7.1
 * cumprimentar
     - utter_cumprimentar
-* quem_eh_a_tais
-    - utter_quem_eh_a_tais
+* quem_criou_a_tais
+    - utter_quem_criou_a_tais
     - utter_objetivo
 * afirmar
     - utter_processo_como_funciona
@@ -532,8 +532,8 @@
 ## sigla 7.2
 * cumprimentar
     - utter_cumprimentar
-* quem_eh_a_tais
-    - utter_quem_eh_a_tais
+* quem_criou_a_tais
+    - utter_quem_criou_a_tais
     - utter_objetivo
 * afirmar
     - utter_processo_como_funciona
@@ -547,8 +547,8 @@
 ## sigla 7.3
 * cumprimentar
     - utter_cumprimentar
-* quem_eh_a_tais
-    - utter_quem_eh_a_tais
+* quem_criou_a_tais
+    - utter_quem_criou_a_tais
     - utter_objetivo
 * afirmar
     - utter_processo_como_funciona
