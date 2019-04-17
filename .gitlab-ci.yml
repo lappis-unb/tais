@@ -1,10 +1,10 @@
 image: python:3.6-slim
 
 stages:
-#  - test style
-#  - validate format
-#  - test stories
-#  - build
+  - test style
+  - validate format
+  - test stories
+  - build
   - deploy
 
 variables:
@@ -58,6 +58,11 @@ variables:
     - apt-get update -y
     - apt-get install sshpass -y
 
+.set_build: &set_build
+  before_script:
+    - apk update && apk add git
+    - apk add --no-cache bash
+
 #before_script:
 #    - yum install which -y
 #    # install ssh-agent if not already installed, it is required by docker
@@ -82,18 +87,19 @@ variables:
 #    - python -V # Print out python version for debugging
 #    - flake8 --exclude venv
 #
-#run dataset validator:
-#  stage: validate format
-#  <<: *cache
-#  script:
-#    - python -m pip install --upgrade pip
-#    - source venv/bin/activate
-#    - pip install -r bot.requirements.txt
-#    - cd bot/
-#    - flake8 --exclude venv
-#    - make run-validator
-#  only:
-#    - add_ci_and_cd
+
+run dataset validator:
+  stage: validate format
+  <<: *cache
+  <<: *tests_dependencies
+  script:
+    - python -m pip install --upgrade pip
+    - source venv/bin/activate
+    - pip install -r bot.requirements.txt
+    - cd bot/
+    - make run-validator
+  only:
+    - add_ci_and_cd
 
 #test stories:
 #  stage: test stories
@@ -103,40 +109,43 @@ variables:
 #    - cd bot/
 #    - make e2e
 
-#build_bot:
-#  stage: build
-#  image: docker:latest
-#  services:
-#    - docker:dind
-#  script:
-#    - docker login -u "gitlab-ci-token" -p "$CI_JOB_TOKEN" $CI_REGISTRY
-#
-#    - docker build -f docker/bot.Dockerfile -t $BOT_LATEST_IMAGE .
-#    - docker push $BOT_LATEST_IMAGE
-#
-#    - docker build -f docker/web.Dockerfile -t $WEB_LATEST_IMAGE .
-#    - docker push $WEB_LATEST_IMAGE
-#  only:
-#    refs:
-#      - add_ci_and_cd
-#    except:
-#      changes:
-#        - web
-#  environment: homolog
-#  tags:
-#    - docker
+build_bot:
+  stage: build
+  <<: *set_build
+  image: docker
+  services:
+    - docker:dind
+  script:
+    - ./scripts/build_service.sh web $CI_COMMIT_REF_NAME $WEB_LATEST_IMAGE "$CI_JOB_TOKEN" $CI_REGISTRY
+  only:
+    - add_ci_and_cd
 
-#deploy_bot_to_homolog:
-#  stage: deploy
-#  <<: *set_ssh_config
-#  script:
-#    - ./scripts/deploy_service.sh $TAIS_SERVER_PASSWORD $TAIS_SERVER_IP bot $BOT_LATEST_IMAGE
+build_web:
+  stage: build
+  <<: *set_build
+  image: docker
+  services:
+    - docker:dind
+  script:
+    - ./scripts/build_service.sh web $CI_COMMIT_REF_NAME $WEB_LATEST_IMAGE "$CI_JOB_TOKEN" $CI_REGISTRY
+  only:
+    - add_ci_and_cd
+
+deploy_bot_to_homolog:
+  stage: deploy
+  <<: *set_ssh_config
+  only:
+    - master
+  environment: homolog
+  script:
+    - ./scripts/deploy_bot.sh $TAIS_SERVER_PASSWORD $TAIS_SERVER_IP bot $BOT_LATEST_IMAGE
+
 
 deploy_web_to_homolog:
   stage: deploy
   <<: *set_ssh_config
   only:
-    - add_ci_and_cd
-  script:
-    - ./scripts/deploy_service.sh $TAIS_SERVER_PASSWORD $TAIS_SERVER_IP web $WEB_LATEST_IMAGE
+    - master
   environment: homolog
+  script:
+    - ./scripts/deploy_web.sh $TAIS_SERVER_PASSWORD $TAIS_SERVER_IP web $WEB_LATEST_IMAGE
