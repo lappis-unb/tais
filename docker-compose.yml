@@ -56,7 +56,7 @@ services:
   web:
     build:
       context: .
-      dockerfile: ./docker/web.Dockerfile
+      dockerfile: ./docker/web/web.Dockerfile
     restart: unless-stopped
     environment:
       - PORT=8000
@@ -80,7 +80,7 @@ services:
   kibana-web:
     build:
       context: .
-      dockerfile: ./docker/kibana-web.Dockerfile
+      dockerfile: ./docker/kibana/kibana-web.Dockerfile
     restart: unless-stopped
     environment:
       - PORT=8080
@@ -141,7 +141,7 @@ services:
   kibana-tais:
     build:
       context: .
-      dockerfile: ./docker/kibana-tais.Dockerfile
+      dockerfile: ./docker/kibana/kibana-tais.Dockerfile
     restart: unless-stopped
     environment:
       - PORT=8081
@@ -168,7 +168,7 @@ services:
   notebooks:
     build:
       context: .
-      dockerfile: ./docker/notebooks.Dockerfile
+      dockerfile: ./docker/notebooks/notebooks.Dockerfile
     volumes:
       - ./bot:/work/bot
       - ./notebooks:/work/notebooks
