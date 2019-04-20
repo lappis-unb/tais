@@ -1,7 +1,7 @@
 #!/bin/bash
 
 service_name=$1
-current_branch=$2
+merged_branch=$2
 image_name=$3
 ci_job_token=$4
 ci_registry=$5
@@ -14,8 +14,8 @@ build_image(){
 	docker push $image_name
 }
 
-if [[ ($service_name = "bot") && ("$(git diff "remotes/origin/$current_branch" remotes/origin/master -- . ':!web' | wc -l)" -ge 1) ]] ||
-	 [[ ($service_name = "web") && ("$(git diff "remotes/origin/$current_branch" remotes/origin/master -- web | wc -l)" -ge 1) ]]; then
+if [[ ($service_name = "bot") && ("$(git diff "remotes/origin/$merged_branch" remotes/origin/master -- . ':!web' | wc -l)" -ge 1) ]] ||
+	 [[ ($service_name = "web") && ("$(git diff "remotes/origin/$merged_branch" remotes/origin/master -- web | wc -l)" -ge 1) ]]; then
 	echo "** Building image for service $service_name **"
 	build_image
 else
