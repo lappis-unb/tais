@@ -5,11 +5,12 @@ current_branch=$2
 image_name=$3
 ci_job_token=$4
 ci_registry=$5
+dockerfile=$6
 
 build_image(){
 	docker login -u "gitlab-ci-token" -p $ci_job_token $ci_registry
 
-	docker build -f docker/bot.Dockerfile -t $image_name .
+	docker build -f $dockerfile -t $image_name .
 	docker push $image_name
 }
 

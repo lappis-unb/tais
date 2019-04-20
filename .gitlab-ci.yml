@@ -3,55 +3,13 @@ image: python:3.6-slim
 stages:
   - test style
   - validate format
-  - test stories
+#  - test stories
   - build
   - deploy
 
 variables:
   BOT_LATEST_IMAGE: $CI_REGISTRY_IMAGE/bot:latest
   WEB_LATEST_IMAGE: $CI_REGISTRY_IMAGE/web:latest
-
-.cache: &cache
-  cache:
-    key: "$CI_BUILD_REF_NAME"
-    paths:
-      - venv/
-      - .pip
-
-.prepare_tests_dependencies: &tests_dependencies
-  before_script:
-    - python -m pip install --upgrade pip
-    - pip install virtualenv
-    - virtualenv venv
-    - pip -V
-    - python -V # Print out python version for debugging
-    - source venv/bin/activate
-    - mkdir -p .pip
-    - pip --cache-dir=.pip install -r dev.requirements.txt
-    - echo $CI_PROJECT_DIR
-
-#.set_private_key: &set_private_key
-#  before_script:
-#    - 'which ssh-agent || ( apt-get update && apt-get install -y openssh-client )'
-#    - eval "$(ssh-agent -s)"
-#    - echo "$SSH_PRIVATE_KEY" | tr -d '\r' | ssh-add - > /dev/null
-#    - mkdir -p ~/.ssh
-#    - '[[ -f /.dockerenv ]] && echo -e "Host *\n\tStrictHostKeyChecking no\n\n" > ~/.ssh/config'
-
-#.set_private_key: &set_private_key
-#  before_script:
-#    - 'which ssh-agent || ( apt-get update && apt-get install -y openssh-client )'
-#    - eval "$(ssh-agent -s)"
-#    - mkdir -p ~/.ssh
-#    - chmod 700 ~/.ssh
-#    - echo "$SSH_PRIVATE_KEY" | tr -d '\r' > ~/.ssh/id_rsa
-#    - chmod 600 ~/.ssh/id_rsa
-#    - '[[ -f /.dockerenv ]] && echo -e "Host *\n\tStrictHostKeyChecking no\n\n" > ~/.ssh/config'
-#    #- eval "ssh-agent -s"
-#    - eval `ssh-agent`
-#    - echo -e "\n" | ssh-add ~/.ssh/id_rsa
-#    #- printf '%s\n' "$SSH_PRIVATE_KEY" | ssh-add -
-#    - ssh-keyscan -H $DEPLOY_SERVER_IP >> ~/.ssh/known_host
 
 .set_ssh_config: &set_ssh_config
   before_script:
@@ -63,49 +21,25 @@ variables:
     - apk update && apk add git
     - apk add --no-cache bash
 
-#before_script:
-#    - yum install which -y
-#    # install ssh-agent if not already installed, it is required by docker
-#    - 'which ssh-agent || ( yum install openssh-clients -y )'
-#    # run ssh-agent (inside the build environment)
-#    - eval $(ssh-agent -s)
-#    # add the ssh key stored in SSH_PRIVATE_KEY variable to the agent store
-#    - ssh-add <(echo "$SSH_PRIVATE_KEY")
-#    # for docker builds disable host key checking although this can lead to
-#    # mitm attacks; only use this in docker or it will overwrite the host
-#    # ssh config!
-#    - mkdir -p ~/.ssh
-#    - '[[ -f /.dockerenv ]] && echo -e "Host *\n\tStrictHostKeyChecking no\n\n" > ~/.ssh/config'
-
-
-#test style:
-#  stage: test style
-#  <<: *cache
-#  <<: *tests_dependencies
-#  script:
-#    - pip -V
-#    - python -V # Print out python version for debugging
-#    - flake8 --exclude venv
-#
+test style:
+  stage: test style
+  script:
+    - pip -V
+    - python -V
+    - pip install -r dev.requirements.txt
+    - flake8 --exclude venv
 
 run dataset validator:
   stage: validate format
-  <<: *cache
-  <<: *tests_dependencies
+  image: registry.gitlab.com/lappis-unb/services/tais/bot
   script:
-    - python -m pip install --upgrade pip
-    - source venv/bin/activate
-    - pip install -r bot.requirements.txt
     - cd bot/
     - make run-validator
-  only:
-    - add_ci_and_cd
 
 #test stories:
 #  stage: test stories
-#  <<: *cache
+#  image: registry.gitlab.com/lappis-unb/services/tais/bot
 #  script:
-#    - source venv/bin/activate
 #    - cd bot/
 #    - make e2e
 
@@ -116,9 +50,9 @@ build_bot:
   services:
     - docker:dind
   script:
-    - ./scripts/build_service.sh web $CI_COMMIT_REF_NAME $WEB_LATEST_IMAGE "$CI_JOB_TOKEN" $CI_REGISTRY
+    - ./scripts/build_service.sh web $CI_COMMIT_REF_NAME $WEB_LATEST_IMAGE "$CI_JOB_TOKEN" $CI_REGISTRY docker/bot.Dockerfile
   only:
-    - add_ci_and_cd
+    - merge_requests
 
 build_web:
   stage: build
@@ -127,25 +61,24 @@ build_web:
   services:
     - docker:dind
   script:
-    - ./scripts/build_service.sh web $CI_COMMIT_REF_NAME $WEB_LATEST_IMAGE "$CI_JOB_TOKEN" $CI_REGISTRY
+    - ./scripts/build_service.sh web $CI_COMMIT_REF_NAME $WEB_LATEST_IMAGE "$CI_JOB_TOKEN" $CI_REGISTRY docker/web.Dockerfile
   only:
-    - add_ci_and_cd
+    - merge_requests
 
 deploy_bot_to_homolog:
   stage: deploy
   <<: *set_ssh_config
-  only:
-    - master
   environment: homolog
   script:
     - ./scripts/deploy_bot.sh $TAIS_SERVER_PASSWORD $TAIS_SERVER_IP bot $BOT_LATEST_IMAGE
-
+  only:
+    - master
 
 deploy_web_to_homolog:
   stage: deploy
   <<: *set_ssh_config
-  only:
-    - master
   environment: homolog
   script:
     - ./scripts/deploy_web.sh $TAIS_SERVER_PASSWORD $TAIS_SERVER_IP web $WEB_LATEST_IMAGE
+  only:
+    - master
