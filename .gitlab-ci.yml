@@ -1,40 +1,35 @@
 image: python:3.6-slim
 
 stages:
-#  - test style
-#  - validate format
+  - test style
+  - validate format
 #  - test stories
   - build
   - deploy
 
-Gvariables:
+variables:
   BOT_LATEST_IMAGE: $CI_REGISTRY_IMAGE/bot:latest
   WEB_LATEST_IMAGE: $CI_REGISTRY_IMAGE/web:latest
 
 .set_ssh_config: &set_ssh_config
   before_script:
     - apt-get update -y
-    - apt-get install sshpass git -y
+    - apt-get install sshpass -y
 
-.set_build: &set_build
-  before_script:
-    - apk update && apk add git
-    - apk add --no-cache bash
+test style:
+  stage: test style
+  script:
+    - pip -V
+    - python -V
+    - pip install -r dev.requirements.txt
+    - flake8 --exclude venv
 
-#test style:
-#  stage: test style
-#  script:
-#    - pip -V
-#    - python -V
-#    - pip install -r dev.requirements.txt
-#    - flake8 --exclude venv
-#
-#run dataset validator:
-#  stage: validate format
-#  image: registry.gitlab.com/lappis-unb/services/tais/bot
-#  script:
-#    - cd bot/
-#    - make run-validator
+run dataset validator:
+  stage: validate format
+  image: registry.gitlab.com/lappis-unb/services/tais/bot
+  script:
+    - cd bot/
+    - make run-validator
 
 #test stories:
 #  stage: test stories
@@ -43,52 +38,46 @@ Gvariables:
 #    - cd bot/
 #    - make e2e
 
-#build_bot:
-#  stage: build
-#  <<: *set_build
-#  image: docker
-#  services:
-#    - docker:dind
-#  script:
-#    - ./scripts/build_service.sh web $CI_COMMIT_REF_NAME $WEB_LATEST_IMAGE "$CI_JOB_TOKEN" $CI_REGISTRY docker/bot.Dockerfile
-#  only:
-#    - add_ci_and_cd
-
-build_web:
+build bot:
   stage: build
-  <<: *set_build
   image: docker
   services:
     - docker:dind
   script:
-    - merged_branch=$(git log remotes/origin/master | grep 'Merge pull' | tail -n +1 | head -n 1 | awk '{print $NF}')
-    - merged_branch=$(basename $merged_branch)
-    - export merged_branch
-    #- ./scripts/build_service.sh web $merged_branch $WEB_LATEST_IMAGE "$CI_JOB_TOKEN" $CI_REGISTRY docker/web.Dockerfile
+    - docker login -u "gitlab-ci-token" -p "$CI_JOB_TOKEN" $CI_REGISTRY
+
+    - docker build -f docker/bot.Dockerfile -t $BOT_LATEST_IMAGE .
+    - docker push $BOT_LATEST_IMAGE
   only:
-    - add_ci_and_cd
+    - master
 
-#deploy_bot_to_homolog:
-#  stage: deploy
-#  <<: *set_ssh_config
-#  environment: homolog
-#  script:
-#    - ./scripts/deploy_bot.sh $TAIS_SERVER_PASSWORD $TAIS_SERVER_IP $merged_branch
-#  only:
-#    - master
+build web:
+  stage: build
+  image: docker
+  services:
+    - docker:dind
+  script:
+    - docker login -u "gitlab-ci-token" -p "$CI_JOB_TOKEN" $CI_REGISTRY
 
-deploy_web_to_homolog:
+    - docker build -f docker/web.Dockerfile -t $WEB_LATEST_IMAGE .
+    - docker push $WEB_LATEST_IMAGE
+  only:
+    - master
+
+deploy bot to homolog:
   stage: deploy
   <<: *set_ssh_config
   environment: homolog
   script:
-    - echo "DEUUUUUUUUU"
-    - echo "DEUUUUUUUUU"
-    - echo "DEUUUUUUUUU"
-    - echo $merged_branch
-    - echo "DEUUUUUUUUU"
-    - echo "DEUUUUUUUUU"
-    - echo "DEUUUUUUUUU"
-    #- ./scripts/deploy_web.sh $TAIS_SERVER_PASSWORD $TAIS_SERVER_IP $merged_branch
+    - ./scripts/deploy_bot.sh $TAIS_SERVER_PASSWORD $TAIS_SERVER_IP
   only:
-    - add_ci_and_cd
+    - master
+
+deploy web to homolog:
+  stage: deploy
+  <<: *set_ssh_config
+  environment: homolog
+  script:
+    - ./scripts/deploy_web.sh $TAIS_SERVER_PASSWORD $TAIS_SERVER_IP
+  only:
+    - master
