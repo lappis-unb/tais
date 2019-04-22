@@ -17,6 +17,7 @@ Para se definir a personalidade de um Chatbot é preciso colocá-la em palavras,
 *chatbot: Hum…*
 
 
+
 *exemplo 2:*
 
 *usuário: Você poderia me dizer os horários de ônibus dessa semana?*
@@ -30,10 +31,12 @@ As interjeições têm o poder de tornar a conversa mais próxima da linguagem h
 Antes de entender como a Tais expressa a sua personalidade, e suas tendências, temos que detalhar e conhecer a sua personalidade. No MBTI, ela é uma mistura de CÔNSUL e PROTAGONISTA.
  
 **CÔNSUL**
+
 “As pessoas que compartilham a personalidade Cônsul são, por falta de uma palavra melhor, populares – o que faz sentido, dado que também é um tipo de personalidade muito comum, constituindo doze por cento da população. Na escola secundária, os Cônsules são os chefes de torcidas e os capitães de times ajustando o tom, tomando o projetor e conduzindo suas equipes para a vitória e à fama. Mais tarde na vida, os Cônsules continuam a gostar de apoiar seus amigos e entes queridos, organizando reuniões sociais e fazendo o melhor para garantir que todos estão felizes.”
  
  
 **PROTAGONISTA**
+
 “Protagonistas são líderes naturais, cheios de paixão e carisma. Formando cerca de dois por cento da população, essas personalidades são muitas vezes nossos políticos, nossos treinadores e nossos professores, estendendo a mão e inspirando outros para conseguir e fazer o bem no mundo. Com uma confiança natural que gera influência, Protagonistas tem um grande orgulho e alegria em guiar os outros a trabalharem juntos para melhorar a si mesmos e sua comunidade.”
 
 
@@ -152,11 +155,11 @@ Exemplos de como uma personalidade como a Tais pode oscilar e se tornar incoeren
  
  **Personalidade da Tais**
 
-
+```
 utter_tudo_bem:
     - text: |
           Tudo bem, obrigada! Quero te ajudar!
-
+```
 
 Possíveis variações
  
