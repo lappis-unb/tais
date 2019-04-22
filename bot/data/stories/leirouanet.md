@@ -402,10 +402,36 @@
     - utter_lei_rouanet_quem_pode_incentivar
     - utter_continuar_conversa
 
-## LeiRouanet 41
+## LeiRouanet 41.1
 * lei_rouanet_o_que_eh
     - utter_lei_rouanet_o_que_eh
     - utter_continuar_conversa
-* processo_como_funciona 
+* processo_como_funciona
     - utter_processo_como_funciona
+* afirmar
+    - utter_cadastro_salic_video
+* negar
+    - utter_salic_cadastro_proponente
+    - utter_continuar_conversa
+
+## LeiRouanet 41.2
+* lei_rouanet_o_que_eh
+    - utter_lei_rouanet_o_que_eh
+    - utter_continuar_conversa
+* processo_como_funciona
+    - utter_processo_como_funciona
+* afirmar
+    - utter_cadastro_salic_video
+* afirmar
+    - utter_salic_cadastro_usuario
+    - utter_salic_cadastro_proponente
+    - utter_continuar_conversa
+
+## LeiRouanet 41.3
+* lei_rouanet_o_que_eh
+    - utter_lei_rouanet_o_que_eh
+    - utter_continuar_conversa
+* processo_como_funciona
+* definicao_vinculada
+    - utter_definicao_vinculada
     - utter_continuar_conversa
