@@ -184,7 +184,7 @@ Para usar estes _templates_ execute os seguintes passos:
 * Suba o container do **Kibana** e acesse `http://locahost:5601`;
 * Na interface, acesse `Management` e clique em `Saved Objects`;
 * Clique em `Import`;
-* Utilize o arquivo `export.json` na pasta `\elasticsearch` do projeto.
+* Utilize o arquivo `export.json` na pasta `elasticsearch/` do projeto.
 
 
 ## Dashboards Visualização do Kibana
