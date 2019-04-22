@@ -401,3 +401,11 @@
 * lei_rouanet_receber_incetivo_de_parentes
     - utter_lei_rouanet_quem_pode_incentivar
     - utter_continuar_conversa
+
+## LeiRouanet 41
+* lei_rouanet_o_que_eh
+    - utter_lei_rouanet_o_que_eh
+    - utter_continuar_conversa
+* processo_como_funciona 
+    - utter_processo_como_funciona
+    - utter_continuar_conversa
