@@ -11,9 +11,6 @@ run-console:
 evaluate:
 	python3 -m rasa_core.evaluate -d models/dialogue -s data/core/
 
-run-validator:
-	python3 validator.py --intents data/intents/ --stories data/stories --domain domain.yml
-
 # Force Makefile to execute e2e command every time
 .PHONY: all e2e clean
 e2e:

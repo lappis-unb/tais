@@ -10,3 +10,6 @@ train: train-nlu train-core
 train-online:
 	python3 -m rasa_core.train -d domain.yml -s data/stories -o \
 	models/dialogue --epochs 15 --online --nlu models/nlu/current/
+
+run-validator:
+	python3 validator.py --intents data/intents/ --stories data/stories --domain domain.yml
