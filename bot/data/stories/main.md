@@ -40,7 +40,7 @@
 
 ## afirmar
 * afirmar
-    - utter_manter_conversa
+    - utter_continuar_conversa
 
 ## negar sem contexto
 * negar
@@ -70,18 +70,11 @@
 ## tem wpp 1
 * tem_wpp
     - utter_tem_wpp
-    - utter_objetivo
+    - utter_manter_conversa
 
 ## tem wpp 2
 * cumprimentar
     - utter_cumprimentar
-* tem_wpp
-    - utter_tem_wpp
-    - utter_objetivo
-
-## tem wpp 3
-* o_que_sei_falar
-    - utter_objetivo
 * tem_wpp
     - utter_tem_wpp
     - utter_manter_conversa
