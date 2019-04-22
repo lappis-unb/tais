@@ -54,6 +54,7 @@ services:
 
   # =================================== Web ===================================
   web:
+    image: registry.gitlab.com/lappis-unb/services/tais/web
     build:
       context: .
       dockerfile: ./docker/web/web.Dockerfile
