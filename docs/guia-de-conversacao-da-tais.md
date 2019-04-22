@@ -1,3 +1,9 @@
+---
+layout: page
+permalink: /guia-de-conversacao-da-tais/
+title: Guia de Conversação da Tais
+---
+
 UMA PALAVRA DE CADA VEZ
  
  
