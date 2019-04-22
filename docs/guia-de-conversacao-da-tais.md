@@ -98,7 +98,7 @@ Aqui a Tais explica detalhadamente como o usuário pode se comunicar com ela, us
  
  
  utter_default:
-    - text: |
+ - text: |
           Desculpe, ainda não sei falar sobre isso ou talvez não consegui entender direito. Você pode perguntar de novo de outro jeito?
     
 - text: |
@@ -192,8 +192,8 @@ Possíveis variações
 Os exemplos acima servem para mostrar que o comportamento é transmitido pela linguagem e que as formas de se comunicar demonstra muito do que somos e da essência do nosso Eu. Um Chatbot cativante precisa ter uma personalidade coerente para que não seja sempre visto como uma mescla de “milhares de vozes”, ele deve ter um Eu muito bem definido, sendo assim há comportamentos e maneiras de falar que jamais assumiria, assim como eu e você. Em situações parecidas ele deve sempre estar agindo de modo parecido. A Tais nunca deve comprar uma briga ou repreender o usuário de forma rude, por exemplo. Ela sempre vai sair da situação do modo mais passivo possível. Ela nunca pode deixar a conversa morrer, e nunca pode esquecer de usar a utter_continuar_conversa após alguma outra utter. Pois, é ela que garante que a conversa não tenha fim. Ela deve sempre mostrar interesse na dúvida do usuário e ignorar os assuntos que fujam da sua missão. Ela não pode desistir se não entender de primeira a pergunta do usuário. Ela deve sempre usar palavras polidas, sempre ser muito atenciosa, explicar detalhadamente e mostrar que ama aprender com cada conversa.
 
 
-REFERÊNCIAS:
+## REFERÊNCIAS:
  
-Encantando pessoas: poder da personalidade em Chatbots
+[Encantando pessoas: poder da personalidade em Chatbots](https://medium.com/@lappisunbfga/encantando-pessoas-poder-da-personalidade-em-chatbots-6428c8d8e184)
 
-MBTI
+[MBTI](https://www.16personalities.com/)
