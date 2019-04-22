@@ -179,6 +179,17 @@ Para acesso do site é necessário fazer o login. Por padrão o usuário criado 
 
 Você pode acessar o kibana no `http://locahost:5601`
 
+### Para visualização dos Dashboards básico
+
+Visualizações de métricas importantes para o desenvolvimento de chatbots, estão disponibilizados para este contexto.
+Para usar estes _templates_ execute os seguintes passos:
+
+* Suba o container do **Kibana** e acesse `http://locahost:5601`;
+* Na interface, acesse `Management` e clique em `Saved Objects`;
+* Clique em `Import`;
+* Utilize o arquivo `export.json` na pasta `elasticsearch/` do projeto.
+
+
 ## Dashboards Visualização do Kibana
 
 Dashboards mais básicos do Analytics, sem permissão de `admin`, que disponibilizamos para a Secretaria Especial da Cultura.
