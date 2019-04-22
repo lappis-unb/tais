@@ -79,12 +79,22 @@ Para colocar a Tais em um site você precisa inserir o seguinte código em Javas
 Para testar somente o diálogo com o bot, não é necessário rodar o RocketChat. Caso queira apenas rodar a Tais pelo seu terminal, rode os seguintes comandos:
 
 ```sh
-sudo docker-compose run --rm bot make train
 sudo docker-compose run --rm bot make run-console
 ```
 
 Essa forma de rodar trás também os logs e previsão de intents do Rasa.
 
+### Treinamento
+Caso precise atualizar os dialogos com o bot após modificações nas __intents__ e __stories__ (coach/data/intents e stories), utilize o seguinte comando na pasta raiz do projeto para treinar o bot novamente:
+```bash
+make train
+```
+
+Caso queira atualizar o treinamento padrão da aplicação, será necessário atualizar a versão da imagem Coach no dockerhub do lappis:
+```bash
+make train
+sudo docker push lappis/coach:latest
+``` 
 
 ## Site do Beta
 Nesse repositório temos também o site para beta testers da Tais. Ele se conecta com a Tais via RocketChat, então para ela estar hospedada é necessário [subir o RocketChat](#RocketChat).
