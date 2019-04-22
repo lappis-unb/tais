@@ -27,7 +27,7 @@ services:
 
   # ================================= Bot =====================================
   bot:
-    image: bot:latest
+    image: lappis/bot:latest
     build:
       context: .
       dockerfile: ./docker/bot/bot.Dockerfile
@@ -40,12 +40,11 @@ services:
       - models:/bot/models/:ro
       - ./bot:/bot
       - ./scripts:/scripts
+    depends_on:
+      - coach
   
   coach:
-    image: coach:latest
-    build:
-      context: .
-      dockerfile: ./docker/bot/coach.Dockerfile
+    image: lappis/coach:latest
     command: cp -a /src_models/. /models/
     volumes:
       - models:/models/

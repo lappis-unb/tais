@@ -1,4 +1,4 @@
-FROM requirements:latest
+FROM lappis/botrequirements:latest
 
 COPY ./bot /bot
 COPY ./scripts /scripts
