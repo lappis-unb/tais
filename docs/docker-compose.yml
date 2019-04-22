@@ -1,0 +1,13 @@
+version: "3.5"
+services:
+    web:
+        container_name: tais
+        image: ruby:2.5.1
+        volumes:
+            - .:/docs/
+        working_dir: /docs/
+        network_mode: "host"
+        ports:
+          - "4000:4000"
+        command: bash -c 'gem install bundler && bundle && jekyll serve'
+

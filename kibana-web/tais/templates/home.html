@@ -1,0 +1,39 @@
+{% extends 'base.html' %}
+{% load static %}
+{% load bootstrap4 %}
+
+{% block content %}
+
+{% if not maintainance_is_set  %}
+
+    {% if not user.is_authenticated %}
+    <div class="container">
+      <div class="tais-container">
+        <img src="{% static 'img/Tdetais.svg' %}" />
+        <p style="margin-top: 7px; margin-bottom: -5px;">TAIS</p>
+        <p style="font-size: 15px;"><i>Tecnologia de Aprendizado Interativo Salic</i></p>
+      </div>
+      <div class="login-container">
+        <div class="login-data">
+          <form id="login-struct" action="{% url 'login' %}" method="post">{% csrf_token %}
+            <p>Visualização de Dados<br>Tais-Usuário</p>
+            <div class="form-group">
+              <input id="user-login" type="text" class="form-control" name="username" placeholder="Usuário" id="username">
+
+              <input type="password" class="form-control" name="password" placeholder="Senha" id="password">
+            </div>
+
+            <button id="login-submit" type="submit" value="login" class="btn">entrar</button>
+          </form>
+        </div>
+      </div>
+    </div>
+    {% else %}
+        {% include '_default.html' %}
+    {% endif %}
+
+{% else %}
+    {% include '_maintanance.html' %}
+{% endif %}
+
+{% endblock %}

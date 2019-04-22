@@ -18,13 +18,12 @@
 * cumprimentar
     - utter_cumprimentar
     - utter_menu
-* quem_eh_a_tais
-    - utter_quem_eh_a_tais
+* quem_criou_a_tais
+    - utter_quem_criou_a_tais
 
 ## Oi Quem e tais 2
-* quem_eh_a_tais
-    - utter_quem_eh_a_tais 
-    - utter_objetivo
+* quem_criou_a_tais
+    - utter_quem_criou_a_tais
 
 ## Nao entendi
 * diga_mais
@@ -60,12 +59,6 @@
 * elogios
     - utter_elogios
     - utter_objetivo
-
-## objetivo
-* out_of_scope
-    - utter_default
-* out_of_scope
-    - utter_manter_conversa
 
 ## tem wpp 1
 * tem_wpp

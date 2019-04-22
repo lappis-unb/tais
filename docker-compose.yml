@@ -27,9 +27,7 @@ services:
 
   # ================================= Bot =====================================
   bot:
-    build:
-      context: .
-      dockerfile: ./docker/bot.Dockerfile
+    image: registry.gitlab.com/lappis-unb/services/tais/bot
     restart: unless-stopped
     environment:
       - ROCKETCHAT_URL=rocketchat:3000
@@ -40,6 +38,7 @@ services:
       - ROCKETCHAT_ADMIN_PASSWORD=admin
       - ROCKETCHAT_BOT_USERNAME=tais
       - ROCKETCHAT_BOT_PASSWORD=tais
+      - MPLBACKEND=agg
 
       # Should be set to 'production' or 'beta' or 'dev'
       - ENVIRONMENT_NAME=localhost
@@ -64,9 +63,7 @@ services:
 
   # =================================== Web ===================================
   web:
-    build:
-      context: .
-      dockerfile: ./docker/web.Dockerfile
+    image: registry.gitlab.com/lappis-unb/services/tais/web
     restart: unless-stopped
     environment:
       - PORT=8000
@@ -86,11 +83,35 @@ services:
     volumes:
       - ./web/postgres-data:/var/lib/postgresql/data
 
+  # =================================== Kibana-Web ===================================
+  kibana-web:
+    build:
+      context: .
+      dockerfile: ./docker/kibana-web.Dockerfile
+    restart: unless-stopped
+    environment:
+      - PORT=8080
+      - ALLOWED_HOSTS=localhost
+      - PREFIX_URL=
+    volumes:
+      - ./kibana-web:/kibana-web
+    ports:
+      - 8080:8080
+    depends_on:
+      - kibana-webdb
+
+  kibana-webdb:
+    image: postgres:10.5
+    restart: unless-stopped
+    volumes:
+      - ./kibana-web/postgres-data:/var/lib/postgresql/data
 
 
   # =============================== Analytics =================================
   elasticsearch:
-    image: docker.elastic.co/elasticsearch/elasticsearch:6.4.2
+    build:
+      context: .
+      dockerfile: ./docker/elasticsearch.Dockerfile
     restart: unless-stopped
     ports:
       - 9200:9200
@@ -98,6 +119,8 @@ services:
     environment:
       - discovery.type=single-node
     volumes:
+      - esbackup:/usr/share/elasticsearch/backup
+      - ./elasticsearch/elasticsearch.yml:/usr/share/elasticsearch/config/elasticsearch.yml
       - esdata:/usr/share/elasticsearch/data
 
   kibana:
@@ -126,6 +149,30 @@ services:
     depends_on:
       - bot
 
+  kibana-tais:
+    build:
+      context: .
+      dockerfile: ./docker/kibana-tais.Dockerfile
+    restart: unless-stopped
+    environment:
+      - PORT=8081
+      - ALLOWED_HOSTS=localhost
+      - PREFIX_URL=
+    volumes:
+      - ./kibana-tais:/kibana-tais
+    ports:
+      - 8081:8081
+    depends_on:
+      - kibana-taisdb
+
+  kibana-taisdb:
+    image: postgres:10.5
+    restart: unless-stopped
+    volumes:
+      - ./kibana-tais/postgres-data:/var/lib/postgresql/data
+    ports:
+      - 5031:5032
+
 
 
   # =============================== Notebooks =================================
@@ -142,3 +189,4 @@ services:
 volumes:
   esdata:
     driver: local
+  esbackup:
