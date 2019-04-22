@@ -8,6 +8,7 @@
 - como mandar um projeto
 - como faço a proposta
 - como fazer uma proposta cultural
+- como fazer um projeto
 - inscrevo uma proposta
 - inscrever uma proposta
 - enviar proposta

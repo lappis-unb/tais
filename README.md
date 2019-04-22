@@ -102,14 +102,14 @@ Nesse repositório temos também o site para beta testers da Tais. Ele se conect
 ### Setup
 Antes de rodá-lo é necessário fazer algumas configurações e criar um usuário. Para isso rode os comandos abaixo e crie o seu usuário.
 
-```
+```sh
 sudo docker-compose run --rm web python manage.py migrate
 sudo docker-compose run --rm web python manage.py createsuperuser
 ```
 
 ### Execução
 Para rodar o site em `localhost` suba o container com esse comando:
-```
+```sh
 sudo docker-compose up -d web
 ```
 
@@ -121,14 +121,14 @@ Dashboards que disponibilizamos para a Secretaria Especial da Cultura.
 
 ### Setup
 
-```
+```sh
 sudo docker-compose run --rm kibana-web python manage.py migrate
 sudo docker-compose run --rm kibana-web python manage.py createsuperuser
 ```
 
 ### Execução
 
-```
+```sh
 sudo docker-compose up -d kibana-web
 ```
 
@@ -141,11 +141,11 @@ Para a análise dos dados das conversas com o usuário, utilize o kibana, e veja
 
 ### Setup
 
-Para subir o ambiente do kibana rode os seguintes comandos:
+Para subir o ambiente do ElasticSearch rode os seguintes comandos:
 
-```
-sudo docker-compose run --rm -v $PWD/analytics:/analytics bot python /analytics/setup_elastic.py
+```sh
 sudo docker-compose up -d elasticsearch
+sudo docker-compose run --rm -v $PWD/analytics:/analytics bot python /analytics/setup_elastic.py
 ```
 
 Lembre-se de configurar as seguintes variáveis de ambiente no `docker-compose`.
@@ -155,10 +155,30 @@ ENVIRONMENT_NAME=localhost
 BOT_VERSION=last-commit-hash
 ```
 
+Lembre-se também de configurar como `True` a seguinte variável do serviço `bot` no `docker-compose`.
+
+```
+ENABLE_ANALYTICS=False
+```
+
+Para habilitar o _backup_ rode o seguinte comando:
+
+```sh
+sudo docker exec -it tais_elasticsearch_1 curl -XPUT -H "Content-Type: application/json;charset=UTF-8" 'http://localhost:9200/_snapshot/backup' -d '{
+  "type": "fs",
+  "settings": {
+     "location": "/elasticseacrh/backup",
+     "compress": true
+  }
+}'
+
+# A resposta esperada é: {"acknowledged": true}
+```
+
 ### Visualização
 
 Para visualização do site rode o comando:
-```
+```sh
 sudo docker-compose up -d kibana
 ```
 
@@ -225,6 +245,12 @@ A documentação se encontra na pasta `docs` deste repositório. É feita com `J
 ```
 jekyll serve
 ```
+Ou rode com docker (atualmente nem sempre funciona o mapeamento de porta - issue #441):
+
+```
+docker-compose up
+```
+
 Acesse a pagina em `http://localhost:4000`.
 
 # Passos necessários para gerar uma nova release
