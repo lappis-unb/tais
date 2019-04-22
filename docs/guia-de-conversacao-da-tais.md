@@ -10,18 +10,18 @@ title: Guia de Conversação da Tais
 Para se definir a personalidade de um Chatbot é preciso colocá-la em palavras, pois é assim que vamos ver o comportamento do nosso Bot. Cada palavra importa, cada pontuação vai causar um efeito na fluidez conversacional. Todo o poder está nessa junção de caracteres e no efeito que isso vai causar no nosso público alvo. Então, se colocamos um “hum…”, dependendo do contexto ele pode significar frustração, ou até mesmo uma hesitação. Vejamos:
 
 
-*exemplo 1:
+*exemplo 1:*
 
-usuário: Ah, você não me ajuda!
+*usuário: Ah, você não me ajuda!*
 
-chatbot: Hum…*
+*chatbot: Hum…*
 
 
-*exemplo 2:
+*exemplo 2:*
 
-usuário: Você poderia me dizer os horários de ônibus dessa semana?
+*usuário: Você poderia me dizer os horários de ônibus dessa semana?*
 
-chatbot: Hum… Em qual semana estamos, você pode me informar a data de hoje?*
+*chatbot: Hum… Em qual semana estamos, você pode me informar a data de hoje?*
 
 
 As interjeições têm o poder de tornar a conversa mais próxima da linguagem humana, pois nós costumamos na linguagem falada, hesitar, se empolgar, ficar frustrados, ficar confusos, entre outras milhares de emoções. E, se você conseguir expressar tudo isso em seu Chatbot de maneira coerente, ele terá uma personalidade cativante. Deste modo, você deve escolher situações de raiva, ódio, alegria, animação, hesitação e definir como expressar tais emoções. Exemplo: sempre que seu Chatbot estiver frustrado, ele pode fazer uma piadinha e tentar ser cômico para esconder sua frustração. “Ah, nossa, eu errei de novo, tá mais difícil que acertar na mega sena hein?”
