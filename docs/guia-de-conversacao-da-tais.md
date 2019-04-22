@@ -11,12 +11,16 @@ Para se definir a personalidade de um Chatbot é preciso colocá-la em palavras,
 
 
 *exemplo 1:
+
 usuário: Ah, você não me ajuda!
+
 chatbot: Hum…*
 
 
 *exemplo 2:
+
 usuário: Você poderia me dizer os horários de ônibus dessa semana?
+
 chatbot: Hum… Em qual semana estamos, você pode me informar a data de hoje?*
 
 
