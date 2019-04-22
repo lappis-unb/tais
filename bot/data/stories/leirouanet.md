@@ -426,3 +426,12 @@
     - utter_salic_cadastro_usuario
     - utter_salic_cadastro_proponente
     - utter_continuar_conversa
+
+## LeiRouanet 41.3
+* lei_rouanet_o_que_eh
+    - utter_lei_rouanet_o_que_eh
+    - utter_continuar_conversa
+* processo_como_funciona
+    - utter_processo_como_funciona
+* negar
+    - utter_continuar_conversa

@@ -39,7 +39,7 @@
 
 ## afirmar
 * afirmar
-    - utter_manter_conversa
+    - utter_continuar_conversa
 
 ## negar sem contexto
 * negar
@@ -63,14 +63,14 @@
 ## tem wpp 1
 * tem_wpp
     - utter_tem_wpp
-    - utter_objetivo
+    - utter_manter_conversa
 
 ## tem wpp 2
 * cumprimentar
     - utter_cumprimentar
 * tem_wpp
     - utter_tem_wpp
-    - utter_objetivo
+    - utter_manter_conversa
 
 ## o que sei falar
 * o_que_sei_falar
@@ -79,3 +79,4 @@
 ## erro resposta
 * erro_resposta_utter
     - utter_erro_resposta_utter
+manter_conversa
