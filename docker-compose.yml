@@ -27,9 +27,7 @@ services:
 
   # ================================= Bot =====================================
   bot:
-    build:
-      context: .
-      dockerfile: ./docker/bot.Dockerfile
+    image: registry.gitlab.com/lappis-unb/services/tais/bot
     restart: unless-stopped
     environment:
       - ROCKETCHAT_URL=rocketchat:3000
@@ -65,9 +63,7 @@ services:
 
   # =================================== Web ===================================
   web:
-    build:
-      context: .
-      dockerfile: ./docker/web.Dockerfile
+    image: registry.gitlab.com/lappis-unb/services/tais/web
     restart: unless-stopped
     environment:
       - PORT=8000

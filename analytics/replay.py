@@ -3,7 +3,6 @@
 import logging
 import time
 import os
-import json
 import queue
 import requests
 
@@ -34,6 +33,7 @@ bot = {
 
 logged_in = False
 
+
 def connect_bot():
     def login_callback(error, data):
         global logged_in
@@ -51,7 +51,8 @@ def connect_bot():
     logger.info('Trying to login as {}'.format(bot['username']))
     bot['driver'] = Driver(url=bot['rocketchat_url'], ssl=False)
     bot['driver'].connect()
-    bot['driver'].login(user=bot['username'], password=bot['password'], callback=login_callback)
+    bot['driver'].login(user=bot['username'], password=bot['password'],
+                        callback=login_callback)
 
 
 def get_user_rooms():
@@ -78,9 +79,10 @@ def get_rooms_history(rooms):
 
         bot['driver'].call(
             'loadHistory',
-            [ room_id, None, 1000, None ],
+            [room_id, None, 1000, None],
             replay_room
         )
+
 
 def replay_room(error, data):
     if error:
@@ -95,7 +97,6 @@ def replay_room(error, data):
 
     for message in data['messages'][::-1]:
         expected_answer = None
-        user_msg = ""
 
         if message['u']['username'] != bot['username']:
             print('User said: {}'.format(message['msg']))
@@ -119,7 +120,8 @@ def replay_room(error, data):
             print("Expected answer now: {}".format(expected_answer))
 
             if expected_answer != message['msg']:
-                print('!!! The current answer differ from the given on the chat')
+                print('!!! The current answer differ\
+                       from the given on the chat')
                 print('Should I proceed?')
 
 
@@ -131,4 +133,3 @@ if __name__ == '__main__':
 
     while True:
         time.sleep(10)
-
