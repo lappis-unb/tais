@@ -42,7 +42,6 @@ services:
       - ./scripts:/scripts
     depends_on:
       - coach
-      - rocketchat
   
   coach:
     image: lappis/coach:latest
