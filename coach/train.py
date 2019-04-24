@@ -24,5 +24,5 @@ def train_dialogue(domain_file,
 if __name__ == "__main__":
     validate = Validator('domain.yml', 'data/intents', 'data/stories/')
     validate.run_verifications()
-    train_dialogue('domain.yml', 'models/dialogue',
+    train_dialogue('domain.yml', '/src_models/dialogue',
                    'data/stories/', 'policy_config.yml')
