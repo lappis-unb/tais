@@ -1,10 +1,3 @@
-## Processo 1
-* cumprimentar 
-    - utter_cumprimentar 
-* processo_como_funciona 
-    - utter_processo_como_funciona
-    - utter_continuar_conversa
-
 ## Processo 2
 * cumprimentar
     - utter_cumprimentar
@@ -17,13 +10,6 @@
     - utter_cumprimentar
 * processo_reativacao_de_proposta
     - utter_processo_reativacao_de_proposta
-    - utter_continuar_conversa
-
-## Processo 4
-* cumprimentar
-    - utter_cumprimentar
-* processo_como_funciona
-    - utter_processo_como_funciona
     - utter_continuar_conversa
 
 ## Processo 6
