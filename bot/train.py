@@ -25,4 +25,4 @@ if __name__ == "__main__":
     validate = Validator('domain.yml', 'data/intents', 'data/stories/')
     validate.run_verifications()
     train_dialogue('domain.yml', 'models/dialogue',
-                   'data/stories/', 'policy_config.yml')
+                   'data/stories/', 'redp.yml')
