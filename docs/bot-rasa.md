@@ -79,8 +79,7 @@ Essa relação Utter-Intent é mapeada nas Stories, fornecendo ao bot uma base d
     `	- utter_<nome_da_utter_4>`
     As stories não precisam ser listadas no arquivo `/bot/domain.yml`
 
-> Exemplos retirados dos arquivos "captacao.md", "domain.yml" e "dinheiro.md", da Tais.
-
+Para uma melhor compreensão de como se criar intents é recomendada a leitura do texto [Intents Eficientes](https://github.com/lappis-unb/tais/wiki/Intents-Eficientes).
 ### Outras funcionalidades
 O Rasa Core proporcina diversas funcionalidades para o projeto ao qual é aplicado, como a alteração das configurações de resposta padrão do bot (que pode ser visto no arquivo `/bot/fallback.py`) e CustomActions, por exemplo. Essas funcionalidades podem ser estudadas a partir da documentação oficial do [Rasa](https://rasa.com/docs/core). 
 
