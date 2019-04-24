@@ -34,14 +34,17 @@ Esse diagrama segue os seguintes passos:
 
 Essa arquitetura possibilita a conexão com diversas plataformas de comunicação para estruturação do bot, que varia de acordo com a necessidade do projeto. O modo de efetuar essa conexão pode ser visto na parte de [Chat & Voice platforms](https://rasa.com/docs/core/connectors/) da documentação do Rasa Core.
 
+Já o Rasa _NLU_ atua na parte de interpretação da linguagem natural. De modo mais específico, Rasa NLU é uma biblioteca _NLP_ para classificação de intenções e extração de entidades, isso é, a frase enviada pelo usuário é passada para o Rasa NLU onde são aplicados diversos algoritmos para definir qual a provável intenção da sentença a partir da lista de intenções previamente fornecida pelo desenvolvedor.
+Mais detalhes do funcionamento do Rasa NLU podem ser lidos na documentação oficial do [Rasa](https://rasa.com/docs/nlu/).
+
+> NLU: Natural Language Understanding
+> NLP: Natural Language Processing 
+
 ### Criação/Atualização de conteúdos
 Existem três pontos principais que relacionam os conteúdos analisados pelo bot dentro do Rasa, eles são as **Intents**, as **Utters** e as  **Stories**.
-As intents fazem referências as possíveis frases enviadas por usuários. Essas, por sua vez, são enviadas para o Rasa NLU que aplica diversos algoritmos de linguagem natural para extrair a intenção da setença.
-As Utters são as ações de respostas do bot para as intenções do usuário.
-Essa relação Utter-Intent é mapeada nas Stories, fornecendo ao bot uma base de possíveis diálogos e permitindo que ele gere novas relações e fluxos de conversa.
 
 * ### Intents
-    De forma mais específica, as intents são exemplos de frases que um usuário poderia falar para o assistente com intenção de se referir a um assunto determinado. Elas podem ser encontradas na pasta `/bot/data/intents` e ficam salvas em um arquivo markdown. 
+	As intents fazem referências as possíveis intenções que o usuário possui ao enviar mensagens, o processamento dessas mensagens para classificação da intent é feito pelo Rasa NLU, como foi explicado acima. Podem ser encontradas na pasta `/bot/data/intents` e ficam salvas em um arquivo markdown. O arquivo de Intent deve possuir diversas frases de exemplo para que o bot possa ter uma base para a análise no NLU.
     Uma intent deve ser escrita da seguinte forma:
     `## intent:<nome_da_intent>`
 	`- <exemplo de frase>`
@@ -54,7 +57,7 @@ Essa relação Utter-Intent é mapeada nas Stories, fornecendo ao bot uma base d
 	`	- <nome_da_intent>`
 
 * ### Utters
-	As utters ficam localizadas no arquivo `/bot/domain.yml` e são os textos de resposta do bot para uma intent. Elas devem ser inseridas na área de templates a partir do seguinte modelo:
+	As Utters são as mensagens de respostas enviadas pelo bot para o usuário após a detecção de uma intent. Ficam localizadas no arquivo `/bot/domain.yml`. Elas devem ser inseridas na área de templates a partir do seguinte modelo:
 	`<!-- área de templates -->`
 	`templates:`
 	`<!-- inserção da utter -->`
@@ -68,7 +71,7 @@ Essa relação Utter-Intent é mapeada nas Stories, fornecendo ao bot uma base d
 	`	- utter_<nome_da_utter>`
 
 * ### Stories
-	A criação das stories envolvem as Intents e Utters já existentes no bot. Elas podem ser encontradas na pasta `/bot/data/stories` e ficam salvas em um arquivo markdown, assim como as intents. Elas podem envolver diversas intents e utters e devem ser feitas no seguinte padrão:
+	A relação Utter-Intent é mapeada nas Stories, fornecendo ao bot uma base de possíveis diálogos e permitindo que ele gere novas relações e fluxos de conversa. Sua criação envolve as Intents e Utters já existentes no bot. Elas podem ser encontradas na pasta `/bot/data/stories` e ficam salvas em um arquivo markdown, assim como as intents. Elas podem envolver diversas intents e utters e devem ser feitas no seguinte padrão:
 	`## <nome_da_storie>`
 	`* <nome_da_intent_1>`
 	`	- utter_<nome_da_utter_1>`
@@ -80,6 +83,7 @@ Essa relação Utter-Intent é mapeada nas Stories, fornecendo ao bot uma base d
     As stories não precisam ser listadas no arquivo `/bot/domain.yml`
 
 Para uma melhor compreensão de como se criar intents é recomendada a leitura do texto [Intents Eficientes](https://github.com/lappis-unb/tais/wiki/Intents-Eficientes).
+
 ### Outras funcionalidades
 O Rasa Core proporcina diversas funcionalidades para o projeto ao qual é aplicado, como a alteração das configurações de resposta padrão do bot (que pode ser visto no arquivo `/bot/fallback.py`) e CustomActions, por exemplo. Essas funcionalidades podem ser estudadas a partir da documentação oficial do [Rasa](https://rasa.com/docs/core). 
 
@@ -88,3 +92,6 @@ O Rasa Core proporcina diversas funcionalidades para o projeto ao qual é aplica
 * https://github.com/RasaHQ, acessado 23/04/2019
 * https://www.sas.com/pt_br/insights/analytics/machine-learning.html, acessado 23/04/2019
 * https://rasa.com/docs/core/architecture/, acessado 23/04/2019
+* https://rasa.com/products/rasa-nlu/, acessado 24/04/2019
+* https://rasa.com/docs/core/domains/#utter-templates, acessado 24/04/2019
+* https://rasa.com/products/rasa-nlu/, acessado 24/04/2019
