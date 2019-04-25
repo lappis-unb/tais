@@ -565,9 +565,9 @@ templates:
 
   utter_salic_cadastro_proponente:
     - text: |
-          Agora que você já se cadastrou, o próximo passo é cadastrar um proponente
-          Basta você entrar no Salic...
-          clicar em Administrativo > Cadastrar proponente e preencher todos os dados
+          Depois de se cadastrar no Salic, o próximo passo é cadastrar um proponente.
+          Entre no Salic, clique em "Administrativo", 
+          daí clique em "Cadastrar proponente" e preencha todos os dados com atenção :)
 
   utter_processo_prazo:
     - text: |
