@@ -79,4 +79,4 @@
 ## erro resposta
 * erro_resposta_utter
     - utter_erro_resposta_utter
-manter_conversa
+    - utter_continuar_conversa
