@@ -256,14 +256,18 @@ templates:
 
   utter_salic_cadastro_usuario:
     - text: |
-          A primeira coisa que você deve fazer é acessar o SALIC no site http://salic.cultura.gov.br
-          Então no formulário inicial, onde pede login e senha, você deve clicar na opção "Não sou cadastrado", logo abaixo
+          Que bacana! Fico feliz que você se interesse em saber como cadastrar um usuário.
+          Primeiro temos que acessar o SALIC no site http://salic.cultura.gov.br.
+          Em seguida, no formulário inicial, onde pede login e senha, 
+          você deve clicar na opção "Não sou cadastrado", logo abaixo.
 
           Preencha todos os campos corretamente, todos eles são obrigatórios.
-          E depois clique em "Cadastrar"
+          E depois clique em "Cadastrar".
 
-          Agora aguarde a chegada de um e-mail de confirmação. Este vai conter uma senha temporária
-          É interessante você alterar esta senha, por isso, no seu primeiro acesso, vá em "Usuário > Alterar Senha", para mudar a mesma
+          Agora, é só aguardar a chegada de um e-mail de confirmação. 
+          Nele vai conter uma senha temporária.
+          É importante alterar essa senha, logo no seu primeiro acesso 
+          vá em "Usuário > Alterar Senha" para modificá-la.
 
   utter_lei_rouanet_quantidade_de_projetos:
     - text: |
