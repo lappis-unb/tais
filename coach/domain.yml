@@ -240,10 +240,9 @@ templates:
           Se for admitida, autoriza o proponente a captar recursos.
           Após a captação mínima de 10% do valor autorizado, o projeto segue com o fluxo análise até sua homologação.
           Durante a execução o proponente deve prestar contas de acordo com os prazos definidos na Lei Rouanet.
+          Essa prestação de contas é analisada pela área responsável do Ministério.
 
-          A prestação de contas é analisada pela área responsável do Ministério.
-
-          O primeiro passo para você participar deste processo é ter cadastro no SALIC
+          Para participar, é preciso se cadastrar no SALIC.
           Você quer saber como fazer um cadastro no SALIC?
 
   utter_cadastro_salic_video:
@@ -617,12 +616,6 @@ templates:
           Mas antes, para a nossa conversa ser mais eficiente, 
           você quer saber como submeter uma proposta?
 
-  utter_manter_conversa:
-    - text: |
-          A minha missão é te guiar para a inscrição da sua proposta,
-          Se você já sabe isso é porque você já tem um conhecimento avançado e talvez eu não consiga sanar as suas dúvidas.
-          Mas podemos continuar conversando sobre alguns conceitos básicos da lei Rouanet (:
-
   utter_continuar_conversa:
     - text: |
           O que mais você gostaria de perguntar?
@@ -766,7 +759,6 @@ actions:
   - utter_despedir
   - utter_menu
   - utter_tudo_bem
-  - utter_manter_conversa
   - utter_continuar_conversa
   - utter_objetivo
   - utter_o_que_sei_falar
