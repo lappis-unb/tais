@@ -232,10 +232,12 @@ templates:
 
   utter_processo_como_funciona:
     - text: |
-          Então, já que você não sabe como submeter uma proposta, aqui vai um resumo do processo:
-          A pessoa responsável, chamada de proponente, insere uma proposta cultural no Sistema de Apoio às Leis de Incentivo à Cultura (Salic), de forma eletrônica.
+          Então, já que você ainda não sabe como submeter uma proposta, aqui vai um resumo do processo:
+          A pessoa responsável, chamada de proponente, insere uma proposta cultural 
+          na plataforma do Salic (Sistema de Apoio às Leis de Incentivo à Cultura), de forma eletrônica.
 
-          Essa proposta é analisada pelo MinC. Se for admitida, autoriza o proponente a captar recursos.
+          Essa proposta é analisada pela Secretaria Especial da Cultura. 
+          Se for admitida, autoriza o proponente a captar recursos.
           Após a captação mínima de 10% do valor autorizado, o projeto segue com o fluxo análise até sua homologação.
           Durante a execução o proponente deve prestar contas de acordo com os prazos definidos na Lei Rouanet.
 
