@@ -42,7 +42,7 @@
 * definicao_tais
     - utter_definicao_tais
     - utter_objetivo
-* negar
+* afirmar
     - utter_processo_como_funciona
 * negar
     - utter_continuar_conversa
