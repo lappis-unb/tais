@@ -1,7 +1,10 @@
+
+
 # Tais - Assistente Virtual da Cultura
 <!-- badges -->
 <a href="https://www.gnu.org/licenses/gpl-3.0.pt-br.html"><img src="https://img.shields.io/badge/licence-GPL3-green.svg"/></a>
 <a href="https://codeclimate.com/github/lappis-unb/tais/maintainability"><img src="https://api.codeclimate.com/v1/badges/64786c126eb53a061bb6/maintainability" /></a>
+<a href="https://gitlab.com/lappis-unb/services/tais/-/jobs"><img src="https://gitlab.com/lappis-unb/services/tais/badges/master/pipeline.svg" /></a>
 
 A Taís é uma assistente virtual desenvolvida pelo LAPPIS - Laboratório Avançado de Produção, Pesquisa e Inovação em Software (FGA/UnB), em parceria com o Ministério da Cultura. O nome é uma sigla para Tecnologia de Aprendizado Interativo do Salic.
 
@@ -79,12 +82,22 @@ Para colocar a Tais em um site você precisa inserir o seguinte código em Javas
 Para testar somente o diálogo com o bot, não é necessário rodar o RocketChat. Caso queira apenas rodar a Tais pelo seu terminal, rode os seguintes comandos:
 
 ```sh
-sudo docker-compose run --rm bot make train
 sudo docker-compose run --rm bot make run-console
 ```
 
 Essa forma de rodar trás também os logs e previsão de intents do Rasa.
 
+### Treinamento
+Caso precise atualizar os dialogos com o bot após modificações nas __intents__ e __stories__ (coach/data/intents e stories), utilize o seguinte comando na pasta raiz do projeto para treinar o bot novamente:
+```bash
+make train
+```
+
+Caso queira atualizar o treinamento padrão da aplicação, será necessário atualizar a versão da imagem Coach no dockerhub do lappis:
+```bash
+make train
+sudo docker push lappis/coach:latest
+``` 
 
 ## Site do Beta
 Nesse repositório temos também o site para beta testers da Tais. Ele se conecta com a Tais via RocketChat, então para ela estar hospedada é necessário [subir o RocketChat](#RocketChat).
@@ -92,14 +105,14 @@ Nesse repositório temos também o site para beta testers da Tais. Ele se conect
 ### Setup
 Antes de rodá-lo é necessário fazer algumas configurações e criar um usuário. Para isso rode os comandos abaixo e crie o seu usuário.
 
-```
+```sh
 sudo docker-compose run --rm web python manage.py migrate
 sudo docker-compose run --rm web python manage.py createsuperuser
 ```
 
 ### Execução
 Para rodar o site em `localhost` suba o container com esse comando:
-```
+```sh
 sudo docker-compose up -d web
 ```
 
@@ -111,14 +124,14 @@ Dashboards que disponibilizamos para a Secretaria Especial da Cultura.
 
 ### Setup
 
-```
+```sh
 sudo docker-compose run --rm kibana-web python manage.py migrate
 sudo docker-compose run --rm kibana-web python manage.py createsuperuser
 ```
 
 ### Execução
 
-```
+```sh
 sudo docker-compose up -d kibana-web
 ```
 
@@ -131,11 +144,11 @@ Para a análise dos dados das conversas com o usuário, utilize o kibana, e veja
 
 ### Setup
 
-Para subir o ambiente do kibana rode os seguintes comandos:
+Para subir o ambiente do ElasticSearch rode os seguintes comandos:
 
-```
-sudo docker-compose run --rm -v $PWD/analytics:/analytics bot python /analytics/setup_elastic.py
+```sh
 sudo docker-compose up -d elasticsearch
+sudo docker-compose run --rm -v $PWD/analytics:/analytics bot python /analytics/setup_elastic.py
 ```
 
 Lembre-se de configurar as seguintes variáveis de ambiente no `docker-compose`.
@@ -145,16 +158,47 @@ ENVIRONMENT_NAME=localhost
 BOT_VERSION=last-commit-hash
 ```
 
+Lembre-se também de configurar como `True` a seguinte variável do serviço `bot` no `docker-compose`.
+
+```
+ENABLE_ANALYTICS=False
+```
+
+Para habilitar o _backup_ rode o seguinte comando:
+
+```sh
+sudo docker exec -it tais_elasticsearch_1 curl -XPUT -H "Content-Type: application/json;charset=UTF-8" 'http://localhost:9200/_snapshot/backup' -d '{
+  "type": "fs",
+  "settings": {
+     "location": "/elasticseacrh/backup",
+     "compress": true
+  }
+}'
+
+# A resposta esperada é: {"acknowledged": true}
+```
+
 ### Visualização
 
 Para visualização do site rode o comando:
-```
+```sh
 sudo docker-compose up -d kibana
 ```
 
 Para acesso do site é necessário fazer o login. Por padrão o usuário criado é `admin` e a senha é `admin`
 
 Você pode acessar o kibana no `http://locahost:5601`
+
+### Para visualização dos Dashboards básico
+
+Visualizações de métricas importantes para o desenvolvimento de chatbots, estão disponibilizados para este contexto.
+Para usar estes _templates_ execute os seguintes passos:
+
+* Suba o container do **Kibana** e acesse `http://locahost:5601`;
+* Na interface, acesse `Management` e clique em `Saved Objects`;
+* Clique em `Import`;
+* Utilize o arquivo `export.json` na pasta `elasticsearch/` do projeto.
+
 
 ## Dashboards Visualização do Kibana
 
@@ -215,6 +259,12 @@ A documentação se encontra na pasta `docs` deste repositório. É feita com `J
 ```
 jekyll serve
 ```
+Ou rode com docker (atualmente nem sempre funciona o mapeamento de porta - issue #441):
+
+```
+docker-compose up
+```
+
 Acesse a pagina em `http://localhost:4000`.
 
 # Passos necessários para gerar uma nova release
