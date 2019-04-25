@@ -732,7 +732,8 @@ templates:
 
   utter_erro_resposta_utter:
     - text: |
-          Obrigada pelo feedback. Espero que na próxima vez vou conseguir responder a tua pergunta corretamente Gostaria de fazer uma nova pergunta?
+          Obrigada pelo feedback. 
+          Espero conseguir te responder corretamente da próxima vez!
 
   utter_lei_rouanet_democratizacao:
     - text: |
