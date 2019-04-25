@@ -217,11 +217,13 @@ templates:
 
   utter_definicao_salic:
     - text: |
-          Sistema de Apoio às Leis de Incentivo à Cultura (SALIC) é o
-          sistema utilizado para submeter propostas e gerenciar
-          projetos aprovados pela Lei Rouanet.
+          Ah, eu adoro aprender sobre siglas,
+          vamos descobrir o que Salic significa!
 
-          Acesse: *salic.cultura.gov.br*
+          Salic é uma abreviação de Sistema de Apoio às Leis de Incentivo à Cultura. 
+          Ele é o sistema utilizado para submeter propostas 
+          e gerenciar projetos aprovados pela Lei Rouanet.
+          Para saber mais, acesse: *salic.cultura.gov.br*
 
   utter_definicao_vinculada:
     - text: |
