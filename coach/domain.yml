@@ -247,13 +247,14 @@ templates:
 
   utter_cadastro_salic_video:
     - text: |
-          O Salic é o Sistema de Apoio às Leis de Incentivo à Cultura,
-          e é por ele que você cadastra a proposta e a acompanha.
+          É muito importante saber como fazer um cadastro no Salic
+          (Sistema de Apoio às Leis de Incentivo à Cultura)
+          é por meio dele que você submete e acompanha a sua proposta.
 
           Se você encontrar dificuldades no momento do cadastro, pode assistir este vídeo,
-          nele você pode observar o passo a passo para se cadastrar: https://youtu.be/rMGEZyIr1U8
+          nele você tem o passo a passo para se cadastrar: https://youtu.be/rMGEZyIr1U8
 
-          Caso você não possa ver o vídeo, eu posso te explicar. Quer que eu te explique?
+          Caso você não queira ver o vídeo, eu posso te explicar. Quer que eu te explique?
 
   utter_salic_cadastro_usuario:
     - text: |
