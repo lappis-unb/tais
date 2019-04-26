@@ -27,22 +27,37 @@
 					<div id="description-collapsed" class="title-collapsed">
 						<p>Visualização de Dados: Tais-Usuário</p>
 					</div>
-					<div class="btn-group" style="margin-left: auto" >
-					  <button class="btn dropdown-collapsed" data-toggle="dropdown">
-					    <i class="fa fa-th-list btn "></i>
-					  </button>
-					  <div class="dropdown-menu dropdown-menu-right">
-							<p id="subtitle-dropdown">Dashboards</p>
-					    <a class="dropdown-item" onclick="location.href='{% url 'user_profile' %}'">Perfil de Usuário</a>
-					    <a class="dropdown-item" onclick="location.href='{% url 'trending' %}'">Trending</a>
-					    <div class="dropdown-divider"></div>
-					    <a class="dropdown-item" onclick="location.href='{% url 'logout'  %}'">Sair</a>
-					  </div>
-					</div>
+
+				 <div class="btn-group dropdown-group-bar">
+				   <div class="btn-group">
+				     <button type="button" class="btn btn-default dropdown-toggle buttons-time-list" data-toggle="dropdown">
+							 <i class="fa fa-clock-o fa-lg"></i>
+				     </button>
+				     <div class="dropdown-menu dropdown-menu-right">
+							 <p id="subtitle-dropdown">Intervalo de Tempo</p>
+				       <a class="dropdown-item" onclick="location.href='{% url 'today' %}'">Hoje</a>
+				       <a class="dropdown-item" onclick="location.href='{% url '7_days' %}'">Últimos 7 dias</a>
+				       <a class="dropdown-item" onclick="location.href='{% url 'last_month' %}'">Últimos 30 dias</a>
+				       <a class="dropdown-item" onclick="location.href='{% url 'last_3_months' %}'">Últimos 90 dias</a>
+				       <a class="dropdown-item" onclick="location.href='{% url 'last_6_months' %}'">Últimos 6 meses</a>
+				       <a class="dropdown-item" onclick="location.href='{% url 'last_year' %}'">Último ano</a>
+				     </div>
+				   </div>
+
+				   <div class="btn-group">
+				     <button type="button" class="btn btn-default dropdown-toggle buttons-time-list" data-toggle="dropdown">
+							 <i class="fa fa-th-list btn"></i>
+				     </button>
+						 <div class="dropdown-menu dropdown-menu-right">
+							 <p id="subtitle-dropdown">Dashboards</p>
+							 <a class="dropdown-item" onclick="location.href='{% url 'user_profile' %}'">Perfil de Usuário</a>
+							 <div class="dropdown-divider"></div>
+							 <a class="dropdown-item" onclick="location.href='{% url 'logout'  %}'">Sair</a>
+						 </div>
+				   </div>
+				 </div>
 				</div>
 			{% endif %}
-
-
 			{% block content %}
 			{% endblock %}
 	</body>
