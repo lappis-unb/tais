@@ -22,5 +22,9 @@ def today(request):
     return render(request, 'time-range/today.html')
 
 
+def lastWeek(request):
+    return render(request, 'time-range/last_week.html')
+
+
 def lastMonth(request):
     return render(request, 'time-range/last_month.html')
