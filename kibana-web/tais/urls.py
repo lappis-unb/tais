@@ -32,6 +32,8 @@ urlpatterns = [
          name='last_month'),
     path(settings.PREFIX_URL + 'last_3_months/', tais.views.last3Month,
          name='last_3_months'),
+    path(settings.PREFIX_URL + 'last_6_months/', tais.views.last6Month,
+         name='last_6_months'),
     path(settings.PREFIX_URL + '', tais.views.index, name='home'),
     path(settings.PREFIX_URL + 'admin/', admin.site.urls),
     path(settings.PREFIX_URL + 'accounts/', include(
