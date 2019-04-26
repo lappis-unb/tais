@@ -20,3 +20,7 @@ def trending(request):
 
 def today(request):
     return render(request, 'time-range/today.html')
+
+
+def lastMonth(request):
+    return render(request, 'time-range/last_month.html')
