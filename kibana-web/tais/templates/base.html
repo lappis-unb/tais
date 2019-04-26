@@ -35,12 +35,12 @@
 				     </button>
 				     <div class="dropdown-menu dropdown-menu-right">
 							 <p id="subtitle-dropdown">Intervalo de Tempo</p>
-				       <a class="dropdown-item" href="#">Hoje</a>
-				       <a class="dropdown-item">Últimos 7 dias</a>
-				       <a class="dropdown-item">Últimos 30 dias</a>
-				       <a class="dropdown-item">Últimos 90 dias</a>
-				       <a class="dropdown-item">Últimos 6 meses</a>
-				       <a class="dropdown-item">Último ano</a>
+				       <a class="dropdown-item" onclick="location.href='{% url 'today' %}'">Hoje</a>
+				       <a class="dropdown-item" id="last-7-days">Últimos 7 dias</a>
+				       <a class="dropdown-item" id="last-30-days">Últimos 30 dias</a>
+				       <a class="dropdown-item" id="last-90-days">Últimos 90 dias</a>
+				       <a class="dropdown-item" id="last-6">Últimos 6 meses</a>
+				       <a class="dropdown-item" id="last-year">Último ano</a>
 				     </div>
 				   </div>
 
@@ -51,7 +51,6 @@
 						 <div class="dropdown-menu dropdown-menu-right">
 							 <p id="subtitle-dropdown">Dashboards</p>
 							 <a class="dropdown-item" onclick="location.href='{% url 'user_profile' %}'">Perfil de Usuário</a>
-							 <a class="dropdown-item" onclick="location.href='{% url 'trending' %}'">Trending</a>
 							 <div class="dropdown-divider"></div>
 							 <a class="dropdown-item" onclick="location.href='{% url 'logout'  %}'">Sair</a>
 						 </div>
@@ -59,8 +58,6 @@
 				 </div>
 				</div>
 			{% endif %}
-
-
 			{% block content %}
 			{% endblock %}
 	</body>

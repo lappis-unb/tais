@@ -24,6 +24,8 @@ urlpatterns = [
          name='user_profile'),
     path(settings.PREFIX_URL + 'trending/', tais.views.trending,
          name='trending'),
+    path(settings.PREFIX_URL + 'today/', tais.views.today,
+         name='today'),
     path(settings.PREFIX_URL + '', tais.views.index, name='home'),
     path(settings.PREFIX_URL + 'admin/', admin.site.urls),
     path(settings.PREFIX_URL + 'accounts/', include(
