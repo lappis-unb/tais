@@ -36,3 +36,7 @@ def last3Month(request):
 
 def last6Month(request):
     return render(request, 'time-range/last_6_months.html')
+
+
+def lastYear(request):
+    return render(request, 'time-range/last_year.html')
