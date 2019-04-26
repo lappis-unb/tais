@@ -28,3 +28,7 @@ def lastWeek(request):
 
 def lastMonth(request):
     return render(request, 'time-range/last_month.html')
+
+
+def last3Month(request):
+    return render(request, 'time-range/last_3_months.html')
