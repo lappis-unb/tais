@@ -16,3 +16,7 @@ def index(request):
 
 def trending(request):
     return render(request, 'dashboards/trending.html')
+
+
+def today(request):
+    return render(request, 'time-range/today.html')
