@@ -598,21 +598,21 @@ templates:
 
   utter_o_que_sei_falar:
     - text: |
-          Veja alguns dos assuntos que eu posso te ajudar (:
+          Veja alguns dos assuntos em que posso te ajudar :)
 
           O que é a Lei Rouanet e como funciona
           Dúvidas operacionais sobre a execução do projeto (ex: perdi minha senha no SALIC)
           Ou dúvidas sobre definições e siglas (ex: o que é TAIS?)
 
-          Agora que você já sabe do que podemos conversar, vou te dar algumas dicas...
+          Agora que você já sabe do que podemos conversar, vou te dar outras dicas...
 
-          Eu consigo te entender melhor quando você faz perguntas curtas
-          e manda uma pergunta de cada vez.
+          Eu consigo te entender melhor quando você me faz perguntas curtas
+          e me manda uma pergunta de cada vez.
 
           Assim... espera eu te responder
           daí você me manda outra!
 
-          Bom, acho que já falei demais! Sua vez...
+          Bom, acho que já falei demais! Agora é sua vez...
           o que você deseja saber?
 
   utter_objetivo:
