@@ -121,7 +121,7 @@ templates:
   utter_definicao_tais:
     - text: |
           Eu sou uma assistente virtual da Secretaria Especial da Cultura,
-          meu objetivo é sanar dúvidas sobre a Lei Rouanet.
+          meu objetivo é tirar dúvidas sobre a Lei Rouanet.
 
           Uma assistente virtual é uma inteligência artificial
           criada para interagir com as pessoas.
@@ -130,7 +130,6 @@ templates:
 
           Em cada interação que temos aqui, eu aprendendo mais
           para que a gente se comunique melhor.
-
           Obrigada por conversar comigo!
 
   utter_quem_criou_a_tais:
