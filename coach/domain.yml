@@ -746,7 +746,7 @@ templates:
 
   utter_ver_salic:
     - text: |
-          Para ter acesso aos projetos que fizeram uso da Lei Rouanet,
+          Para ter acesso aos projetos que participaram da Lei Rouanet,
           você pode acessar o site: http://versalic.cultura.gov.br/.
 
           Aqui você pode pesquisar tanto pelo nome do proponente,
