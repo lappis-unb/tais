@@ -251,7 +251,7 @@ templates:
           Se você encontrar dificuldades no momento do cadastro, pode assistir este vídeo,
           nele você tem o passo a passo para se cadastrar: https://youtu.be/rMGEZyIr1U8
 
-          Caso você não queira ver o vídeo, eu posso te explicar. Quer que eu te explique?
+          Se você não quiser ver o vídeo, eu posso te explicar. Quer que eu te explique?
 
   utter_salic_cadastro_usuario:
     - text: |
