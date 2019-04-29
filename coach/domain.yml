@@ -86,6 +86,7 @@ intents:
   - salic_preenchimento_valor_ingresso
   - salic_preenchimento_vinculo_cpf_proposta
   - salic_preenchimento_cadastro_agencia_bancaria
+  - ver_salic
 
   - erro_resposta_utter
 
@@ -743,6 +744,18 @@ templates:
           em especial para as camadas da população menos assistidas ou excluídas do exercício de seus diretos culturais
           por sua condição socioeconômica ou outras circunstancias.
 
+  utter_ver_salic:
+    - text: |
+          Para ter acesso aos projetos que fizeram uso da Lei Rouanet,
+          você pode acessar o site: http://versalic.cultura.gov.br/.
+
+          Aqui você pode pesquisar tanto pelo nome do proponente,
+          projetos, propostas, fornecedores ou incentivadores.
+
+          Caso você queira saber se algum artista fez uso da lei,
+          é só digitar o nome do artista na guia proponente.
+          Espero ter respondido a sua pergunta, é sempre um prazer te ajudar!
+
 actions:
   - utter_default
   - utter_cumprimentar
@@ -834,5 +847,6 @@ actions:
   - utter_salic_cadastro_proponente
   - utter_salic_cadastro_usuario
   - utter_cadastro_salic_video
+  - utter_ver_salic
 
   - utter_erro_resposta_utter
