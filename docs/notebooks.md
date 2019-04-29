@@ -83,3 +83,10 @@ A utilização de notebooks também torna essa avaliação mais fácil, ao mostr
 
 	Todas as imagens geradas, além de serem exibidas no notebook, são salvas, podendo assim fazer uma melhor análise caso necessário.
 	A utilização dessas ferramentas no notebook que gera todas essas imagens e gráficos que nos auxiliaram a avaliar o nosso dataset de treinamento. Eles mostram tanto anotações de intents que possam dificultar a classificação, quanto das de ambiguidades nos fluxos de diálogo. Além disso, é possível otimizar a criação de novos fluxos, a partir da visualização dos fluxos já existentes assim como a forma como se relacionam.
+
+    Caso queira entender melhor como foram desenvolvidos os notebooks discutidos acima basta acessar o link disponibilizado abaixo:
+
+    - [Notebook de intents](https://github.com/lappis-unb/tais/tree/master/notebooks/intents)
+
+
+    - [Notbook de stories](https://github.com/lappis-unb/tais/tree/master/notebooks/stories)
