@@ -27,7 +27,7 @@ run dataset validator:
   stage: validate format
   image: registry.gitlab.com/lappis-unb/services/tais/bot
   script:
-    - cd bot/
+    - cd coach/
     - make run-validator
 
 build bot:
