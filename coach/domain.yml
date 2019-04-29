@@ -256,7 +256,7 @@ templates:
   utter_salic_cadastro_usuario:
     - text: |
           Que bacana! Fico feliz em poder te explicar como cadastrar um usuário.
-          Primeiro temos que acessar o SALIC no site http://salic.cultura.gov.br.
+          Primeiro acesse o SALIC no site http://salic.cultura.gov.br.
           Em seguida, no formulário inicial, onde pede login e senha, 
           você deve clicar na opção "Não sou cadastrado", logo abaixo.
 
