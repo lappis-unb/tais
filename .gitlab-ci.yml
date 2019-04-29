@@ -37,8 +37,7 @@ build bot:
     - docker:dind
   script:
     - docker login -u "gitlab-ci-token" -p "$CI_JOB_TOKEN" $CI_REGISTRY
-
-    - docker build -f docker/bot.Dockerfile -t $BOT_LATEST_IMAGE .
+    - docker build -f docker/bot/bot.Dockerfile -t $BOT_LATEST_IMAGE .
     - docker push $BOT_LATEST_IMAGE
   only:
     - master
@@ -51,7 +50,7 @@ build web:
   script:
     - docker login -u "gitlab-ci-token" -p "$CI_JOB_TOKEN" $CI_REGISTRY
 
-    - docker build -f docker/web.Dockerfile -t $WEB_LATEST_IMAGE .
+    - docker build -f docker/web/web.Dockerfile -t $WEB_LATEST_IMAGE .
     - docker push $WEB_LATEST_IMAGE
   only:
     - master
