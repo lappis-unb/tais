@@ -216,9 +216,7 @@ templates:
 
   utter_definicao_salic:
     - text: |
-          Ah, eu adoro aprender sobre siglas,
-          vamos descobrir o que Salic significa!
-
+          Vamos descobrir o que Salic significa!
           Salic é uma abreviação de Sistema de Apoio às Leis de Incentivo à Cultura. 
           Ele é o sistema utilizado para submeter propostas 
           e gerenciar projetos aprovados pela Lei Rouanet.
