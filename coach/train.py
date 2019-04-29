@@ -16,7 +16,7 @@ def train_dialogue(domain_file,
                                       stories_file=training_folder,
                                       output_path=model_path,
                                       policy_config=policy_config,
-                                      kwargs={'augmentation_factor': 5,
+                                      kwargs={'augmentation_factor': 1,
                                               'validation_split': 0.2}
                                       )
 
