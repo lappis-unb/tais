@@ -231,7 +231,7 @@ templates:
 
   utter_processo_como_funciona:
     - text: |
-          Então, já que você ainda não sabe como submeter uma proposta, aqui vai um resumo do processo:
+          Então, já que você deseja saber como submeter uma proposta, aqui vai um resumo do processo:
           A pessoa responsável, chamada de proponente, insere uma proposta cultural 
           na plataforma do Salic (Sistema de Apoio às Leis de Incentivo à Cultura), de forma eletrônica.
 
