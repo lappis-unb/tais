@@ -170,3 +170,25 @@
 - como cadastrar minha agência
 - agencia bancaria
 - agência bancária
+
+## intent: ver_salic
+- como saber se um artista fez uso da lei rouanet
+- o show foi custeado pela lei rouanet
+- o show fez uso da lei
+- o show fez usou da lei
+- cantor fez usou da lei
+- pintor fez usou da lei
+- cantora fez usou da lei
+- pintora fez usou da lei
+- claúdia leite usou a lei
+- pablo vittar usou a lei
+- cantor fez uso da lei
+- cantora fez uso da lei
+- pintor fez uso da lei
+- pintora fez uso da lei
+- projetos do artista
+- projetos da artista
+- projetos do cantor
+- projetos do pintor
+- projetos do cantora
+- projetos do pintora
