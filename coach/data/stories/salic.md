@@ -90,3 +90,15 @@
 * salic_recuperacao_de_senha
     - utter_salic_recuperacao_de_senha
     - utter_continuar_conversa
+
+## salic 16
+* ver_salic
+    - utter_ver_salic
+    - utter_continuar_conversa
+
+## salic 16.1
+* cumprimentar
+    - utter_cumprimentar
+* ver_salic
+    - utter_ver_salic
+    - utter_continuar_conversa
