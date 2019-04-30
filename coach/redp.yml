@@ -1,0 +1,4 @@
+policies:
+  - name: EmbeddingPolicy
+    epochs: 20
+    attn_shift_range: 5

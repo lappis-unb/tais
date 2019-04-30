@@ -16,7 +16,7 @@ def train_dialogue(domain_file,
                                       stories_file=training_folder,
                                       output_path=model_path,
                                       policy_config=policy_config,
-                                      kwargs={'augmentation_factor': 20,
+                                      kwargs={'augmentation_factor': 4,
                                               'validation_split': 0.2}
                                       )
 
@@ -24,5 +24,5 @@ def train_dialogue(domain_file,
 if __name__ == "__main__":
     validate = Validator('domain.yml', 'data/intents', 'data/stories/')
     validate.run_verifications()
-    train_dialogue('domain.yml', 'models/dialogue',
+    train_dialogue('domain.yml', '/src_models/dialogue',
                    'data/stories/', 'redp.yml')

@@ -1,0 +1,580 @@
+<!-- Geral -->
+## intent:expressoes_indesejadas
+- abestado
+- anus
+- ânus
+- babaca
+- babaovo
+- baba-ovo
+- baitola
+- baranga
+- bebum
+- besta
+- bicha
+- bixa
+- bla,blá,bla,bla
+- bla,blá,blá,blá
+- blefando
+- blefe
+- boazuda
+- boba
+- boboca
+- bobao
+- bobinha
+- boceta
+- boco
+- bocó
+- boiola
+- boquete
+- bosseta
+- bosta
+- bostana
+- brecha
+- brexa
+- brioco
+- brocha
+- bronha
+- broxa
+- buceta
+- bunda
+- bunduda
+- burra
+- busseta
+- cabeça chata
+- cachorra
+- cachorro
+- cadela
+- caga
+- cagado
+- cagao
+- cagão
+- cagona
+- canalha
+- cara de pau
+- caralho
+- caraio
+- carniça
+- casseta
+- cassete
+- charlatanismo
+- charlatao
+- charlatão
+- chatice
+- chato
+- chato demais
+- checheca
+- chereca
+- chifruda
+- chifrudo
+- chochota
+- chota
+- chupada
+- chupado
+- cocaina
+- cocaína
+- coco
+- cocô
+- corna
+- corno
+- cornuda
+- cornudo
+- cretina
+- cretino
+- cu
+- cú
+- cu
+- culhao
+- culhão
+- culhões
+- curalho
+- cuzao
+- cuzão
+- cuzuda
+- cuzudo
+- debil
+- debiloide
+- demonio
+- demônio
+- desgracado
+- desgraçada
+- desgracados
+- desgraçados
+- doida
+- doido
+- egua
+- égua
+- embromation
+- enganação
+- enganando
+- enganosa
+- escrota
+- escroto
+- espertinho
+- esporrada
+- esporrado
+- esporro
+- estelionatario
+- estelionatário
+- estelionato
+- estupida
+- estúpida
+- estupidez
+- estupido
+- estúpido
+- fake
+- fdp
+- fedida
+- fedido
+- fedor
+- fedorenta
+- feia
+- feio
+- feiosa
+- feioso
+- feioza
+- feiozo
+- fela
+- filho da puta
+- fiofó
+- foda
+- fodao
+- fodão
+- fode
+- fodida
+- fodido
+- fornica
+- fudecao
+- fudeção
+- fudendo
+- fudida
+- fudido
+- fulera
+- fuleragem
+- golpista
+- gonorrea
+- gonorreia
+- gosmenta
+- gosmento
+- idiota
+- idiotas
+- idiotice
+- imbecil
+- inferno
+- iscrota
+- iscroto
+- kenga
+- ladra
+- ladrao
+- ladrão
+- ladroeira
+- ladrona
+- lalau
+- leprosa
+- leproso
+- lorota
+- ludibriacao
+- ludibriação
+- ludibriar
+- macaca
+- macaco
+- machona
+- machorra
+- malandragem
+- malandro
+- manguaca
+- manguaça
+- masturba
+- meleca
+- merda
+- mija
+- mijada
+- mijado
+- mijo
+- miserável
+- mocrea
+- mocréa
+- mocreia
+- mocréia
+- mondronga
+- mondrongo
+- nadega
+- nojeira
+- nojenta
+- nojento
+- nojo
+- otaria
+- otária
+- otario
+- otário
+- otarios
+- otários
+- paspalha
+- paspalhao
+- paspalhão
+- paspalho
+- páu
+- pau
+- peia
+- peido
+- pemba
+- penis
+- pênis
+- perereca
+- peru
+- perú
+- pica
+- picao
+- picão
+- picareta
+- picareta!
+- pilantra
+- pilantragem
+- piranha
+- piroca
+- piroco
+- piru
+- porra
+- pqp
+- prega
+- prostibulo
+- prostíbulo
+- prostituta
+- prostituto
+- punheta
+- punhetao
+- punhetão
+- puta
+- puto
+- puxasaco
+- puxa-saco
+- quenga
+- rabao
+- rabão
+- rabo
+- rabuda
+- rabudao
+- rabudão
+- rabudo
+- rabudona
+- racha
+- rachada
+- rachadao
+- rachadão
+- rachadinha
+- rachadinho
+- rachado
+- ramela
+- rapariga
+- remela
+- retardada
+- retardado
+- ridicula
+- ridícula
+- ridículo
+- rola
+- rolinha
+- rosca
+- sacana
+- sacanagem
+- saco
+- safada
+- safado
+- safados
+- salafrario
+- salafrário
+- sapatao
+- sapatão
+- sifilis
+- sífilis
+- siririca
+- tarada
+- tarado
+- testuda
+- tezao
+- tezão
+- tezuda
+- tezudo
+- toma no cu
+- tomar no cu
+- trocha
+- trolha
+- troucha
+- trouchas
+- trouxa
+- trouxas
+- troxa
+- vaca
+- vagabunda
+- vagabundo
+- veada
+- veadao
+- veadão
+- veado
+- verme
+- viada
+- viadao
+- viadão
+- viado
+- viados
+- vigario
+- vigário
+- xana
+- xaninha
+- xavasca
+- xerereca
+- xexeca
+- xibiu
+- xibumba
+- xochota
+- xota
+- xoxota
+
+## intent:out_of_scope
+- onde está o diheiro
+- onde está o pablo vittar
+- vagabundos
+- bandidos
+- corrupção
+- deus é fiel
+- qual é o seu sexo
+- você esta aonde?
+- voce torce pra qual time
+- como esta o tempo
+
+## intent:despedir
+- Tchau obrigada
+- Tchau
+- até logo
+- namaste
+- sayonara
+- até mais
+- até breve
+- falou, valeu
+- flw vlw
+- blza
+- blz
+- valeu
+- massa
+- de boa
+- obrigada
+- obrigado
+- obj
+- obrigada, tais
+- tais, obrigado
+
+## intent:cumprimentar
+- oi
+- olá
+- oie
+- oiee
+- ola boa tarde
+- oi tais
+- ola tais, tudo bom
+- ola tais, que saudade de vc
+- oi tais saudades
+- oi, como vai você
+- posso falar com voce
+- pode me tirar uma duvida
+- gostaria de tirar uma duvida
+- bom dia
+- boa tarde
+- boa noite
+
+## intent:elogios
+- Tais, você é muito educada!
+- Adorei
+- Me ajudou muito
+- vc eh linda
+
+## intent:afirmar
+- se não for incomodo
+- claro que sim
+- posso sim
+- gostaria sim
+- sei bastante
+- preenchi sim
+- gostaria de saber mais
+- gostaria de mais detalhes
+- ja preenchi uma proposta
+- sim, preenchi minha proposta
+- quero
+- por favor
+- ja
+- já
+- sim
+- ta
+- ok
+- claro
+- confirmo
+- mais ou menos
+
+## intent:negar
+- não sei onde a minha pergunta se encaixa
+- nao quero saber mais
+- quero falar sobre outra coisa
+- não quero saber de mais nada
+- nao era isso, me enganei
+- não quero falar sobre isso
+- ainda nao sei escolher um tópico
+- ainda não pensei sobre isso
+- nao sei do que quero falar
+- não sei do que quero conversar
+- nunca
+- nao
+- não
+- nao conheco
+- não quero
+- escolhi errado
+- falei errado
+- duvida
+- ainda não sei
+- nenhum
+
+## intent:diga_mais
+- como funciona
+- me diga mais
+- como
+- não entendi
+- nao entendi
+- não é isso
+- nao eh isso
+- como assim
+- e como funciona
+- e como faco isso
+- como cadastra
+- nao tenho certeza
+- não sei
+- por onde solicitar
+- como ter acesso
+
+## intent:o_que_sei_falar
+- sobre o que você sabe falar
+- o que mais você sabe falar
+- quais assuntos você fala
+- o que você sabe 
+- lista de assuntos possiveis
+- quais as perguntas vc responde
+- quais as perquisar você responde
+- #MEAJUDA
+- MEAJDA
+- #meajuda
+- # me ajuda
+- MEAJUDA
+- meajuda
+- me ajuda
+- ajuda
+- menu
+
+## intent:tudo_bem
+- Tudo bem
+- Como vocês esta
+- como vc ta
+- joia
+- joinha
+- tudo bom
+- bom dia flor do dia
+- Tudo bem e você
+- como vc esta
+- como vai vc
+- esta tudo bem com você, Tais
+
+## intent:quem_criou_a_tais
+- quem te criou
+- quem te desenvolveu
+- quem te programou
+- você tem pai
+- qual seu pai
+- onde voce nasceu
+- quando vc nasceu
+- quem te fez
+- quem te produziu
+- quem é seu pai
+- fez a tais
+- criou a tais
+- produziu a tais
+- desenvolveu a tais
+- desenvolveu
+- criou
+- produziu
+- programou
+
+## intent:tem_wpp
+- vamos conversar pelo whatsapp
+- vamos conversar pelo wpp
+- vamos falar pelo wpp
+- podemos conversar pelo whatsapp
+- podemos conversar pelo zap
+- podemos conversar pelo wpp
+- me passa seu whatsapp
+- me manda teu wpp
+- me passa seu wpp
+- me passa seu zap
+- vc tem whatsapp
+- você ta no whatapp
+- voce ta no whatsapp
+- vc tá no whatsapp
+- você tem whatsapp
+- você tem zap
+- vc tem zap
+- vc tem wpp
+- você tem wpp
+- vc ta no wpp
+- whatsapp
+- wpp
+- zap
+
+## intent:erro_resposta_utter
+- #errou
+- #erro
+- errou
+- erro
+- #erou
+- #errado
+- errado
+- respondeu errado
+- voce errou
+- voce respondeu errado
+- resposta errada
+- errou na resposta
+
+## intent:pergunta_longa_1
+- Preciso urgente de um retorno de vocês. Enquadrei o Projeto  Joan -O Show , tendo como  proponente Instituto Cultural e Social Araguaína - cnpj 20.947.381/0001-28.Ele passou  por duas diligências recentes ( a última em 8 de novembro aproximadamente). Estou acompanhando os desdobramentos  e não achei mais a proposta  na plataforma do Salic. Como o prazo do MINC se encerra dia 30 agora estou bastante preocupada porque não sei o que aconteceu com o sistema.
+- Estou com um projeto de um livro com 35% concluído, sobre a História de uma cidade baiana, e , pela falta de recursos, não tenho condições de chegar ao seu término.
+- Oi Tais, queria tirar uma dúvida, minha proposta está em análise técnica e no salic consta E10 Autorização de recurso, e o texto fala sobre uma conta bancária. Minha dúvida é se tenho q comparecer ma agencia bancária agora ou somente no caso de aprovação. desde já agradeço
+- No salic me pediram para enviar uma carta solicitando a alteração e os respectivos documentos. 
+- Oi Taís, estou pedindo a readequação de um projeto preciso tocar o proponente de um projeto já aprovado. 
+- No salic me pediram para enviar uma carta solicitando a alteração e os respectivos documentos. Estou em dúvida sobre quais são os documentos necessários
+- No salic me pediram para enviar uma carta solicitando a alteração e os respectivos documentos. Estou em dúvida sobre quais são os documentos necessários
+- Como posso ter acesso a lista oficial de quem recebeu incentivos, desde o primeiro projeto da criação da lei , e atraves de que intermediarios e/ou escritorios especializados na captação de patrocinios esses projetos receberam aprovação??? E junto a lista , quais foram as empresas que participaram patrocinando os projetos  , com a renuncia fiscal e usando os mesmos pra promover suas marcas... Cesar Dias de Viamão.
+- Olá Tais, pedi a readequação do projeto, pois conseguimos recursos de outras fontes além de apoios e parcerias que cobrirão boa parte dos custos previstos para o meu projeto. 
+- ao imprimir a proposta, verifiquei que não aparece as especificações técnicas do produto no campo certo, e sim como outras informações
+- Estou inscrevendo uma nova proposta e no campo Justificativa, eles perguntam quais os incisos do Art.° da Lei 8313/91 o projeto se enquadra.  e Quaiso os objetivos do ART.3° da referida norma serão alcançados.  
+- Meu projeto já tem o número do pronac, como posso acessar no salic o projeto na íntegrra, com orçamento? 
+- Eu ainda não tenho uma das certidões da empresa proponente, se eu não enviar, eu entro em dependência?
+- Gostaria de verificar a possibilidade de assinar o recibo de mecenato de forma digital, através de novas soluções que apresentam validade jurídica (como Clicksign por exemplo).
+- Meu PRONAC encerra dia 30 de dezembro e preciso pagar alguns prestadores sempre no mes seguinte o mes anterior por conta do limite bancario deles. Posso pagar ainda em janeiro?
+- Por favor, preciso saber quais são todos os segmentos que se enquadram na Área de Artes Cênicas, de acordo com os critérios da Lei Rouanet, além dos abaixo listados, sendo: Áreas contempladas pelo artigo 18 da Lei Rouanet: Artes Cênicas (teatro, ópera, dança, circo, mímica etc.); Att.,
+- O meu projeto teve uma aprovação prévia. Foi publicado no Diário Oficial. Mas ainda não teve a aprovação final.
+- nao estou conseguindo realizar o pedido de prorrogação do prazo de captação pois o sistema nao permite, como devo proceder?
+- Quando eu me inscrevi, o limite de tempo de captação era de 2,5 anos. Na palestra, o ministro disse que agora são 3 anos. Afinal, são dois anos e meio, ou são três anos o limite de captação?
+- Boa noite. Nosso projeto está em fase de adequações da realidade de execução e nosso prazo para captação é até o dia 31/12. Anexamos um documento novo mais não vimos a realidade de novas adequações. Duas dúvidas: Tem algo relevante que devemos informar nesta fase ? E sobre a captação já entramos em contato com empresas porém ainda não foi captado. O projeto será prorrogado o prazo de captação de forma automática ?
+- Meu projeto foi enquadrado no art. 18 e esta na fase de recurso. eu não interpus recurso e fiz o aceite. após isso a proposta segue para aprovação?
+- Como corrigir a pendencia Conforme Art 4º da Instrução Normativa nº 5/2017, o valor máximo do produto cultural, por beneficiário, será de até R$ 375,00 (trezentos e setenta e cinco reais)
+- Estamos com um Projeto Cultural  cujo processo encontra-se já encaminhado à Diretoria de Patrimônio Histórico e Cultural do Exército  para, em um segundo momento, após apreciação preliminar, ser encaminhado ao MINC para aprovação. Diante do exposto e visando responder quesitos complementares solicitados pela supracitada Diretoria, solicito a essa Secretaria, se possível, as documentações infra - mencionadas. Modelo de autorização do proprietário, por interesse público ou social, condicionada à garantia subjacente de uso pelo prazo mínimo de 20 anos (CONSTANTE NA LETRA "F" DAS INFORMAÇÕES RELACIONADAS A PROPOSTAS QUE CONTEMPLEM CONSTRUÇÃO OU INTERVENÇÃO EM ESPAÇO CULTURAL, DO ANEXO III DA INSTRUÇÃO NORMATIVA Nº 5 DO MINISTÉRIO DA CULTURA, DE 26 DE DEZEMBRO DE 2017). Modelo de Termo de Compromisso de Conservação do Imóvel objeto da proposta, pelo prazo mínimo de 20 anos, devidamente assinado pelo proponente  (CONSTANTE NA LETRA "K" DAS INFORMAÇÕES RELACIONADAS A PROPOSTAS QUE CONTEMPLEM CONSTRUÇÃO OU INTERVENÇÃO EM ESPAÇO CULTURAL, DO ANEXO III DA INSTRUÇÃO NORMATIVA Nº 5 DO MINISTÉRIO DA CULTURA, DE 26 DE DEZEMBRO DE 2017).
+- conclui meu projeto e preciso devolver a sobra para o MINC. Tem alguma conta para que seja feito o depósito?
+- depois que o projeto passa por todas essas fases, e começa a captação, a execução pode ser iniciada antes da captação integral?
+- gostaria de saber se eu posso executar executar parte do projeto provado, uma vez que conseguimos capitar somente metade do recurso permitido pela lei
+- Bom dia Tais, solicitei a prorrogação de periodo de captação, mas não aparece na plataforma, como devo proceder com isso?
+- Conforme orientação, enviei e-mail (20/11) um ofício solicitando alteração de contas de captação e movimentação devido a mudança de agência bancária
+- bom dia, ao acessar o salic, aparece a mensagem de que nao tenho permissão para acessar o projeto que ja foi aprovado e esta em fase de captaçao, gostaria de saber como que faço para acessar o projeto
+- Boa tarde Tais, você consegue me ajudar com um erro que o sistema está apresentando na solicitação de prorrogação de prazo de captação?
+- Os recibos de mecenato deverão ser emitidos OBRIGATORIAMENTE contra o CNPJ pagador, ou o proponente poderia orientar a emissão contra CNPJ do mesmo grupo?
+- Bom dia, estou solicitando a prorrogação do período de captação de 2 projetos, mas está dando erro. Como verificar que a solicitação foi efetuada com sucesso?
+- Oi Tais, tudo bem? Apenas queria verificar se houve mudança no recibo de doadores que apoiam projetos do PRONAC e aonde posso consultar para verificar se o modelo é igual ao que temos
+- Sabe  me informar se esta com algum problema no Sistema Salic, pois estou tentando inserir a documentação para prestação de contas e não estou conseguindo, o sistema não responde.
+- A pessoa Juridica a qual pretende patrocinador o meu projeto, está no lucro real, porem ela quer saber se ela pode utilizar-se da Lei Rouant ao mesmo tempo
+- Obrigada, tem como eu imprimir essa nossa conversa, vou mostrar na empresa interessada em apoiar meu projeto.
+- #meajuda boa tarde! o manual de uso da marca do Governo Federal diz que "É necessário consultar o manual específico da Secretaria Especial da Cultura no site www.cultura.gov.br para saber como montar e aplicar corretamente o bloco de
+marcas da Lei Rouanet". Onde encontro esse manual?
+
+

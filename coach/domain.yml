@@ -88,6 +88,7 @@ intents:
   - salic_preenchimento_cadastro_agencia_bancaria
 
   - erro_resposta_utter
+  - pergunta_longa_1
 
 entities:
   - situacao_processo
@@ -743,6 +744,17 @@ templates:
           em especial para as camadas da população menos assistidas ou excluídas do exercício de seus diretos culturais
           por sua condição socioeconômica ou outras circunstancias.
 
+  utter_terapia:
+    - text: |
+          Acho que a sua pergunta foi um pouco longa, que tal você escrever uma pergunta mais curta?! Por exemplo: O que é a lei Rouanet? 
+          Eu consigo te entender melhor quando você manda uma pergunta curta e também me pergunta sobre um assunto de cada vez. Espero que a nossa conversa seja mais eficiente agora!!    
+
+  utter_terapia2:
+      - text: |
+          Acho que a sua pergunta continua um pouco longa... Mas olha, você pode tentar de novo! 
+          Vou te mostrar outros exemplos de perguntas que eu consigo entender: o que é Salic? O que é Tais? Como cadastrar um usuário? 
+          O que você deseja saber?
+
 actions:
   - utter_default
   - utter_cumprimentar
@@ -836,3 +848,5 @@ actions:
   - utter_cadastro_salic_video
 
   - utter_erro_resposta_utter
+  - utter_terapia
+  - utter_terapia2
