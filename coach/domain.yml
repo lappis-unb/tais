@@ -89,6 +89,7 @@ intents:
 
   - erro_resposta_utter
   - pergunta_longa_1
+  - terapia
 
 entities:
   - situacao_processo
