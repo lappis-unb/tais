@@ -15,6 +15,7 @@ import argparse
 
 PASSED_COLOR = utils.bcolors.OKGREEN
 FAILED_COLOR = utils.bcolors.FAIL
+BOLD_COLOR = utils.bcolors.BOLD
 CORE_DIR = 'models/dialogue'
 NLU_DIR = 'models/nlu/current'
 
@@ -32,19 +33,32 @@ parser.add_argument(
 
 args = parser.parse_args()
 
+def is_an_intent_line(line):
+    if re.search('^\*', line):
+        return True
+    else:
+        return False
 
 def process_failed_stories(failed_story):
     print('\n')
     for line in failed_story.splitlines():
         if re.search('<!--.*-->', line):
-            error_prediction = re.search('<!--(.*)-->', line).group(1).split(':')
-            print("Deuuuuu\n\n")
-            print(error_prediction)
-            print("Deuuuuu\n\n")
+            error_prediction = re.search('<!--(.*)-->', line).group(1).strip().split(':')
+            error_message = ''
+            
+            if is_an_intent_line(line):
+                error_message += '  Intent failed: Predicted intent' + ('{} for message {}'.format(error_prediction[1], error_prediction[2]) if len(error_prediction) == 3 else error_prediction[1])
+            else:
+                error_message += '      Utter failed: Predicted utter' + error_prediction[1]
+
+            line = re.sub('<!--(.*)-->', '', line)
+
+            utils.print_color("-" * len(error_message), FAILED_COLOR)
             utils.print_color(line, FAILED_COLOR)
+            utils.print_color(error_message, FAILED_COLOR)
+            utils.print_color("-" * len(error_message), FAILED_COLOR)
         else:
             print(line)
-    print('\n')
 
 def run_evaluation(stories_to_evaluate,
               fail_on_prediction_errors=False,
@@ -66,15 +80,21 @@ def run_evaluation(stories_to_evaluate,
                                                 use_e2e)
     
     _failed_stories = story_evaluation.failed_stories
+    
+    file_message = "Evaluating stories for file {}".format(stories_to_evaluate)
+    utils.print_color('\n' + '#' * 80, BOLD_COLOR)
+    utils.print_color(file_message, BOLD_COLOR)
 
     if len(_failed_stories) == 0:
         success_message = 'All the stories have passed for {}!!'.format(stories_to_evaluate)
         utils.print_color('\n' + '=' * len(success_message), PASSED_COLOR)
         utils.print_color(success_message, PASSED_COLOR)
-        utils.print_color('=' * len(success_message) + '\n', PASSED_COLOR)
+        utils.print_color('=' * len(success_message), PASSED_COLOR)
     else:
         for failed_story in _failed_stories:
             process_failed_stories(failed_story.export_stories())
+
+    utils.print_color('#' * 80 + '\n', BOLD_COLOR)
 
 if __name__ == '__main__':
     stories_path = parser.parse_args().stories
