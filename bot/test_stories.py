@@ -33,13 +33,17 @@ parser.add_argument(
 
 args = parser.parse_args()
 
+
+files_results = {}
+
+
 def is_an_intent_line(line):
     if re.search('^\*', line):
         return True
     else:
         return False
 
-def process_failed_stories(failed_story):
+def process_failed_story(failed_story):
     print('\n')
     for line in failed_story.splitlines():
         if re.search('<!--.*-->', line):
@@ -47,7 +51,7 @@ def process_failed_stories(failed_story):
             error_message = ''
             
             if is_an_intent_line(line):
-                error_message += '  Intent failed: Predicted intent' + ('{} for message {}'.format(error_prediction[1], error_prediction[2]) if len(error_prediction) == 3 else error_prediction[1])
+                error_message += '  Intent failed: Predicted intent' + ('{} for message \'{}\''.format(error_prediction[1], error_prediction[2]) if len(error_prediction) == 3 else error_prediction[1])
             else:
                 error_message += '      Utter failed: Predicted utter' + error_prediction[1]
 
@@ -67,23 +71,25 @@ def run_evaluation(stories_to_evaluate,
 
     _endpoints = AvailableEndpoints.read_endpoints(None)
     _interpreter = NaturalLanguageInterpreter.create(NLU_DIR)
-
     _agent = load_agent(CORE_DIR,
                         interpreter=_interpreter,
                         endpoints=_endpoints)
 
     completed_trackers = _generate_trackers(stories_to_evaluate, _agent,
-                                        max_stories, use_e2e)               
-                                                                            
+                                        max_stories, use_e2e)
     story_evaluation, _ = collect_story_predictions(completed_trackers, _agent,
                                                 fail_on_prediction_errors,
                                                 use_e2e)
-    
     _failed_stories = story_evaluation.failed_stories
-    
+
+    _num_stories = len(completed_trackers)
+    _file_result = [_num_stories, len(_failed_stories), []]
+
     file_message = "Evaluating stories for file {}".format(stories_to_evaluate)
     utils.print_color('\n' + '#' * 80, BOLD_COLOR)
     utils.print_color(file_message, BOLD_COLOR)
+
+    files_results[stories_to_evaluate] = _file_result
 
     if len(_failed_stories) == 0:
         success_message = 'All the stories have passed for {}!!'.format(stories_to_evaluate)
@@ -92,9 +98,22 @@ def run_evaluation(stories_to_evaluate,
         utils.print_color('=' * len(success_message), PASSED_COLOR)
     else:
         for failed_story in _failed_stories:
-            process_failed_stories(failed_story.export_stories())
+            process_failed_story(failed_story.export_stories())
+            story_name = re.search('## (.*)', failed_story.export_stories()).group(1)
+            files_results[stories_to_evaluate][2].append(story_name)
 
     utils.print_color('#' * 80 + '\n', BOLD_COLOR)
+
+def print_files_results():
+    utils.print_color('EVALUATION RESULTS:', BOLD_COLOR)
+
+    for stories_file, file_result in files_results.items():
+
+        _total_stories = str(file_result[0])
+        _passed_stories = str(file_result[0] - file_result[1])
+
+        utils.print_color('\n' + 'File - ' + stories_file, BOLD_COLOR)
+        utils.print_color('Passed: '+ _passed_stories + '/' + _total_stories, BOLD_COLOR)
 
 if __name__ == '__main__':
     stories_path = parser.parse_args().stories
@@ -113,3 +132,5 @@ if __name__ == '__main__':
             run_evaluation(stories_path + file, False, None, use_e2e)
     else:
         run_evaluation(stories_path, False, None, use_e2e)
+
+    print_files_results()
