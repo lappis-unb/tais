@@ -23,5 +23,5 @@ e2e:
 e2e-test:	
 	python3 -m rasa_core.evaluate default --core models/dialogue --nlu models/nlu/current --stories e2e/e2e_stories_erro.md --e2e
 
-test_stories:
+test-stories:
 	python3 test_stories.py --stories e2e/ --e2e
