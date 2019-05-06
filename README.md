@@ -325,7 +325,7 @@ Leia o [Guia de Contribuição](./docs/CONTRIBUTING.md) para melhores informaç�
 
 Parte da documentação técnica do framework da Tais está disponível na [wiki do repositório](https://github.com/lappis-unb/tais/wiki). Caso não encontre sua resposta, abra uma issue com a tag `duvida` que tentaremos responder o mais rápido possível.
 
-Em caso de dúvidas em relação ao Rasa, ve> /dev/null 2>&1ja o grupo [Telegram Rasa Stack Brasil](https://t.me/RasaBrasil), estamos lá também para ajudar.
+Em caso de dúvidas em relação ao Rasa, veja o grupo [Telegram Rasa Stack Brasil](https://t.me/RasaBrasil), estamos lá também para ajudar.
 
 Veja mais informações de contato em nosso site: https://lappis.rocks
 
