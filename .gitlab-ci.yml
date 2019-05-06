@@ -1,12 +1,12 @@
 image: python:3.6-slim
 
 stages:
-#  - test style
-#  - validate format
-#  - test stories
-#  - build requirements
-#  - build coach
-#  - build
+  - test style
+  - validate format
+  - test stories
+  - build requirements
+  - build coach
+  - build
   - deploy
 
 .set_ssh_config: &set_ssh_config
@@ -14,93 +14,94 @@ stages:
     - apt-get update -y
     - apt-get install sshpass -y
 
-#test style:
-#  stage: test style
-#  script:
-#    - pip -V
-#    - python -V
-#    - pip install -r dev.requirements.txt
-#    - flake8 --exclude venv
-#
-#run dataset validator:
-#  stage: validate format
-#  image: lappis/coach:latest
-#  script:
-#    - cd coach/
-#    - make run-validator
-#
-#test stories:
-#  stage: test stories
-#  image: lappis/bot:latest
-#  script:
-#    - cd bot/
-#    - make test-stories
-#
-#build requirements:
-#  stage: build requirements
-#  image: docker
-#  tags:
-#    - docker
-#  services:
-#    - docker:dind
-#  script:
-#    - docker login -u $DOCKERHUB_USER -p $DOCKERHUB_PASSWORD
-#    - cd ./docker/bot
-#    - ./build-base.sh publish
-#  only:
-#    refs:
-#      - update_pipeline
-#    changes:
-#      - ./docker/bot/requirements.txt
-#  environment: homolog
-#
-#build coach:
-#  stage: build coach
-#  image: docker
-#  tags:
-#    - docker
-#  services:
-#    - docker:dind
-#  script:
-#    - docker login -u $DOCKERHUB_USER -p $DOCKERHUB_PASSWORD
-#    - docker build . -f docker/bot/coach.Dockerfile -t lappis/coach:latest
-#    - docker push lappis/coach:latest
-#  only:
-#    refs:
-#      - update_pipeline
-#    changes:
-#      - ./coach/data
-#  environment: homolog
-#
-#build bot:
-#  stage: build
-#  image: docker
-#  tags:
-#    - docker
-#  services:
-#    - docker:dind
-#  script:
-#    - docker login -u $DOCKERHUB_USER -p $DOCKERHUB_PASSWORD
-#    - docker build -f docker/bot/bot.Dockerfile -t lappis/bot:latest .
-#    - docker push lappis/bot:latest
-#  only:
-#    - update_pipeline
-#  environment: homolog
-#
-#build web:
-#  stage: build
-#  image: docker
-#  tags:
-#    - docker
-#  services:
-#    - docker:dind
-#  script:
-#    - docker login -u $DOCKERHUB_USER -p $DOCKERHUB_PASSWORD
-#    - docker build -f docker/web/web.Dockerfile -t lappis/bot-web:latest .
-#    - docker push lappis/bot-web:latest
-#  only:
-#    - update_pipeline
-#  environment: homolog
+test style:
+  stage: test style
+  script:
+    - pip -V
+    - python -V
+    - pip install -r dev.requirements.txt
+    - flake8 --exclude venv
+
+run dataset validator:
+  stage: validate format
+  image: lappis/coach:latest
+  script:
+    - cd coach/
+    - make run-validator
+
+test stories:
+  stage: test stories
+  image: lappis/bot:latest
+  script:
+    - cd bot/
+    - make test-stories
+
+build requirements:
+  stage: build requirements
+  image: docker
+  tags:
+    - docker
+  services:
+    - docker:dind
+  script:
+    - docker login -u $DOCKERHUB_USER -p $DOCKERHUB_PASSWORD
+    - cd ./docker/bot
+    - ./build-base.sh publish
+  only:
+    refs:
+      - master
+    changes:
+      - ./docker/bot/requirements.txt
+  environment: homolog
+
+build coach:
+  stage: build coach
+  image: docker
+  tags:
+    - docker
+  services:
+    - docker:dind
+  script:
+    - docker login -u $DOCKERHUB_USER -p $DOCKERHUB_PASSWORD
+    - docker build . -f docker/bot/coach.Dockerfile -t lappis/coach:latest
+    - docker push lappis/coach:latest
+  only:
+    refs:
+      - master
+    changes:
+      - ./coach/data
+  environment: homolog
+
+build bot:
+  stage: build
+  image: docker
+  tags:
+    - docker
+  services:
+    - docker:dind
+  script:
+    - docker login -u $DOCKERHUB_USER -p $DOCKERHUB_PASSWORD
+    - docker build -f docker/bot/bot.Dockerfile -t lappis/bot:latest .
+    - docker push lappis/bot:latest
+  only:
+    - master
+  environment: homolog
+
+build web:
+  stage: build
+  image: docker
+  tags:
+    - docker
+  services:
+    - docker:dind
+  script:
+    - docker login -u $DOCKERHUB_USER -p $DOCKERHUB_PASSWORD
+    - docker build -f docker/web/web.Dockerfile -t lappis/bot-web:latest .
+    - docker push lappis/bot-web:latest
+  only:
+    - master
+  environment: homolog
+
 
 deploy bot to homolog:
   stage: deploy
