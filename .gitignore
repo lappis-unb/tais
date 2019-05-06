@@ -2,6 +2,8 @@
 bot/models
 rasa_core.log
 errors.json
+bot/results
+models/
 
 ### Rasa evaluation ###
 notebooks/models/
@@ -192,3 +194,5 @@ tags
 
 
 # End of https://www.gitignore.io/api/vim,linux,macos,python
+
+\.vscode/settings\.json
