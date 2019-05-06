@@ -101,10 +101,6 @@ build web:
   only:
     - master
   environment: homolog
-<<<<<<< HEAD
-=======
-
->>>>>>> Update from for 'test stories' job
 
 deploy bot to homolog:
   stage: deploy
