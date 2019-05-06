@@ -167,20 +167,30 @@ services:
       - 5031:5032
 
 
-
   # =============================== Notebooks =================================
   notebooks:
     build:
       context: .
       dockerfile: ./docker/notebooks/notebooks.Dockerfile
+    environment:
+      - BOT_DIR_PATH=../../bot/
+      - BOT_DOMAIN_PATH=../../bot/domain.yml
+      - BOT_NLU_CONFIG_PATH=../../bot/nlu_config.yml
+      - BOT_STORIES_PATH=../../bot/data/stories/
+      - BOT_INTENTS_PATH=../../bot/data/intents/
+      - BOT_MODELS_PATH=../../bot/models/
+      - BOT_MODELS_NLU_PATH=../../bot/models/nlu/current/
+      - BOT_MODELS_DIALOGUE_PATH=../../bot/models/dialogue
     volumes:
-      - ./bot:/work/bot
+      - ./coach:/work/bot
       - ./notebooks:/work/notebooks
     ports:
       - 8888:8888
+
 
 volumes:
   esdata:
     driver: local
   esbackup:
   models:
+
