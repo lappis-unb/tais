@@ -15,5 +15,5 @@
 * lei_rouanet_beneficios_incentivo_projetos_culturais: quem tem o beneficio fiscal?
    - utter_lei_rouanet_beneficios_incentivo_projetos_culturais
    - utter_continuar_conversa
-* negar: não obrigado
+* despedir: não obrigado
    - utter_despedir
