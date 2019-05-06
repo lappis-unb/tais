@@ -233,7 +233,26 @@ docker-compose up -d notebooks
 
 Acesse o notebook em `http://localhost:8888`. Lá entre na pasta `notebooks` e vá para a pasta `intents` ou `stories`, dependendo do que quer analisar, e abra o arquivo `.ipynb`.
 
+## Testando Fluxos de Conversa
 
+É possível testar os fluxos de conversação utilizando o Evaluation do Rasa Core. Para testá-los na Tais basta adicionar um arquivo dentro do diretório `bot/e2e/` com as histórias a serem testadas. Essas histórias devem ser descritas normalmente, porém com exemplos de frases para cada uma das *Intents* sendo testadas, segundo o formato abaixo:
+
+```
+## História de teste 1
+* definicao_tais: quem é a tais?
+    - utter_definicao_tais
+    - utter_objetivo
+* afirmar: sim
+    - utter_processo_como_funciona
+* afirmar: sim
+   - utter_cadastro_salic_video
+   - utter_cadastro_salic_video
+* afirmar: quero
+    - utter_salic_cadastro_usuario
+    - utter_continuar_conversa
+* negar: não senhora
+    - utter_despedir
+```
 
 ## QuickStart
 
@@ -306,7 +325,7 @@ Leia o [Guia de Contribuição](./docs/CONTRIBUTING.md) para melhores informaç�
 
 Parte da documentação técnica do framework da Tais está disponível na [wiki do repositório](https://github.com/lappis-unb/tais/wiki). Caso não encontre sua resposta, abra uma issue com a tag `duvida` que tentaremos responder o mais rápido possível.
 
-Em caso de dúvidas em relação ao Rasa, veja o grupo [Telegram Rasa Stack Brasil](https://t.me/RasaBrasil), estamos lá também para ajudar.
+Em caso de dúvidas em relação ao Rasa, ve> /dev/null 2>&1ja o grupo [Telegram Rasa Stack Brasil](https://t.me/RasaBrasil), estamos lá também para ajudar.
 
 Veja mais informações de contato em nosso site: https://lappis.rocks
 

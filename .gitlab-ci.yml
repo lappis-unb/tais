@@ -38,6 +38,8 @@ test stories:
     - cd bot/
     - make train > /dev/null 2>&1
     - make test-stories
+  only:
+    - merge_requests
 
 build bot:
   stage: build
