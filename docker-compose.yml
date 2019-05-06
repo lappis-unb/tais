@@ -168,16 +168,16 @@ services:
       context: .
       dockerfile: ./docker/notebooks/notebooks.Dockerfile
     environment:
-      - BOT_DIR_PATH=../../bot/
-      - BOT_DOMAIN_PATH=../../bot/domain.yml
-      - BOT_NLU_CONFIG_PATH=../../bot/nlu_config.yml
-      - BOT_STORIES_PATH=../../bot/data/stories/
-      - BOT_INTENTS_PATH=../../bot/data/intents/
-      - BOT_MODELS_PATH=../../bot/models/
-      - BOT_MODELS_NLU_PATH=../../bot/models/nlu/current/
-      - BOT_MODELS_DIALOGUE_PATH=../../bot/models/dialogue
+      - BOT_DIR_PATH=../../coach/
+      - BOT_DOMAIN_PATH=../../coach/domain.yml
+      - BOT_NLU_CONFIG_PATH=../../coach/nlu_config.yml
+      - BOT_STORIES_PATH=../../coach/data/stories/
+      - BOT_INTENTS_PATH=../../coach/data/intents/
+      - BOT_MODELS_PATH=../../coach/models/
+      - BOT_MODELS_NLU_PATH=../../coach/models/nlu/current/
+      - BOT_MODELS_DIALOGUE_PATH=../../coach/models/dialogue
     volumes:
-      - ./coach:/work/bot
+      - ./coach:/work/coach
       - ./notebooks:/work/notebooks
     ports:
       - 8888:8888
