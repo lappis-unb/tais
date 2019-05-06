@@ -32,24 +32,19 @@ services:
       context: .
       dockerfile: ./docker/bot/bot.Dockerfile
     restart: unless-stopped
+    command: run-console
+    # OR
+    # command: run-rocketchat
+    # depends_on:
+    #   - rocketchat
     env_file:
       - ./docker/bot/bot.env
     ports:
       - 5005:5005
     volumes:
-      - models:/bot/models/:ro
       - ./bot:/bot
       - ./scripts:/scripts
-    depends_on:
-      - coach
-  
-  coach:
-    image: lappis/coach:latest
-    command: cp -a /src_models/. /models/
-    volumes:
-      - models:/models/
-      - ./coach:/coach
-      - ./scripts:/scripts
+    
 
   # =================================== Web ===================================
   web:
@@ -183,4 +178,3 @@ volumes:
   esdata:
     driver: local
   esbackup:
-  models:
