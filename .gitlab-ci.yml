@@ -3,6 +3,7 @@ image: python:3.6-slim
 stages:
   - test style
   - validate format
+  - test stories
   - build
   - deploy
 
@@ -29,6 +30,16 @@ run dataset validator:
   script:
     - cd coach/
     - make run-validator
+
+test stories:
+  stage: test stories
+  image: registry.gitlab.com/lappis-unb/services/tais/bot
+  script:
+    - cd bot/
+    - make train > /dev/null 2>&1
+    - make test-stories
+  only:
+    - merge_requests
 
 build bot:
   stage: build
