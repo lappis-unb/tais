@@ -173,18 +173,17 @@
 
 ## intent: ver_salic
 - como saber se um artista participou da lei rouanet
-- como saber se um artista recebeu dinheiro da lei rouanet
-- como saber se um artista ganhou dinheiro da lei rouanet
-- o show foi custeado pela lei rouanet
-- o show usou dinheiro da lei
+- como saber se um artista recebeu dinheiro
+- como saber se um artista ganhou dinheiro
+- o show foi custeado
 - cantor recebeu dinheiro da lei
-- cantor ganhou dinheiro da lei
-- cantora recebeu dinheiro da lei
-- cantora ganhou dinheiro da lei
-- claúdia leite participou da lei
-- pablo vittar participou da lei
-- artista recebeu dinheiro
-- artista ganhou dinheiro
+- cantor ganhou
+- cantora recebeu
+- cantora ganhou
+- claúdia leite participou
+- pablo vittar participou
+- artista recebeu
+- artista ganhou
 - participou da lei
-- ganhou dinheiro
-- recebeu dinheiro
+- ganhou
+- recebeu
