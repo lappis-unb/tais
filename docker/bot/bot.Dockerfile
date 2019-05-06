@@ -21,5 +21,3 @@ ENV ROCKETCHAT_URL=rocketchat:3000         \
     ELASTICSEARCH_URL=elasticsearch:9200   
 
 RUN find . | grep -E "(__pycache__|\.pyc|\.pyo$)" | xargs rm -rf
-
-ENTRYPOINT [ "make" ]
