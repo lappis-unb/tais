@@ -1,4 +1,5 @@
 FROM lappis/coach:latest as coach
+
 FROM lappis/botrequirements:latest
 
 COPY ./bot /bot
