@@ -182,7 +182,7 @@ services:
       - BOT_MODELS_NLU_PATH=../../coach/models/nlu/current/
       - BOT_MODELS_DIALOGUE_PATH=../../coach/models/dialogue
     volumes:
-      - ./coach:/work/coach
+      - ./coach:/work/bot
       - ./notebooks:/work/notebooks
     ports:
       - 8888:8888

@@ -3,6 +3,7 @@ image: python:3.6-slim
 stages:
   - test style
   - validate format
+  - test stories
   - build
   - deploy
 
@@ -30,6 +31,16 @@ run dataset validator:
     - cd coach/
     - make run-validator
 
+test stories:
+  stage: test stories
+  image: registry.gitlab.com/lappis-unb/services/tais/bot
+  script:
+    - cd bot/
+    - make train > /dev/null 2>&1
+    - make test-stories
+  only:
+    - merge_requests
+
 build bot:
   stage: build
   image: docker
@@ -37,8 +48,7 @@ build bot:
     - docker:dind
   script:
     - docker login -u "gitlab-ci-token" -p "$CI_JOB_TOKEN" $CI_REGISTRY
-
-    - docker build -f docker/bot.Dockerfile -t $BOT_LATEST_IMAGE .
+    - docker build -f docker/bot/bot.Dockerfile -t $BOT_LATEST_IMAGE .
     - docker push $BOT_LATEST_IMAGE
   only:
     - master
@@ -51,7 +61,7 @@ build web:
   script:
     - docker login -u "gitlab-ci-token" -p "$CI_JOB_TOKEN" $CI_REGISTRY
 
-    - docker build -f docker/web.Dockerfile -t $WEB_LATEST_IMAGE .
+    - docker build -f docker/web/web.Dockerfile -t $WEB_LATEST_IMAGE .
     - docker push $WEB_LATEST_IMAGE
   only:
     - master

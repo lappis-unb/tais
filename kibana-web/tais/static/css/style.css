@@ -18,20 +18,27 @@ body {
 
 H1, H2{font-weight: bold;}
 
-.dropdown-collapsed {
+.dropdown-group-bar{
+  margin-left: auto;
+  margin-right: 5px;
+  display: flex;
+}
+
+.buttons-time-list {
   background-color: transparent;
-  border: none;
   color: white;
-  border-color: white !important;
 }
 
-.dropdown-collapsed:hover {
-  background-color: transparent;
+.fa-clock-o{
+  margin: auto;
+  padding: 0;
 }
 
-.dropdown-collapsed:active {
-  border: none;
+.fa-th-list{
+  padding: 0;
+  margin: auto;
 }
+
 .btn.focus, .btn:focus {
   box-shadow: none;
 }
@@ -67,25 +74,7 @@ H1, H2{font-weight: bold;}
   color: white;
   font-weight: bold;
 }
-.jumbotron{
-  background: #11998e;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to bottom, #11998e, #38ef7d);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to bottom, #11998e, #38ef7d); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  color: #FFF;
-  max-height: 27%;
-  padding: 2% 20%;
-}
-.jumbotron .display-3{
-  font-weight: bold;
-}
-.jumbotron H2{
-  color: #222;
-}
-.jumbotron #avatar{
-  float: left;
-  margin-right: 48px;
-  max-width: 200px;
-}
+
 .btn-subtitle{
 	font-size:0.7em;
 }
@@ -98,10 +87,6 @@ H1, H2{font-weight: bold;}
 #mainContainer{
   margin-bottom: 400px;/* to compensate for live chat area */
   clear: both;
-}
-
-#maintenance{
-	text-align: center;
 }
 
 .container {

@@ -100,7 +100,7 @@ templates:
           Você pode perguntar de novo de outro jeito?
     - text: |
           Poxa, acho que ainda não sei isso... Se não consegui responder tua pergunta,
-          entre no site da Rouanet (http://rouanet.cultura.gov.br/perguntas_frequentes_28_12/)
+          entre no site da Lei de Incentivo á Cultura (http://leideincentivoacultura.cultura.gov.br/o-que-e/)
           Mas se você perguntar de outra forma talvez eu consiga te responder
     - text: |
           Hummmm... Não sei se entendi. Pode escrever de outra forma?
@@ -121,7 +121,7 @@ templates:
   utter_definicao_tais:
     - text: |
           Eu sou uma assistente virtual da Secretaria Especial da Cultura,
-          meu objetivo é sanar dúvidas sobre a Lei Rouanet.
+          meu objetivo é tirar dúvidas sobre a Lei de Incentivo à Cultura.
 
           Uma assistente virtual é uma inteligência artificial
           criada para interagir com as pessoas.
@@ -130,7 +130,6 @@ templates:
 
           Em cada interação que temos aqui, eu aprendendo mais
           para que a gente se comunique melhor.
-
           Obrigada por conversar comigo!
 
   utter_quem_criou_a_tais:
@@ -144,11 +143,11 @@ templates:
 
   utter_lei_rouanet_o_que_eh:
     - text: |
-          A Lei 8.313/91, Lei Rouanet, é o principal mecanismo de fomento à Cultura do Brasil. Ela instituiu o Programa Nacional de Apoio à Cultura (Pronac).
+          A Lei 8.313/91, Lei de Incentivo à Cultura, é o principal mecanismo de fomento à Cultura do Brasil. Ela instituiu o Programa Nacional de Apoio à Cultura (Pronac).
 
           Para cumprir este objetivo, a lei estabelece as normativas de como o Governo Federal deve disponibilizar recursos para a realização de projetos artístico-culturais.
 
-          O mecanismo de incentivos fiscais da Lei Rouanet é uma forma de estimular o apoio da iniciativa privada ao setor cultural.
+          O mecanismo de incentivos fiscais da Lei de Incentivo à Cultura é uma forma de estimular o apoio da iniciativa privada ao setor cultural.
           Ou seja, o governo abre mão de parte dos impostos, para que esses valores sejam investidos na Cultura.
 
   utter_lei_rouanet_divulgacao_patrocinio:
@@ -161,7 +160,7 @@ templates:
 
   utter_diga_mais:
     - text: |
-        Por enquanto, só entendo perguntas completas. Então é melhor você me perguntar "como funciona a Lei Rouanet" ao invés de "Como funciona"
+        Por enquanto, só entendo perguntas completas. Então é melhor você me perguntar "como funciona a Lei de Incentivo à Cultura" ao invés de "Como funciona"
 
   utter_definicao_minc:
     - text: |
@@ -215,11 +214,11 @@ templates:
 
   utter_definicao_salic:
     - text: |
-          Sistema de Apoio às Leis de Incentivo à Cultura (SALIC) é o
-          sistema utilizado para submeter propostas e gerenciar
-          projetos aprovados pela Lei Rouanet.
-
-          Acesse: *salic.cultura.gov.br*
+          Vamos descobrir o que Salic significa!
+          Salic é uma abreviação de Sistema de Apoio às Leis de Incentivo à Cultura. 
+          Ele é o sistema utilizado para submeter propostas 
+          e gerenciar projetos aprovados pela Lei de Incentivo à Cultura.
+          Para saber mais, acesse: *salic.cultura.gov.br*
 
   utter_definicao_vinculada:
     - text: |
@@ -228,38 +227,44 @@ templates:
 
   utter_processo_como_funciona:
     - text: |
-          Então, já que você não sabe como submeter uma proposta, aqui vai um resumo do processo:
-          A pessoa responsável, chamada de proponente, insere uma proposta cultural no Sistema de Apoio às Leis de Incentivo à Cultura (Salic), de forma eletrônica.
+          Então, já que você deseja saber como submeter uma proposta, aqui vai um resumo do processo:
+          A pessoa responsável, chamada de proponente, insere uma proposta cultural 
+          na plataforma do Salic (Sistema de Apoio às Leis de Incentivo à Cultura), de forma eletrônica.
 
-          Essa proposta é analisada pelo MinC. Se for admitida, autoriza o proponente a captar recursos.
+          Essa proposta é analisada pela Secretaria Especial da Cultura e pelo Comitê Nacional de Incentivo à Cultura.
+          Se for admitida, autoriza o proponente a captar recursos.
           Após a captação mínima de 10% do valor autorizado, o projeto segue com o fluxo análise até sua homologação.
-          Durante a execução o proponente deve prestar contas de acordo com os prazos definidos na Lei Rouanet.
+          Durante a execução o proponente deve prestar contas de acordo com os prazos definidos na Lei de Incentivo à Cultura.
+          Essa prestação de contas é analisada pela área responsável do Ministério.
 
-          A prestação de contas é analisada pela área responsável do Ministério.
-
-          O primeiro passo para você participar deste processo é ter cadastro no SALIC
+          Para participar, é preciso se cadastrar no SALIC.
           Você quer saber como fazer um cadastro no SALIC?
 
   utter_cadastro_salic_video:
     - text: |
-          O Salic é o Sistema de Apoio às Leis de Incentivo à Cultura,
-          e é por ele que você cadastra a proposta e a acompanha.
+          É muito importante saber como fazer um cadastro no Salic
+          (Sistema de Apoio às Leis de Incentivo à Cultura)
+          é por meio dele que você submete e acompanha a sua proposta.
 
           Se você encontrar dificuldades no momento do cadastro, pode assistir este vídeo,
-          nele você pode observar o passo a passo para se cadastrar: https://youtu.be/rMGEZyIr1U8
+          nele você tem o passo a passo para se cadastrar: https://youtu.be/rMGEZyIr1U8
 
-          Caso você não possa ver o vídeo, eu posso te explicar. Quer que eu te explique?
+          Se você não quiser ver o vídeo, eu posso te explicar. Quer que eu te explique?
 
   utter_salic_cadastro_usuario:
     - text: |
-          A primeira coisa que você deve fazer é acessar o SALIC no site http://salic.cultura.gov.br
-          Então no formulário inicial, onde pede login e senha, você deve clicar na opção "Não sou cadastrado", logo abaixo
+          Agora, vou te explicar como cadastrar um usuário:
+          Primeiro acesse o SALIC no site http://salic.cultura.gov.br.
+          Em seguida, no formulário inicial, onde pede login e senha, 
+          você deve clicar na opção "Não sou cadastrado", logo abaixo.
 
           Preencha todos os campos corretamente, todos eles são obrigatórios.
-          E depois clique em "Cadastrar"
+          E depois clique em "Cadastrar".
 
-          Agora aguarde a chegada de um e-mail de confirmação. Este vai conter uma senha temporária
-          É interessante você alterar esta senha, por isso, no seu primeiro acesso, vá em "Usuário > Alterar Senha", para mudar a mesma
+          Agora, é só aguardar a chegada de um e-mail de confirmação. 
+          Esse e-mail vai ter a senha temporária, para você acessar o SALIC pela primeira vez.
+          É importante alterar essa senha, logo no seu primeiro acesso 
+          vá em "Usuário > Alterar Senha" para modificá-la.
 
   utter_lei_rouanet_quantidade_de_projetos:
     - text: |
@@ -286,16 +291,16 @@ templates:
 
   utter_lei_rouanet_origem_do_dinheiro:
     - text: |
-          O mecanismo de incentivos fiscais da Lei Rouanet é uma forma de estimular o apoio da iniciativa privada ao setor cultural.
+          O mecanismo de incentivos fiscais da Lei de Incentivo à Cultura é uma forma de estimular o apoio da iniciativa privada ao setor cultural.
           Ou seja, o governo abre mão de parte dos impostos, para que esses valores sejam investidos na Cultura.
 
-          Qualquer empresa tributada com base no lucro real, e pessoas físicas pagadoras de Imposto de Renda (IR) que fazem a declaração no modelo completo podem contribuir com a lei Rouanet apoiando projetos.
+          Qualquer empresa tributada com base no lucro real, e pessoas físicas pagadoras de Imposto de Renda (IR) que fazem a declaração no modelo completo podem contribuir com a Lei de Incentivo à Cultura apoiando projetos.
           Atualmente, mais de 3 mil projetos são apoiados a cada ano por meio desta lei.
-          Para saber mais, acesse: http://rouanet.cultura.gov.br/incentivofiscal/
+          Para saber mais, acesse: http://leideincentivoacultura.cultura.gov.br/como-funciona/
 
   utter_lei_rouanet_denuncia:
     - text: |
-          Em caso de irregularidades, dúvidas, sugestões,  entre em contato com as áreas do MinC, http://rouanet.cultura.gov.br/fale-conosco/
+          Em caso de irregularidades, dúvidas, sugestões,  entre em contato com as áreas da Secretaria Especial de Cultura, http://leideincentivoacultura.cultura.gov.br/contato/
 
   utter_lei_rouanet_quem_pode_incentivar:
     - text: |
@@ -373,7 +378,7 @@ templates:
 
   utter_lei_rouanet_comercializacao_de_ingressos:
     - text: |
-          Do total de ingressos de um projeto cultural, a Lei Rouanet estabelece que a venda deve ser feita da seguinte forma:
+          Do total de ingressos de um projeto cultural, a Lei de Incentivo à Cultura estabelece que a venda deve ser feita da seguinte forma:
           50% dos ingressos devem ser comercializadosa uma média de preço de R$225,00;
           Minimo de 10% deve ser vendido gratuitamente, com caráter social, educativo ou formação artística;
 
@@ -437,7 +442,7 @@ templates:
      - text: |
 
           O projeto é encaminhado à análise técnica por parecerista da área cultural do projeto. São analisados requisitos como:
-          Atendimento aos objetivos do incentivo fiscal da Lei Rouanet;
+          Atendimento aos objetivos do incentivo fiscal da Lei de Incentivo à Cultura;
           Suficiência das informações prestadas;
           Aferição da capacidade técnica do proponente para execução do projeto apresentado;
           Adequação do projeto às medidas de acessibilidade e democratização de acesso ao público;
@@ -544,7 +549,7 @@ templates:
 
   utter_tem_wpp:
     - text: |
-          Eu não tenho wpp, eu só posso me comunicar com você aqui pelo portal da Lei Rouanet, 
+          Eu não tenho wpp, eu só posso me comunicar com você aqui pelo portal da Lei de Incentivo à Cultura, 
           aqui é minha casa. 
 
   utter_processo_reativacao_de_proposta:
@@ -557,9 +562,9 @@ templates:
 
   utter_salic_cadastro_proponente:
     - text: |
-          Agora que você já se cadastrou, o próximo passo é cadastrar um proponente
-          Basta você entrar no Salic...
-          clicar em Administrativo > Cadastrar proponente e preencher todos os dados
+          Depois de se cadastrar no Salic, o próximo passo é cadastrar um proponente.
+          Entre no Salic, clique em "Administrativo", 
+          daí clique em "Cadastrar proponente" e preencha todos os dados com atenção :)
 
   utter_processo_prazo:
     - text: |
@@ -584,38 +589,32 @@ templates:
   utter_cumprimentar:
     - text: |
           Oi, sou assistente virtual da Secretaria Especial da Cultura, me chamo Tais.
-          Estou aqui para te guiar na inscrição do seu projeto ou esclarecer algumas dúvidas sobre a lei Rouanet,
+          Estou aqui para te guiar na inscrição do seu projeto ou esclarecer algumas dúvidas sobre a Lei de Incentivo à Cultura,
           para saber de quais assuntos podemos conversar use a #MEAJUDA.
 
   utter_o_que_sei_falar:
     - text: |
-          Veja alguns dos assuntos que eu posso te ajudar (:
+          Veja alguns dos assuntos em que posso te ajudar :)
 
-          O que é a Lei Rouanet e como funciona
+          O que é a Lei de Incentivo à Cultura e como funciona
           Dúvidas operacionais sobre a execução do projeto (ex: perdi minha senha no SALIC)
           Ou dúvidas sobre definições e siglas (ex: o que é TAIS?)
 
-          Agora que você já sabe do que podemos conversar, vou te dar algumas dicas...
+          Agora que você já sabe do que podemos conversar, vou te dar outras dicas...
 
-          Eu consigo te entender melhor quando você faz perguntas curtas
-          e manda uma pergunta de cada vez.
+          Eu consigo te entender melhor quando você me faz perguntas curtas
+          e me manda uma pergunta de cada vez.
 
           Assim... espera eu te responder
           daí você me manda outra!
 
-          Bom, acho que já falei demais! Sua vez...
+          Bom, acho que já falei demais! Agora é sua vez...
           o que você deseja saber?
 
   utter_objetivo:
     - text: |
           Mas antes, para a nossa conversa ser mais eficiente, 
           você quer saber como submeter uma proposta?
-
-  utter_manter_conversa:
-    - text: |
-          A minha missão é te guiar para a inscrição da sua proposta,
-          Se você já sabe isso é porque você já tem um conhecimento avançado e talvez eu não consiga sanar as suas dúvidas.
-          Mas podemos continuar conversando sobre alguns conceitos básicos da lei Rouanet (:
 
   utter_continuar_conversa:
     - text: |
@@ -733,7 +732,8 @@ templates:
 
   utter_erro_resposta_utter:
     - text: |
-          Obrigada pelo feedback. Espero que na próxima vez vou conseguir responder a tua pergunta corretamente Gostaria de fazer uma nova pergunta?
+          Obrigada pelo feedback. 
+          Espero conseguir te responder corretamente da próxima vez!
 
   utter_lei_rouanet_democratizacao:
     - text: |
@@ -749,7 +749,6 @@ actions:
   - utter_despedir
   - utter_menu
   - utter_tudo_bem
-  - utter_manter_conversa
   - utter_continuar_conversa
   - utter_objetivo
   - utter_o_que_sei_falar
