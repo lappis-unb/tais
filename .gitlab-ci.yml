@@ -66,7 +66,10 @@ build coach:
     - docker build . -f docker/bot/coach.Dockerfile -t lappis/coach:latest
     - docker push lappis/coach:latest
   only:
-    - master
+    refs:
+      - master
+    changes:
+      - ./coach/data
   environment: homolog
 
 build bot:
@@ -98,6 +101,10 @@ build web:
   only:
     - master
   environment: homolog
+<<<<<<< HEAD
+=======
+
+>>>>>>> Update from for 'test stories' job
 
 deploy bot to homolog:
   stage: deploy

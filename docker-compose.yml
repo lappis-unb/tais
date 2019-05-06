@@ -33,10 +33,10 @@ services:
       dockerfile: ./docker/bot/bot.Dockerfile
     restart: unless-stopped
     command: make run-rocketchat
-    # OR
-    # command: make run-console
     depends_on:
       - rocketchat
+    # OR
+    # command: make run-rocketchat
     env_file:
       - ./docker/bot/bot.env
     ports:
