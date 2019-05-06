@@ -100,7 +100,7 @@ templates:
           Você pode perguntar de novo de outro jeito?
     - text: |
           Poxa, acho que ainda não sei isso... Se não consegui responder tua pergunta,
-          entre no site da Rouanet (http://rouanet.cultura.gov.br/perguntas_frequentes_28_12/)
+          entre no site da Lei de Incentivo á Cultura (http://leideincentivoacultura.cultura.gov.br/o-que-e/)
           Mas se você perguntar de outra forma talvez eu consiga te responder
     - text: |
           Hummmm... Não sei se entendi. Pode escrever de outra forma?
@@ -121,7 +121,7 @@ templates:
   utter_definicao_tais:
     - text: |
           Eu sou uma assistente virtual da Secretaria Especial da Cultura,
-          meu objetivo é tirar dúvidas sobre a Lei Rouanet.
+          meu objetivo é tirar dúvidas sobre a Lei de Incentivo à Cultura.
 
           Uma assistente virtual é uma inteligência artificial
           criada para interagir com as pessoas.
@@ -143,11 +143,11 @@ templates:
 
   utter_lei_rouanet_o_que_eh:
     - text: |
-          A Lei 8.313/91, Lei Rouanet, é o principal mecanismo de fomento à Cultura do Brasil. Ela instituiu o Programa Nacional de Apoio à Cultura (Pronac).
+          A Lei 8.313/91, Lei de Incentivo à Cultura, é o principal mecanismo de fomento à Cultura do Brasil. Ela instituiu o Programa Nacional de Apoio à Cultura (Pronac).
 
           Para cumprir este objetivo, a lei estabelece as normativas de como o Governo Federal deve disponibilizar recursos para a realização de projetos artístico-culturais.
 
-          O mecanismo de incentivos fiscais da Lei Rouanet é uma forma de estimular o apoio da iniciativa privada ao setor cultural.
+          O mecanismo de incentivos fiscais da Lei de Incentivo à Cultura é uma forma de estimular o apoio da iniciativa privada ao setor cultural.
           Ou seja, o governo abre mão de parte dos impostos, para que esses valores sejam investidos na Cultura.
 
   utter_lei_rouanet_divulgacao_patrocinio:
@@ -160,7 +160,7 @@ templates:
 
   utter_diga_mais:
     - text: |
-        Por enquanto, só entendo perguntas completas. Então é melhor você me perguntar "como funciona a Lei Rouanet" ao invés de "Como funciona"
+        Por enquanto, só entendo perguntas completas. Então é melhor você me perguntar "como funciona a Lei de Incentivo à Cultura" ao invés de "Como funciona"
 
   utter_definicao_minc:
     - text: |
@@ -217,7 +217,7 @@ templates:
           Vamos descobrir o que Salic significa!
           Salic é uma abreviação de Sistema de Apoio às Leis de Incentivo à Cultura. 
           Ele é o sistema utilizado para submeter propostas 
-          e gerenciar projetos aprovados pela Lei Rouanet.
+          e gerenciar projetos aprovados pela Lei de Incentivo à Cultura.
           Para saber mais, acesse: *salic.cultura.gov.br*
 
   utter_definicao_vinculada:
@@ -234,7 +234,7 @@ templates:
           Essa proposta é analisada pela Secretaria Especial da Cultura e pelo Comitê Nacional de Incentivo à Cultura.
           Se for admitida, autoriza o proponente a captar recursos.
           Após a captação mínima de 10% do valor autorizado, o projeto segue com o fluxo análise até sua homologação.
-          Durante a execução o proponente deve prestar contas de acordo com os prazos definidos na Lei Rouanet.
+          Durante a execução o proponente deve prestar contas de acordo com os prazos definidos na Lei de Incentivo à Cultura.
           Essa prestação de contas é analisada pela área responsável do Ministério.
 
           Para participar, é preciso se cadastrar no SALIC.
@@ -291,16 +291,16 @@ templates:
 
   utter_lei_rouanet_origem_do_dinheiro:
     - text: |
-          O mecanismo de incentivos fiscais da Lei Rouanet é uma forma de estimular o apoio da iniciativa privada ao setor cultural.
+          O mecanismo de incentivos fiscais da Lei de Incentivo à Cultura é uma forma de estimular o apoio da iniciativa privada ao setor cultural.
           Ou seja, o governo abre mão de parte dos impostos, para que esses valores sejam investidos na Cultura.
 
-          Qualquer empresa tributada com base no lucro real, e pessoas físicas pagadoras de Imposto de Renda (IR) que fazem a declaração no modelo completo podem contribuir com a lei Rouanet apoiando projetos.
+          Qualquer empresa tributada com base no lucro real, e pessoas físicas pagadoras de Imposto de Renda (IR) que fazem a declaração no modelo completo podem contribuir com a Lei de Incentivo à Cultura apoiando projetos.
           Atualmente, mais de 3 mil projetos são apoiados a cada ano por meio desta lei.
-          Para saber mais, acesse: http://rouanet.cultura.gov.br/incentivofiscal/
+          Para saber mais, acesse: http://leideincentivoacultura.cultura.gov.br/como-funciona/
 
   utter_lei_rouanet_denuncia:
     - text: |
-          Em caso de irregularidades, dúvidas, sugestões,  entre em contato com as áreas do MinC, http://rouanet.cultura.gov.br/fale-conosco/
+          Em caso de irregularidades, dúvidas, sugestões,  entre em contato com as áreas da Secretaria Especial de Cultura, http://leideincentivoacultura.cultura.gov.br/contato/
 
   utter_lei_rouanet_quem_pode_incentivar:
     - text: |
@@ -378,7 +378,7 @@ templates:
 
   utter_lei_rouanet_comercializacao_de_ingressos:
     - text: |
-          Do total de ingressos de um projeto cultural, a Lei Rouanet estabelece que a venda deve ser feita da seguinte forma:
+          Do total de ingressos de um projeto cultural, a Lei de Incentivo à Cultura estabelece que a venda deve ser feita da seguinte forma:
           50% dos ingressos devem ser comercializadosa uma média de preço de R$225,00;
           Minimo de 10% deve ser vendido gratuitamente, com caráter social, educativo ou formação artística;
 
@@ -442,7 +442,7 @@ templates:
      - text: |
 
           O projeto é encaminhado à análise técnica por parecerista da área cultural do projeto. São analisados requisitos como:
-          Atendimento aos objetivos do incentivo fiscal da Lei Rouanet;
+          Atendimento aos objetivos do incentivo fiscal da Lei de Incentivo à Cultura;
           Suficiência das informações prestadas;
           Aferição da capacidade técnica do proponente para execução do projeto apresentado;
           Adequação do projeto às medidas de acessibilidade e democratização de acesso ao público;
@@ -549,7 +549,7 @@ templates:
 
   utter_tem_wpp:
     - text: |
-          Eu não tenho wpp, eu só posso me comunicar com você aqui pelo portal da Lei Rouanet, 
+          Eu não tenho wpp, eu só posso me comunicar com você aqui pelo portal da Lei de Incentivo à Cultura, 
           aqui é minha casa. 
 
   utter_processo_reativacao_de_proposta:
@@ -589,14 +589,14 @@ templates:
   utter_cumprimentar:
     - text: |
           Oi, sou assistente virtual da Secretaria Especial da Cultura, me chamo Tais.
-          Estou aqui para te guiar na inscrição do seu projeto ou esclarecer algumas dúvidas sobre a lei Rouanet,
+          Estou aqui para te guiar na inscrição do seu projeto ou esclarecer algumas dúvidas sobre a Lei de Incentivo à Cultura,
           para saber de quais assuntos podemos conversar use a #MEAJUDA.
 
   utter_o_que_sei_falar:
     - text: |
           Veja alguns dos assuntos em que posso te ajudar :)
 
-          O que é a Lei Rouanet e como funciona
+          O que é a Lei de Incentivo à Cultura e como funciona
           Dúvidas operacionais sobre a execução do projeto (ex: perdi minha senha no SALIC)
           Ou dúvidas sobre definições e siglas (ex: o que é TAIS?)
 
