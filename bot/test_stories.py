@@ -21,8 +21,8 @@ PASSED_COLOR = utils.bcolors.OKGREEN
 FAILED_COLOR = utils.bcolors.FAIL
 BLUE_COLOR = utils.bcolors.OKBLUE
 BOLD_COLOR = utils.bcolors.BOLD
-CORE_DIR = 'models/dialogue'
-NLU_DIR = 'models/nlu/current'
+CORE_DIR = '/models/dialogue'
+NLU_DIR = '/models/nlu/current'
 
 
 parser = argparse.ArgumentParser()
