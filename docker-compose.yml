@@ -32,11 +32,11 @@ services:
       context: .
       dockerfile: ./docker/bot/bot.Dockerfile
     restart: unless-stopped
-    command: run-console
+    command: make run-rocketchat
+    depends_on:
+      - rocketchat
     # OR
-    # command: run-rocketchat
-    # depends_on:
-    #   - rocketchat
+    # command: make run-rocketchat
     env_file:
       - ./docker/bot/bot.env
     ports:
@@ -48,7 +48,7 @@ services:
 
   # =================================== Web ===================================
   web:
-    image: registry.gitlab.com/lappis-unb/services/tais/web
+    image: lappis/web:latest
     build:
       context: .
       dockerfile: ./docker/web/web.Dockerfile

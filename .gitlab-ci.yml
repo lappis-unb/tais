@@ -5,6 +5,7 @@ stages:
   - validate format
   - test stories
   - build requirements
+  - build coach
   - build
   - deploy
 
@@ -30,7 +31,7 @@ run dataset validator:
 
 test stories:
   stage: test stories
-  image: lappis/coach:latest
+  image: lappis/bot:latest
   script:
     - cd bot/
     - make test-stories
@@ -38,6 +39,8 @@ test stories:
 build requirements:
   stage: build requirements
   image: docker
+  tags:
+    - docker
   services:
     - docker:dind
   script:
@@ -46,13 +49,16 @@ build requirements:
     - ./build-base.sh publish
   only:
     refs:
-      - update_pipeline
+      - master
     changes:
       - ./docker/bot/requirements.txt
+  environment: homolog
 
 build coach:
-  stage: build
+  stage: build coach
   image: docker
+  tags:
+    - docker
   services:
     - docker:dind
   script:
@@ -61,13 +67,16 @@ build coach:
     - docker push lappis/coach:latest
   only:
     refs:
-      - update_pipeline
+      - master
     changes:
       - ./coach/data
+  environment: homolog
 
 build bot:
   stage: build
   image: docker
+  tags:
+    - docker
   services:
     - docker:dind
   script:
@@ -75,11 +84,14 @@ build bot:
     - docker build -f docker/bot/bot.Dockerfile -t lappis/bot:latest .
     - docker push lappis/bot:latest
   only:
-    - update_pipeline
+    - master
+  environment: homolog
 
 build web:
   stage: build
   image: docker
+  tags:
+    - docker
   services:
     - docker:dind
   script:
@@ -87,7 +99,9 @@ build web:
     - docker build -f docker/web/web.Dockerfile -t lappis/bot-web:latest .
     - docker push lappis/bot-web:latest
   only:
-    - update_pipeline
+    - master
+  environment: homolog
+
 
 deploy bot to homolog:
   stage: deploy
