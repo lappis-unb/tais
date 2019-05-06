@@ -1,2 +1,0 @@
-sklearn-crfsuite==0.3.6
-nltk==3.3
