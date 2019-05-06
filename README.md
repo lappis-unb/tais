@@ -97,7 +97,7 @@ Caso queira atualizar o treinamento padrão da aplicação, será necessário at
 ```bash
 make train
 sudo docker push lappis/coach:latest
-``` 
+```
 
 ## Site do Beta
 Nesse repositório temos também o site para beta testers da Tais. Ele se conecta com a Tais via RocketChat, então para ela estar hospedada é necessário [subir o RocketChat](#RocketChat).
@@ -235,7 +235,7 @@ Acesse o notebook em `http://localhost:8888`. Lá entre na pasta `notebooks` e v
 
 ## Testando Fluxos de Conversa
 
-É possível testar os fluxos de conversação utilizando o Evaluation do Rasa Core. Para testá-los na Tais basta adicionar um arquivo dentro do diretório `bot/e2e/` com as histórias a serem testadas. Essas histórias devem ser descritas normalmente, porém com exemplos de frases para cada uma das *Intents* sendo testadas, segundo o formato abaixo:
+É possível testar os fluxos de conversação utilizando o [Evaluation do Rasa Core](https://github.com/lappis-unb/tais/wiki/Testes-Automatizados). Para testá-los na Tais basta adicionar um arquivo dentro do diretório `bot/e2e/` com as histórias a serem testadas. Essas histórias devem ser descritas normalmente, porém com exemplos de frases para cada uma das *Intents* sendo testadas, segundo o formato abaixo:
 
 ```
 ## História de teste 1
@@ -252,6 +252,12 @@ Acesse o notebook em `http://localhost:8888`. Lá entre na pasta `notebooks` e v
     - utter_continuar_conversa
 * negar: não senhora
     - utter_despedir
+```
+
+Uma vez que os arquivos de teste foram adicionados ao diretório correto, basta rodar os testes com a *task* da TAIS:
+
+```sh
+sudo docker-compose run --rm bot make test-stories
 ```
 
 ## QuickStart
