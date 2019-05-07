@@ -12,6 +12,11 @@
     - utter_lei_rouanet_origem_do_dinheiro
     - utter_continuar_conversa
 
+## Money 2.1
+* lei_rouanet_origem_do_dinheiro
+    - utter_lei_rouanet_origem_do_dinheiro
+    - utter_continuar_conversa
+
 ## Money 3
 * cumprimentar
     - utter_cumprimentar
