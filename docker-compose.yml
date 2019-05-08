@@ -33,10 +33,10 @@ services:
       dockerfile: ./docker/bot/bot.Dockerfile
     restart: unless-stopped
     command: make run-rocketchat
+    # OR
+    # command: make run-console
     depends_on:
       - rocketchat
-    # OR
-    # command: make run-rocketchat
     env_file:
       - ./docker/bot/bot.env
     ports:
@@ -162,17 +162,26 @@ services:
       - 5031:5032
 
 
-
   # =============================== Notebooks =================================
   notebooks:
     build:
       context: .
       dockerfile: ./docker/notebooks/notebooks.Dockerfile
+    environment:
+      - BOT_DIR_PATH=../../coach/
+      - BOT_DOMAIN_PATH=../../coach/domain.yml
+      - BOT_NLU_CONFIG_PATH=../../coach/nlu_config.yml
+      - BOT_STORIES_PATH=../../coach/data/stories/
+      - BOT_INTENTS_PATH=../../coach/data/intents/
+      - BOT_MODELS_PATH=../../coach/models/
+      - BOT_MODELS_NLU_PATH=../../coach/models/nlu/current/
+      - BOT_MODELS_DIALOGUE_PATH=../../coach/models/dialogue
     volumes:
-      - ./bot:/work/bot
+      - ./coach:/work/bot
       - ./notebooks:/work/notebooks
     ports:
       - 8888:8888
+
 
 volumes:
   esdata:
