@@ -70,6 +70,7 @@ build coach:
       - master
     changes:
       - ./coach/data
+      - ./coach/domain.yml
   environment: homolog
 
 build bot:
