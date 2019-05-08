@@ -111,7 +111,7 @@ templates:
     - text:
           A minha missão é te guiar para a inscrição da sua proposta,
           Se você já sabe isso é porque você já tem um conhecimento avançado e talvez eu não consiga sanar as suas dúvidas.
-          Mas podemos continuar conversando sobre alguns conceitos básicos da lei Rouanet =)
+          Mas podemos continuar conversando sobre alguns conceitos básicos da Lei de Incentivo à Cultura =)
 
   utter_expressoes_indesejadas:
     - text: |

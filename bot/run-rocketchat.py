@@ -56,4 +56,4 @@ def run(core_dir, nlu_dir):
 
 
 if __name__ == '__main__':
-    run('models/dialogue', 'models/nlu/current')
+    run('/models/dialogue', '/models/nlu/current')
