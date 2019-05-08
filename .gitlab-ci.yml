@@ -69,7 +69,7 @@ build coach:
     refs:
       - master
     changes:
-      - ./coach/data
+      - ./coach/data/**/*
       - ./coach/domain.yml
   environment: homolog
 
