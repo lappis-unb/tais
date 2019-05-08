@@ -110,7 +110,7 @@ deploy bot to homolog:
   script:
     - ./scripts/deploy_bot.sh $TAIS_SERVER_PASSWORD $TAIS_SERVER_IP
   only:
-    - update_pipeline
+    - master
 
 deploy web to homolog:
   stage: deploy
@@ -119,4 +119,4 @@ deploy web to homolog:
   script:
     - ./scripts/deploy_web.sh $TAIS_SERVER_PASSWORD $TAIS_SERVER_IP
   only:
-    - update_pipeline
+    - master
