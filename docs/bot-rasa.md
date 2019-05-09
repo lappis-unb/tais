@@ -4,7 +4,6 @@ title: Tais com Rasa
 permalink: /rasa-bot/
 ---
 
-# Tais com Rasa
 ## O que é a Tais?
 A Tais, Tecnologia de Aprendizado Interativo Salic, é uma assistente virtual de suporte para o Sistema de Apoio às Leis de Incentivo à Cultura, o Salic.
 
