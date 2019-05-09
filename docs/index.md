@@ -3,7 +3,7 @@
 # Edit theme's home layout instead if you wanna make some changes
 # See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 layout: page
-title: "Tais: Assistente Virtual do Ministério da Cultura"
+title: "Tais: Assistente Virtual da Lei de Incentivo à Cultura"
 ---
 
 <!-- Elaborar uma página inicial do pages -->
