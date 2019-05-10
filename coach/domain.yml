@@ -299,7 +299,8 @@ templates:
 
           Qualquer empresa tributada com base no lucro real, e pessoas físicas pagadoras de Imposto de Renda (IR) que fazem a declaração no modelo completo podem contribuir com a Lei de Incentivo à Cultura apoiando projetos.
           Atualmente, mais de 3 mil projetos são apoiados a cada ano por meio desta lei.
-          Para saber mais, acesse: http://leideincentivoacultura.cultura.gov.br/como-funciona/
+          Para ter acesso aos projetos que participaram da Lei de Incentivo à Cultura,
+          você pode acessar o site: http://versalic.cultura.gov.br/.
 
   utter_lei_rouanet_denuncia:
     - text: |
