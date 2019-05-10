@@ -150,6 +150,9 @@ templates:
           O mecanismo de incentivos fiscais da Lei de Incentivo à Cultura é uma forma de estimular o apoio da iniciativa privada ao setor cultural.
           Ou seja, o governo abre mão de parte dos impostos, para que esses valores sejam investidos na Cultura.
 
+          Para ter acesso aos projetos que participaram da Lei de Incentivo à Cultura,
+          você pode acessar o site: http://versalic.cultura.gov.br/.
+
   utter_lei_rouanet_divulgacao_patrocinio:
     - text: |
           De acordo com o Art. 44. § 1º do art. 23 da Lei nº 8.313, de 1991: 
