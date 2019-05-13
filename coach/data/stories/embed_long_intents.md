@@ -27,8 +27,6 @@
     - utter_erro_resposta_utter
 
 ## LeiRouanet longa
-* cumprimentar
-    - utter_cumprimentar
 * pergunta_longa_1
     - utter_terapia
     - utter_continuar_conversa

@@ -576,8 +576,6 @@
 - Obrigada, tem como eu imprimir essa nossa conversa, vou mostrar na empresa interessada em apoiar meu projeto.
 - #meajuda boa tarde! o manual de uso da marca do Governo Federal diz que "É necessário consultar o manual específico da Secretaria Especial da Cultura no site www.cultura.gov.br para saber como montar e aplicar corretamente o bloco de
 marcas da Lei Rouanet". Onde encontro esse manual?
-
-## intent:terapia
 - Boa noite, Tais! Vou inscrever no Salic um projeto visando a manutenção de uma antiga estação ferroviária, onde hoje funciona um espaço cultural cuja revitalização ocorreu graças à Lei Rouanet em 2005.
 Neste espaço há também um Museu da Ferrovia  que precisa ser modernizado para se tornar mais atraente.
 Minha dúvida é: manutenção do espaço e mais modernização de um pequeno museu, no campo "Plano Execução Imediata" eu classifico como: proteção de patrimônio material?, proteção de acervos?, projeto museológico? outra opção?
