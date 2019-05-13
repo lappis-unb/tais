@@ -538,7 +538,6 @@
 - errou na resposta
 
 ## intent:pergunta_longa_1
-- Preciso urgente de um retorno de vocês. Enquadrei o Projeto  Joan -O Show , tendo como  proponente Instituto Cultural e Social Araguaína - cnpj 20.947.381/0001-28.Ele passou  por duas diligências recentes ( a última em 8 de novembro aproximadamente). Estou acompanhando os desdobramentos  e não achei mais a proposta  na plataforma do Salic. Como o prazo do MINC se encerra dia 30 agora estou bastante preocupada porque não sei o que aconteceu com o sistema.
 - Estou com um projeto de um livro com 35% concluído, sobre a História de uma cidade baiana, e , pela falta de recursos, não tenho condições de chegar ao seu término.
 - Oi Tais, queria tirar uma dúvida, minha proposta está em análise técnica e no salic consta E10 Autorização de recurso, e o texto fala sobre uma conta bancária. Minha dúvida é se tenho q comparecer ma agencia bancária agora ou somente no caso de aprovação. desde já agradeço
 - No salic me pediram para enviar uma carta solicitando a alteração e os respectivos documentos. 
@@ -589,5 +588,25 @@ Minha dúvida é: manutenção do espaço e mais modernização de um pequeno mu
 - Sou editor, fui procurado por um renomado historiador do Rio de Janeiro interessada em publicar um livro com tema altamente relevante para o pais e para o Museu Nacional.
 - Bom dia. Temos no município uma escola de Dança (moderna e folclórica) e Patinação Artística. São cerca de 250 alunos, desde 2 anos até a terceira idade. A Escola é mantida pelo município, como apoio dos pais e alunos. gostaria de sabe se podemos cadastrar o Município para a captação de recursos para figurinos e materiais pedagógicos, ou para reforma do galpão onde acontecem as aulas...
 - Meu nome ê, moro e sou artista plástica e tenho um projeto para meu minicipio. E gostaria saber como fasso para apresentar o projeto e as diretrizes para faze lo. E quanto tempo leva pra ser aprovado? Como é um projeto que envolve crianças, gostaria de saber se posso dar andamento sendo uma pessoa física sem Impresa constituída.
-- meu nome é Renan Aquino, sou administrador de empresas e estou ajudando voluntariamente um amigo com a elaboração de um projeto para incentivo advindo da Lei Rouanet
-- Boa tarde, meu nome é Jucimara. Gostaria de obter informação para apresentar um projeto para edição do meu livro histórico
+- meu nome é Renan , sou administrador de empresas e estou ajudando voluntariamente um amigo com a elaboração de um projeto para incentivo advindo da Lei Rouanet
+- Boa tarde, meu nome é Jucilene. Gostaria de obter informação para apresentar um projeto para edição do meu livro histórico
+
+## intent:pergunta_especializada_pronac
+- Preciso urgente de um retorno de vocês. Enquadrei o Projeto  Joan -O Show , tendo como  proponente Instituto Cultural e Social Araguaína - [20.947.381/0001-28](cnpj).Ele passou  por duas diligências recentes ( a última em 8 de novembro aproximadamente). Estou acompanhando os desdobramentos  e não achei mais a proposta  na plataforma do Salic. Como o prazo do MINC se encerra dia 30 agora estou bastante preocupada porque não sei o que aconteceu com o sistema.
+- Gostaria de orientações sobre o projeto "Julia, a tal pessoa lá" PRONAC [162098](pronac)
+- Tenho um projeto PRONAC [170397](pronac) que foi encerrado por: E16 - Projeto encerrado por excesso de prazo sem captação em 04/03/2019
+Gostaria de saber o que é feito com a conta corrente do Banco do Brasil que abri em minha cidade para execução do projeto.
+- O projeto - PRONAC [16 0592](pronac) - está na fase de prestação de contas. Porém, ao
+clicar em "Comprovação Financeira" o sistema não exibe as etapas, nem os itens de custo a serem comprovados.
+Solicito correção do sistema para poder apresentar a prestação de contas.
+- Bom dia! temos um projeto em andamento, PRONAC [177881](pronac). Fizemos uma solicitação há 43 dias que está sem resposta.
+- Bom dia Tais! Meu nome é e sou proponente de de dois projetos inscritos no SALIC, com números PRONAC: [184105](pronac) Preciso de algumas informações, por gentileza sobre como orientar apoiadores pessoa física e outras dúvidas que tenho.
+- Temos o Pronac [186074](pronac) para emitir o Recibo de Mecenato, utilizamos o arquivo excel ou é feito pelo salic  
+- Tenho uma dúvida a respeito de um projeto aprovado (Festival Cultural dos Países de Lingua Portuguesa - PRONAC [555555](pronac). Até quando e como devemos fazer a captação dos recursos autorizados?
+- Tenho uma solicitação não respondida (há 5 dias) pelo SALIC, relativa projeto PRONAC [185300](pronac). O que devo fazer para o MinC. responder? Trata-se de questão relativa a contas bancárias. 
+- Meu projeto PRONAC [18 0000](pronac) já está com as contas bloqueio e movimentação liberadas pelo Banco do Brasil, inclusive já temos o acesso e os testamos, porém no Salic consta que a conta não está liberada. Poderiam verificar? Temos um patrocinador que fará o depósito mas estamos na dúvida se informamos a conta bloqueio ou não.
+- sou o proponente Pronac [184008](pronac) que me parece estar aprovado. Gostaria de saber quando o MinC irá liberar para execução. Obrigado
+- Sou proponente de projeto  pronac [110207](pronac), e quem fez a elaboração do projeto foi outra Pessoa  e agora eu não tenho a senha e long do usuário websilic
+- Bom dia . ja recebi da Selic o email e meu projeto ja tem PRONAC [185002](pronac) eu posso captar ja no ano fiscal 2018 ou tenho que esperar publicação no DO?
+- 
+

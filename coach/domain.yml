@@ -89,10 +89,13 @@ intents:
 
   - erro_resposta_utter
   - pergunta_longa_1
+  - pergunta_especializada_pronac
 
 entities:
   - situacao_processo
   - lei_rouanet
+  - pronac
+  - cnpj
 
 templates:
   utter_default:
