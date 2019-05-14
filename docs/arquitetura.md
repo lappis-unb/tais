@@ -5,7 +5,7 @@ title: Arquitetura
 ---
 A arquitetura geral do framework desenvolvido pelo Laboratório é mostrado na figura abaixo. Foi desenvolvido com a Licença AGPL3.
 
-<img src="../assets/arquitetura.png" width="1000"/>
+<img src="./assets/arquitetura.png" width="1000"/>
 
 # Ferramentas que compõem o framework
 
@@ -42,3 +42,5 @@ O roteirista de bot tem a responsabilidade de adaptar os conteúdos das polític
 A pessoa responsável pela experiência de usuário (UX) trabalha lado-a-lado com a equipe de roteiristas. Especialistas de UX atuam para otimizar a experiência de conversa e reforçar a ideia de uma interação que flui naturalmente. Garantem que sequências de pergunta-resposta se desenvolvam de forma harmônica tanto dentro do mesmo tópico, quanto de forma global na base de conhecimento.
 
 <!-- Explicação da Arquitetura e o funcionamento geral de cada componente -->
+
+# Descrição da Arquitetura
