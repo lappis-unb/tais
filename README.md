@@ -32,7 +32,7 @@ A Tais é um chatbot desenvolvido pelo [LAPPIS](https://lappis.rocks) junto com 
 
 É utilizado na Tais diversas tecnologias que interagem entre si para obter um melhor resultado. Veja a arquitetura implementada:
 
-![](./images/arquitetura.png)
+![](https://user-images.githubusercontent.com/8556291/57932109-8431f100-7890-11e9-887d-36936be5228c.png)
 
 O usuário interage com a Tais via RocketChat, que manda as mensagens para o Rasa NLU, que identifica a *intent*, e responde pelo Rasa Core, de acordo com as *stories* e *actions*.
 Os notebooks avaliam o funcionamento de acordo com o formato das *intents* e *stories*.
