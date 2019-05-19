@@ -5,7 +5,7 @@ title: Arquitetura
 ---
 A arquitetura geral do framework desenvolvido pelo Laboratório é mostrado na figura abaixo. Foi desenvolvido com a Licença AGPL3.
 
-<img src="./assets/arquitetura.png" width="1000"/>
+![](./assets/arquitetura_tecnica.png)
 
 # Ferramentas que compõem o framework
 
@@ -44,3 +44,116 @@ A pessoa responsável pela experiência de usuário (UX) trabalha lado-a-lado co
 <!-- Explicação da Arquitetura e o funcionamento geral de cada componente -->
 
 # Descrição da Arquitetura
+
+A arquitetura da TAIS é dividida pode ser dividida em 4 submódulos principais:
+
+- (A) Trainer
+- (B) Bot
+- (C) Business Analytics
+- (D) Distribution
+
+## Trainer
+
+Por padrão, em *bots* desenvolvidos com Rasa, os arquivos de treinamento e modelos estão juntos aos arquivos de configuração referentes à forma como o *bot* será executado, como scripts de configuração e utilização do *bot*.
+
+Dentro da TAIS, foi feito um esforço para desacoplar a parte de gerenciamento de conteúdo e treinamentos, da parte de utilização do *bot*.
+
+Analisando a lógica de funcionamento de chatbots `Rasa`, percebeu-se que os esforços aplicados no desenvolvimento de um *bot* estão aplicado em duas categorias:
+
+ - Esforços aplicados na definição da base de conhecimentos do bot e na configuração da estratégia de treinamento. As atividades desenvolvidas estão focadas na configuração correta dos parâmetros da rede, em um bom desenvolvimento dos diálogos, fluxos de interação e personalidade do *bot*, etc.
+Resumidademente, ao fim deste conjunto de esforços, o objetivo é garantir a geração de um bom modelo, que reflita bem as características do contexto, possua uma boa acurácia e seja confiável.
+
+ - Atividades focadas na lógica de execução e utilização do *bot*. Aqui há uma maior preocupação com a lógica de negócio e o desenvolvimento é focado em definir os canais de comunicação que serão utilizados, estratégias de escalabilidade e configuração do *bot*.
+
+Uma vez que a responsabilidade por estes dois conjuntos está desacoplada, é mais fácil criar estratégias para versionamento do conteúdo, escalabilidade e distribuição dos serviços utilizados.
+
+Dentro da arquitetura da TAIS utiliza-se serviços baseado em `Docker`, sendo assim existem dois serviços, cada um sendo responsável por uma das categorias acima.
+
+A imagem `docker` utilizada no serviço de *Trainer* é construída a partir do `Dockerfile` abaixo. É nesta imagem onde estarão os diretórios de `intents` e `stories` do `Rasa` que formam a base de conhecimentos do *bot*. Também é nesta imagem onde estarão os modelos treinados.
+
+```Dockerfile
+FROM lappis/botrequirements:latest
+
+COPY ./coach /coach
+COPY ./scripts /scripts
+
+RUN mkdir /src_models
+
+WORKDIR /coach
+
+RUN make train
+
+RUN find /. | grep -E "(__pycache__|\.pyc|\.pyo$)" | xargs rm -rf
+```
+
+A imagem `lappis/botrequirements:latest` possui todas as dependências `Rasa` pré instaladas e é utilizada como base para este serviço e o serviço de bot, explicado na próxima seção deste documento.
+
+Uma vez que os parâmetros da rede estão bem definidos e o *dataset* do *bot* está finalizado, o processo de treinamento será realizado apenas uma vez, e o mesmo modelo será utilizado sempre que se desejar executar aquele estado de treinamento. Com essa abordagem o versionamento dos modelos do *bot* é feito a partir das *tags* do `docker`, sendo que cada *tag* da imagem de *trainer* reflete uma versão da base de conhecimentos e das configurações de rede utilizadas em um determinado momento.
+
+Isto permite criar facilmente estratégias como a representada no diagrama acima onde se tem dois *bots* que utilizam a mesma versão de modelo, sendo que um dos *bots* utiliza o `Telegram` como canal de interação e o outro utiliza o `RocketChat` como canal. Para a implementação bastaria que houvessem dois serviços com lógicas de conexão diferentes que utilizam a mesma imagem de *trainer* como base.
+
+## Bot
+
+O Bot se utiliza dos modelos pré-treinados do *trainer* e do `Rasa` para execução do *bot*. Este módulo é utilizado também através de um serviço executado à partir de um *container* `Docker`. A imagem utilizada neste serviço é gerada à partir do Dockerfile abaixo:
+
+```Dockerfile
+FROM lappis/coach:latest as coach
+
+FROM lappis/botrequirements:latest
+
+COPY ./bot /bot
+COPY --from=coach /src_models/ /models/
+COPY ./scripts /scripts
+
+WORKDIR /bot
+
+ENV ROCKETCHAT_URL=rocketchat:3000         \
+    MAX_TYPING_TIME=10                     \
+    MIN_TYPING_TIME=1                      \
+    WORDS_PER_SECOND_TYPING=5              \
+    ROCKETCHAT_ADMIN_USERNAME=admin        \
+    ROCKETCHAT_ADMIN_PASSWORD=admin        \
+    ROCKETCHAT_BOT_USERNAME=tais           \
+    ROCKETCHAT_BOT_PASSWORD=tais           \
+    ENVIRONMENT_NAME=localhost             \
+    BOT_VERSION=last-commit-hash           \
+    ENABLE_ANALYTICS=False                 \
+    ELASTICSEARCH_URL=elasticsearch:9200   
+
+RUN find . | grep -E "(__pycache__|\.pyc|\.pyo$)" | xargs rm -rf
+```
+
+Quando se utiliza um `Dockerfile` a linha definida com a palavra `FROM` indica a imagem a ser utilizada como base. A partir da imagem de base, os comandos seguintes serão aplicados sequencialmente para ao fim gerar a imagem final.
+
+No `Dockerfile` acima pode-se notar que a palavra `FROM` foi utilizada duas vezes, o objetivo disto é utilizar um recurso do `docker` chamado [multi-stage build](https://docs.docker.com/develop/develop-images/multistage-build/).
+
+O que a linha `FROM lappis/coach:latest as coach` faz é criar uma referência à imagem `lappis/coach` com o nome de `coach`.
+Depois disso a imagem de base é redefinida na linha `FROM lappis/botrequirements:latest` como sendo a imagem de *requirements* onde já estão instaladas as dependências do `Rasa` necessárias para a execução do *bot*.
+Como a referência à primeira imagem de base foi definida como `coach`, na linha `COPY --from=coach /src_models/ /models/` o diretório de modelos pode ser copiado da primeira imagem de base para a segunda imagem de base. O resultado disso é que a imagem final será criada a partir da imagem `lappis/botrequirements:latest`, mas dentro dela estarão os modelos copiados da imagem `lappis/coach:latest`.
+
+## Business Analytics
+
+O foco das ferramentas e estratégias utilizadas na camada de *Analytics* é aferir e melhorar a qualidade do bot, levando em conta que a qualidade nesse contexto está relacionada às métricas de **acurácia do bot** e **desempenho durante a interação com o usuário**.
+
+O primeiro conjunto de ferramentas utilizado para tal é uma *stack* [ElasticSearch](https://www.elastic.co/), com o uso da ferramenta `Kibana` para visualização dos dados. Esses serviços também são executados utilizando *containers* `Docker`.
+
+As imagens abaixo exemplificam dashboards de visualização de dados da TAIS.
+
+![](./assets/kibana_dados.png)
+![](./assets/kibana_dados_2.png)
+
+Para a *Stack* de *Analytics* do [ElasticSearch](https://www.elastic.co/) é utilizado um *script* de 
+
+Outras das ferramentas utilizadas é o [Jupyter](https://jupyter.org/), ele é utilizado para avaliar a acurácia das `intents` e `stories` definidas. [Neste outro documento](./notebooks.md) são explicados os parâmetros de avaliação e a utilização dos *notebooks* na TAIS.
+
+Para utilização dos *notebook* é utilizado um serviço `docker` que, ao rodar, terá uma porta compartilhada entre o *container* e o computador e dará acesso aos códigos que executam as métricas. A execução e análise dessas métricas ainda é feita de forma manual, e deverá ser feita subjetivamente de acordo com o contexto de cada *bot*.
+
+## Distribution
+
+A última camada é a camada de apresentação e distribuição. É a camada onde acontecerá o contato direto do usuário e o meio por onde se dará a experiência de interação com o *bot*.
+
+O Rasa provê nativamente [conectores](https://rasa.com/docs/core/0.9.8/connectors/) para algumas ferramentas como: RocketChat, Slack, Telegram, Mattermost e Twillio.
+
+Na TAIS, é utilizado o RocketChat como canal principal de interação. Uma vez que se configura um agente de conversação dentro do RocketChat, é possível gerar um código `javascript` que permite a renderização de uma janela de conversação com o *bot*.  Essa abordagem permite uma flexibilidade muito grande, uma vez que quando o *bot* está propriamente configurado, este código pode ser injetado em qualquer pagina que será carregada pelo usuário, que não precisará criar uma conta ou acessar diretamente o servidor do `RocketChat` para conversar com o *bot*.
+
+![](./assets/home_tais.png)
