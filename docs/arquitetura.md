@@ -5,7 +5,7 @@ title: Arquitetura
 ---
 A arquitetura geral do framework desenvolvido pelo Laboratório é mostrado na figura abaixo. Foi desenvolvido com a Licença AGPL3.
 
-![](assets/arquitetura_tecnica.png)
+![](./assets/arquitetura_tecnica.png)
 
 # Ferramentas que compõem o framework
 
