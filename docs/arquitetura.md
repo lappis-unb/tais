@@ -156,6 +156,4 @@ O Rasa provê nativamente [conectores](https://rasa.com/docs/core/0.9.8/connecto
 
 Na TAIS, é utilizado o RocketChat como canal principal de interação. Uma vez que se configura um agente de conversação dentro do RocketChat, é possível gerar um código `javascript` que permite a renderização de uma janela de conversação com o *bot*.  Essa abordagem permite uma flexibilidade muito grande, uma vez que quando o *bot* está propriamente configurado, este código pode ser injetado em qualquer pagina que será carregada pelo usuário, que não precisará criar uma conta ou acessar diretamente o servidor do `RocketChat` para conversar com o *bot*.
 
-<div width="1000">
 ![](./assets/home_tais.png)
-</div>
