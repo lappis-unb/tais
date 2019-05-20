@@ -5,7 +5,7 @@ title: Arquitetura
 ---
 A arquitetura geral do framework desenvolvido pelo Laboratório é mostrado na figura abaixo. Foi desenvolvido com a Licença AGPL3.
 
-<img src="https://github.com/lappis-unb/tais/blob/master/docs/assets/arquitetura_tecnica.png" width="1000"/>
+<img src="https://github.com/lappis-unb/tais/blob/master/docs/assets/arquitetura_tecnica.png" width="1000" alt="drawing"/>
 
 # Ferramentas que compõem o framework
 
