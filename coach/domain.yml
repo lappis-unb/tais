@@ -150,6 +150,9 @@ templates:
           O mecanismo de incentivos fiscais da Lei de Incentivo à Cultura é uma forma de estimular o apoio da iniciativa privada ao setor cultural.
           Ou seja, o governo abre mão de parte dos impostos, para que esses valores sejam investidos na Cultura.
 
+          Para ter acesso aos projetos que participaram da Lei de Incentivo à Cultura,
+          você pode acessar o site: http://versalic.cultura.gov.br/.
+
   utter_lei_rouanet_divulgacao_patrocinio:
     - text: |
           De acordo com o Art. 44. § 1º do art. 23 da Lei nº 8.313, de 1991: 
@@ -274,7 +277,7 @@ templates:
 
           Além disso, mais de 69.000 fornecedores foram contratados pelos proponentes.
 
-          Para uma informação atualizada, acesse: http://sistemas.cultura.gov.br/comparar/
+          Para consultar os projetos que já participaram, acesse: http://versalic.cultura.gov.br/
 
   utter_lei_rouanet_beneficios_incentivo_projetos_culturais:
     - text: |
@@ -289,6 +292,9 @@ templates:
           Pode ser uma pessoa física com atuação na área cultural ou pessoa jurídica de direito público ou privado, com ou sem fins lucrativos, 
           cujo ato constitutivo ou instrumento congênere disponha sobre sua finalidade cultural.
 
+          Para saber quais proponentes já participaram da Lei de Incentivo à Cultura,
+          você pode acessar o site: http://versalic.cultura.gov.br/.
+
   utter_lei_rouanet_origem_do_dinheiro:
     - text: |
           O mecanismo de incentivos fiscais da Lei de Incentivo à Cultura é uma forma de estimular o apoio da iniciativa privada ao setor cultural.
@@ -296,7 +302,8 @@ templates:
 
           Qualquer empresa tributada com base no lucro real, e pessoas físicas pagadoras de Imposto de Renda (IR) que fazem a declaração no modelo completo podem contribuir com a Lei de Incentivo à Cultura apoiando projetos.
           Atualmente, mais de 3 mil projetos são apoiados a cada ano por meio desta lei.
-          Para saber mais, acesse: http://leideincentivoacultura.cultura.gov.br/como-funciona/
+          Para ter acesso aos projetos que participaram da Lei de Incentivo à Cultura,
+          você pode acessar o site: http://versalic.cultura.gov.br/.
 
   utter_lei_rouanet_denuncia:
     - text: |

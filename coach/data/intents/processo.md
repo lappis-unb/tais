@@ -127,6 +127,7 @@
 - qual a data para apresentar uma proposta
 - qual a data para apresentação de projeto
 - qual a data para apresentação de proposta
+- qual o prazo
 - quando devo enviar meu projeto
 - quando devo enviar a minha proposta
 - prazo para apresentar projeto
@@ -135,6 +136,8 @@
 - data de envio de proposta
 - data para iniciar projeto
 - data para inciar proposta
+- data para inscrição de projeto
+- prazo para inscrição de projeto
 - data para apresentar projeto
 - data para apresentar proposta
 - apresentacao de projeto
