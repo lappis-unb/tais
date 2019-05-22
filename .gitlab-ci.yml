@@ -34,6 +34,8 @@ test stories:
   image: docker
   tags:
     - docker
+  services:
+    - docker:dind
   script:
     - docker build . -f docker/bot/coach.Dockerfile -t lappis/coach:latest
     - docker build -f docker/bot/bot.Dockerfile -t lappis/bot:latest .
