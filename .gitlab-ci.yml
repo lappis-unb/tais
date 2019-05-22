@@ -31,10 +31,15 @@ run dataset validator:
 
 test stories:
   stage: test stories
-  image: lappis/bot:latest
+  image: docker
+  tags:
+    - docker
+  services:
+    - docker:dind
   script:
-    - cd bot/
-    - make test-stories
+    - docker build . -f docker/bot/coach.Dockerfile -t lappis/coach:latest
+    - docker build -f docker/bot/bot.Dockerfile -t lappis/bot:latest .
+    - docker run --rm lappis/bot:latest make test-stories
 
 build requirements:
   stage: build requirements
