@@ -1,8 +1,13 @@
 policies:
   - name: "EmbeddingPolicy"
-    epochs: 100
+    epochs: 500
     attn_shift_range: 5
     featurizer:
-    - name: FullDialogueTrackerFeaturizer
-      state_featurizer:
-      - name: LabelTokenizerSingleStateFeaturizer
+      - name: FullDialogueTrackerFeaturizer
+        state_featurizer:
+          - name: LabelTokenizerSingleStateFeaturizer
+  - name: FallbackPolicy
+    nlu_threshold: 0.6
+    core_threshold: 0.6
+  - name: MemoizationPolicy
+    max_history: 2

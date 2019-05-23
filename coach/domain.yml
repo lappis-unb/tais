@@ -758,6 +758,10 @@ templates:
           Vou te mostrar outros exemplos de perguntas que eu consigo entender: o que é Salic? O que é Tais? Como cadastrar um usuário? 
           O que você deseja saber?
 
+  utter_pergunta_especializada_pronac:
+      - text: |
+          Talvez sua pergunta seja especifica, tente perguntar de outra forma.
+
 actions:
   - utter_default
   - utter_cumprimentar
@@ -852,3 +856,4 @@ actions:
   - utter_erro_resposta_utter
   - utter_terapia
   - utter_terapia2
+  - utter_pergunta_especializada_pronac

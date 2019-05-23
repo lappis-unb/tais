@@ -608,5 +608,4 @@ Solicito correção do sistema para poder apresentar a prestação de contas.
 - sou o proponente Pronac [184008](pronac) que me parece estar aprovado. Gostaria de saber quando o MinC irá liberar para execução. Obrigado
 - Sou proponente de projeto  pronac [110207](pronac), e quem fez a elaboração do projeto foi outra Pessoa  e agora eu não tenho a senha e long do usuário websilic
 - Bom dia . ja recebi da Selic o email e meu projeto ja tem PRONAC [185002](pronac) eu posso captar ja no ano fiscal 2018 ou tenho que esperar publicação no DO?
-- 
 

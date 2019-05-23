@@ -30,3 +30,17 @@
 * pergunta_longa_1
     - utter_terapia
     - utter_continuar_conversa
+
+## pergunta especializada
+* pergunta_especializada_pronac
+    - utter_pergunta_especializada_pronac
+    - utter_continuar_conversa
+* pergunta_longa_1
+    - utter_terapia2
+* pergunta_longa_1   
+    - utter_terapia2
+
+## pergunta especializada1
+* pergunta_especializada_pronac
+    - utter_pergunta_especializada_pronac
+    - utter_continuar_conversa
