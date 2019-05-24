@@ -122,21 +122,6 @@ services:
     depends_on:
       - elasticsearch
 
-  replay:
-    build:
-      context: .
-      dockerfile: ./analytics/replay.Dockerfile
-    restart: unless-stopped
-    environment:
-      - ROCKETCHAT_URL=rocketchat:3000
-      - ROCKETCHAT_BOT_USERNAME=tais
-      - ROCKETCHAT_BOT_PASSWORD=tais
-      - BOT_URL=http://bot:5005/webhooks/rest/webhook
-    volumes:
-      - ./analytics:/analytics
-    depends_on:
-      - bot
-
   kibana-tais:
     build:
       context: .
