@@ -37,7 +37,7 @@ test stories:
   services:
     - docker:dind
   script:
-    - docker build . -f docker/bot/coach.Dockerfile -t lappis/coach:latest
+    - docker build . -f docker/bot/coach.Dockerfile -t lappis/coach:latest > /dev/null 2>&1
     - docker build -f docker/bot/bot.Dockerfile -t lappis/bot:latest .
     - docker run --rm lappis/bot:latest make test-stories
 

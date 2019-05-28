@@ -45,6 +45,11 @@ class ElasticTrackerStore(InMemoryTrackerStore):
 
         super(ElasticTrackerStore, self).__init__(domain)
 
+    def insert_on_elastic(self, ts, message):
+        self.es.index(index='messages', doc_type='message',
+                      id='{}_user_{}'.format(ENVIRONMENT_NAME, gen_id(ts)),
+                      body=json.dumps(message))
+
     def save_user_message(self, tracker):
         if not tracker.latest_message.text:
             return
@@ -88,9 +93,7 @@ class ElasticTrackerStore(InMemoryTrackerStore):
             'is_fallback': False,
         }
 
-        self.es.index(index='messages', doc_type='message',
-                      id='{}_user_{}'.format(ENVIRONMENT_NAME, gen_id(ts)),
-                      body=json.dumps(message))
+        self.insert_on_elastic(ts, message)
 
     def save_bot_message(self, tracker):
         if not tracker.latest_message.text:
@@ -155,9 +158,7 @@ class ElasticTrackerStore(InMemoryTrackerStore):
                 'is_fallback': utter == 'action_default_fallback',
             }
 
-            self.es.index(index='messages', doc_type='message',
-                          id='{}_bot_{}'.format(ENVIRONMENT_NAME, gen_id(ts)),
-                          body=json.dumps(message))
+            self.insert_on_elastic(ts, message)
 
     def save(self, tracker):
         if ENABLE_ANALYTICS:
