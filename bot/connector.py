@@ -134,7 +134,7 @@ class RocketchatHandleMessages:
         self.is_typing = False
 
     def manage_is_typing_message(self, log_message, activate_is_typing,
-                                typing_function):
+                                 typing_function):
         logger.info(log_message)
 
         self.bot.connector.call(
@@ -153,16 +153,18 @@ class RocketchatHandleMessages:
 
         if self.message_index == len(self.messages):
             if self.is_typing:
-                self.manage_is_typing_message('deactivate typing for {}'.format(self.rid),
-                                         False, self.deactivate_typing)
+                self.manage_is_typing_message('deactivate typing for {}'.
+                                              format(self.rid),
+                                              False, self.deactivate_typing)
 
             self.messages = []
             self.message_index = 0
 
     def add_message(self, message):
         if not self.is_typing:
-            self.manage_is_typing_message('activate typing for {}'.format(self.rid),
-                                     True, self.activate_typing)
+            self.manage_is_typing_message('activate typing for {}'.
+                                          format(self.rid),
+                                          True, self.activate_typing)
 
         wait_time = int(os.getenv('MIN_TYPING_TIME', 1))
         max_time = int(os.getenv('MAX_TYPING_TIME', 10))
