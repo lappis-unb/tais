@@ -55,11 +55,12 @@ MIDDLEWARE = [
 ROOT_URLCONF = 'tais.urls'
 
 PROJECT_BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+PROJECT_DJANGO_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [os.path.join(PROJECT_BASE_DIR, 'templates')],
+        'DIRS': [os.path.join(PROJECT_BASE_DIR, 'templates'), os.path.join(PROJECT_DJANGO_DIR, 'kibana', 'templates')],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [

@@ -2,9 +2,9 @@
 <html>
   {% if user.is_authenticated %}
     {% if user.is_superuser %}
-      <h1>ADMIN</h1>
+      {% include '_kibana_tais_base.html' %}.
     {% else %}
-      <h1>USER NORMAL</h1>
+      {% include '_kibana_web_base.html' %}.
     {% endif %}
   {% endif %}
 </html>

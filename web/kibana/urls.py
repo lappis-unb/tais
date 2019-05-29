@@ -18,10 +18,8 @@ from django.urls import path, include
 from django.conf import settings
 from django.conf.urls.static import static
 from tais.views import index
+from kibana.views import index
 
 urlpatterns = [
-    path(settings.PREFIX_URL + '', index, name='base'),
-    path(settings.PREFIX_URL + 'admin/', admin.site.urls),
-    path(settings.PREFIX_URL + 'accounts/',
-         include('django.contrib.auth.urls')),
+    path(settings.PREFIX_URL + '', index),
 ] + static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
