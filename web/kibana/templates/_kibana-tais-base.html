@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>{% block title %}Tais - Assistente Virtual da Cultura{% endblock %}</title>
+		<meta name="description" content="TAIS (Tecnologia de Aprendizado Interativo do Salic)">
+
+		{% load static %}
+
+		<link rel="shortcut icon" href="{% static 'img/favicon.ico' %}" type="image/x-icon">
+		<link rel="icon" href="{% static 'img/favicon.ico' %}" type="image/x-icon">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700&amp;subset=latin-ext" rel="stylesheet">
+
+		{% load bootstrap4 %}
+
+		{% bootstrap_css %}
+		{% bootstrap_javascript jquery='full' %}
+
+		<link rel="stylesheet" type="text/css" href="{% static 'css/style.css' %}">
+	</head>
+
+	<body>
+      {% if user.is_authenticated %}
+				<div id="topbar-collapsed" style="display: flex;">
+					<div id="description-collapsed" class="title-collapsed">
+						<p>Visualização de Dados: Tais</p>
+					</div>
+					<div class="btn-group" style="margin-left: auto" >
+						<button type="button" class="btn btn-outline-light" id="logout-user" onclick="location.href='{% url 'logout'  %}'">Sair</button>
+					</div>
+				</div>
+			{% endif %}
+
+
+			{% block content %}
+			{% endblock %}
+	</body>
+</html>

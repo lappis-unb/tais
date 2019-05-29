@@ -1,0 +1,10 @@
+<!DOCTYPE html>
+<html>
+  {% if user.is_authenticated %}
+    {% if user.is_superuser %}
+      <h1>ADMIN</h1>
+    {% else %}
+      <h1>USER NORMAL</h1>
+    {% endif %}
+  {% endif %}
+</html>
