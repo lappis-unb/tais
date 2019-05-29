@@ -100,3 +100,238 @@ HEADER P{
 .tab-pane{
   padding-top: 1em;
 }
+
+------------------------------------- KIBANAAAA WEBBBBBB ----------------------------------------------------------------------------
+------------------------------------- KIBANAAAA WEBBBBBB ----------------------------------------------------------------------------
+------------------------------------- KIBANAAAA WEBBBBBB ----------------------------------------------------------------------------
+------------------------------------- KIBANAAAA WEBBBBBB ----------------------------------------------------------------------------
+
+body {
+  background-size: cover;
+  background-image: url("../img/background-kibana.png");
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  justify-content: center;
+  align-items: center;
+}
+
+H1, H2{font-weight: bold;}
+
+.dropdown-group-bar{
+  margin-left: auto;
+  margin-right: 5px;
+  display: flex;
+}
+
+.buttons-time-list {
+  background-color: transparent;
+  color: white;
+}
+
+.fa-clock-o{
+  margin: auto;
+  padding: 0;
+}
+
+.fa-th-list{
+  padding: 0;
+  margin: auto;
+}
+
+.btn.focus, .btn:focus {
+  box-shadow: none;
+}
+
+#subtitle-dropdown {
+  margin-left: 10px;
+  font-size: 12px;
+  margin-bottom: 5px;
+  color: #384356;
+  font-weight: bold;
+}
+#topbar-collapsed {
+  width: 100%;
+  background: #384356;
+  height: 45px;
+}
+
+#topbar-collapsed img {
+  height: 88.8%;
+}
+
+#icon-collapsed {
+  height: 45px;
+  margin: 2.5px 0 0 5.75px;
+}
+
+#description-collapsed {
+  margin: 11.5px;
+}
+
+#description-collapsed p {
+  font-family: “Segoe UI”,Arial,Helvetica,sans-serif;
+  color: white;
+  font-weight: bold;
+}
+
+.btn-subtitle{
+	font-size:0.7em;
+}
+
+#btFeedback{
+	margin-top: 24px;
+	width: 200px;
+}
+
+#mainContainer{
+  margin-bottom: 400px;/* to compensate for live chat area */
+  clear: both;
+}
+
+.container {
+  background: #384356;
+  position: relative;
+  padding: 0;
+  border-radius: 8px;
+  display: flex;
+  box-shadow:3px 3px 4px rgba(0, 0, 0, .3);
+  width: 50%;
+  height: 300px;
+  margin: auto;
+  overflow: hidden;
+}
+
+.tais-container {
+  width: 50%;
+  display: block;
+  margin: auto 0;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.tais-container img{
+  width: 105px;
+}
+
+.tais-container p{
+  margin: 0;
+  font-family: “Segoe UI”,Arial,Helvetica,sans-serif;
+  color: white;
+}
+
+.login-container{
+  background-color: white;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+#login-struct p {
+  color: #384356;
+  font-weight: bold;
+}
+
+#login-submit {
+  background-color: #68c171;
+  padding-top: 0;
+  padding-bottom: 3;
+  font-weight: bold;
+  color: white;
+  font-variant: small-caps;
+  height: 30px;
+  vertical-align: middle;
+}
+
+.form-group input{
+  font-family: “Segoe UI”,Arial,Helvetica,sans-serif;
+  font-size: 12px;
+  height: 35px;
+}
+
+#user-login {
+  background-image: url("../img/icone_usuario.svg");
+  background-repeat: no-repeat;
+  margin-top: 30px;
+  background-size: 16.9px;
+  background-position: 10px;
+  padding-left: 36px;
+  margin-bottom: 15px;
+}
+
+#user-login-error {
+  background-image: url("../img/icone_usuario.svg");
+  background-repeat: no-repeat;
+  margin-top: 10px;
+  background-size: 16.9px;
+  background-position: 10px;
+  padding-left: 36px;
+  margin-bottom: 15px
+}
+.alert-error{
+  display: block;
+  margin: auto 0;
+  text-align: center;
+}
+.alert-error img{
+  width: 18px;
+  height: 18px;
+  margin-right: 5px;
+}
+
+.alert-error strong{
+  display: table-cell;
+  vertical-align: bottom;
+}
+.message-error {
+  color: #c95050;
+  font-size: 12px;
+}
+
+.form-group input:last-child {
+  background-image: url("../img/icone_chave.svg");
+  background-repeat: no-repeat;
+  background-size: 18px;
+  background-position: 10px;
+  padding-left: 36px;
+}
+
+input[type="text"]::placeholder {
+  font-style: italic;
+}
+
+HEADER P{
+  font-size: 1.1em;
+}
+
+.nav-tabs{
+  margin-top: 40px;
+}
+.nav-tabs .nav-link{
+  font-size: 1em;
+  color: #666;
+}
+.nav-tabs .nav-link.active {
+  color: #11998e;
+  font-size: 1.2em;
+  font-weight: bold;
+  background-color: transparent;
+  border-bottom:3px solid #11998e;
+  border-right: none;
+  border-left: none;
+  border-top: none;
+}
+.tab-pane{
+  padding-top: 1em;
+}
+
+.dropdown-item:active {
+  background-color: #2da082;
+}
+

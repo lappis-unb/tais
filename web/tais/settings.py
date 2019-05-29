@@ -138,6 +138,7 @@ PREFIX_URL = os.getenv('PREFIX_URL', '')
 STATIC_URL = '/{}static/'.format(PREFIX_URL)
 STATICFILES_DIRS = [
     os.path.join(PROJECT_BASE_DIR, 'static'),
+    #os.path.join(PROJECT_DJANGO_DIR, 'kibana', 'static')
 ]
 
 LOGIN_REDIRECT_URL = 'home'
