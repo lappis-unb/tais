@@ -6,7 +6,7 @@ title: Tutorial Pipeline de Bot
 
 O objetivo deste tutorial é explicar os passos necessários para configuração de um *pipeline* de *deploy* contínuo de um *bot* `Rasa`, utilizando o `GitLabCI`.
 
-Os exemplos e estratégias utilizados neste tutorial são baseados no *pipeline* utilizado na TAIS. Para uma referência completa basta analizar o [arquivo de configuração](https://github.com/lappis-unb/tais/blob/master/.gitlab-ci.yml) do *pipeline* da TAIS no GitLab.
+Os exemplos e estratégias utilizados neste tutorial são baseados no *pipeline* utilizado na TAIS. Para uma referência completa basta analisar o [arquivo de configuração](https://github.com/lappis-unb/tais/blob/master/.gitlab-ci.yml) do *pipeline* da TAIS no GitLab.
 
 A configuração de *pipelines* utilizando o `GitLabCI` se dá a partir da utilização de um arquivo de configuração chamado `gitlab-ci.yml`. Neste tutorial aprenderemos  configurar um arquivo de utilização do *CI*.
 
