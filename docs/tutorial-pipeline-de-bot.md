@@ -169,3 +169,28 @@ services:
 O serviço `Watchtower` fica consultando o repositório da imagem a ser monitorado a cada X segundos, para saber ser houve alguma atulização ou não. O período de tempo utilizado nesta estratégi pode ser definido com o parâmetro `--interval`, como exemplificado acima onde é definido com o valor de 30 segundos.
 
 Esta estratégia possui a vantagem de que a estratégia de *deploy* está totalmente contida dentro da própria infraestrutura onde estão rodando os serviços, desta forma não há dependência de um outro serviço e não é necessários ter credenciais de acesso configuradas em outros ambientes como na estratégia anterior. Além disso, caso o objetivo seja fazer somente *deploy* dos serviços e não haja um *pipeline* mais elaborado, utilizar esta abordagem traz uma solução simples para o problema. Porém, a utilização desta estratégia é menos flexível em relação à generização, uma vez que funciona apenas para estratégias de *deploy* baseadas em `docker`.
+
+## Testando Jobs
+
+Configurar corretamente um *pipeline* muitas vezes pode ser um processo um tanto quanto demorado e custoso, uma vez que o teste das configurações deve ser realizado diretamente no CI executando *builds* reais.
+
+Para testar localmente alguns *jobs* e facilitar o processo de *debug* e configuração do *pipeline* é possível utilizar uma instância local do [GitLab Runner](https://docs.gitlab.com/runner/).
+
+Utilizando como exemplo o *job* `test style`:
+
+```yml
+test style:
+  stage: test style
+  script:
+    - pip -V
+    - python -V
+    - pip install -r dev.requirements.txt
+    - flake8 --exclude venv
+```
+
+Para executar este *job* localmente bastaria [instalar o runner do GitLab](https://docs.gitlab.com/runner/install/),
+e em seguida executar o seguinte comando:
+
+```sh
+gitlab-runner exec docker "test style"
+```
