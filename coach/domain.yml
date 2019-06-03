@@ -10,7 +10,6 @@ intents:
   - tudo_bem
   - elogios
   - tem_wpp
-  - expressoes_indesejadas
 
   - captacao
   - captacao_quando_captar
@@ -112,11 +111,6 @@ templates:
           A minha missão é te guiar para a inscrição da sua proposta,
           Se você já sabe isso é porque você já tem um conhecimento avançado e talvez eu não consiga sanar as suas dúvidas.
           Mas podemos continuar conversando sobre alguns conceitos básicos da Lei de Incentivo à Cultura =)
-
-  utter_expressoes_indesejadas:
-    - text: |
-          Hummm… Não gostei muito dessa expressão que você usou. 
-          Que tal falar de outra forma?
 
   utter_definicao_tais:
     - text: |
@@ -763,7 +757,6 @@ actions:
   - utter_diga_mais
   - utter_elogios
   - utter_tem_wpp
-  - utter_expressoes_indesejadas
 
   - utter_captacao
   - utter_captacao_quando_captar
