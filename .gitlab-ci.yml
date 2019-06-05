@@ -3,7 +3,7 @@ image: python:3.6-slim
 stages:
   - test style
   - validate format
-#  - test stories
+##  - test stories
   - build requirements
   - build coach
   - build
