@@ -2,6 +2,10 @@
 * despedir
     - utter_despedir
 
+## Despedir Story 1
+* negar_despedir
+    - utter_despedir
+
 ## Oi Tudo Bem Story
 * tudo_bem
     - utter_tudo_bem

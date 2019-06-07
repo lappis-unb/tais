@@ -10,6 +10,7 @@ intents:
   - tudo_bem
   - elogios
   - tem_wpp
+  - negar_despedir
 
   - captacao
   - captacao_quando_captar
@@ -683,7 +684,7 @@ templates:
     - text: |
           Podemos conversar sobre como submeter um projeto, as etapas, algumas dúvidas operacionais…
           Ou se você já tiver um projeto cadastrado, a gente pode falar sobre isso também.
-          Para lembrar dos assuntos que eu domino, é só digitar: #MEAJUDA :)
+          Para lembrar dos assuntos que eu domino, é só digitar: MEAJUDA
           E aí, por onde vamos começar?
 
 
