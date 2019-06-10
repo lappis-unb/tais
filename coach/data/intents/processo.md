@@ -10,7 +10,7 @@
 - como fazer uma proposta cultural
 - como fazer um projeto
 - cadastrar proposta
-- submeter uma proposta
+- como submeter uma proposta
 - como faço para cadastrar meu projeto
 - como encaminhar a proposta
 - inscrevo uma proposta
@@ -20,7 +20,10 @@
 - como incluir um projeto
 - como faço para incluir um projeto na lei
 - como posso propor um projeto
-- como propor um projeto 
+- como propor um projeto
+- cadastrar meu projeto
+- cadastrar minha proposta
+- encaminhar minha proposta
 - enviar projeto
 
 ## intent:processo_definicao_etapas
