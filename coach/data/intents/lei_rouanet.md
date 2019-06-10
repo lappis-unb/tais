@@ -67,6 +67,7 @@
 - pessoa física pode ser proponente
 - quais projetos se encaixam na lei rouanet
 - qualquer empresa pode apresentar um projeto
+- empresa propor lei incentivo
 - qualquer pessoa pode apresentar um projeto
 - qualquer segmento cultural pode propor um projeto na lei rouanet
 - qual tipo de projeto pode ser apresentado na lei rouanet
@@ -202,7 +203,6 @@
 - toda empresa pode usar a lei rouanet
 - tem alguma execeção para uma empresa não utilizar a lei rouanet
 - quais a regras de elegibilidade no caso de empresas
-- empresa propor lei incentivo
 - empresa
 - elegibilidade como pessoa juridica
 - participação empresa
