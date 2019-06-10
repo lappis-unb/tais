@@ -432,6 +432,8 @@
 
 ## intent:lei_rouanet_valor_maximo_pessoa_juridica
  - pessoa juridica
+ - demais pessoas jurídicas
+ - demais pessoas juridicas
  - sou uma pessoa juridica
  - sou empresario individual
  - empresario individual
