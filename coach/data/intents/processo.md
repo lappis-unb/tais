@@ -15,6 +15,9 @@
 - como encaminhar a proposta
 - inscrevo uma proposta
 - inscrever uma proposta
+- link para cadastrar projetos
+- link para inserir projetos
+- login para inserir o projeto
 - enviar proposta
 - como faço para colocar um projeto na lei de incentivo
 - como incluir um projeto
