@@ -154,6 +154,7 @@
 - vínculo de proposta
 
 ## intent:salic_preenchimento_cadastro_agencia_bancaria
+- preciso ter conta corrente no banco do brasil
 - agência bancária inválida
 - o sistema indica agência inválida
 - cadastrar minha agência bancária
