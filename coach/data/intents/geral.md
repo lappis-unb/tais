@@ -29,6 +29,7 @@
 - olá
 - oie
 - oiee
+- opa
 - ola boa tarde
 - oi tais
 - ola tais, tudo bom
