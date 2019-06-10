@@ -9,6 +9,10 @@
 - como faço a proposta
 - como fazer uma proposta cultural
 - como fazer um projeto
+- cadastrar proposta
+- submeter uma proposta
+- como faço para cadastrar meu projeto
+- como encaminhar a proposta
 - inscrevo uma proposta
 - inscrever uma proposta
 - enviar proposta
