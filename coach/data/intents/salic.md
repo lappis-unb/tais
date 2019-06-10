@@ -24,6 +24,8 @@
 
 ## intent:salic_recuperacao_de_senha
 - não me recordo da senha de acesso
+- não consigo acessar meus dados do salic
+- não consigo acessar o salic
 - recuperar meu acesso ao sistema
 - esqueci a senha do salic
 - como recuperar senha
