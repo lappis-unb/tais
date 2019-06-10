@@ -148,6 +148,8 @@
 - qual a dedução de imposto de renda para incentivadores
 - se eu incentivar eu vou ter dedução no meu imposto de renda
 - sou incentivador quanto posso receber como dedução de imposto de renda
+- os patrocinadores de projetos recebem
+- porcentagem do valor arrecadado 
 - imposto de renda
 - imposto
 - dedução
