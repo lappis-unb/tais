@@ -17,7 +17,7 @@
 * lei_rouanet_o_que_eh: me fale sobre a lei rouanet
    - utter_lei_rouanet_o_que_eh
    - utter_continuar_conversa
-* despedir: não obrigado
+* negar_despedir: nada
    - utter_despedir
 
 ## end-to-end story 2
@@ -32,7 +32,7 @@
    - utter_salic_cadastro_usuario
    - utter_salic_cadastro_proponente
    - utter_continuar_conversa
-* despedir: nada obrigado
+* negar_despedir: nada
    - utter_despedir
 
 ## end-to-end story 3
@@ -52,6 +52,5 @@
 * negar: não
    - utter_salic_cadastro_proponente
    - utter_continuar_conversa
-* despedir: não, obrigado
+* negar_despedir: nada
    - utter_despedir
-

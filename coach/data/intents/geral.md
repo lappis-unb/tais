@@ -12,8 +12,8 @@
 - como esta o tempo
 
 ## intent:despedir
-- Tchau obrigada
-- Tchau
+- tchau obrigada
+- tchau
 - até logo
 - namaste
 - sayonara
@@ -21,16 +21,8 @@
 - até breve
 - falou, valeu
 - flw vlw
-- blza
-- blz
-- valeu
-- massa
-- de boa
-- obrigada
-- obrigado
-- obj
-- obrigada, tais
-- tais, obrigado
+- até mais
+- até a próxima
 
 ## intent:cumprimentar
 - oi
@@ -79,16 +71,6 @@
 - mais ou menos
 
 ## intent:negar
-- não sei onde a minha pergunta se encaixa
-- nao quero saber mais
-- quero falar sobre outra coisa
-- não quero saber de mais nada
-- nao era isso, me enganei
-- não quero falar sobre isso
-- ainda nao sei escolher um tópico
-- ainda não pensei sobre isso
-- nao sei do que quero falar
-- não sei do que quero conversar
 - nunca
 - nao
 - não
@@ -99,6 +81,19 @@
 - duvida
 - ainda não sei
 - nenhum
+
+## intent:negar_despedir
+- não sei onde a minha pergunta se encaixa
+- nao quero saber mais
+- quero falar sobre outra coisa
+- não quero saber de mais nada
+- nao era isso, me enganei
+- não quero falar sobre isso
+- ainda nao sei escolher um tópico
+- ainda não pensei sobre isso
+- nao sei do que quero falar
+- não sei do que quero conversar
+- nada
 
 ## intent:diga_mais
 - como funciona
@@ -125,13 +120,14 @@
 - lista de assuntos possiveis
 - quais as perguntas vc responde
 - quais as perquisar você responde
-- #MEAJUDA
-- MEAJDA
-- #meajuda
-- # me ajuda
-- MEAJUDA
+- quero ajuda
 - meajuda
+- meajude
+- MEAJUD
+- MEAJDA
 - me ajuda
+- me ajude
+- ajuda eu
 - ajuda
 - menu
 

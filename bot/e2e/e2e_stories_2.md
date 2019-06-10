@@ -1,7 +1,7 @@
 ## end-to-end story 1
 * cumprimentar: ola
    - utter_cumprimentar
-* lei_rouanet_quem_pode_incentivar: qualquer empresa pode se beneficiar ao apoiar um projeto?
+* lei_rouanet_quem_pode_incentivar: quais empresas podem se beneficiar ao apoiar projetos culturais?
    - utter_lei_rouanet_quem_pode_incentivar
    - utter_continuar_conversa
 * definicao_vinculada: o que é vinculada?
@@ -15,5 +15,5 @@
 * lei_rouanet_beneficios_incentivo_projetos_culturais: quem tem o beneficio fiscal?
    - utter_lei_rouanet_beneficios_incentivo_projetos_culturais
    - utter_continuar_conversa
-* despedir: não obrigado
+* negar_despedir: nada
    - utter_despedir
