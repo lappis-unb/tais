@@ -69,6 +69,7 @@
 - claro
 - confirmo
 - mais ou menos
+- me explique
 
 ## intent:negar
 - nunca
