@@ -9,11 +9,6 @@
     - utter_continuar_conversa
 * o_que_sei_falar: o que mais você sabe falar?
     - utter_o_que_sei_falar
-* definicao_minc: o que significa MINC?
-    - utter_definicao_minc
-    - utter_objetivo
-* negar: não
-   - utter_continuar_conversa
 * lei_rouanet_o_que_eh: me fale sobre a lei rouanet
    - utter_lei_rouanet_o_que_eh
    - utter_continuar_conversa

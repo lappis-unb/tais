@@ -12,7 +12,7 @@
 * lei_rouanet_promocao_de_marca: eu posso divulgar a logo do patrocinador?
    - utter_lei_rouanet_promocao_de_marca
    - utter_continuar_conversa
-* lei_rouanet_beneficios_incentivo_projetos_culturais: quem tem o beneficio fiscal?
+* lei_rouanet_beneficios_incentivo_projetos_culturais: quais as vantagens de ser incentivador?
    - utter_lei_rouanet_beneficios_incentivo_projetos_culturais
    - utter_continuar_conversa
 * negar_despedir: nada
