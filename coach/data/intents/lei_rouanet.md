@@ -67,6 +67,7 @@
 - pessoa física pode ser proponente
 - quais projetos se encaixam na lei rouanet
 - qualquer empresa pode apresentar um projeto
+- empresa propor lei incentivo
 - qualquer pessoa pode apresentar um projeto
 - qualquer segmento cultural pode propor um projeto na lei rouanet
 - qual tipo de projeto pode ser apresentado na lei rouanet
@@ -148,6 +149,8 @@
 - qual a dedução de imposto de renda para incentivadores
 - se eu incentivar eu vou ter dedução no meu imposto de renda
 - sou incentivador quanto posso receber como dedução de imposto de renda
+- os patrocinadores de projetos recebem
+- porcentagem do valor arrecadado 
 - imposto de renda
 - imposto
 - dedução
@@ -186,16 +189,16 @@
 - aprovados
 
 ## intent:lei_rouanet_quem_pode_incentivar
-- Qualquer empresa pode se beneficiar de incentivos fiscais, apoiando projetos culturais
-- Quais empresas podem se beneficiar ao apoiar projetos culturais
-- Que tipos de empresas podem se beneficiar ao apoiar projetos culturais
+- qualquer empresa pode se beneficiar de incentivos fiscais, apoiando projetos culturais
+- quais empresas podem se beneficiar ao apoiar projetos culturais
+- que tipos de empresas podem se beneficiar ao apoiar projetos culturais
 - Apoiando projetos culturais, qualquer empresa se beneficia
-- Empresas que se beneficiam ao apoiar projeto culturais
+- empresas que se beneficiam ao apoiar projeto culturais
 - como pessoa fisica como posso patrocinar
 - quem pode patrocinar um proejto
-- Quem pode incentivar um proejto cultural
-- Quem pode incentivar projetos culturais
-- Tenho uma empresa e quero particiar da lei rouanet, como eu sei se posso
+- quem pode incentivar um proejto cultural
+- quem pode incentivar projetos culturais
+- tenho uma empresa e quero particiar da lei rouanet, como eu sei se posso
 - qual o critério de elegibilidade para pessoas jurídicas
 - toda empresa pode usar a lei rouanet
 - tem alguma execeção para uma empresa não utilizar a lei rouanet
@@ -432,6 +435,8 @@
 
 ## intent:lei_rouanet_valor_maximo_pessoa_juridica
  - pessoa juridica
+ - demais pessoas jurídicas
+ - demais pessoas juridicas
  - sou uma pessoa juridica
  - sou empresario individual
  - empresario individual

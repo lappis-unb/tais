@@ -24,6 +24,9 @@
 
 ## intent:salic_recuperacao_de_senha
 - não me recordo da senha de acesso
+- não consigo acessar meus dados do salic
+- não consigo acessar o salic
+- recuperar meu acesso ao sistema
 - esqueci a senha do salic
 - como recuperar senha
 - recuperação de senha
@@ -153,6 +156,7 @@
 - vínculo de proposta
 
 ## intent:salic_preenchimento_cadastro_agencia_bancaria
+- preciso ter conta corrente no banco do brasil
 - agência bancária inválida
 - o sistema indica agência inválida
 - cadastrar minha agência bancária
