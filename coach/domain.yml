@@ -174,7 +174,9 @@ templates:
 
   utter_definicao_projeto:
     - text: |
-        Após a superação da análise de admissibilidade da proposta é gerado o número de PRONAC para definir o projeto cultural
+        Após a superação da análise de admissibilidade da proposta é gerado o número de PRONAC para definir o projeto cultural.
+        Aqui você pode consultar as propostas que foram aprovadas,
+        e algumas informações sobre os projetos, como o número de Pronac: http://versalic.cultura.gov.br/
 
   utter_definicao_proposta:
     - text: |

@@ -65,10 +65,19 @@
 - o que é Projeto
 - o que significa Projeto
 - como caracteriza um projeto
+- como consulto os projetos aprovados
+- consultar projetos aprovados
+- projetos aprovados
+- propostas aprovadas
+- número de pronac do projeto
+- numero de pronac
 - por que é um projeto
+- consultar projetos
+- projeto aprovado
+- proposta aprovada
 - projeto cultural
 - projeto
-
+- pronac
 
 ## intent:definicao_proposta
 - o que é Proposta
