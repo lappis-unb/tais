@@ -80,3 +80,7 @@
 * erro_resposta_utter
     - utter_erro_resposta_utter
     - utter_continuar_conversa
+
+## agradecimento
+* agradecimento
+    - utter_agradecimento

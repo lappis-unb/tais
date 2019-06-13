@@ -204,3 +204,17 @@
 - voce respondeu errado
 - resposta errada
 - errou na resposta
+
+## intent: agradecimento
+- obrigada por me ajudar
+- obrigado por me ajudar
+- agradecido
+- agradecida
+- obrigada
+- obrigado
+- grato
+- grata
+- thanks
+- thank you
+- merci
+- gracias
