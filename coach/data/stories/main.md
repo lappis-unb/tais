@@ -84,3 +84,16 @@
 ## agradecimento
 * agradecimento
     - utter_agradecimento
+
+## contato 1
+* contato
+    - utter_contato
+    - utter_continuar_conversa
+
+## contato 2
+* cumprimentar
+    - utter_cumprimentar
+    - utter_menu
+* contato
+    - utter_contato
+    - utter_continuar_conversa

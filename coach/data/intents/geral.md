@@ -218,3 +218,15 @@
 - thank you
 - merci
 - gracias
+
+## intent: contato
+- quero falar com uma pessoa
+- quero entrar em contato
+- e-mails dúvidas
+- email duvidas
+- e-mail duvidas
+- contato perguntas
+- telefone duvidas
+- contato 
+- telefone
+- email
