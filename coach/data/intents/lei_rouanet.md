@@ -291,7 +291,7 @@
 - a marca do patrocinador pode ser divulgada
 - como o patrocinador pode usar o projeto para promover a sua marca
 - a logo do patrocinador pode ser divulgada
-- posso divulgar a logo do patrocinador
+- eu posso divulgar a logo do patrocinador
 - a logo do patrocinador pode ficar visivel
 - posso colocar a logo do patrocinador no banner
 - a marca do patrocinador pode ser divulgada junto com o projeto
