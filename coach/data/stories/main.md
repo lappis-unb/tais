@@ -2,6 +2,10 @@
 * despedir
     - utter_despedir
 
+## Despedir Story 1
+* negar_despedir
+    - utter_despedir
+
 ## Oi Tudo Bem Story
 * tudo_bem
     - utter_tudo_bem
@@ -32,10 +36,6 @@
 ## fallback
 * out_of_scope
     - utter_default
-
-## expressoes_indesejadas
-* expressoes_indesejadas
-    - utter_expressoes_indesejadas
 
 ## afirmar
 * afirmar
@@ -79,4 +79,21 @@
 ## erro resposta
 * erro_resposta_utter
     - utter_erro_resposta_utter
+    - utter_continuar_conversa
+
+## agradecimento
+* agradecimento
+    - utter_agradecimento
+
+## contato 1
+* contato
+    - utter_contato
+    - utter_continuar_conversa
+
+## contato 2
+* cumprimentar
+    - utter_cumprimentar
+    - utter_menu
+* contato
+    - utter_contato
     - utter_continuar_conversa

@@ -554,3 +554,17 @@
     - utter_processo_como_funciona
 * negar
     - utter_continuar_conversa
+
+## sigla 8
+* cumprimentar
+    - utter_cumprimentar
+* definicao_tais
+    - utter_definicao_tais
+    - utter_objetivo
+* afirmar
+    - utter_processo_como_funciona
+* afirmar
+    - utter_cadastro_salic_video
+* salic_recuperacao_de_senha
+    - utter_salic_recuperacao_de_senha
+    - utter_continuar_conversa

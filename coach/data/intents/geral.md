@@ -1,334 +1,4 @@
 <!-- Geral -->
-## intent:expressoes_indesejadas
-- abestado
-- anus
-- ânus
-- babaca
-- babaovo
-- baba-ovo
-- baitola
-- baranga
-- bebum
-- besta
-- bicha
-- bixa
-- bla,blá,bla,bla
-- bla,blá,blá,blá
-- blefando
-- blefe
-- boazuda
-- boba
-- boboca
-- bobao
-- bobinha
-- boceta
-- boco
-- bocó
-- boiola
-- boquete
-- bosseta
-- bosta
-- bostana
-- brecha
-- brexa
-- brioco
-- brocha
-- bronha
-- broxa
-- buceta
-- bunda
-- bunduda
-- burra
-- busseta
-- cabeça chata
-- cachorra
-- cachorro
-- cadela
-- caga
-- cagado
-- cagao
-- cagão
-- cagona
-- canalha
-- cara de pau
-- caralho
-- caraio
-- carniça
-- casseta
-- cassete
-- charlatanismo
-- charlatao
-- charlatão
-- chatice
-- chato
-- chato demais
-- checheca
-- chereca
-- chifruda
-- chifrudo
-- chochota
-- chota
-- chupada
-- chupado
-- cocaina
-- cocaína
-- coco
-- cocô
-- corna
-- corno
-- cornuda
-- cornudo
-- cretina
-- cretino
-- cu
-- cú
-- cu
-- culhao
-- culhão
-- culhões
-- curalho
-- cuzao
-- cuzão
-- cuzuda
-- cuzudo
-- debil
-- debiloide
-- demonio
-- demônio
-- desgracado
-- desgraçada
-- desgracados
-- desgraçados
-- doida
-- doido
-- egua
-- égua
-- embromation
-- enganação
-- enganando
-- enganosa
-- escrota
-- escroto
-- espertinho
-- esporrada
-- esporrado
-- esporro
-- estelionatario
-- estelionatário
-- estelionato
-- estupida
-- estúpida
-- estupidez
-- estupido
-- estúpido
-- fake
-- fdp
-- fedida
-- fedido
-- fedor
-- fedorenta
-- feia
-- feio
-- feiosa
-- feioso
-- feioza
-- feiozo
-- fela
-- filho da puta
-- fiofó
-- foda
-- fodao
-- fodão
-- fode
-- fodida
-- fodido
-- fornica
-- fudecao
-- fudeção
-- fudendo
-- fudida
-- fudido
-- fulera
-- fuleragem
-- golpista
-- gonorrea
-- gonorreia
-- gosmenta
-- gosmento
-- idiota
-- idiotas
-- idiotice
-- imbecil
-- inferno
-- iscrota
-- iscroto
-- kenga
-- ladra
-- ladrao
-- ladrão
-- ladroeira
-- ladrona
-- lalau
-- leprosa
-- leproso
-- lorota
-- ludibriacao
-- ludibriação
-- ludibriar
-- macaca
-- macaco
-- machona
-- machorra
-- malandragem
-- malandro
-- manguaca
-- manguaça
-- masturba
-- meleca
-- merda
-- mija
-- mijada
-- mijado
-- mijo
-- miserável
-- mocrea
-- mocréa
-- mocreia
-- mocréia
-- mondronga
-- mondrongo
-- nadega
-- nojeira
-- nojenta
-- nojento
-- nojo
-- otaria
-- otária
-- otario
-- otário
-- otarios
-- otários
-- paspalha
-- paspalhao
-- paspalhão
-- paspalho
-- páu
-- pau
-- peia
-- peido
-- pemba
-- penis
-- pênis
-- perereca
-- peru
-- perú
-- pica
-- picao
-- picão
-- picareta
-- picareta!
-- pilantra
-- pilantragem
-- piranha
-- piroca
-- piroco
-- piru
-- porra
-- pqp
-- prega
-- prostibulo
-- prostíbulo
-- prostituta
-- prostituto
-- punheta
-- punhetao
-- punhetão
-- puta
-- puto
-- puxasaco
-- puxa-saco
-- quenga
-- rabao
-- rabão
-- rabo
-- rabuda
-- rabudao
-- rabudão
-- rabudo
-- rabudona
-- racha
-- rachada
-- rachadao
-- rachadão
-- rachadinha
-- rachadinho
-- rachado
-- ramela
-- rapariga
-- remela
-- retardada
-- retardado
-- ridicula
-- ridícula
-- ridículo
-- rola
-- rolinha
-- rosca
-- sacana
-- sacanagem
-- saco
-- safada
-- safado
-- safados
-- salafrario
-- salafrário
-- sapatao
-- sapatão
-- sifilis
-- sífilis
-- siririca
-- tarada
-- tarado
-- testuda
-- tezao
-- tezão
-- tezuda
-- tezudo
-- toma no cu
-- tomar no cu
-- trocha
-- trolha
-- troucha
-- trouchas
-- trouxa
-- trouxas
-- troxa
-- vaca
-- vagabunda
-- vagabundo
-- veada
-- veadao
-- veadão
-- veado
-- verme
-- viada
-- viadao
-- viadão
-- viado
-- viados
-- vigario
-- vigário
-- xana
-- xaninha
-- xavasca
-- xerereca
-- xexeca
-- xibiu
-- xibumba
-- xochota
-- xota
-- xoxota
-
 ## intent:out_of_scope
 - onde está o diheiro
 - onde está o pablo vittar
@@ -342,8 +12,8 @@
 - como esta o tempo
 
 ## intent:despedir
-- Tchau obrigada
-- Tchau
+- tchau obrigada
+- tchau
 - até logo
 - namaste
 - sayonara
@@ -351,22 +21,15 @@
 - até breve
 - falou, valeu
 - flw vlw
-- blza
-- blz
-- valeu
-- massa
-- de boa
-- obrigada
-- obrigado
-- obj
-- obrigada, tais
-- tais, obrigado
+- até mais
+- até a próxima
 
 ## intent:cumprimentar
 - oi
 - olá
 - oie
 - oiee
+- opa
 - ola boa tarde
 - oi tais
 - ola tais, tudo bom
@@ -407,18 +70,9 @@
 - claro
 - confirmo
 - mais ou menos
+- me explique
 
 ## intent:negar
-- não sei onde a minha pergunta se encaixa
-- nao quero saber mais
-- quero falar sobre outra coisa
-- não quero saber de mais nada
-- nao era isso, me enganei
-- não quero falar sobre isso
-- ainda nao sei escolher um tópico
-- ainda não pensei sobre isso
-- nao sei do que quero falar
-- não sei do que quero conversar
 - nunca
 - nao
 - não
@@ -429,6 +83,19 @@
 - duvida
 - ainda não sei
 - nenhum
+
+## intent:negar_despedir
+- não sei onde a minha pergunta se encaixa
+- nao quero saber mais
+- quero falar sobre outra coisa
+- não quero saber de mais nada
+- nao era isso, me enganei
+- não quero falar sobre isso
+- ainda nao sei escolher um tópico
+- ainda não pensei sobre isso
+- nao sei do que quero falar
+- não sei do que quero conversar
+- nada
 
 ## intent:diga_mais
 - como funciona
@@ -455,13 +122,14 @@
 - lista de assuntos possiveis
 - quais as perguntas vc responde
 - quais as perquisar você responde
-- #MEAJUDA
-- MEAJDA
-- #meajuda
-- # me ajuda
-- MEAJUDA
+- quero ajuda
 - meajuda
+- meajude
+- MEAJUD
+- MEAJDA
 - me ajuda
+- me ajude
+- ajuda eu
 - ajuda
 - menu
 
@@ -536,3 +204,29 @@
 - voce respondeu errado
 - resposta errada
 - errou na resposta
+
+## intent: agradecimento
+- obrigada por me ajudar
+- obrigado por me ajudar
+- agradecido
+- agradecida
+- obrigada
+- obrigado
+- grato
+- grata
+- thanks
+- thank you
+- merci
+- gracias
+
+## intent: contato
+- quero falar com uma pessoa
+- quero entrar em contato
+- e-mails dúvidas
+- email duvidas
+- e-mail duvidas
+- contato perguntas
+- telefone duvidas
+- contato 
+- telefone
+- email

@@ -10,7 +10,9 @@ intents:
   - tudo_bem
   - elogios
   - tem_wpp
-  - expressoes_indesejadas
+  - negar_despedir
+  - agradecimento
+  - contato
 
   - captacao
   - captacao_quando_captar
@@ -113,10 +115,11 @@ templates:
           Se você já sabe isso é porque você já tem um conhecimento avançado e talvez eu não consiga sanar as suas dúvidas.
           Mas podemos continuar conversando sobre alguns conceitos básicos da Lei de Incentivo à Cultura =)
 
-  utter_expressoes_indesejadas:
+  utter_contato:
     - text: |
-          Hummm… Não gostei muito dessa expressão que você usou. 
-          Que tal falar de outra forma?
+          Para entrar em contato por meio do Suporte Salic bastante acessar este link:
+          http://leideincentivoacultura.cultura.gov.br/contato/
+          Para entrar em contato com o Ministério da Cidadania disque 121.
 
   utter_definicao_tais:
     - text: |
@@ -179,7 +182,9 @@ templates:
 
   utter_definicao_projeto:
     - text: |
-        Após a superação da análise de admissibilidade da proposta é gerado o número de PRONAC para definir o projeto cultural
+        Após a superação da análise de admissibilidade da proposta é gerado o número de PRONAC para definir o projeto cultural.
+        Aqui você pode consultar as propostas que foram aprovadas,
+        e algumas informações sobre os projetos, como o número de Pronac: http://versalic.cultura.gov.br/
 
   utter_definicao_proposta:
     - text: |
@@ -597,7 +602,7 @@ templates:
     - text: |
           Oi, sou assistente virtual da Secretaria Especial da Cultura, me chamo Tais.
           Estou aqui para te guiar na inscrição do seu projeto ou esclarecer algumas dúvidas sobre a Lei de Incentivo à Cultura,
-          para saber de quais assuntos podemos conversar use a #MEAJUDA.
+          para saber de quais assuntos podemos conversar use a MEAJUDA.
 
   utter_o_que_sei_falar:
     - text: |
@@ -689,7 +694,7 @@ templates:
     - text: |
           Podemos conversar sobre como submeter um projeto, as etapas, algumas dúvidas operacionais…
           Ou se você já tiver um projeto cadastrado, a gente pode falar sobre isso também.
-          Para lembrar dos assuntos que eu domino, é só digitar: #MEAJUDA :)
+          Para lembrar dos assuntos que eu domino, é só digitar: MEAJUDA
           E aí, por onde vamos começar?
 
 
@@ -750,6 +755,11 @@ templates:
           em especial para as camadas da população menos assistidas ou excluídas do exercício de seus diretos culturais
           por sua condição socioeconômica ou outras circunstancias.
 
+  utter_agradecimento:
+    - text: |
+          De nada, é sempre um prazer ajudar!
+          Qual o próximo assunto que te interessa?
+
 actions:
   - utter_default
   - utter_cumprimentar
@@ -763,7 +773,8 @@ actions:
   - utter_diga_mais
   - utter_elogios
   - utter_tem_wpp
-  - utter_expressoes_indesejadas
+  - utter_agradecimento
+  - utter_contato
 
   - utter_captacao
   - utter_captacao_quando_captar

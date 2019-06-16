@@ -9,14 +9,24 @@
 - como faço a proposta
 - como fazer uma proposta cultural
 - como fazer um projeto
+- cadastrar proposta
+- como submeter uma proposta
+- como faço para cadastrar meu projeto
+- como encaminhar a proposta
 - inscrevo uma proposta
 - inscrever uma proposta
+- link para cadastrar projetos
+- link para inserir projetos
+- login para inserir o projeto
 - enviar proposta
 - como faço para colocar um projeto na lei de incentivo
 - como incluir um projeto
 - como faço para incluir um projeto na lei
 - como posso propor um projeto
-- como propor um projeto 
+- como propor um projeto
+- cadastrar meu projeto
+- cadastrar minha proposta
+- encaminhar minha proposta
 - enviar projeto
 
 ## intent:processo_definicao_etapas
@@ -132,6 +142,7 @@
 - quando devo enviar a minha proposta
 - prazo para apresentar projeto
 - prazo para apresentar proposta
+- prazo de inserção de projetos
 - data de envio de projeto
 - data de envio de proposta
 - data para iniciar projeto
