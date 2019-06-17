@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /tutorial-como-treinar-o-modelo/
-title: Tutorial Como Treinar o Modelo
+title: Tutorial Como Configurar a Policy do chatbot
 ---
 
 Este tutorial tem como objetivo mostrar como funciona a configuração do treinamento de um *chatbot* contruido em **_Rasa_**, mostrando como funciona as **Policies**, suas características, e os hiperparâmetros necessários para configurá-las.
