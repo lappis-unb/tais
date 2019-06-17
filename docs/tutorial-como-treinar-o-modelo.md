@@ -1,6 +1,6 @@
 ---
 layout: page
-permalink: /tutorial-como-o-modelo/
+permalink: /tutorial-como-treinar-o-modelo/
 title: Tutorial Como Treinar o Modelo
 ---
 
@@ -14,6 +14,8 @@ As informações mais detalhadas sobre as policies podem ser encontradas na [doc
 Na arquitetura do *Rasa* as policies são aquelas que recebem as intenções do usuários, já identificadas pelo *chatbot*, e a partir dessa informação determina qual ação será toma a seguir. Sem grande rigor, a **Policy** é a estrutura de rede neural, na qual recebe a entrada identificada como por exemplo `ìntent_cumprimentar` e preve qual será a resposta do *bot*, usando como base os exemplos de conversas.
 
 O *Rasa* possue várias policies implementadas e também suporte para construção de policy customizada. As que serão detalhadas neste documento são as **Keras Policy**, **Memoization Policy**, **Embedding Policy** e **Fallback Policy**.
+
+No arquivo `policies_config.yml`, ou `config.yml` é definido a sequência de prioridades das policies a ser executada. Normalmente, a **Memoization Policy** é a que tem maior prioridade, pois avalia se existe um storie seguindo exatamente a conversa intepretada, e a **Fallback Policy** é a que age se todas as outras não atingirem o nível de confiança adequado.
 
 ### Keras Policy
 
