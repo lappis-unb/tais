@@ -79,6 +79,12 @@ Já as **Trackers Featurizers** itera pelos trackers states e chama o SingleStat
 
 Algumas configurações utilizadas pela Tais, com base nas policies apresentadas. Lembrando que os valores de **threshold**, **augmentation**, **MaxHistoryTrackerFeaturizer** e entre outros, dependem do contexto que o bot trabalha e sempre é bom analisar a confiança e acurácia, para assim mudar os valores, se necessário.
 
+Outra variável importante de se olhar para ver se todos os hiperparâmetros estão ajustados corretamente é o **loss**. Para sabe qual é o melhor número de épocas (*epoches*) o ideal é o maior valor de acurácia e menor valor de *loss*, indicando a maior precisão da rede neural e do seu bot. 
+
+Só que deve-se levar em conta quão diferente esse valores ficaram, entre uma época e outra, pois se não acontecer uma redução significativa de loss e um aumento de acurácia, pode chegar ao *overfitting* da sua rede, e o bot ficar bom somente em casos específicos e não ser preciso em casos generalizados.
+
+Resumindo, observe o loss e a acurácia, ajuste a época com um valor onde o loss é minimo e a acurácia é máxima, mas quando ainda ocorrer diferenças significativas entre uma época e outra.
+
 ### Keras + Memoization + Fallback
 
 * Em **policies_config.yml**
