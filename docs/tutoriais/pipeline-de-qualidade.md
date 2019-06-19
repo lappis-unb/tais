@@ -1,6 +1,6 @@
 ---
 layout: page
-permalink: /pipeline-de-qualidade/
+permalink: /tutoriais/pipeline-de-qualidade/
 title: Pipeline de qualidade
 ---
 

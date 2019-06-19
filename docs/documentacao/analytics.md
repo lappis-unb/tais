@@ -1,6 +1,6 @@
 ---
 layout: page
-permalink: /analytics/
+permalink: /documentacao/analytics/
 title: Analytics
 ---
 

@@ -1,6 +1,6 @@
 ---
 layout: page
-permalink: /arquitetura/
+permalink: /documentacao/arquitetura/
 title: Arquitetura
 ---
 A arquitetura geral do framework desenvolvido pelo Laboratório é mostrado na figura abaixo. Foi desenvolvido com a Licença AGPL3.

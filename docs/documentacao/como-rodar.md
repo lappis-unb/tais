@@ -1,6 +1,6 @@
 ---
 layout: page
-permalink: /como-rodar/
+permalink: /documentacao/como-rodar/
 title: Como rodar a Tais em seu computador
 ---
 
