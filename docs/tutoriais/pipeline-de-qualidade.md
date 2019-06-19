@@ -40,11 +40,11 @@ Solução proposta: Pode-se utilizar a funcionalidade de [evaluation](https://ra
 
 Dentro da TAIS foi adicionada mais uma camada de testes com um [script para melhoria da visualização dos testes](https://github.com/lappis-unb/tais/blob/master/bot/test_stories.py). Onde é possível ver no *console* quais são as *intents* e *utters* que falharam. Isso permite que a equipe de desenvolvimento possa identificar diretamente os pontos onde a acurácia do *bot* não está tão boa ou o comportamento não está sendo o esperado.
 
-![](./assets/teste_quebrado.png)
+![](../../assets/teste_quebrado.png)
 
 Ao fim desse *script* é exibido um log das histórias que falharam dentro de cada um dos arquivos.
 
-![](./assets/teste_resultado.png)
+![](../../assets/teste_resultado.png)
 
 # Utilização do Pipeline
 
