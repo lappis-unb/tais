@@ -53,6 +53,7 @@ intents:
   - lei_rouanet_divulgacao_patrocinio
   - lei_rouanet_receber_incetivo_de_parentes
   - lei_rouanet_democratizacao
+  - lei_rouanet_remanejamento
 
   - processo_como_funciona
   - processo_definicao_etapas
@@ -755,6 +756,18 @@ templates:
           em especial para as camadas da população menos assistidas ou excluídas do exercício de seus diretos culturais
           por sua condição socioeconômica ou outras circunstancias.
 
+  utter_lei_rouanet_remanejamento:
+    - text: |
+          Olha eu dei uma pesquisada e descobri que para fazer o remanejamento você não precisa de análise e aprovação do Minc,
+          Mas tem que ficar de olho nos requisitos. Vou listar os requisitos para o remanejamento de até 50%:
+          1 - O período de execução do projeto está vigente
+          2 - A conta esta liberada
+          3 - ter captado no mínimo 20% do valor aprovado no Incentivo Fiscal
+          4 - A planilha de readequação orçamentária não pode estar sendo editada ou em análise
+          5 - Não pode haver remanejamento sobre itens que já sofreram remanejamento no limite dos 50%
+          6 - Nao pode ocorrer remanejamento em itens que foram incluídos na primeira adequação orçamentária
+          7 - Não pode alterar a etapa de custos vinculados (remuneração para captação de recurso, custos de administração do projeto, custos de divulgação de projeto)
+
   utter_agradecimento:
     - text: |
           De nada, é sempre um prazer ajudar!
@@ -815,6 +828,7 @@ actions:
   - utter_lei_rouanet_decisao_final
   - utter_lei_rouanet_divulgacao_patrocinio
   - utter_lei_rouanet_democratizacao
+  - utter_lei_rouanet_remanejamento
 
   - utter_processo_reativacao_de_proposta
   - utter_processo_prazo
