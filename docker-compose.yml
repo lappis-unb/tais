@@ -69,7 +69,7 @@ services:
     image: postgres:10.5
     restart: unless-stopped
     volumes:
-      - ./web/postgres-data:/var/lib/postgresql/data
+      - web_db:/var/lib/postgresql/data
 
   # =================================== Kibana-Web ===================================
   kibana-web:
@@ -169,6 +169,7 @@ services:
 
 
 volumes:
+  web_db:
   esdata:
     driver: local
   esbackup:
