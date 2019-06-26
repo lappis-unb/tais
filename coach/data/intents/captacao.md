@@ -36,6 +36,8 @@
 - posso terceirizar a captacao de recursos
 - o proponente pode receber dinheiro
 - quanto o proponete pode ser pago
+- gostaria de saber como captar
+- onde acho os patrocinadores
 - como funciona a captação
 - proponente captação
 - proponente dinheiro
