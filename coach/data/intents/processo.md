@@ -1,5 +1,17 @@
 <!-- Processo -->
 ## intent:processo_como_funciona
+- cadastrar projeto
+- regulamento para inscrição de obras
+- quero cadastrar um projeto como devo proceder
+- como cadastrar projeto?
+- cadastrar minha empresa
+- quero cadastrar um projeto
+- quero cadastrar meu projeto
+- inscrição
+- como consigo financiamento para meu projeto
+- como se dá o financiamento de projetos
+- orientações para elaborar um projeto
+- como montar um projeto
 - como funciona o processo
 - como funciona a lei rouanet
 - como faço para enviar um projeto
@@ -230,6 +242,7 @@
 - qual é o prazo de prestação de contas
 - posso prorrogar a entrega da prestação de contas
 - posso fazer prorrogação para a entrega de contas
+- prorrogação de prazos de prestação de contas
 - posso prorrogar a prestação e contas
 - como prorrogar a prestação de contas
 - périodo prestação de contas

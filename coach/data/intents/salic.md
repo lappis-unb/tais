@@ -23,6 +23,7 @@
 - como realizar cadastro de proponentes
 
 ## intent:salic_recuperacao_de_senha
+- como eu faço para recuperar meu cadastro
 - não me recordo da senha de acesso
 - não consigo acessar meus dados do salic
 - não consigo acessar o salic
@@ -157,6 +158,9 @@
 
 ## intent:salic_preenchimento_cadastro_agencia_bancaria
 - preciso ter conta corrente no banco do brasil
+- eu já preciso de uma conta no banco do brasil para inscrever o projeto?
+- preciso de uma conta bancária?
+- preciso de uma conta no banco do brasil
 - agência bancária inválida
 - o sistema indica agência inválida
 - cadastrar minha agência bancária
