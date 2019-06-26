@@ -150,7 +150,9 @@
 - se eu incentivar eu vou ter dedução no meu imposto de renda
 - sou incentivador quanto posso receber como dedução de imposto de renda
 - os patrocinadores de projetos recebem
-- porcentagem do valor arrecadado 
+- porcentagem do valor arrecadado
+- artigo 26
+- art 26
 - imposto de renda
 - imposto
 - dedução
@@ -314,7 +316,7 @@
 - a marca do patrocinador pode ser divulgada
 - como o patrocinador pode usar o projeto para promover a sua marca
 - a logo do patrocinador pode ser divulgada
-- posso divulgar a logo do patrocinador
+- eu posso divulgar a logo do patrocinador
 - a logo do patrocinador pode ficar visivel
 - posso colocar a logo do patrocinador no banner
 - a marca do patrocinador pode ser divulgada junto com o projeto
@@ -423,7 +425,9 @@
  - quantidade maxima de projetos
  - quantidade maxima de propostas
  - total de projetos em meu nome
- - quantos projetos o proponente pode inscrever
+ - de quanto é o financiamento
+ - qual é o valor do financiamento
+ - Quantos projetos o proponente pode inscrever
  - valor maximo por ano
  - quantidade maxima
  - valor maximo

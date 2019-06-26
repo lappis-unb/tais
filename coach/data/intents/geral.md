@@ -69,6 +69,7 @@
 - claro
 - confirmo
 - mais ou menos
+- me explique
 
 ## intent:negar
 - nunca
@@ -145,6 +146,8 @@
 - esta tudo bem com você, Tais
 
 ## intent:quem_criou_a_tais
+- como você foi construida
+- como voce foi construída
 - quem te criou
 - quem te desenvolveu
 - quem te programou
@@ -202,3 +205,33 @@
 - voce respondeu errado
 - resposta errada
 - errou na resposta
+
+## intent: agradecimento
+- perfeito muito agradecido
+- obrigado tirou minhas duvidas
+- obrigada por me ajudar
+- obrigado por me ajudar
+- agradecido
+- agradecida
+- obrigada
+- obrigado
+- grato
+- grata
+- thanks
+- thank you
+- merci
+- gracias
+
+## intent: contato
+- quero falar com uma pessoa
+- eu preciso de um telefone de contato
+- telefone de contato
+- quero entrar em contato
+- e-mails dúvidas
+- email duvidas
+- e-mail duvidas
+- contato perguntas
+- telefone duvidas
+- contato 
+- telefone
+- email
