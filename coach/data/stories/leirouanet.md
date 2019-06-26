@@ -439,3 +439,7 @@
 ## LeiRouanet 42
 * lei_rouanet_quantidade_de_projetos_este_ano
     - utter_lei_rouanet_quantidade_de_projetos_este_ano
+
+## Lei Rounet 43
+* lei_rouanet_remanejamento
+    - utter_lei_rouanet_remanejamento

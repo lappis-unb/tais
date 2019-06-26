@@ -564,3 +564,24 @@
 - formação de plateia
 - democratizacao
 - plateia
+
+## intent:lei_rouanet_remanejamento
+- como realizar o remanejamento <50% autorizado pelo minc
+- como fazer o remanejamento <50% autorizado pelo minC
+- como realizar um remanejamento orçamentário até 50%
+- como faço o remanejamento <50% autorizado pelo minC
+- como fazer o remanejamento até 50% pelo minc
+- como realizar um remanejamento orçamentário
+- como realizar o remanejamento até 50% pelo minc
+- como o remanejamento até 50% pelo minc
+- como funciona o remanejamento até 50%
+- remanejamento menor que 50%
+- remanejamento orçamentário
+- remanejamento orgamentario
+- como fazer remanejamento
+- como faço remanejamento
+- fazer remanejamento
+- faço remanejamento
+- remanejamento até 50%
+- remanejamento <50%
+- remanejamento 50%
