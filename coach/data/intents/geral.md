@@ -235,3 +235,25 @@
 - contato 
 - telefone
 - email
+
+## intent:endereco
+- quero saber o endereço da Secretaria Especial da Cultura
+- quero saber o endereco da Secretaria Especial da Cultura
+- como faço pra chegar na Secretaria Especial da Cultura
+- como faco pra chegar na Secretaria Especial da Cultura
+- qual o endereço da Secretaria Especial da Cultura
+- qual o endereco da Secretaria Especial da Cultura
+- me diz o endereço da Secretaria Especial da Cultura
+- me fala o endereço da Secretaria Especial da Cultura
+- endereço Secretaria Especial da Cultura
+- endereco Secretaria Especial da CUltura
+- qual o endereço do minc
+- qual o endereco do Minc
+- endereço Secretaria
+- endereco Secretaria
+- qual endereço
+- qual endereco
+- endereço minc
+- endereco minc
+- endereço
+- endereco

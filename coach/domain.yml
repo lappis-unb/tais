@@ -13,6 +13,7 @@ intents:
   - negar_despedir
   - agradecimento
   - contato
+  - endereco
 
   - captacao
   - captacao_quando_captar
@@ -122,6 +123,10 @@ templates:
           Para entrar em contato por meio do Suporte Salic bastante acessar este link:
           http://leideincentivoacultura.cultura.gov.br/contato/
           Para entrar em contato com o Ministério da Cidadania disque 121.
+
+  utter_endereco:
+    - text: |
+          A Secretaria Especial da Cultura fica no Edifício Sede na Esplanada dos Ministérios, Bloco B.
 
   utter_definicao_tais:
     - text: |
@@ -795,6 +800,7 @@ actions:
   - utter_tem_wpp
   - utter_agradecimento
   - utter_contato
+  - utter_endereco
 
   - utter_captacao
   - utter_captacao_quando_captar
