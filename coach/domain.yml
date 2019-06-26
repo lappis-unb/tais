@@ -30,6 +30,7 @@ intents:
 
   - lei_rouanet_o_que_eh
   - lei_rouanet_quantidade_de_projetos
+  - lei_rouanet_quantidade_de_projetos_este_ano
   - lei_rouanet_beneficios_incentivo_projetos_culturais
   - lei_rouanet_quem_pode_ser_proponente
   - lei_rouanet_origem_do_dinheiro
@@ -283,6 +284,12 @@ templates:
           Além disso, mais de 69.000 fornecedores foram contratados pelos proponentes.
 
           Para consultar os projetos que já participaram, acesse: http://versalic.cultura.gov.br/
+
+  utter_lei_rouanet_quantidade_de_projetos_este_ano:
+    - text: |
+          Para consultar os projetos que foram aprovados este ano,
+          ou em alguma outra data específica,
+          acesse: http://versalic.cultura.gov.br/
 
   utter_lei_rouanet_beneficios_incentivo_projetos_culturais:
     - text: |
@@ -792,6 +799,7 @@ actions:
 
   - utter_lei_rouanet_o_que_eh
   - utter_lei_rouanet_quantidade_de_projetos
+  - utter_lei_rouanet_quantidade_de_projetos_este_ano
   - utter_lei_rouanet_beneficios_incentivo_projetos_culturais
   - utter_lei_rouanet_quem_pode_ser_proponente
   - utter_lei_rouanet_origem_do_dinheiro

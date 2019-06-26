@@ -190,6 +190,29 @@
 - numero de projetos
 - aprovados
 
+## intent:lei_rouanet_quantidade_de_projetos_este_ano
+- quantos projetos foram aprovados este ano
+- quantidade de projetos aprovados este ano
+- projetos aprovados em 2019
+- projetos aprovados em 2018
+- projetos aprovados em 2017
+- projetos aprovados em 2016
+- projetos aprovados em 2015
+- projetos aprovados em 2014
+- projetos aprovados em 2013
+- projetos aprovados em 2012
+- projetos aprovados este ano
+- propostas aprovadas este ano
+- aprovados este ano
+- aprovados em 2019
+- aprovados em 2018
+- aprovados em 2017
+- aprovados em 2016
+- aprovados em 2015
+- aprovados em 2014
+- aprovados em 2013
+- aprovados em 2012
+
 ## intent:lei_rouanet_quem_pode_incentivar
 - qualquer empresa pode se beneficiar de incentivos fiscais, apoiando projetos culturais
 - quais empresas podem se beneficiar ao apoiar projetos culturais
@@ -396,6 +419,7 @@
  - ha um valor maximo por projeto
  - existe valor maximo para minha proposta
  - meu projeto pode chegar a que valor
+ - quantos projetos pode ter pela lei de incentivo
  - valor maximo de projeto
  - valor maximo de proposta
  - quantidade maxima de projetos

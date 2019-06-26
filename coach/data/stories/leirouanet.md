@@ -435,3 +435,7 @@
     - utter_processo_como_funciona
 * negar
     - utter_continuar_conversa
+
+## LeiRouanet 42
+* lei_rouanet_quantidade_de_projetos_este_ano
+    - utter_lei_rouanet_quantidade_de_projetos_este_ano

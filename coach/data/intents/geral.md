@@ -12,7 +12,6 @@
 - como esta o tempo
 
 ## intent:despedir
-- tchau obrigada
 - tchau
 - até logo
 - namaste
