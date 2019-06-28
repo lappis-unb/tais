@@ -38,6 +38,7 @@
 - lei adnet
 
 ## intent:lei_rouanet_quem_pode_ser_proponente
+- quais sao as peculiaridades do proponente da Lei de Incentivo a cultura
 - quem pode se inscrever na lei rouanet
 - quem pode participar
 - quem pode submeter projetos
@@ -76,6 +77,8 @@
 - como me inscrever
 - como me tornar proponente
 - é necessário comprovar experiência cultural para ser proponente
+- para submeter um projeto é preciso ter experiência na área
+- é preciso ter experiência na área
 - minha empresa pode ser proponente
 - mei pode ser proponente
 - tenho uma banda de musica posso propor um projeto 
@@ -151,8 +154,10 @@
 - sou incentivador quanto posso receber como dedução de imposto de renda
 - os patrocinadores de projetos recebem
 - porcentagem do valor arrecadado
+- artigo 18
 - artigo 26
 - art 26
+- art 18
 - imposto de renda
 - imposto
 - dedução
@@ -355,7 +360,6 @@
 
 ## intent:lei_rouanet_etapas_aprovacao_projeto
  - quais as etapas de aprovação de um projeto
- - Andamento do projeto
  - o que tenho que fazer pra aprovar meu projeto
  - que passos tenho que fazer durante a criação do projeto
  - o que eu tenho que fazer pra ser aprovado na lei rouanet
@@ -365,8 +369,12 @@
  - como funciona o processe de analise da proposta
  - por onde a proposta passa para ser aprovada
  - quem analisa a proposta de projeto ate a decisão final
+ - quanto tempo demora a analise
+ - tempo de análise
+ - tempo de analise
  - etapas projeto
  - passos submissao
+ - Andamento do projeto
  - decisao final proposta
  - etapas analise proposta
 

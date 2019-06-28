@@ -211,6 +211,8 @@
 - obrigado tirou minhas duvidas
 - obrigada por me ajudar
 - obrigado por me ajudar
+- obrigada, tais
+- obrigado, tais
 - agradecido
 - agradecida
 - obrigada
@@ -223,10 +225,18 @@
 - gracias
 
 ## intent: contato
+- algum telefone que eu possa entrar em contato
+- necessito de um telefone para falar sobre a lei rouanet
+- pode me mandar um telefone para eu falar com alguma pessoa
+- vc pode me mandar um telefone de alguém
+- quero falar no telefone com alguém
 - quero falar com uma pessoa
 - eu preciso de um telefone de contato
 - telefone de contato
 - quero entrar em contato
+- me mande o telefone
+- telefone de alguém
+- telefone de alguma pessoa
 - e-mails dúvidas
 - email duvidas
 - e-mail duvidas

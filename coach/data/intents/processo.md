@@ -1,13 +1,10 @@
 <!-- Processo -->
 ## intent:processo_como_funciona
-- cadastrar projeto
 - regulamento para inscrição de obras
 - quero cadastrar um projeto como devo proceder
-- como cadastrar projeto?
-- cadastrar minha empresa
-- quero cadastrar um projeto
-- quero cadastrar meu projeto
-- inscrição
+- onde eu apresento um projeto para o fundo nacional de cultura
+- como faço para enviar um projeto para o fundo nacional de cultura
+- preciso de ajuda para submeter um projeto
 - como consigo financiamento para meu projeto
 - como se dá o financiamento de projetos
 - orientações para elaborar um projeto
@@ -22,26 +19,40 @@
 - como fazer uma proposta cultural
 - como fazer um projeto
 - cadastrar proposta
+- não consigo cadastrar-me
+- quero cadastrar um projeto
+- quero cadastrar meu projeto
+- como cadastrar projeto
+- como cadastrar projetos
+- cadastrar projeto
+- cadastrar minha empresa
+- quero cadastrar projeto
 - como submeter uma proposta
 - como faço para cadastrar meu projeto
 - como encaminhar a proposta
-- inscrevo uma proposta
-- inscrever uma proposta
-- link para cadastrar projetos
-- link para inserir projetos
-- login para inserir o projeto
-- enviar proposta
 - como faço para colocar um projeto na lei de incentivo
 - como incluir um projeto
 - como faço para incluir um projeto na lei
 - como posso propor um projeto
 - como propor um projeto
+- encaminhar minha proposta
+- encaminhar proposta
 - cadastrar meu projeto
 - cadastrar minha proposta
-- encaminhar minha proposta
+- link para cadastrar projetos
+- link para inserir projetos
+- login para inserir o projeto
+- inscrevo uma proposta
+- inscrever uma proposta
+- enviar proposta
 - enviar projeto
+- cadastrar-me
+- inscrição
 
 ## intent:processo_definicao_etapas
+- gostaria de saber o passo a passo na elaboração do projeto
+- passo a passo projeto
+- passo a passo etapas projeto
 - fale sobre a definição das etapas
 - quantas etapas tem
 - me fale sobre as etapas
@@ -145,13 +156,19 @@
 - solicitar prorrogação de prazo
 
 ## intent: processo_prazo_apresentar_proposta
+- qual é o prazo para inscrever projeto no Salic
 - qual a data para apresentar um projeto
 - qual a data para apresentar uma proposta
 - qual a data para apresentação de projeto
 - qual a data para apresentação de proposta
+- qual o prazo para inscriçao
+- qual o prazo para inscrição
+- qual o prazo para inscricao
 - qual o prazo
 - quando devo enviar meu projeto
 - quando devo enviar a minha proposta
+- prazo de encerramento edital salic
+- prazo para inscrição de projeto
 - prazo para apresentar projeto
 - prazo para apresentar proposta
 - prazo de inserção de projetos
@@ -160,9 +177,9 @@
 - data para iniciar projeto
 - data para inciar proposta
 - data para inscrição de projeto
-- prazo para inscrição de projeto
 - data para apresentar projeto
 - data para apresentar proposta
+- o salic está com as inscrições abertas
 - apresentacao de projeto
 - apresentacao de proposta
 - apresentação de projeto
