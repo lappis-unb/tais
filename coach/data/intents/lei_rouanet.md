@@ -585,3 +585,26 @@
 - remanejamento até 50%
 - remanejamento <50%
 - remanejamento 50%
+
+## intent:lei_rouanet_edital
+- onde encontro a instrução Normativa em vigor 
+- instrução normativa vigente
+- instrução normativa em vigor
+- normativa em vigor
+- normativa vigente
+- instrução normativa n° 2
+- instrucao normativa n° 2
+- instrução normativa número 2
+- acessar a instrução normativa
+- acessar normativa lei rouanet
+- lei de incentivo à cultura atualizada
+- lei rouanet atualizada
+- quero imprimir a lei
+- saiu algum edital da cultura
+- tem algum edital aberto
+- edital da lei de incentivo à cultura
+- edital da lei rouanet
+- edital da cultura
+- edital da lei
+- edital aberto
+- edital

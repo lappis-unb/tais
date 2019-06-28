@@ -56,6 +56,7 @@ intents:
   - lei_rouanet_receber_incetivo_de_parentes
   - lei_rouanet_democratizacao
   - lei_rouanet_remanejamento
+  - lei_rouanet_edital
 
   - processo_como_funciona
   - processo_definicao_etapas
@@ -780,6 +781,14 @@ templates:
           6 - Nao pode ocorrer remanejamento em itens que foram incluídos na primeira adequação orçamentária
           7 - Não pode alterar a etapa de custos vinculados (remuneração para captação de recurso, custos de administração do projeto, custos de divulgação de projeto)
 
+  utter_lei_rouanet_edital:
+    - text: |
+          A Instrução Normativa vigente Estabelece procedimentos para apresentação, 
+          recebimento, análise, homologação, execução, acompanhamento, prestação de contas e 
+          avaliação de resultados de projetos culturais ﬁnanciados por meio do mecanismo de Incentivo Fiscal do Programa Nacional de Apoio à Cultura (Pronac).
+          Para consultar a Legislação completa da Lei de Incentivo à Cultura,
+          acesse: http://leideincentivoacultura.cultura.gov.br/legislacao/
+
   utter_agradecimento:
     - text: |
           De nada, é sempre um prazer ajudar!
@@ -843,6 +852,7 @@ actions:
   - utter_lei_rouanet_divulgacao_patrocinio
   - utter_lei_rouanet_democratizacao
   - utter_lei_rouanet_remanejamento
+  - utter_lei_rouanet_edital
 
   - utter_processo_reativacao_de_proposta
   - utter_processo_prazo
