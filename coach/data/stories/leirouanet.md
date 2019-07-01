@@ -448,8 +448,18 @@
 * lei_rouanet_edital
     - utter_lei_rouanet_edital
 
-## lei Rpuanet 45
+## Lei Rouanet 45
 * cumprimentar
     - utter_cumprimentar
 * lei_rouanet_edital
     - utter_lei_rouanet_edital
+
+## Lei Rouanet 46
+* lei_rouanet_recibo_mecenato
+    - utter_lei_rouanet_recibo_mecenato
+
+## Lei Rouanet 47
+* cumprimentar
+    - utter_cumprimentar
+* lei_rouanet_recibo_mecenato
+    - utter_lei_rouanet_recibo_mecenato
