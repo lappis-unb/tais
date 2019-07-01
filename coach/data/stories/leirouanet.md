@@ -436,10 +436,20 @@
 * negar
     - utter_continuar_conversa
 
-## LeiRouanet 42
+## Lei Rouanet 42
 * lei_rouanet_quantidade_de_projetos_este_ano
     - utter_lei_rouanet_quantidade_de_projetos_este_ano
 
-## Lei Rounet 43
+## Lei Rouanet 43
 * lei_rouanet_remanejamento
     - utter_lei_rouanet_remanejamento
+
+## Lei Rouanet 44
+* lei_rouanet_edital
+    - utter_lei_rouanet_edital
+
+## lei Rpuanet 45
+* cumprimentar
+    - utter_cumprimentar
+* lei_rouanet_edital
+    - utter_lei_rouanet_edital

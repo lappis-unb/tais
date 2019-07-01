@@ -65,6 +65,7 @@
 - o que é Projeto
 - o que significa Projeto
 - como caracteriza um projeto
+- lista de todos os projetos realizados pela Lei de incentivo
 - como consulto os projetos aprovados
 - consultar projetos aprovados
 - projetos aprovados
@@ -73,6 +74,8 @@
 - numero de pronac
 - por que é um projeto
 - consultar projetos
+- projetos realizados pela lei de incentivo
+- lista de todos os projetos
 - projeto aprovado
 - proposta aprovada
 - projeto cultural

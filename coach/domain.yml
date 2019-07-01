@@ -13,6 +13,7 @@ intents:
   - negar_despedir
   - agradecimento
   - contato
+  - endereco
 
   - captacao
   - captacao_quando_captar
@@ -55,6 +56,7 @@ intents:
   - lei_rouanet_receber_incetivo_de_parentes
   - lei_rouanet_democratizacao
   - lei_rouanet_remanejamento
+  - lei_rouanet_edital
 
   - processo_como_funciona
   - processo_definicao_etapas
@@ -122,6 +124,10 @@ templates:
           Para entrar em contato por meio do Suporte Salic bastante acessar este link:
           http://leideincentivoacultura.cultura.gov.br/contato/
           Para entrar em contato com o Ministério da Cidadania disque 121.
+
+  utter_endereco:
+    - text: |
+          A Secretaria Especial da Cultura fica no Edifício Sede na Esplanada dos Ministérios, Bloco B.
 
   utter_definicao_tais:
     - text: |
@@ -610,7 +616,7 @@ templates:
     - text: |
           Oi, sou assistente virtual da Secretaria Especial da Cultura, me chamo Tais.
           Estou aqui para te guiar na inscrição do seu projeto ou esclarecer algumas dúvidas sobre a Lei de Incentivo à Cultura,
-          para saber de quais assuntos podemos conversar use a MEAJUDA.
+          para saber de quais assuntos podemos conversar digite MEAJUDA.
 
   utter_o_que_sei_falar:
     - text: |
@@ -775,6 +781,14 @@ templates:
           6 - Nao pode ocorrer remanejamento em itens que foram incluídos na primeira adequação orçamentária
           7 - Não pode alterar a etapa de custos vinculados (remuneração para captação de recurso, custos de administração do projeto, custos de divulgação de projeto)
 
+  utter_lei_rouanet_edital:
+    - text: |
+          A Instrução Normativa vigente Estabelece procedimentos para apresentação, 
+          recebimento, análise, homologação, execução, acompanhamento, prestação de contas e 
+          avaliação de resultados de projetos culturais ﬁnanciados por meio do mecanismo de Incentivo Fiscal do Programa Nacional de Apoio à Cultura (Pronac).
+          Para consultar a Legislação completa da Lei de Incentivo à Cultura,
+          acesse: http://leideincentivoacultura.cultura.gov.br/legislacao/
+
   utter_agradecimento:
     - text: |
           De nada, é sempre um prazer ajudar!
@@ -795,6 +809,7 @@ actions:
   - utter_tem_wpp
   - utter_agradecimento
   - utter_contato
+  - utter_endereco
 
   - utter_captacao
   - utter_captacao_quando_captar
@@ -837,6 +852,7 @@ actions:
   - utter_lei_rouanet_divulgacao_patrocinio
   - utter_lei_rouanet_democratizacao
   - utter_lei_rouanet_remanejamento
+  - utter_lei_rouanet_edital
 
   - utter_processo_reativacao_de_proposta
   - utter_processo_prazo
