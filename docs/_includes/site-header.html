@@ -34,7 +34,7 @@
                 {% if my_page.title %}
                   {% if my_page.title contains "404" %}
                   {% else %}
-                    {%if my_page.url contains "/tutoriais" %}
+                    {%if my_page.url contains "/tutoriais" and my_page.title != "Tutoriais" %}
                       <a  href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a>
                     {% endif %}
                   {% endif %}
