@@ -439,27 +439,33 @@
 ## Lei Rouanet 42
 * lei_rouanet_quantidade_de_projetos_este_ano
     - utter_lei_rouanet_quantidade_de_projetos_este_ano
+    - utter_continuar_conversa
 
 ## Lei Rouanet 43
 * lei_rouanet_remanejamento
     - utter_lei_rouanet_remanejamento
+    - utter_continuar_conversa
 
 ## Lei Rouanet 44
 * lei_rouanet_edital
     - utter_lei_rouanet_edital
+    - utter_continuar_conversa
 
 ## Lei Rouanet 45
 * cumprimentar
     - utter_cumprimentar
 * lei_rouanet_edital
     - utter_lei_rouanet_edital
+    - utter_continuar_conversa
 
 ## Lei Rouanet 46
 * lei_rouanet_recibo_mecenato
     - utter_lei_rouanet_recibo_mecenato
+    - utter_continuar_conversa
 
 ## Lei Rouanet 47
 * cumprimentar
     - utter_cumprimentar
 * lei_rouanet_recibo_mecenato
     - utter_lei_rouanet_recibo_mecenato
+    - utter_continuar_conversa
