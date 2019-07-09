@@ -84,7 +84,6 @@
 - tenho uma banda de musica posso propor um projeto 
 - agente publico pode enviar propostas
 - elegibilidade
-- inscrever
 - participar
 - usar a lei
 
