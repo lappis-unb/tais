@@ -42,12 +42,14 @@
 - link para cadastrar projetos
 - link para inserir projetos
 - login para inserir o projeto
+- por onde inscrevo
 - inscrevo uma proposta
 - inscrever uma proposta
 - enviar proposta
 - enviar projeto
 - cadastrar-me
 - inscrição
+- inscrever
 
 ## intent:processo_definicao_etapas
 - gostaria de saber o passo a passo na elaboração do projeto
@@ -244,6 +246,9 @@
 - readequacao
 
 ## intent:processo_prazo_periodo_captacao
+- quando é expirado o prazo para captação total
+- qual prazo para a captação total
+- quanto tempo para captar
 - periodo de captacao
 - prazo de captacao
 - captacao, qual é o prazo
