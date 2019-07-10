@@ -233,6 +233,8 @@
 - tem alguma execeção para uma empresa não utilizar a lei rouanet
 - quais a regras de elegibilidade no caso de empresas
 - empresa
+- empresas podem se beneficiar
+- empresa se beneficiar
 - elegibilidade como pessoa juridica
 - participação empresa
 - corporação

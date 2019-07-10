@@ -743,7 +743,6 @@ templates:
   utter_processo_prazo_periodo_captacao:
     - text: |
           Em relação ao prazo de captação, são 36 meses a partir da data da publicação da portaria de autorização.
-          Fique atento, pois  não é possível prorrogar o prazo para recurso na prestação de contas por omisao.
 
   utter_processo_prazo_prestacao_contas:
     - text: |
