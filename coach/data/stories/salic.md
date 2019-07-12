@@ -90,3 +90,13 @@
 * salic_recuperacao_de_senha
     - utter_salic_recuperacao_de_senha
     - utter_continuar_conversa
+
+## salic 16
+* salic_preenchimento_planilha_orcamentaria
+    - utter_salic_preenchimento_planilha_orcamentaria
+    - utter_continuar_conversa
+
+## salic 17
+* salic_preenchimento_cadastro_fornecedor
+    - utter_salic_preenchimento_cadastro_fornecedor
+    - utter_continuar_conversa
