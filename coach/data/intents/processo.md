@@ -42,12 +42,14 @@
 - link para cadastrar projetos
 - link para inserir projetos
 - login para inserir o projeto
+- por onde inscrevo
 - inscrevo uma proposta
 - inscrever uma proposta
 - enviar proposta
 - enviar projeto
 - cadastrar-me
 - inscrição
+- inscrever
 
 ## intent:processo_definicao_etapas
 - gostaria de saber o passo a passo na elaboração do projeto
@@ -106,24 +108,13 @@
 - execucao
 
 ## intent:processo_analise_de_resultados
+- o que devo fazer no análise de resultados
 - o que é análise de resultados
-- o que é prestação de contas
 - sobre análise de resultados
-- sobre prestação de contas
 - defina análise de resultados
 - defina prestação de contas
-- o que devo fazer no análise de resultados
-- o que devo fazer no prestação de contas
-- tenho algumas duvidas sobre prestaçao de contas
-- prestaçao de contas
-- prestacao de contas
 - analise de resultados
-- o que é prestação de contas
-- como prestar contas
-- fazer prestação de contas
-- como funciona a prestação de contas
-- prestar contas
-- prestação de contas
+
 
 ## intent:processo_reativacao_de_proposta
 - posso encaminhar pedido de reativação
@@ -244,6 +235,9 @@
 - readequacao
 
 ## intent:processo_prazo_periodo_captacao
+- quando é expirado o prazo para captação total
+- qual prazo para a captação total
+- quanto tempo para captar
 - periodo de captacao
 - prazo de captacao
 - captacao, qual é o prazo
@@ -271,6 +265,22 @@
 - data prestação de contas
 - data prestacao de contas
 - prorrogar prestação de contas
+- o que é prestação de contas
+- sobre prestação de contas
+- o que devo fazer no prestação de contas
+- tenho algumas duvidas sobre prestaçao de contas
+- posso prorrogar prazo de prestação de contas por omissão
+- posso prorrogar prazo de prestacao de contas por omissao
+- prestação de contas por omissão
+- prestacao de contas por omissao
+- o que é prestação de contas
+- como prestar contas
+- fazer prestação de contas
+- como funciona a prestação de contas
+- prestaçao de contas
+- prestacao de contas
+- prestação de contas
+- prestar contas
 
 ## intent:processo_prazo_diligencias
 - tenho duvida sobre o prazo de diligencias
