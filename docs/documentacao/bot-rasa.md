@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Tais com Rasa
-permalink: /rasa-bot/
+permalink: /documentacao/rasa-bot/
 ---
 
 ## O que é a Tais?

@@ -31,7 +31,7 @@ GEM
       jekyll (>= 3.7, < 5.0)
     jekyll-sass-converter (1.5.2)
       sass (~> 3.4)
-    jekyll-seo-tag (2.6.0)
+    jekyll-theme-cayman-blog (0.0.6)
       jekyll (~> 3.3)
     jekyll-watch (2.2.1)
       listen (~> 3.0)
@@ -42,10 +42,6 @@ GEM
       rb-inotify (~> 0.9, >= 0.9.7)
       ruby_dep (~> 1.2)
     mercenary (0.3.6)
-    minima (2.5.0)
-      jekyll (~> 3.5)
-      jekyll-feed (~> 0.9)
-      jekyll-seo-tag (~> 2.1)
     pathutil (0.16.2)
       forwardable-extended (~> 2.6)
     public_suffix (3.0.3)
@@ -67,7 +63,7 @@ PLATFORMS
 DEPENDENCIES
   jekyll (~> 3.7.4)
   jekyll-feed (~> 0.6)
-  minima (~> 2.0)
+  jekyll-theme-cayman-blog
   tzinfo-data
 
 BUNDLED WITH

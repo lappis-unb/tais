@@ -1,10 +1,10 @@
 ---
 layout: page
-permalink: /guia-de-conversacao-da-tais/
+permalink: /documentacao/guia-de-conversacao-da-tais/
 title: Guia de Conversação da Tais
 ---
 
-## UMA PALAVRA DE CADA VEZ
+## Uma Palavra de casa vez
  
  
 Para se definir a personalidade de um Chatbot é preciso colocá-la em palavras, pois é assim que vamos ver o comportamento do nosso Bot. Cada palavra importa, cada pontuação vai causar um efeito na fluidez conversacional. Todo o poder está nessa junção de caracteres e no efeito que isso vai causar no nosso público alvo. Então, se colocamos um “hum…”, dependendo do contexto ele pode significar frustração, ou até mesmo uma hesitação. Vejamos:

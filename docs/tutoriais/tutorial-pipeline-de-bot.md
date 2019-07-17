@@ -1,7 +1,7 @@
 ---
 layout: page
-permalink: /tutorial-pipeline-de-bot/
-title: Tutorial Pipeline de Bot
+permalink: /tutoriais/pipeline-de-bot/
+title: Pipeline de Bot
 ---
 
 O objetivo deste tutorial é explicar os passos necessários para configuração de um *pipeline* de *deploy* contínuo de um *bot* `Rasa`, utilizando o `GitLabCI`.

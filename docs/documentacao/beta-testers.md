@@ -1,6 +1,6 @@
 ---
 layout: page
-permalink: /beta-testers/
+permalink: /documentacao/beta-testers/
 title: Página web para Beta Testers
 ---
 

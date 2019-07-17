@@ -1,6 +1,6 @@
 ---
 layout: page
-permalink: /como-contribuir/
+permalink: /comunidade/como-contribuir/
 title: Guia de Contribuição da Tais
 ---
 

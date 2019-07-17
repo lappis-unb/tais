@@ -1,6 +1,6 @@
 ---
 layout: page
-permalink: /Tutoriais/
+permalink: /tutoriais/
 title: Tutoriais
 ---
 

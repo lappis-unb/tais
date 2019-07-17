@@ -1,0 +1,209 @@
+/**
+ * Site header
+ */
+.site-header {
+  border-bottom: 1px solid $nav-color;
+  min-height: $spacing-unit * 1.865;
+
+  // Positioning context for the mobile navigation icon
+  position: relative;
+  background-color: $nav-color;
+}
+
+.site-title {
+  @include relative-font-size(1.4);
+  font-weight: 300;
+  line-height: $base-line-height * $base-font-size * 2.25;
+  letter-spacing: -1px;
+  margin-bottom: 0;
+  float: left;
+  text-decoration: none;
+
+  &,
+  &:visited,
+  &:hover {
+    color: $title-text;
+    text-decoration: none;
+  }
+}
+
+.site-nav {
+  float: right;
+  line-height: $base-line-height * $base-font-size * 2.25;
+
+  .nav-trigger {
+      display: none;
+  }
+
+  .menu-icon {
+    display: none;
+  }
+
+  .page-link {
+    color: $title-text;
+    line-height: $base-line-height;
+
+    // Gaps between nav items, but not on the last one
+    &:not(:last-child) {
+      margin-right: 20px;
+    }
+  }
+
+  @include media-query($on-palm) {
+    position: absolute;
+    top: 9px;
+    right: $spacing-unit / 2;
+    background-color: $background-color;
+    border: 1px solid $grey-color-light;
+    border-radius: 5px;
+    text-align: right;
+
+    label[for="nav-trigger"] {
+      display: block;
+      float: right;
+      width: 36px;
+      height: 36px;
+      z-index: 2;
+      cursor: pointer;
+    }
+
+    .menu-icon {
+      display: block;
+      float: right;
+      width: 36px;
+      height: 26px;
+      line-height: 0;
+      padding-top: 10px;
+      text-align: center;
+
+      > svg path {
+        fill: $grey-color-dark;
+      }
+    }
+
+    input ~ .trigger {
+      clear: both;
+      display: none;
+    }
+
+    input:checked ~ .trigger {
+      display: block;
+      padding-bottom: 5px;
+    }
+
+    .trigger {
+      padding-top: 20px;
+    }
+    .page-link {
+      display: block;
+      padding: 10px 10px;
+
+      &:last-child {
+        margin-bottom: 10px;
+      }
+      margin-right: 10px;
+      margin-left: 10px;
+    }
+
+  }
+}
+
+/**
+ * Post list
+ */
+.post-list {
+  margin-left: 0;
+  list-style: none;
+
+  > li {
+    margin-bottom: $spacing-unit * 1.5;
+  }
+
+  > li > h2 {
+    margin-top: 0rem;
+    margin-bottom: 0.4rem;
+  }
+}
+
+@include media-query($on-palm) {
+  .post-list {
+    -webkit-margin-end: 10px;
+    -webkit-padding-start: 10px;
+  }
+}
+
+.post-meta {
+  font-size: $small-font-size;
+  color: $grey-color;
+}
+
+.post-link {
+  display: block;
+  @include relative-font-size(1.5);
+}
+
+.img-icon{
+  border: 40px;
+  padding-top: 14px;
+  float: left;
+  padding-right: 10px;
+  width: 45px;
+  height: 45px;
+}
+
+ /* Dropdown Button */
+ .dropbtn {
+  
+  background-color: #384356;
+  color: $title-text;
+  line-height: $base-line-height * $base-font-size * 2.25;
+  border: none;
+  
+  &:not(:last-child) {
+    margin-right: 20px;
+  }
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: $menu-color;
+  min-width: 150px;
+  line-height: 20px;
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: $nav-color;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+  text-decoration: none;
+  background-color: $menu-hover-color;
+
+  border-bottom-left-radius: 7px;
+  border-bottom-right-radius: 7px;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+  border-bottom-left-radius: 7px;
+  border-bottom-right-radius: 7px;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {background-color: $nav-color;
+} 

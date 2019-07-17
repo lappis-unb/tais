@@ -1,11 +1,11 @@
 ---
 layout: page
-permalink: /arquitetura/
+permalink: /documentacao/arquitetura/
 title: Arquitetura
 ---
 A arquitetura geral do framework desenvolvido pelo Laboratório é mostrado na figura abaixo. Foi desenvolvido com a Licença AGPL3.
 
-![](./assets/arquitetura_tecnica.png)
+![](../../assets/arquitetura_tecnica.png)
 
 # Ferramentas que compõem o framework
 
@@ -139,8 +139,8 @@ O primeiro conjunto de ferramentas utilizado para tal é uma *stack* [ElasticSea
 
 As imagens abaixo exemplificam dashboards de visualização de dados da TAIS.
 
-![](./assets/kibana_dados.png)
-![](./assets/kibana_dados_2.png)
+![](../../assets/kibana_dados.png)
+![](../../assets/kibana_dados_2.png)
 
 Para a *Stack* de *Analytics* com o ElasticSearch é utilizado um [script de tracker](https://github.com/lappis-unb/tais/blob/master/bot/tracker_store.py) que sobreescreve o *tracker* de dados padrão do `Rasa`, e faz com que toda vez que uma mensagem seja trocada entre o *bot* e o usuário seja criado uma instância de um objeto de mensagem e este seja inserido no ElasticSearch.
 
@@ -156,4 +156,4 @@ O Rasa provê nativamente [conectores](https://rasa.com/docs/core/0.9.8/connecto
 
 Na TAIS, é utilizado o RocketChat como canal principal de interação. Uma vez que se configura um agente de conversação dentro do RocketChat, é possível gerar um código `javascript` que permite a renderização de uma janela de conversação com o *bot*.  Essa abordagem permite uma flexibilidade muito grande, uma vez que quando o *bot* está propriamente configurado, este código pode ser injetado em qualquer pagina que será carregada pelo usuário, que não precisará criar uma conta ou acessar diretamente o servidor do `RocketChat` para conversar com o *bot*.
 
-![](./assets/home_tais.png)
+![](../../assets/home_tais.png)
