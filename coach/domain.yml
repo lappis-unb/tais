@@ -93,6 +93,8 @@ intents:
   - salic_preenchimento_valor_ingresso
   - salic_preenchimento_vinculo_cpf_proposta
   - salic_preenchimento_cadastro_agencia_bancaria
+  - salic_preenchimento_planilha_orcamentaria
+  - salic_preenchimento_cadastro_fornecedor
 
   - erro_resposta_utter
 
@@ -526,6 +528,17 @@ templates:
           A agência bancária deve ser do banco do Brasil, deve conter 5
           dígitos, sem hifens, pontos ou letras
 
+  utter_salic_preenchimento_cadastro_fornecedor:
+    - text: |
+          No momento de prestação de contas financeira, 
+          será disponibilizado uma tela para inserir fornecedores não cadastrados.
+
+  utter_salic_preenchimento_planilha_orcamentaria:
+    - text: |
+          Para te ajudar a preencher a sua planilha orçamentária, 
+          vou te enviar o link de um vídeo que explica o passo a passo 
+          do preenchimento da sua planilha: https://www.youtube.com/watch?v=M5u1qjwmXJ8&feature=youtu.be
+
   utter_salic_erros:
     - text: |
           Nesta etapa eu posso responder dúvidas sobre eventuais erros do
@@ -890,6 +903,8 @@ actions:
   - utter_salic_preenchimento_valor_ingresso
   - utter_salic_preenchimento_vinculo_cpf_proposta
   - utter_salic_preenchimento_cadastro_agencia_bancaria
+  - utter_salic_preenchimento_planilha_orcamentaria
+  - utter_salic_preenchimento_cadastro_fornecedor
   - utter_salic_erros
   - utter_salic_erros_planilha_desapareceu
   - utter_salic_erros_salvamento_de_proposta

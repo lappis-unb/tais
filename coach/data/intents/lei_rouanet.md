@@ -101,9 +101,14 @@
 - como funciona a isenção fiscal
 - como funciona o recolhimento de dinheiro para os projetos
 - quanto custa isso pro governo
-- O Ministério da cultura é que dá o dinheiro?
+- O Ministério da cultura é que dá o dinheiro
 - o ministerio da dinheiro
 - o Minc da dinheiro para lei
+- como funciona o recolhimento de dinheiro para os projetos
+- como os projetos recebem dinheiro
+- como financiar um projeto cultural
+- quero saber sobre o dinheiro dos projetos
+- quanto custa isso pro governo
 - dinheiro
 - arrecadou
 - arrecadar
@@ -153,6 +158,9 @@
 - sou incentivador quanto posso receber como dedução de imposto de renda
 - os patrocinadores de projetos recebem
 - porcentagem do valor arrecadado
+- como funciona a isenção fiscal das empresas
+- como as empresas ganham alguma coisa ajudando meus projetos
+- como funciona a isenção fiscal
 - artigo 18
 - artigo 26
 - art 26
