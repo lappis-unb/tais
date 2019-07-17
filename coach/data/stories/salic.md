@@ -90,3 +90,8 @@
 * salic_recuperacao_de_senha
     - utter_salic_recuperacao_de_senha
     - utter_continuar_conversa
+
+## salic 16
+* salic_preenchimento_alteracao_proponente
+    - utter_salic_preenchimento_alteracao_proponente
+    - utter_continuar_conversa

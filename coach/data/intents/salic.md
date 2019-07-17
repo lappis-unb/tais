@@ -178,3 +178,25 @@
 - como cadastrar minha agência
 - agencia bancaria
 - agência bancária
+
+## intent:salic_preenchimento_alteracao_proponente
+- preciso realizar a troca de proponente para projetos aprovados
+- preciso fazer a mudança de proponente
+- preciso alterar o proponente
+- como realizar a troca de proponente para projetos aprovados
+- como proceder para troca de proponente em propostas
+- gostaria de saber como fazer a troca do proponente
+- como faço a alteração do proponente
+- como faco a alteracao do proponente
+- como mudar o proponente do projeto
+- me ajuda a alterar o proponente
+- realizar troca de proponente
+- troca proponente em propostas
+- troca proponente em projetos
+- troca proponente
+- alteracao proponente
+- alteração proponente
+- mudança de proponente
+- mudanca de proponente
+- modificar proponente
+- mudar proponente

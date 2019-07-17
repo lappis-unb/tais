@@ -93,6 +93,7 @@ intents:
   - salic_preenchimento_valor_ingresso
   - salic_preenchimento_vinculo_cpf_proposta
   - salic_preenchimento_cadastro_agencia_bancaria
+  - salic_preenchimento_alteracao_proponente
 
   - erro_resposta_utter
 
@@ -526,6 +527,18 @@ templates:
           A agência bancária deve ser do banco do Brasil, deve conter 5
           dígitos, sem hifens, pontos ou letras
 
+  utter_salic_preenchimento_alteracao_proponente:
+    - text: |
+          A alteração de proponente somente será permitida desde que devidamente
+          justificada, mediante requerimento do proponente atual, que contenha 
+          a anuência formal do substituto. 
+
+          Na plataforma SALIC acesse o menu "readequação", depois acesse o submenu "diversas",
+          clique na opção "alteração de proponente" e preencha os dados e documentação requisitados.
+
+          Em seguida,  encaminhe o Anexo 2 que é a declaração de responsabilidade,
+          assinada pelo novo proponente, ele deve estar cadastrado no SALIC ou deve se cadastrar.
+
   utter_salic_erros:
     - text: |
           Nesta etapa eu posso responder dúvidas sobre eventuais erros do
@@ -890,6 +903,7 @@ actions:
   - utter_salic_preenchimento_valor_ingresso
   - utter_salic_preenchimento_vinculo_cpf_proposta
   - utter_salic_preenchimento_cadastro_agencia_bancaria
+  - utter_salic_preenchimento_alteracao_proponente
   - utter_salic_erros
   - utter_salic_erros_planilha_desapareceu
   - utter_salic_erros_salvamento_de_proposta
