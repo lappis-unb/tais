@@ -146,6 +146,17 @@ services:
     ports:
       - 5031:5032
 
+  # =============================== Broker ====================================
+  rabbitmq:
+    image: rabbitmq:3-management
+    restart: unless-stopped
+    volumes:
+      - ./data/rabbitmq:/var/lib/rabbitmq
+    ports:
+      - 8085:15672
+    environment:
+      - RABBITMQ_DEFAULT_USER=admin
+      - RABBITMQ_DEFAULT_PASS=admin
 
   # =============================== Notebooks =================================
   notebooks:
