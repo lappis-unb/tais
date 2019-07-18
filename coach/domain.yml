@@ -94,6 +94,7 @@ intents:
   - salic_preenchimento_vinculo_cpf_proposta
   - salic_preenchimento_cadastro_agencia_bancaria
   - salic_preenchimento_alteracao_proponente
+  - salic_preenchimento_comprovacao_financeira
 
   - erro_resposta_utter
 
@@ -539,6 +540,14 @@ templates:
           Em seguida,  encaminhe o Anexo 2 que é a declaração de responsabilidade,
           assinada pelo novo proponente, ele deve estar cadastrado no SALIC ou deve se cadastrar.
 
+  utter_salic_preenchimento_comprovacao_financeira:
+    - text: |
+          Olha, é preciso inserir a comprovação financeira a partir do momento que  o projeto começa a ser executado. 
+
+          Agora, vou te ajudar a fazer a sua comprovação na plataforma Salic: clique no menu "Comprovação Financeira" que está localizado na barra lateral. Nesse menu você terá acesso à planilha orçamentária para fazer a comprovação de cada um dos itens previstos.
+
+          Sobre a comprovação de objeto, você só pode inserir os comprovantes após o final do período de execução do projeto,  é só clicar no menu "Comprovação de Objeto", localizado na barra lateral.
+
   utter_salic_erros:
     - text: |
           Nesta etapa eu posso responder dúvidas sobre eventuais erros do
@@ -904,6 +913,7 @@ actions:
   - utter_salic_preenchimento_vinculo_cpf_proposta
   - utter_salic_preenchimento_cadastro_agencia_bancaria
   - utter_salic_preenchimento_alteracao_proponente
+  - utter_salic_preenchimento_comprovacao_financeira
   - utter_salic_erros
   - utter_salic_erros_planilha_desapareceu
   - utter_salic_erros_salvamento_de_proposta

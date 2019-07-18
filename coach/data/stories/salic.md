@@ -95,3 +95,8 @@
 * salic_preenchimento_alteracao_proponente
     - utter_salic_preenchimento_alteracao_proponente
     - utter_continuar_conversa
+
+## salic 17
+* salic_preenchimento_comprovacao_financeira
+    - utter_salic_preenchimento_comprovacao_financeira
+    - utter_continuar_conversa

@@ -200,3 +200,24 @@
 - mudanca de proponente
 - modificar proponente
 - mudar proponente
+
+## intent:salic_preenchimento_comprovacao_financeira
+- como fazer a comprovação da despesa executada pelo proponente
+- gostaria de fazer a comprovacao executada pelo proponente
+- quero enviar a prestacao de contas do projeto
+- como enviar a prestação de contas do projeto 
+- quero realizar a comprovacao financeira
+- como realizar a comprovação financeira
+- como realizar a comprovação de despesa
+- como realizar a comprovação
+- realizar a comprovação
+- realizar a comprovacao
+- comprovação financeira
+- comprovacao financeira
+- comprovação de despesa
+- comprovacao de despesa
+- despesa proponente
+- enviar comprovação
+- enviar comprovacao
+- fazer comprovação
+- fazer comprovacao

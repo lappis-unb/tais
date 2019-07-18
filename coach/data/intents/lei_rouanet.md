@@ -333,8 +333,14 @@
 - como a marca do patrocinador deve ser promovida
 - há regras para a divulgação da marca do patrocinador no projeto
 - como a marca do patrocinador deve aparecer na divulgação
-- marca
+- divulgar a logo do patrocinador
+- logo do patrocinador
+- divulgação de marca
+- divulgação de logo
+- divulgar logo
 - divulgar marca
+- marca
+- logo
 
 ## intent:lei_rouanet_valores_pagamento_caches
  - quais os valores para pagamento de cachês em projetos realizados com incentivo fiscal
