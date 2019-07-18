@@ -671,3 +671,26 @@
 - reembolso de despesa
 - reembolsado
 - reembolso
+
+## intent:lei_rouanet_tipos_projeto
+- quais são as áreas culturais contempladas pela lei de incentivo a cultura
+- quais os artigos que devo enquadrar para banda musical
+- quais são os projetos que podem fazer parte
+- quais projetos podem participar da lei
+- quais áreas culturais
+- posso mandar proposta de residência artística
+- musica instrumental entra em qual artigo da lei
+- para ter o incentivo quais propostas são validas
+- tipos de projeto que podem participar
+- shows podem ser patrocinados
+- segmento formação Cultural
+- áreas culturais
+- segmentos culturais
+- tipos de projetos
+- incentivo a poesia
+- festival de música
+- projeto de literatura
+- peça de teatro
+- peca de teatro
+- livro
+- show
