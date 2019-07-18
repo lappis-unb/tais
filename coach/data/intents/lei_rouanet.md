@@ -650,3 +650,24 @@
 - recibo mecenato
 - mecenato
 
+## intent:lei_rouanet_reembolso_despesa
+- posso reembolsar o proponente de despesas pagas com recursos próprios
+- posso reembolsar o proponente de despesas pagas com recursos proprios
+- como fazer um reembolso de despesas pagas com recursos próprios
+- quero recuperar dinheiro que gastei do meu bolso com o projeto
+- como fazer um reembolso de despesa
+- como posso ser reembolsado
+- como fazer o reembolso
+- posso ser reembolsado
+- despesas pagas com recursos próprios
+- despesas pagas com recurso proprios
+- preciso ser reembolsado
+- quero ser reembolsado
+- quero reembolso
+- conseguir reembolso
+- realizer reembolso
+- fazer reembolso
+- ser reembolsado
+- reembolso de despesa
+- reembolsado
+- reembolso

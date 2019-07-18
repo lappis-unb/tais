@@ -469,3 +469,8 @@
 * lei_rouanet_recibo_mecenato
     - utter_lei_rouanet_recibo_mecenato
     - utter_continuar_conversa
+
+## Lei Rouanet 48
+* lei_rouanet_reembolso_despesa
+    - utter_lei_rouanet_reembolso_despesa
+    - utter_continuar_conversa
