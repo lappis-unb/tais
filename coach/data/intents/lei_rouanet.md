@@ -161,6 +161,7 @@
 - como funciona a isenção fiscal das empresas
 - como as empresas ganham alguma coisa ajudando meus projetos
 - como funciona a isenção fiscal
+- quanto eu posso doar
 - artigo 18
 - artigo 26
 - art 26
@@ -424,44 +425,45 @@
  - decisaofinal
 
 ## intent:lei_rouanet_valor_maximo_projeto
- - tem valor maximo de projetos
- - qual e o valor maximo de projetos
- - minha proposta pode atingir qual valor
- - maior valor para um projeto
- - maior valor de um projeto
- - posso ter quantas propostas apresentadas
- - quantos projetos posso ter
- - tem limite de abertura de projetos
- - quantos projetos posso ter em meu nome
- - ha um valor maximo por projeto
- - existe valor maximo para minha proposta
- - meu projeto pode chegar a que valor
- - quantos projetos pode ter pela lei de incentivo
- - valor maximo de projeto
- - valor maximo de proposta
- - quantidade maxima de projetos
- - quantidade maxima de propostas
- - total de projetos em meu nome
- - de quanto é o financiamento
- - qual é o valor do financiamento
- - Quantos projetos o proponente pode inscrever
- - valor maximo por ano
- - quantidade maxima
- - valor maximo
- - valor por ano
- - quantidade por ano
- - limite de projetos por ano
- - limite de projetos por proponente
- - ultrapassar o limite
- - limite pode ser ultrapassado
- - quantidade máxima de projetos pode ser ultrapassada
- - ultrapassar limite de projetos
- - aumentar limite de projetos
- - valor minimo de projeto
- - Valor minimo pra projeto
- - projeto valor mínimo
- - qual e o valor minimo pra projeto
- - qual e o valor minimo de projetos
+- queria saber qual o teto para o projeto
+- tem valor maximo de projetos
+- qual e o valor maximo de projetos
+- minha proposta pode atingir qual valor
+- maior valor para um projeto
+- maior valor de um projeto
+- posso ter quantas propostas apresentadas
+- quantos projetos posso ter
+- tem limite de abertura de projetos
+- quantos projetos posso ter em meu nome
+- ha um valor maximo por projeto
+- existe valor maximo para minha proposta
+- meu projeto pode chegar a que valor
+- quantos projetos pode ter pela lei de incentivo
+- valor maximo de projeto
+- valor maximo de proposta
+- quantidade maxima de projetos
+- quantidade maxima de propostas
+- total de projetos em meu nome
+- de quanto é o financiamento
+- qual é o valor do financiamento
+- Quantos projetos o proponente pode inscrever
+- valor maximo por ano
+- quantidade maxima
+- valor maximo
+- valor por ano
+- quantidade por ano
+- limite de projetos por ano
+- limite de projetos por proponente
+- ultrapassar o limite
+- limite pode ser ultrapassado
+- quantidade máxima de projetos pode ser ultrapassada
+- ultrapassar limite de projetos
+- aumentar limite de projetos
+- valor minimo de projeto
+- Valor minimo pra projeto
+- projeto valor mínimo
+- qual e o valor minimo pra projeto
+- qual e o valor minimo de projetos
 
 ## intent:lei_rouanet_valor_maximo_pessoa_fisica
  - pessoa fisica
@@ -604,7 +606,8 @@
 - remanejamento 50%
 
 ## intent:lei_rouanet_edital
-- onde encontro a instrução Normativa em vigor 
+- onde encontro a instrução Normativa em vigor
+- gostaria de saber mais sobre a IN 02/2019
 - instrução normativa vigente
 - instrução normativa em vigor
 - normativa em vigor
@@ -616,14 +619,19 @@
 - acessar normativa lei rouanet
 - lei de incentivo à cultura atualizada
 - lei rouanet atualizada
+- IN 02/2019
+- quero saber sobre o edital
 - quero imprimir a lei
 - saiu algum edital da cultura
 - tem algum edital aberto
 - edital da lei de incentivo à cultura
+- edital culturas populares
+- editais da cultura
 - edital da lei rouanet
 - edital da cultura
 - edital da lei
 - edital aberto
+- o edital
 - edital
 
 ## intent:lei_rouanet_recibo_mecenato
