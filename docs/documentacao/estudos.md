@@ -1,6 +1,6 @@
 ---
 layout: page
-permalink: /estudos/
+permalink: documentacao/estudos/
 title: Estudos feitos durante o projeto
 ---
 

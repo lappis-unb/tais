@@ -221,3 +221,50 @@
 - enviar comprovacao
 - fazer comprovação
 - fazer comprovacao
+
+## intent:salic_preenchimento_planilha_orcamentaria
+- como faço para preencher a minha planilha orçamentária
+- como faço para preencher a minha planilha orcamentaria
+- como faço para preencher a planilha orçamentária
+- como faço para preencher a planilha orcamentaria
+- como posso preencher a planilha orçamentária
+- como posso preencher a planilha orcamentaria
+- como preencher a planilha orçamentária
+- como preencher a planilha orcamentaria
+- me explica como preencher a planilha orçamentária
+- me explica como preencher a planilha orcamentaria
+- preciso de ajuda com a planilha orçamentária
+- preciso de ajuda com a planilha orcamentaria
+- me ajuda com a minha planilha orçamentária
+- me ajuda com a minha planilha orcamentaria
+- preenchimento da planilha orçamentária
+- preenchimento da planilha orcamentaria
+- preencher a planilha orçamentária
+- preencher a planilha orcamentaria
+- minha planilha orçamentária
+- minha planilha orcamentaria
+- planilha orçamentária
+- planilha orcamentaria
+
+## intent:salic_preenchimento_cadastro_fornecedor
+- sou um fornecedor, como faço para me cadastrar no Salic
+- como faço para eu cadastrar um fornecedor no salic
+- como posso cadastrar um fornecedor no salic
+- como se cadastrar no salic como fornecedor
+- como cadastrar no salic um fornecedor
+- como posso cadastrar um fornecedor
+- como me cadastro como fornecedor
+- quero cadastrar um fornecedor não cadastrado
+- quero cadastrar um fornecedor nao cadastrado
+- quero me cadastrar como fornecedor
+- cadastrar fornecedor não cadastrado
+- cadastrar fornecedor nao cadastrado
+- fornecedor não cadastrado
+- fornecedor nao cadastrado
+- cadastramento de fornecedor
+- inscrever um fornecedor
+- cadastrar um fornecedor
+- cadastro de fornecedor
+- cadastrar fornecedor
+- fornecedor
+

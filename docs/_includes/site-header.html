@@ -1,0 +1,67 @@
+<header class="site-header" role="banner">
+
+  <div class="wrapper">
+    {% assign default_paths = site.pages | map: "path" | sort: "title" %}
+    {% assign page_paths = site.header_pages | default: default_paths | sort: "site-title" %}
+
+    {% if page.layout != 'home' %}
+      <img class="img-icon" href="/tais/assets/Tdetais.svg" >     
+      <a class="site-title" href="{{ "/" | relative_url }}">{{ site.title | escape }}</a>
+    {% endif %}
+
+      <nav class="site-nav">
+          <div class="dropdown">
+              <button class="dropbtn">Documentação</button>
+              <div class="dropdown-content">
+                {% for path in page_paths %}
+                  {% assign my_page = site.pages | where: "path", path | first %}
+                  {% if my_page.title %}
+                    {% if my_page.title contains "404" %}
+                    {% else %}
+                      {%if my_page.url contains "/documentacao" %}
+                        <a  href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a>
+                      {% endif %}
+                    {% endif %}
+                  {% endif %}
+                {% endfor %}
+              </div>
+          </div> 
+          <div class="dropdown">
+            <button class="dropbtn">Tutoriais</button>
+            <div class="dropdown-content">
+              {% for path in page_paths %}
+                {% assign my_page = site.pages | where: "path", path | first %}
+                {% if my_page.title %}
+                  {% if my_page.title contains "404" %}
+                  {% else %}
+                    {%if my_page.url contains "/tutoriais" and my_page.title != "Tutoriais" %}
+                      <a  href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a>
+                    {% endif %}
+                  {% endif %}
+                {% endif %}
+              {% endfor %}
+            </div>
+          </div>
+          <div class="dropdown">
+            <button class="dropbtn">Comunidade</button>
+            <div class="dropdown-content">
+              {% for path in page_paths %}
+                {% assign my_page = site.pages | where: "path", path | first %}
+                {% if my_page.title %}
+                  {% if my_page.title contains "404" %}
+                  {% else %}
+                    {%if my_page.url contains "/comunidade" %}
+                      <a  href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a>
+                    {% endif %}
+                  {% endif %}
+                {% endif %}
+              {% endfor %}
+          </div>
+        </div>
+
+        <a href="http://lappis.rocks" class="dropbtn">Lappis</a>
+
+      </nav>
+
+  </div>
+</header>

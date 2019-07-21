@@ -1,4 +1,10 @@
-## COMO FAZER UMA UTTER
+---
+layout: page
+permalink: /tutoriais/como-fazer-uma-utter/
+title: Como fazer uma Utter
+---
+
+## Como fazer uma Utter
 
 **Formato** - A Utter (textos que o Bot envia) não devem ser muito grande, pense em uma postagem do Twitter. 
 

@@ -84,7 +84,6 @@
 - tenho uma banda de musica posso propor um projeto 
 - agente publico pode enviar propostas
 - elegibilidade
-- inscrever
 - participar
 - usar a lei
 
@@ -102,9 +101,14 @@
 - como funciona a isenção fiscal
 - como funciona o recolhimento de dinheiro para os projetos
 - quanto custa isso pro governo
-- O Ministério da cultura é que dá o dinheiro?
+- O Ministério da cultura é que dá o dinheiro
 - o ministerio da dinheiro
 - o Minc da dinheiro para lei
+- como funciona o recolhimento de dinheiro para os projetos
+- como os projetos recebem dinheiro
+- como financiar um projeto cultural
+- quero saber sobre o dinheiro dos projetos
+- quanto custa isso pro governo
 - dinheiro
 - arrecadou
 - arrecadar
@@ -154,6 +158,9 @@
 - sou incentivador quanto posso receber como dedução de imposto de renda
 - os patrocinadores de projetos recebem
 - porcentagem do valor arrecadado
+- como funciona a isenção fiscal das empresas
+- como as empresas ganham alguma coisa ajudando meus projetos
+- como funciona a isenção fiscal
 - artigo 18
 - artigo 26
 - art 26
@@ -234,6 +241,8 @@
 - tem alguma execeção para uma empresa não utilizar a lei rouanet
 - quais a regras de elegibilidade no caso de empresas
 - empresa
+- empresas podem se beneficiar
+- empresa se beneficiar
 - elegibilidade como pessoa juridica
 - participação empresa
 - corporação

@@ -1,6 +1,6 @@
 ---
 layout: page
-permalink: /conteudo/
+permalink: /documentacao/conteudo/
 title: Conteúdo da Tais
 ---
 

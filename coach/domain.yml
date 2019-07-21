@@ -95,6 +95,8 @@ intents:
   - salic_preenchimento_cadastro_agencia_bancaria
   - salic_preenchimento_alteracao_proponente
   - salic_preenchimento_comprovacao_financeira
+  - salic_preenchimento_planilha_orcamentaria
+  - salic_preenchimento_cadastro_fornecedor
 
   - erro_resposta_utter
 
@@ -548,6 +550,17 @@ templates:
 
           Sobre a comprovação de objeto, você só pode inserir os comprovantes após o final do período de execução do projeto,  é só clicar no menu "Comprovação de Objeto", localizado na barra lateral.
 
+  utter_salic_preenchimento_cadastro_fornecedor:
+    - text: |
+          No momento de prestação de contas financeira, 
+          será disponibilizado uma tela para inserir fornecedores não cadastrados.
+
+  utter_salic_preenchimento_planilha_orcamentaria:
+    - text: |
+          Para te ajudar a preencher a sua planilha orçamentária, 
+          vou te enviar o link de um vídeo que explica o passo a passo 
+          do preenchimento da sua planilha: https://www.youtube.com/watch?v=M5u1qjwmXJ8&feature=youtu.be
+
   utter_salic_erros:
     - text: |
           Nesta etapa eu posso responder dúvidas sobre eventuais erros do
@@ -914,6 +927,8 @@ actions:
   - utter_salic_preenchimento_cadastro_agencia_bancaria
   - utter_salic_preenchimento_alteracao_proponente
   - utter_salic_preenchimento_comprovacao_financeira
+  - utter_salic_preenchimento_planilha_orcamentaria
+  - utter_salic_preenchimento_cadastro_fornecedor
   - utter_salic_erros
   - utter_salic_erros_planilha_desapareceu
   - utter_salic_erros_salvamento_de_proposta

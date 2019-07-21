@@ -64,6 +64,7 @@
 ## intent:definicao_projeto
 - o que é Projeto
 - o que significa Projeto
+- como se caracteriza um projeto
 - como caracteriza um projeto
 - lista de todos os projetos realizados pela Lei de incentivo
 - como consulto os projetos aprovados
@@ -76,6 +77,8 @@
 - consultar projetos
 - projetos realizados pela lei de incentivo
 - lista de todos os projetos
+- se caracteriza um projeto
+- caracteriza um projeto
 - projeto aprovado
 - proposta aprovada
 - projeto cultural

@@ -97,6 +97,11 @@
     - utter_continuar_conversa
 
 ## salic 17
-* salic_preenchimento_comprovacao_financeira
-    - utter_salic_preenchimento_comprovacao_financeira
+* salic_preenchimento_planilha_orcamentaria
+    - utter_salic_preenchimento_planilha_orcamentaria
+    - utter_continuar_conversa
+
+## salic 18
+* salic_preenchimento_cadastro_fornecedor
+    - utter_salic_preenchimento_cadastro_fornecedor
     - utter_continuar_conversa

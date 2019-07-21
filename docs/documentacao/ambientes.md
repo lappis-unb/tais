@@ -1,6 +1,6 @@
 ---
 layout: page
-permalink: /ambientes/
+permalink: /documentacao/ambientes/
 title: Ambientes da Tais
 ---
 
