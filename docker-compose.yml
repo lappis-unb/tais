@@ -158,6 +158,20 @@ services:
       - RABBITMQ_DEFAULT_USER=admin
       - RABBITMQ_DEFAULT_PASS=admin
 
+  rabbitmq-consumer:
+    build:
+      context: .
+      dockerfile: ./docker/rabbitmq/consumer.Dockerfile
+    restart: unless-stopped
+    volumes:
+      - ./rabbitmq/consumer/:/opt/scripts/
+    depends_on:
+      - rabbitmq
+    environment:
+      - CONNECTION_USERNAME=admin
+      - CONNECTION_PASSWORD=admin
+    command: python3 /opt/scripts/consume_bot_messages.py
+
   # =============================== Notebooks =================================
   notebooks:
     build:

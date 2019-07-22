@@ -1,0 +1,5 @@
+event_broker:
+  url: rabbitmq
+  username: admin
+  password: admin
+  queue: bot_messages
