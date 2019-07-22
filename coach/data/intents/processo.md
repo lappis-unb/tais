@@ -12,6 +12,7 @@
 - como funciona o processo
 - como funciona a lei rouanet
 - como faço para enviar um projeto
+- como enviar uma proposta
 - como é o processo de envio de projeto
 - como criar um projeto
 - como mandar um projeto
