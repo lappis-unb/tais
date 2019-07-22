@@ -225,6 +225,7 @@
 - gracias
 
 ## intent: contato
+- eu ligo para quem para falar sobre o cadastro no salic
 - algum telefone que eu possa entrar em contato
 - necessito de um telefone para falar sobre a lei rouanet
 - pode me mandar um telefone para eu falar com alguma pessoa
@@ -232,11 +233,13 @@
 - quero falar no telefone com alguém
 - quero falar com uma pessoa
 - eu preciso de um telefone de contato
+- gostaria de conversar com o atendente humano
 - telefone de contato
 - quero entrar em contato
 - me mande o telefone
 - telefone de alguém
 - telefone de alguma pessoa
+- atendente humano
 - e-mails dúvidas
 - email duvidas
 - e-mail duvidas

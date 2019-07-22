@@ -67,6 +67,9 @@
 - como se caracteriza um projeto
 - como caracteriza um projeto
 - lista de todos os projetos realizados pela Lei de incentivo
+- gostaria de ter acesso aos projetos inscritos na Lei de Incentivo
+- como eu posso acessar quem foram os beneficiados com a lei do incentivo a cultura
+- artistas beneficiados com a lei do incentivo a cultura
 - como consulto os projetos aprovados
 - consultar projetos aprovados
 - projetos aprovados

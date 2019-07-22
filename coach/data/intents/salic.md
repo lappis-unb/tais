@@ -223,6 +223,8 @@
 - fazer comprovacao
 
 ## intent:salic_preenchimento_planilha_orcamentaria
+- itens que compõem o orçamento analílito da planilha orçamentária
+- itens que compõem o orçamento analílito da planilha orcamentaria
 - como faço para preencher a minha planilha orçamentária
 - como faço para preencher a minha planilha orcamentaria
 - como faço para preencher a planilha orçamentária
@@ -239,12 +241,16 @@
 - me ajuda com a minha planilha orcamentaria
 - preenchimento da planilha orçamentária
 - preenchimento da planilha orcamentaria
+- organizar a planilha orçamentária
+- organizar a planilha orcamentaria
 - preencher a planilha orçamentária
 - preencher a planilha orcamentaria
 - minha planilha orçamentária
 - minha planilha orcamentaria
 - planilha orçamentária
 - planilha orcamentaria
+- itens do orçamento
+- itens do orcamento
 
 ## intent:salic_preenchimento_cadastro_fornecedor
 - sou um fornecedor, como faço para me cadastrar no Salic

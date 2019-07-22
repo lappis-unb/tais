@@ -148,6 +148,8 @@
 - solicitar prorrogação de prazo
 
 ## intent: processo_prazo_apresentar_proposta
+- ate quando vai as incrições para projetos lei roanet
+- estão abertas ate quando as inscrições
 - qual é o prazo para inscrever projeto no Salic
 - qual a data para apresentar um projeto
 - qual a data para apresentar uma proposta
@@ -159,6 +161,7 @@
 - qual o prazo
 - quando devo enviar meu projeto
 - quando devo enviar a minha proposta
+- prazo para cadastro de projetos o ano de 2020 
 - prazo de encerramento edital salic
 - prazo para inscrição de projeto
 - prazo para apresentar projeto
