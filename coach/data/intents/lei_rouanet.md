@@ -650,3 +650,55 @@
 - recibo mecenato
 - mecenato
 
+## intent:lei_rouanet_reembolso_despesa
+- posso reembolsar o proponente de despesas pagas com recursos próprios
+- posso reembolsar o proponente de despesas pagas com recursos proprios
+- como fazer um reembolso de despesas pagas com recursos próprios
+- quero recuperar dinheiro que gastei do meu bolso com o projeto
+- como fazer um reembolso de despesa
+- como posso ser reembolsado
+- como fazer o reembolso
+- posso ser reembolsado
+- despesas pagas com recursos próprios
+- despesas pagas com recurso proprios
+- preciso ser reembolsado
+- quero ser reembolsado
+- quero reembolso
+- conseguir reembolso
+- realizer reembolso
+- fazer reembolso
+- ser reembolsado
+- reembolso de despesa
+- reembolsado
+- reembolso
+
+## intent:lei_rouanet_tipos_projeto
+- quero tentar ter a lei de incentivo para fomentar um programa de tradição caipira
+- quais são as áreas culturais contempladas pela lei de incentivo a cultura
+- quais os artigos que devo enquadrar para banda musical
+- quais são os projetos que podem fazer parte
+- quais projetos podem participar da lei
+- quais áreas culturais
+- preciso verificar os projetos aptos para captar recursos via rouanet
+- posso mandar proposta de residência artística
+- musica instrumental entra em qual artigo da lei
+- para ter o incentivo quais propostas são validas
+- tipos de projeto que podem participar
+- gostaria de financiar meus filmes
+- shows podem ser patrocinados
+- segmento formação Cultural
+- áreas culturais
+- segmentos culturais
+- tipos de projetos
+- incentivo a poesia
+- festival de música
+- turne internacional
+- projeto de literatura
+- projetos de restauro
+- projetos de restauração
+- restauração
+- restauro
+- peça de teatro
+- peca de teatro
+- livro
+- show

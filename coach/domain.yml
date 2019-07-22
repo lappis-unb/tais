@@ -58,6 +58,8 @@ intents:
   - lei_rouanet_remanejamento
   - lei_rouanet_edital
   - lei_rouanet_recibo_mecenato
+  - lei_rouanet_reembolso_despesa
+  - lei_rouanet_tipos_projeto
 
   - processo_como_funciona
   - processo_definicao_etapas
@@ -833,6 +835,19 @@ templates:
           clicar em "doações efetuadas", sem seguida em "novo" e depois em "incentivo à cultura".
           Depois de preencher todos os dados, você terá acesso ao recibo de mecenato.
 
+  utter_lei_rouanet_reembolso_despesa: 
+    - text: |
+          Vou te dar uma dica, para fazer o reembolso você deve fazer a transferência do recurso da conta do projeto para sua conta pessoal, e na prestação de contas, apresentar as justificavas e comprovantes da despesa. 
+
+          Casos em que há reembolso: as despesas ocorridas no dia da publicação da Portaria de Autorização para Captação de Recursos até a homologação da execução do projeto podem ser reembolsadas.
+
+          Casos em que não há reembolso: projetos que receberem a decisão de não homologação da execução e despesas ocorridas anteriormente à publicação da Portaria de Autorização para Captação de Recursos.
+
+  utter_lei_rouanet_tipos_projeto:
+    - text: |
+          São aceitos projetos de incentivo à formação artística e cultural; fomento à criação artística; preservação e difusão do patrimônio artístico, cultural e histórico; estímulo ao conhecimento de bens e valores culturais e de apoio a outras atividades culturais e artísticas.
+          Ou seja, é possível propor a restauração ou construção de um centro cultural, planos anuais de manutenção de espaços culturais, orquestras, museus, companhias de teatro e dança, construção de bibliotecas e de projetos literários itinerantes, produção de shows, feiras, espetáculos, livros, festivais, música, etc.
+
   utter_agradecimento:
     - text: |
           De nada, é sempre um prazer ajudar!
@@ -898,6 +913,8 @@ actions:
   - utter_lei_rouanet_remanejamento
   - utter_lei_rouanet_edital
   - utter_lei_rouanet_recibo_mecenato
+  - utter_lei_rouanet_reembolso_despesa
+  - utter_lei_rouanet_tipos_projeto
 
   - utter_processo_reativacao_de_proposta
   - utter_processo_prazo
