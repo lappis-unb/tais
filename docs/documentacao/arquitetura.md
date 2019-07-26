@@ -3,7 +3,9 @@ layout: page
 permalink: /documentacao/arquitetura/
 title: Arquitetura
 ---
-A arquitetura geral do framework desenvolvido pelo Laboratório é mostrado na figura abaixo. Foi desenvolvido com a Licença AGPL3.
+
+O LAPPIS propôs uma arquitetura _open source_ de chatbot para a Tais composta de diversas ferramentas integradas. 
+A arquitetura geral do framework desenvolvido pelo Laboratório é mostrado na figura abaixo. Foi desenvolvido com a Licença AGPL3. Criamos também um boilerplate para auxiliar novos projetos de chatbots usando essa mesma arquitetura. O projeto do boilerplate pode ser acessado [aqui](https://github.com/lappis-unb/rasa-ptbr-boilerplate).
 
 ![](../../assets/arquitetura_tecnica.png)
 
