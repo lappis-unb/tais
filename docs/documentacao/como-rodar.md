@@ -4,7 +4,7 @@ permalink: /documentacao/como-rodar/
 title: Como rodar a Tais em seu computador
 ---
 
-A Tais possui vários ambientes e vários componentes para rodar. Veja e entenda todos eles:
+A arquitetura da Tais é constituida vários ambientes, varias ferramentas e vários componentes (veja o documento de [arquitetura](https://lappis-unb.github.io/tais/documentacao/arquitetura/) para mais detalhes). Para desenvolvimento, testes, e até uso, podemos utilizar somente parte dessa arquitetura. Com isso, necessitamos executar partes da arquitetura tanto em desenvolvimento quanto teste ou para projetos customizados. Utilizamos containeres [docker](https://www.docker.com) para subir a stack de forma rápida e customizável. Veja e entenda todos eles:
 
 1. [Subir com RocketChat](#rocketchat)
 2. [Subir somente o console](#console)
