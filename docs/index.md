@@ -13,4 +13,5 @@ tagline: Tecnologia de Aprendizado Interativo Salic
 
 O projeto de assistente virtual do Lappis é um chatbot voltado a orientar cidadãos a respeito das políticas públicas desenvolvidas pelo Estado Brasileiro. O primeiro produto completo desenvolvido pelo laboratório é a assistente virtual Tais (Tecnologia de Aprendizado Interativo do Salic), que tem como objetivo ajudar cidadãs e cidadãos a tirar dúvidas sobre a lei de Incentivo à Cultura (Lei Rouanet) e sobre o processo de incentivo de projetos culturais, no contexto da Secretaria Especial de Cultura do Ministério da Cidadania.
 
+Para saber mais sobre o framework de assistente virtual desenvolvido pelo LAPPIS (licença livre) acesse nosso [medium](https://medium.com/@lappisunbfga/framework-de-assistente-virtual-do-laboratório-lappis-951aafcdbbdd)
 
