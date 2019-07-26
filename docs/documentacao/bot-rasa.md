@@ -4,17 +4,9 @@ title: Tais com Rasa
 permalink: /documentacao/rasa-bot/
 ---
 
-## O que é a Tais?
-A Tais, Tecnologia de Aprendizado Interativo Salic, é uma assistente virtual de suporte para o Sistema de Apoio às Leis de Incentivo à Cultura, o Salic.
 
-## O que é o Rasa?
-O Rasa é um conjunto de ferramentas _open source_ de _machine learning_ para desenvolvedores com função de criar, melhorar e desenvolver chatbots e assistentes virtuais baseados em reconhecimento de texto e voz.
 
-> Machine Learning: O aprendizado de máquina, em inglês, machine learning, é um método de análise de dados que automatiza a construção de modelos analíticos. É um ramo da inteligência artificial baseado na ideia de que sistemas podem aprender com dados, identificar padrões e tomar decisões com o mínimo de intervenção humana.
-
-> Open Source: Open source é um termo em inglês para código aberto que diz respeito ao código fonte de um software de utilização livre que é disponibilizado, de maneira online pelos desenvolvedores, podendo ter acesso a elas qualquer pessoa, sem restrições.
-
-## Desenvolvimento da Tais
+## Desenvolvimento da Tais - Entendendo  Chatbots
 Durante o desenvolvimento da Tais diversas ferramentas foram estudadas e testadas antes da decisão de qual tecnológia seria escolhida de base para o projeto. Dentre essas ferramentas, o Rasa NLU e o Rasa Core se destacaram devido ao desempenho que possuem, por de serem flexíveis em relação as ferramentas compatíveis com o módulo de backend e por utilizarem a licença permissiva **Apache License 2.0**.
 Mais informações sobre o estudo de tecnológias podem ser acessados na página [Estudo sobre ferramentas de bots](https://github.com/lappis-unb/tais/wiki/Estudo-sobre-ferramentas-de-bots). 
 
@@ -85,6 +77,7 @@ Para uma melhor compreensão de como se criar intents é recomendada a leitura d
 
 ### Outras funcionalidades
 O Rasa Core proporcina diversas funcionalidades para o projeto ao qual é aplicado, como a alteração das configurações de resposta padrão do bot (que pode ser visto no arquivo `/bot/fallback.py`) e CustomActions, por exemplo. Essas funcionalidades podem ser estudadas a partir da documentação oficial do [Rasa](https://rasa.com/docs/core). 
+
 
 ## Referências
 * https://canaltech.com.br/produtos/O-que-e-open-source/, acessado 23/04/2019
