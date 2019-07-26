@@ -4,7 +4,9 @@ permalink: documentacao/estudos/
 title: Estudos feitos durante o projeto
 ---
 
-Veja em nossa wiki os estudos realizados durante o desenvolvimento da Tais.
+O processo de desenvolvimento da Tais foi sempre dividido em fases de estudos/experimentação precedidos das fases de implementação. 
+Na fase de estudos/experimentação estudamos soluções possíveis para um determinado problema, experimentamos ferramentas, e registramos esses estudos na wiki do projeto. A partir desses estudos/experimentos, escolhemos a solução mais adequada para a Tais e planejamos a implementação de tal solução. Os principais estudos realizados são:
+
 
 * [Estudos sobre ferramenta de bots](https://github.com/lappis-unb/tais/wiki/Estudo-sobre-ferramentas-de-bots)
 
