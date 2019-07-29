@@ -1,3 +1,9 @@
+---
+layout: page
+permalink: /tutoriais/tutorial-primeira-conversa/
+title: Como fazer sua primeira conversa
+---
+
 # Tutorial de Primeira Conversa
 
 O Boiler-Plate vem com a prosposta de facilitar a criação de um chat-bot para diferentes contextos, desenvolvendo uma estrutura um tanto complexa, mas com passos simples para seu bot conseguir dar os primeiros avanços do jeito que desejar.
