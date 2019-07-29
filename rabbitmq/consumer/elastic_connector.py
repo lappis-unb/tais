@@ -17,7 +17,6 @@ except Exception:
 
 logger = logging.getLogger(__name__)
 
-ENABLE_ANALYTICS = os.getenv('ENABLE_ANALYTICS', 'False').lower() == 'true'
 ENVIRONMENT_NAME = os.getenv('ENVIRONMENT_NAME', 'locahost')
 BOT_VERSION = os.getenv('BOT_VERSION', 'notdefined')
 HASH_GEN = hashlib.md5()
@@ -27,6 +26,14 @@ def gen_id(timestamp):
     HASH_GEN.update(str(timestamp).encode('utf-8'))
     _id = HASH_GEN.hexdigest()[10:]
     return _id
+
+def get_timestamp():
+   ts = time.time()
+   timestamp = datetime.datetime.strftime(
+       datetime.datetime.fromtimestamp(ts),
+       '%Y/%m/%d %H:%M:%S'
+   )
+   return timestamp
 
 
 class ElasticConnector():
@@ -56,11 +63,7 @@ class ElasticConnector():
         if not user_message['text']:
             return
 
-        ts = time.time()
-        timestamp = datetime.datetime.strftime(
-            datetime.datetime.fromtimestamp(ts),
-            '%Y/%m/%d %H:%M:%S'
-        )
+        timestamp = get_timestamp()
 
         # Bag of words
         tags = []
@@ -98,11 +101,7 @@ class ElasticConnector():
         self.insert_on_elastic(ts, message)
 
     def save_bot_message(self, bot_message, action_message, user_message):
-        ts = time.time()
-        timestamp = datetime.datetime.strftime(
-            datetime.datetime.fromtimestamp(ts),
-            '%Y/%m/%d %H:%M:%S'
-        )
+        timestamp = get_timestamp()
 
         message = {
             'environment': ENVIRONMENT_NAME,

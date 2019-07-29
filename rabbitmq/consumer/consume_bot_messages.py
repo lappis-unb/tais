@@ -10,12 +10,11 @@ username = os.getenv('CONNECTION_USERNAME')
 password = os.getenv('CONNECTION_PASSWORD')
 credentials = pika.PlainCredentials(username, password)
 
-elastic_user = os.getenv('ELASTICSEARCH_USER')
-
 logger = logging.getLogger(__name__)
 
 _elastic_connector = None
 
+elastic_user = os.getenv('ELASTICSEARCH_USER')
 if elastic_user is None:
     _elastic_connector = ElasticConnector(
         domain=os.getenv('ELASTICSEARCH_URL', 'elasticsearch:9200')
