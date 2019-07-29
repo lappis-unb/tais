@@ -40,6 +40,9 @@ class ElasticConnector():
                                            domain, scheme_port)],
             )
 
+        self.previous_action = None
+        self.previous_user_message = None
+
     def insert_on_elastic(self, ts, message):
         try:
             self.es.index(index='messages', doc_type='message',
@@ -95,11 +98,7 @@ class ElasticConnector():
         self.insert_on_elastic(ts, message)
 
     def save_bot_message(self, bot_message, action_message, user_message):
-        ts = (
-            datetime.datetime.now() +
-            datetime.timedelta(milliseconds=time_offset)
-        ).timestamp()
-
+        ts = time.time()
         timestamp = datetime.datetime.strftime(
             datetime.datetime.fromtimestamp(ts),
             '%Y/%m/%d %H:%M:%S'

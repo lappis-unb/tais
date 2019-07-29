@@ -14,10 +14,7 @@ elastic_user = os.getenv('ELASTICSEARCH_USER')
 
 logger = logging.getLogger(__name__)
 
-previous_action = None
-previous_user_message = None
 _elastic_connector = None
-
 
 if elastic_user is None:
     _elastic_connector = ElasticConnector(
@@ -50,25 +47,27 @@ def callback(ch, method, properties, body):
 
     if message['event'] == 'user':
         _elastic_connector.save_user_message(message)
-        previous_user_message = message
+        _elastic_connector.previous_user_message = message
         previous_user_action = None
 
     elif message['event'] == 'action':
         if message['name'] == 'action_listen':
-            previous_action = None
+            _elastic_connector.previous_action = None
             return
 
-        previous_action = message
+        _elastic_connector.previous_action = message
 
     elif message['event'] == 'bot':
-        if previous_action == None:
-            previous_user_message = None
+        if _elastic_connector.previous_action == None:
+            _elastic_connector.previous_user_message = None
             return
 
         bot_message = message
-        action_message = previous_action
+        action_message = _elastic_connector.previous_action
+        previous_user_message = _elastic_connector.previous_user_message
 
         _elastic_connector.save_bot_message(bot_message, action_message, previous_user_message)
+
 
 if __name__ == '__main__':
     channel.basic_consume(
