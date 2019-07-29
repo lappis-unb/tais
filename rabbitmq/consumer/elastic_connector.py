@@ -5,8 +5,6 @@ import datetime
 import hashlib
 import json
 
-from rasa_core.events import ActionExecuted, BotUttered, UserUttered
-
 from elasticsearch import Elasticsearch
 
 try:
@@ -48,8 +46,7 @@ class ElasticConnector():
                           id='{}_user_{}'.format(ENVIRONMENT_NAME, gen_id(ts)),
                           body=json.dumps(message))
         except Exception as ex:
-            logger.error('Could not send message to Elastic Search'
-                         'for user {}'.format(message['sender_id'])
+            logger.error('Could not send message to Elastic Search')
             logger.error(str(ex))
 
     def save_user_message(self, user_message):
@@ -87,9 +84,9 @@ class ElasticConnector():
             'text': user_message['text'],
             'tags': tags,
 
-            'entities': user_message['entities'],
+            'entities': user_message['parse_data']['entities'],
             'intent_name': user_message['parse_data']['intent']['name'],
-            'intent_confidence': user_message['parse_data']['intent_name']['confidence'],
+            'intent_confidence': user_message['parse_data']['intent']['confidence'],
 
             'utter_name': '',
             'is_fallback': False,
