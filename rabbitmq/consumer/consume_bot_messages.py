@@ -1,17 +1,78 @@
 #!/usr/bin/env python
 import pika
+import os
+import json
+import logging
+from elasticsearch import Elasticsearch
+from elastic_connector import ElasticConnector
+
+username = os.getenv('CONNECTION_USERNAME')
+password = os.getenv('CONNECTION_PASSWORD')
+credentials = pika.PlainCredentials(username, password)
+
+elastic_user = os.getenv('ELASTICSEARCH_USER')
+
+logger = logging.getLogger(__name__)
+
+previous_action = None
+previous_user_message = None
+_elastic_connector = None
+
+
+if elastic_user is None:
+    _elastic_connector = ElasticConnector(
+        domain=os.getenv('ELASTICSEARCH_URL', 'elasticsearch:9200')
+    )
+else:
+    _elastic_connector = ElasticConnector(
+        domain=os.getenv('ELASTICSEARCH_URL', 'elasticsearch:9200'),
+        user=os.getenv('ELASTICSEARCH_USER', 'user'),
+        password=os.getenv('ELASTICSEARCH_PASSWORD', 'password'),
+        scheme=os.getenv('ELASTICSEARCH_HTTP_SCHEME', 'http'),
+        scheme_port=os.getenv('ELASTICSEARCH_PORT', '80')
+    )
 
 connection = pika.BlockingConnection(
-pika.ConnectionParameters(host='rabbitmq'))
-channel = connection.channel()
+                pika.ConnectionParameters(
+                   host='rabbitmq', credentials=credentials,
+                   connection_attempts=20, retry_delay=5
+                )
+             )
 
-channel.queue_declare(queue='bot_messages')
+channel = connection.channel()
+channel.queue_declare(queue='bot_messages', durable=True)
+
 
 def callback(ch, method, properties, body):
-    print(" [x] Received %r" % body)
+    logger.warning(" [x] Received %r" % body)
 
-channel.basic_consume(
-        queue='bot_messages', on_message_callback=callback, auto_ack=True)
+    message = json.loads(body.decode('utf-8'))
 
-print(' [*] Waiting for bot messages.')
+    if message['event'] == 'user':
+        _elastic_connector.save_user_message(message)
+        previous_user_message = message
+        previous_user_action = None
+
+    elif message['event'] == 'action':
+        if message['name'] == 'action_listen':
+            previous_action = None
+            return
+
+        previous_action = message
+
+    elif message['event'] == 'bot':
+        if previous_action == None:
+            previous_user_message = None
+            return
+
+        bot_message = message
+        action_message = previous_action
+
+        _elastic_connector.save_bot_message(bot_message, action_message, previous_user_message)
+
+if __name__ == '__main__':
+    channel.basic_consume(
+            queue='bot_messages', on_message_callback=callback, auto_ack=True)
+    
+    logger.warning('[*] Waiting for messages.')
     channel.start_consuming()
