@@ -47,7 +47,6 @@ def callback(ch, method, properties, body):
     if message['event'] == 'user':
         _elastic_connector.save_user_message(message)
         _elastic_connector.previous_user_message = message
-        previous_user_action = None
 
     elif message['event'] == 'action':
         if message['name'] == 'action_listen':

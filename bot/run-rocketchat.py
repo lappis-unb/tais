@@ -5,6 +5,7 @@ from rasa_core.utils import configure_colored_logging, AvailableEndpoints
 from rasa_core.run import start_server, load_agent
 from rasa_core.interpreter import NaturalLanguageInterpreter
 from rasa_core.tracker_store import InMemoryTrackerStore
+from rasa_core.broker import PikaProducer
 
 from connector import RocketChatInput
 from tracker_store import ElasticTrackerStore
@@ -28,13 +29,19 @@ def run(core_dir, nlu_dir):
                                    password,
                                    queue=queue)
 
+    configs = {
+        'user': os.getenv('ROCKETCHAT_BOT_USERNAME'),
+        'password': os.getenv('ROCKETCHAT_BOT_PASSWORD'),
+        'server_url': os.getenv('ROCKETCHAT_URL'),
+    }
+
     input_channel = RocketChatInput(
         user=configs['user'],
         password=configs['password'],
         server_url=configs['server_url']
     )
 
-    _tracker_store = InMemoryTrackerStore(event_broker=pika_broker)
+    _tracker_store = InMemoryTrackerStore(domain=None, event_broker=pika_broker)
 
     _endpoints = AvailableEndpoints.read_endpoints(None)
     _interpreter = NaturalLanguageInterpreter.create(nlu_dir)

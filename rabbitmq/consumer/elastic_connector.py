@@ -63,7 +63,11 @@ class ElasticConnector():
         if not user_message['text']:
             return
 
-        timestamp = get_timestamp()
+        ts = time.time()
+        timestamp = datetime.datetime.strftime(
+            datetime.datetime.fromtimestamp(ts),
+            '%Y/%m/%d %H:%M:%S'
+        )
 
         # Bag of words
         tags = []
@@ -101,7 +105,11 @@ class ElasticConnector():
         self.insert_on_elastic(ts, message)
 
     def save_bot_message(self, bot_message, action_message, user_message):
-        timestamp = get_timestamp()
+        ts = time.time()
+        timestamp = datetime.datetime.strftime(
+            datetime.datetime.fromtimestamp(ts),
+            '%Y/%m/%d %H:%M:%S'
+        )
 
         message = {
             'environment': ENVIRONMENT_NAME,
