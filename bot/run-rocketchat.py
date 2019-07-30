@@ -8,7 +8,6 @@ from rasa_core.tracker_store import InMemoryTrackerStore
 from rasa_core.broker import PikaProducer
 
 from connector import RocketChatInput
-from tracker_store import ElasticTrackerStore
 
 logger = logging.getLogger(__name__)
 configure_colored_logging(loglevel='DEBUG')
@@ -19,6 +18,7 @@ password = os.getenv('BROKER_PASSWORD', '')
 queue = os.getenv('QUEUE_NAME', '')
 
 ENABLE_ANALYTICS = os.getenv('ENABLE_ANALYTICS', 'False').lower() == 'true'
+
 
 def run(core_dir, nlu_dir):
     pika_broker = None
@@ -41,7 +41,8 @@ def run(core_dir, nlu_dir):
         server_url=configs['server_url']
     )
 
-    _tracker_store = InMemoryTrackerStore(domain=None, event_broker=pika_broker)
+    _tracker_store = InMemoryTrackerStore(domain=None,
+                                          event_broker=pika_broker)
 
     _endpoints = AvailableEndpoints.read_endpoints(None)
     _interpreter = NaturalLanguageInterpreter.create(nlu_dir)

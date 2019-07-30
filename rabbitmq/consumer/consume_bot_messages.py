@@ -3,7 +3,6 @@ import pika
 import os
 import json
 import logging
-from elasticsearch import Elasticsearch
 from elastic_connector import ElasticConnector
 
 username = os.getenv('CONNECTION_USERNAME')
@@ -56,7 +55,7 @@ def callback(ch, method, properties, body):
         _elastic_connector.previous_action = message
 
     elif message['event'] == 'bot':
-        if _elastic_connector.previous_action == None:
+        if _elastic_connector.previous_action is None:
             _elastic_connector.previous_user_message = None
             return
 
@@ -64,12 +63,14 @@ def callback(ch, method, properties, body):
         action_message = _elastic_connector.previous_action
         previous_user_message = _elastic_connector.previous_user_message
 
-        _elastic_connector.save_bot_message(bot_message, action_message, previous_user_message)
+        _elastic_connector.save_bot_message(bot_message,
+                                            action_message,
+                                            previous_user_message)
 
 
 if __name__ == '__main__':
     channel.basic_consume(
             queue='bot_messages', on_message_callback=callback, auto_ack=True)
-    
+
     logger.warning('[*] Waiting for messages.')
     channel.start_consuming()

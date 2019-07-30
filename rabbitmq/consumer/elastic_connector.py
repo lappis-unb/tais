@@ -27,13 +27,14 @@ def gen_id(timestamp):
     _id = HASH_GEN.hexdigest()[10:]
     return _id
 
+
 def get_timestamp():
-   ts = time.time()
-   timestamp = datetime.datetime.strftime(
-       datetime.datetime.fromtimestamp(ts),
-       '%Y/%m/%d %H:%M:%S'
-   )
-   return timestamp
+    ts = time.time()
+    timestamp = datetime.datetime.strftime(
+        datetime.datetime.fromtimestamp(ts),
+        '%Y/%m/%d %H:%M:%S'
+    )
+    return timestamp
 
 
 class ElasticConnector():
@@ -96,8 +97,8 @@ class ElasticConnector():
 
             'entities': user_message['parse_data']['entities'],
             'intent_name': user_message['parse_data']['intent']['name'],
-            'intent_confidence': user_message['parse_data']['intent']['confidence'],
-
+            'intent_confidence': (user_message['parse_data']
+                                              ['intent']['confidence']),
             'utter_name': '',
             'is_fallback': False,
         }

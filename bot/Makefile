@@ -7,6 +7,9 @@ run-api:
   --port 5005 --enable_api
 
 run-console:
+	python3 -m rasa_core.run -d /models/dialogue -u /models/nlu/current --debug
+
+run-console-broker:
 	python3 -m rasa_core.run -d /models/dialogue -u /models/nlu/current --debug --endpoints endpoints.yml
 
 evaluate:
