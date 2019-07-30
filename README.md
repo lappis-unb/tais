@@ -34,8 +34,8 @@ A Tais é um chatbot desenvolvido pelo [LAPPIS](https://lappis.rocks) junto com 
 
 ![](https://user-images.githubusercontent.com/8556291/57933140-d8d66b80-7892-11e9-8d58-a7eda60b099b.png)
 
-O usuário interage com a Tais via RocketChat ou Telegram, que manda as mensagens para o Rasa NLU através de conectores, onde ele identifica a *intent*, e responde pelo Rasa Core, de acordo com as *stories* e *actions*.  
-As *models* utilizadas para a conversação foram geradas pelo módulo *trainer* e depois transferidas para o bot, estes modelos podem ser versionados e evoluídos entre bots.  
+O usuário interage com a Tais via RocketChat ou Telegram, que manda as mensagens para o Rasa NLU através de conectores, onde ele identifica a *intent*, e responde pelo Rasa Core, de acordo com as *stories* e *actions*.
+As *models* utilizadas para a conversação foram geradas pelo módulo *trainer* e depois transferidas para o bot, estes modelos podem ser versionados e evoluídos entre bots.
 Os notebooks avaliam o funcionamento de acordo com o formato das *intents* e *stories*.
 O elasticsearch coleta os dados da conversa e armazena para a análise feita pelo kibana, que gera gráficos para avaliação das conversas dos usuários e da Tais.
 
@@ -142,27 +142,17 @@ Você pode acessar o site por padrão na url `localhost:8080`
 
 ## Analytics
 Para a análise dos dados das conversas com o usuário, utilize o kibana, e veja como os usuários estão interagindo com o bot, os principais assuntos, média de usuários e outras informações da análise de dados.
+As mensagens são inseridas no *cluster* do Elastic Search utilizando o *broker* RabbitMQ.
 
 ### Setup
+
+#### Setup ElasticSearch
 
 Para subir o ambiente do ElasticSearch rode os seguintes comandos:
 
 ```sh
 sudo docker-compose up -d elasticsearch
 sudo docker-compose run --rm -v $PWD/analytics:/analytics bot python /analytics/setup_elastic.py
-```
-
-Lembre-se de configurar as seguintes variáveis de ambiente no `docker-compose`.
-
-```
-ENVIRONMENT_NAME=localhost
-BOT_VERSION=last-commit-hash
-```
-
-Lembre-se também de configurar como `True` a seguinte variável do serviço `bot` no `docker-compose`.
-
-```
-ENABLE_ANALYTICS=False
 ```
 
 Para habilitar o _backup_ rode o seguinte comando:
@@ -178,6 +168,31 @@ sudo docker exec -it tais_elasticsearch_1 curl -XPUT -H "Content-Type: applicati
 
 # A resposta esperada é: {"acknowledged": true}
 ```
+
+#### Setup RabbitMQ
+
+Inicie o serviço do servidor do RabbitMQ:
+
+```sh
+sudo docker-compose up -d rabbitmq
+```
+
+Inicie o serviço do consumidor do RabbitMQ, que ficará responsável por enviar as mensagens para o ElasticSearch:
+
+```sh
+sudo docker-compose up -d rabbitmq-consumer
+```
+
+Lembre-se de configurar as seguintes variáveis de ambiente do serviço `rabbitmq-consumer` no `docker-compose`.
+
+```sh
+ENVIRONMENT_NAME=localhost
+BOT_VERSION=last-commit-hash
+RABBITMQ_DEFAULT_USER=admin
+RABBITMQ_DEFAULT_PASS=admin
+```
+
+Sendo que as configurações de `RABBITMQ_DEFAULT_USER` e `RABBITMQ_DEFAULT_PASS` devem ser as mesmas definidas no serviço do `rabbitmq`.
 
 ### Visualização
 
@@ -200,6 +215,38 @@ Para usar estes _templates_ execute os seguintes passos:
 * Clique em `Import`;
 * Utilize o arquivo `export.json` na pasta `elasticsearch/` do projeto.
 
+### Execução
+
+Existem duas formas para executar a Tais com o *broker*. A primeira delas é via linha de comando.
+Para utilizar esta forma é preciso definir Dentro do arquivo `endpoints.yml` as configurações do broker:
+
+```yml
+event_broker:
+  url: rabbitmq
+  username: admin
+  password: admin
+  queue: bot_messages
+```
+
+Depois basta executar o bot:
+
+```sh
+sudo docker-compose run --rm bot make run-console-broker
+```
+
+A segunda forma é utilizando o script `run-rocketchat` que é utilizado quando o bot é executado com o RocketChat como canal. Para isso, as mesmas variáveis devem ser configuradas no arquivo `docker/bot/bot.env`.
+Lembre-se também de configurar como `True` a seguinte variável do serviço `bot` no `docker-compose`.
+
+```
+# Analytics config
+ENABLE_ANALYTICS=True
+
+# Broker config
+BROKER_URL=rabbitmq
+BROKER_USERNAME=admin
+BROKER_PASSWORD=admin
+QUEUE_NAME=bot_messages
+```
 
 ## Dashboards Visualização do Kibana
 
