@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /tutoriais/pipeline-de-qualidade/
-title: Pipeline de qualidade
+title: Qualidade de um chatbot - testes de aceitação
 ---
 
 # Desafio da qualidade
