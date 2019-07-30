@@ -3,7 +3,7 @@ image: python:3.6-slim
 stages:
   - test style
   - validate format
-##  - test stories
+  - test stories
   - build requirements
   - build coach
   - build
@@ -29,17 +29,17 @@ run dataset validator:
     - cd coach/
     - make run-validator
 
-#test stories:
-#  stage: test stories
-#  image: docker
-#  tags:
-#    - docker
-#  services:
-#    - docker:dind
-#  script:
-#    - docker build . -f docker/bot/coach.Dockerfile -t lappis/coach:latest > /dev/null 2>&1
-#    - docker build -f docker/bot/bot.Dockerfile -t lappis/bot:latest .
-#    - docker run --rm lappis/bot:latest make test-stories
+test stories:
+  stage: test stories
+  image: docker
+  tags:
+    - docker
+  services:
+    - docker:dind
+  script:
+    - docker build . -f docker/bot/coach.Dockerfile -t lappis/coach:latest > /dev/null 2>&1
+    - docker build -f docker/bot/bot.Dockerfile -t lappis/bot:latest .
+    - docker run --rm lappis/bot:latest make test-stories
 
 build requirements:
   stage: build requirements
