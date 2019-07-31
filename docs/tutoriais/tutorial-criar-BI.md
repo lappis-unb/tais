@@ -1,3 +1,9 @@
+---
+layout: page
+permalink: /tutoriais/tutorial-criar-BI/
+title: Como criar visualizações de BI
+---
+
 # Tutorial de criação de visualizações no Kibana
 
 
