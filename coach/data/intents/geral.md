@@ -108,6 +108,7 @@
 - ainda não pensei sobre isso
 - nao sei do que quero falar
 - não sei do que quero conversar
+- não tenho mais perguntas
 - não obrigado
 - nao obrigado
 - não obrigada

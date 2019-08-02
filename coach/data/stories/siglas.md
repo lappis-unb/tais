@@ -133,7 +133,6 @@
     - utter_continuar_conversa
 
 ## sigla 1.15
-* processo_como_funciona
 * definicao_vinculada
     - utter_definicao_vinculada
     - utter_continuar_conversa

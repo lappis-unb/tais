@@ -87,3 +87,44 @@
    - utter_continuar_conversa
 * negar_despedir: não obrigado
    - utter_despedir
+
+## end-to-end story 6
+* tudo_bem: tudo bem, Tais?
+   - utter_tudo_bem
+   - utter_menu
+* lei_rouanet_beneficios_incentivo_projetos_culturais: qual é a vantagem de incentivar? 
+   - utter_lei_rouanet_beneficios_incentivo_projetos_culturais
+   - utter_continuar_conversa
+* lei_rouanet_porcentagem_de_deducao_do_imposto: como funciona a isenção fiscal?
+   - utter_lei_rouanet_porcentagem_de_deducao_do_imposto
+   - utter_continuar_conversa
+* lei_rouanet_quem_pode_incentivar: quem pode incentivar um projeto?
+   - utter_lei_rouanet_quem_pode_incentivar
+   - utter_continuar_conversa
+* lei_rouanet_remuneracao_proponente: qual a remuneração do proponente?
+   - utter_lei_rouanet_remuneracao_proponente
+   - utter_continuar_conversa
+* negar_despedir: não tenho mais perguntas
+   - utter_despedir
+
+## end-to-end story 7
+* lei_rouanet_comercializacao_de_ingressos: qual deve ser o preço dos ingressos?
+   - utter_lei_rouanet_comercializacao_de_ingressos
+   - utter_continuar_conversa
+* lei_rouanet_promocao_de_marca: quero divulgar a logo do patrocinador
+   - utter_lei_rouanet_promocao_de_marca
+   - utter_continuar_conversa
+* lei_rouanet_valores_pagamento_caches: pagamento de cachê
+   - utter_lei_rouanet_valores_pagamento_caches
+   - utter_continuar_conversa
+* lei_rouanet_denuncia: quero denunciar um projeto
+   - utter_lei_rouanet_denuncia
+   - utter_continuar_conversa
+* contato: quero falar com uma pessoa
+   - utter_contato
+   - utter_continuar_conversa
+* endereco: qual é o endereço?
+   - utter_endereco
+   - utter_continuar_conversa
+* negar_despedir: não tenho mais perguntas
+   - utter_despedir
