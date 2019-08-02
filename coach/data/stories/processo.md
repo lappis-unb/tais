@@ -199,3 +199,7 @@
 * processo_prazo_apresentar_proposta
     - utter_processo_prazo_apresentar_proposta
     - utter_continuar_conversa
+
+## Processo 44
+* processo_como_funciona
+    - utter_processo_como_funciona

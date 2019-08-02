@@ -84,6 +84,11 @@
     - utter_lei_rouanet_decisao_final
     - utter_continuar_conversa
 
+##LeiRouanet 1.14
+* lei_rouanet_o_que_eh
+    - utter_lei_rouanet_o_que_eh
+    - utter_continuar_conversa
+
 ## LeiRouanet 2
 * lei_rouanet_o_que_eh
     - utter_lei_rouanet_o_que_eh

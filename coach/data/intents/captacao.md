@@ -1,8 +1,19 @@
 <!-- Captação -->
 ## intent:captacao
 - quero falar sobre captacao
+- quero falar sobre captação
 - tenho duvidas sobre captacao
-- você sabe falar sobre captacao
+- tenho dúvidas sobre captação
+- voce sabe falar sobre captacao
+- você sabe falar sobre captação
+- dúvidas captação
+- duvidas captacao
+- falar captacao
+- falar captação
+- sobre captacao
+- sobre captação
+- captacao
+- captação
 
 ## intent:captacao_quando_captar
 - quando poderei efetuar a captação de recursos do meu projeto

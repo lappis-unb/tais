@@ -49,3 +49,20 @@
    - utter_continuar_conversa
 * negar_despedir: nada
    - utter_despedir
+
+## end-to-end story 4
+* o_que_sei_falar: me ajuda
+   - utter_o_que_sei_falar
+* captacao: quero falar sobre captação
+   - utter_captacao
+* captacao_quando_captar: quando posso começar a captar?
+   - utter_captacao_quando_captar
+   - utter_continuar_conversa
+* elogios: me ajudou muito
+   - utter_elogios
+   - utter_continuar_conversa
+* lei_rouanet_origem_do_dinheiro: de onde vem o dinheiro?
+   - utter_lei_rouanet_origem_do_dinheiro
+   - utter_continuar_conversa
+* negar_despedir: nada
+   - utter_despedir

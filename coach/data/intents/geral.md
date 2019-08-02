@@ -43,9 +43,9 @@
 - boa noite
 
 ## intent:elogios
-- Tais, você é muito educada!
-- Adorei
-- Me ajudou muito
+- tais, você é muito educada!
+- adorei
+- me ajudou muito
 - vc eh linda
 
 ## intent:afirmar

@@ -58,7 +58,7 @@
 ## elogios
 * elogios
     - utter_elogios
-    - utter_objetivo
+    - utter_continuar_conversa
 
 ## tem wpp 1
 * tem_wpp
