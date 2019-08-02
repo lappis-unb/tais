@@ -44,9 +44,23 @@
 
 ## intent:elogios
 - tais, você é muito educada!
-- adorei
+- você me ajudou muito
+- voce me ajudou muito
+- vc me ajudou muito
+- vc me ajudou mt
 - me ajudou muito
+- você é maravilhosa
+- voce e maravilhosa
+- você é linda
+- voce e linda
 - vc eh linda
+- vc é ótima
+- vc e otima
+- maravilhosa
+- educada
+- linda
+- adorei
+- amei
 
 ## intent:afirmar
 - se não for incomodo
@@ -94,6 +108,10 @@
 - ainda não pensei sobre isso
 - nao sei do que quero falar
 - não sei do que quero conversar
+- não obrigado
+- nao obrigado
+- não obrigada
+- nao obrigada
 - nada
 
 ## intent:diga_mais

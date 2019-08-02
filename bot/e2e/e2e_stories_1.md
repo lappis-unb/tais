@@ -58,11 +58,32 @@
 * captacao_quando_captar: quando posso começar a captar?
    - utter_captacao_quando_captar
    - utter_continuar_conversa
-* elogios: me ajudou muito
-   - utter_elogios
-   - utter_continuar_conversa
 * lei_rouanet_origem_do_dinheiro: de onde vem o dinheiro?
    - utter_lei_rouanet_origem_do_dinheiro
    - utter_continuar_conversa
+* elogios: você me ajudou muito
+   - utter_elogios
+   - utter_continuar_conversa
 * negar_despedir: nada
+   - utter_despedir
+
+## end-to-end story 5
+* quem_criou_a_tais: quem te criou?
+   - utter_quem_criou_a_tais
+   - utter_continuar_conversa
+* definicao_tais: o que você é?
+   - utter_definicao_tais
+   - utter_objetivo
+* negar: não
+   - utter_continuar_conversa
+* lei_rouanet_quantidade_de_projetos: quantos projetos foram aprovados?
+   - utter_lei_rouanet_quantidade_de_projetos
+   - utter_continuar_conversa
+* lei_rouanet_quantidade_de_projetos_este_ano: quantos projetos foram aprovados este ano?
+   - utter_lei_rouanet_quantidade_de_projetos_este_ano
+   - utter_continuar_conversa
+* lei_rouanet_quem_pode_ser_proponente: quem pode submeter uma proposta?
+   - utter_lei_rouanet_quem_pode_ser_proponente
+   - utter_continuar_conversa
+* negar_despedir: não obrigado
    - utter_despedir

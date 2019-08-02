@@ -24,10 +24,12 @@
     - utter_menu
 * quem_criou_a_tais
     - utter_quem_criou_a_tais
+    - utter_continuar_conversa
 
 ## Oi Quem e tais 2
 * quem_criou_a_tais
     - utter_quem_criou_a_tais
+    - utter_continuar_conversa
 
 ## Nao entendi
 * diga_mais
