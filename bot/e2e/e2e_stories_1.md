@@ -58,6 +58,9 @@
 * captacao_quando_captar: quando posso começar a captar?
    - utter_captacao_quando_captar
    - utter_continuar_conversa
+* captacao_como_captar: como captar?
+   - utter_captacao_como_captar
+   - utter_continuar_conversa
 * lei_rouanet_origem_do_dinheiro: de onde vem o dinheiro?
    - utter_lei_rouanet_origem_do_dinheiro
    - utter_continuar_conversa
