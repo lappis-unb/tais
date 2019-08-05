@@ -95,10 +95,10 @@
 * tudo_bem: tudo bem, Tais?
    - utter_tudo_bem
    - utter_menu
-* lei_rouanet_beneficios_incentivo_projetos_culturais: qual é a vantagem de incentivar? 
+* lei_rouanet_beneficios_incentivo_projetos_culturais: como financiar um projeto cultural?
    - utter_lei_rouanet_beneficios_incentivo_projetos_culturais
    - utter_continuar_conversa
-* lei_rouanet_porcentagem_de_deducao_do_imposto: como funciona a isenção fiscal?
+* lei_rouanet_porcentagem_de_deducao_do_imposto: como funciona a isenção fiscal das empresas?
    - utter_lei_rouanet_porcentagem_de_deducao_do_imposto
    - utter_continuar_conversa
 * lei_rouanet_quem_pode_incentivar: quem pode incentivar um projeto?
@@ -117,6 +117,9 @@
 * lei_rouanet_promocao_de_marca: quero divulgar a logo do patrocinador
    - utter_lei_rouanet_promocao_de_marca
    - utter_continuar_conversa
+* lei_rouanet_divulgacao_patrocinio: como é feita a  divulgação do patrocínio?
+   - utter_lei_rouanet_divulgacao_patrocinio
+   - utter_continuar_conversa
 * lei_rouanet_valores_pagamento_caches: pagamento de cachê
    - utter_lei_rouanet_valores_pagamento_caches
    - utter_continuar_conversa
@@ -130,4 +133,30 @@
    - utter_endereco
    - utter_continuar_conversa
 * negar_despedir: não tenho mais perguntas
+   - utter_despedir
+
+## end-to-end story 8
+* o_que_sei_falar: me ajuda
+   - utter_o_que_sei_falar
+* lei_rouanet_edital: tem algum edital aberto?
+   - utter_lei_rouanet_edital
+   - utter_continuar_conversa
+* lei_rouanet_tipos_projeto: quais os tipos de projeto podem ser submetidos?
+   - utter_lei_rouanet_tipos_projeto
+   - utter_continuar_conversa
+* lei_rouanet_receber_incetivo_de_parentes: meus pais podem incentivar meu projeto?
+   - utter_lei_rouanet_quem_pode_incentivar
+   - utter_continuar_conversa
+* lei_rouanet_democratizacao: é necessário a formação de plateia?
+   - utter_lei_rouanet_democratizacao
+   - utter_continuar_conversa
+* processo_como_funciona: como posso submeter uma proposta?
+   - utter_processo_como_funciona
+* afirmar: sim
+   - utter_cadastro_salic_video
+* afirmar: quero
+   - utter_salic_cadastro_usuario
+   - utter_salic_cadastro_proponente
+   - utter_continuar_conversa
+* negar_despedir: nada
    - utter_despedir

@@ -42,6 +42,7 @@
 - quem pode se inscrever na lei rouanet
 - quem pode participar
 - quem pode submeter projetos
+- quem pode submeter uma proposta
 - quem pode apresentar projetos
 - quem pode apresentar proposta cultural
 - quem pode apresentar proposta
@@ -130,6 +131,7 @@
 - que beneficios tem para quem incentiva
 - um incentivador pode receber beneficio
 - qual é a vantagem de incentivar
+- qual e a vantagem de incentivar
 - quais as vantagens de ser incentivador
 - quais as vantagens para o patrocinador
 - quais os beneficios de ser incentivador
@@ -137,6 +139,8 @@
 - como financiar um projeto cultural
 - empresas ganham alguma coisa ajudando meus projetos
 - incentivo fiscal federal
+- vantagem de incentivar
+- vantagem incentivar
 - beneficiados
 - benefício
 - patrocínio
@@ -546,6 +550,7 @@
 
 ## intent:lei_rouanet_receber_incetivo_de_parentes
 - meus parentes podem incentivar meu projeto
+- meus pais podem incentivar meu projeto
 - meus pais e tios podem incentivar meu projeto
 - tem problema parentes incentivarem projetos
 - tenho parentes que desejam incentivar meus projetos
@@ -557,6 +562,12 @@
 - meus familiares podem incentivar meu projeto
 - parentes podem ser patrocinador
 - quero saber se meus parentes podem ajudar a financiar o meu projeto
+- meus pais
+- meus parentes
+- meus tios
+- minhas primas
+- minha família
+- minha familia
 - incentivar
 - incentivado
 - incentivo

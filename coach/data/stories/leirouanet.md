@@ -395,6 +395,11 @@
     - utter_lei_rouanet_democratizacao
     - utter_continuar_conversa
 
+## LeiRouanet 38.1
+* lei_rouanet_democratizacao
+    - utter_lei_rouanet_democratizacao
+    - utter_continuar_conversa
+
 ## LeiRouanet 39
 * cumprimentar
     - utter_cumprimentar
@@ -483,4 +488,9 @@
 ## Lei Rouanet 49
 * lei_rouanet_tipos_projeto
     - utter_lei_rouanet_tipos_projeto
+    - utter_continuar_conversa
+
+## Lei Rouanet 50
+* lei_rouanet_beneficios_incentivo_projetos_culturais
+    - utter_lei_rouanet_beneficios_incentivo_projetos_culturais
     - utter_continuar_conversa
