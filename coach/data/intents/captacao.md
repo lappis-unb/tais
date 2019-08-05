@@ -50,6 +50,7 @@
 - gostaria de saber como captar
 - onde acho os patrocinadores
 - como funciona a captação
+- como captar
 - proponente captação
 - proponente dinheiro
 - terceirizar captacao

@@ -245,6 +245,7 @@
 - toda empresa pode usar a lei rouanet
 - tem alguma execeção para uma empresa não utilizar a lei rouanet
 - quais a regras de elegibilidade no caso de empresas
+- quero incentivar
 - empresa
 - empresas podem se beneficiar
 - empresa se beneficiar

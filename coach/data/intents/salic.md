@@ -45,11 +45,16 @@
 - senha
 
 ## intent:salic_erros
+- quero relatar um erro no sistema do salic
+- estou com problemas no salic
 - sobre erros de sistema
+- sobre erros no salic
+- erros no sistema salic
 - erros do salic
 - erro no salic
 - problemas de sistema
 - problemas no salic
+- erros na plataforma salic
 - erros salic
 - problemas salic
 - erros
@@ -57,13 +62,20 @@
 ## intent:salic_erros_salvamento_de_proposta
 - perdi minhas alterações na proposta
 - não salvou minhas alterações na proposta
-- proposta não foi salva
-- alteração não foi salva após fechar
+- não consegui salvar minha proposta
+- minha proposta não foi salva
+- proposta não foi salvaapós
+- alteração não foi salva fechar
 - o salic não salvou minhas alterações na proposta
 - houve um erro ao gravar minha proposta
 - salic não salvou minha proposta
 - não salvou minha proposta
 - não foi salva
+- erro ao gravar proposta
+- erro ao salvar proposta
+- erro alterações na proposta
+- erro salvamento proposta
+- erro ao salvar minha proposta
 - erro ao salvar proposta
 
 ## intent:salic_erros_planilha_desapareceu

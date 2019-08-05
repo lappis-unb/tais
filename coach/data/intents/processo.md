@@ -319,6 +319,7 @@
 - como é a desistência do prazo de recurso
 - sobre o prazo de ecaminhamento de recurso, como desisto dele
 - da pra desistir do prazo de recurso
+- dá pra desistir do prazo de recurso
 - após o enquadramento, como desisto do prazo de recurso?
 - qual o prazo para desisitr de entrar com o recurso?
 - não quero entrar com o recurso

@@ -135,7 +135,7 @@
 ## sigla 1.15
 * definicao_vinculada
     - utter_definicao_vinculada
-    - utter_continuar_conversa
+    - utter_objetivo
 
 ## sigla 2
 * cumprimentar

@@ -58,7 +58,7 @@
 * captacao_quando_captar: quando posso começar a captar?
    - utter_captacao_quando_captar
    - utter_continuar_conversa
-* captacao_como_captar: como captar?
+* captacao_como_captar: como funciona a captação?
    - utter_captacao_como_captar
    - utter_continuar_conversa
 * processo_prazo_periodo_captacao: quanto tempo para captar
@@ -98,7 +98,7 @@
 * tudo_bem: tudo bem, Tais?
    - utter_tudo_bem
    - utter_menu
-* lei_rouanet_beneficios_incentivo_projetos_culturais: como financiar um projeto cultural?
+* lei_rouanet_beneficios_incentivo_projetos_culturais: tem beneficio para quem incentiva projeto?
    - utter_lei_rouanet_beneficios_incentivo_projetos_culturais
    - utter_continuar_conversa
 * lei_rouanet_porcentagem_de_deducao_do_imposto: como funciona a isenção fiscal das empresas?
@@ -183,6 +183,9 @@
 * salic_preenchimento_planilha_orcamentaria: como faço para preencher a planilha orçamentária?
    - utter_salic_preenchimento_planilha_orcamentaria
    - utter_continuar_conversa
+* processo_prazo_readequacao: qual o prazo de readequação orçamentária?
+   - utter_processo_prazo_readequacao
+   - utter_continuar_conversa
 * negar_despedir: não tenho mais perguntas
    - utter_despedir
 
@@ -265,7 +268,6 @@
 ## end-to-end story 15
 * processo_prazo: tenho dúvida sobre prazos
    - utter_processo_prazo
-   - utter_continuar_conversa
 * processo_prazo_apresentar_proposta: qual a data de apresentação de proposta?
    - utter_processo_prazo_apresentar_proposta
    - utter_continuar_conversa
@@ -279,4 +281,29 @@
    - utter_processo_prazo_prestacao_contas
    - utter_continuar_conversa
 * negar_despedir: não tenho mais perguntas
+   - utter_despedir
+
+## end-to-end story 16
+* processo_reativacao_de_proposta: como reativar uma proposta?
+   - utter_processo_reativacao_de_proposta
+   - utter_continuar_conversa
+* processo_prazo_desarquivar: data para desarquivar proposta
+   - utter_processo_prazo_desarquivar
+   - utter_continuar_conversa
+* salic_erros: estou com problemas no salic
+   - utter_salic_erros
+   - utter_continuar_conversa
+* salic_erros_planilha_desapareceu: minha planilha desapareceu
+   - utter_salic_erros_planilha_desapareceu
+   - utter_continuar_conversa
+* salic_erros_salvamento_de_proposta: houve um erro ao gravar minha proposta
+   - utter_salic_erros_salvamento_de_proposta
+   - utter_continuar_conversa
+* salic_recuperacao_de_senha: perdi minha senha
+   - utter_salic_recuperacao_de_senha
+   - utter_continuar_conversa
+* salic_erros_achar_proposta: não consigo encontrar minha proposta
+   - utter_salic_erros_achar_proposta
+   - utter_continuar_conversa
+* negar_despedir: nada mais
    - utter_despedir
