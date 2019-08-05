@@ -239,6 +239,7 @@
 - readequacao
 
 ## intent:processo_prazo_periodo_captacao
+- gostaria de saber o prazo para captação
 - quando é expirado o prazo para captação total
 - qual prazo para a captação total
 - quanto tempo para captar
@@ -247,6 +248,8 @@
 - captacao, qual é o prazo
 - périodo captacao
 - periodo captacao
+- período de captação
+- periodo de captacao
 - prazo captacao
 - prazo captacao
 - data captacao
@@ -308,20 +311,6 @@
 - prazo desarquivar
 - data desarquivar
 - desarquivar
-
-## intent:processo_prazo_desistir_recurso
-- desistir do prazo recursal
-- desistir do recurso
-- prazo pra encaminhar recurso
-- como é a desistência do prazo de recurso
-- sobre o prazo de ecaminhamento de recurso, como desisto dele
-- da pra desistir do prazo de recurso
-- após o enquadramento, como desisto do prazo de recurso?
-- qual o prazo para desisitr de entrar com o recurso?
-- não quero entrar com o recurso
-- quero desistir do prazo de recurso
-- desistência
-- desistir
 
 ## intent:processo_prazo_desistir_recurso
 - desistir do prazo recursal

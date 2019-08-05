@@ -61,6 +61,9 @@
 * captacao_como_captar: como captar?
    - utter_captacao_como_captar
    - utter_continuar_conversa
+* processo_prazo_periodo_captacao: quanto tempo para captar
+   - utter_processo_prazo_periodo_captacao
+   - utter_continuar_conversa
 * lei_rouanet_origem_do_dinheiro: de onde vem o dinheiro?
    - utter_lei_rouanet_origem_do_dinheiro
    - utter_continuar_conversa
@@ -101,7 +104,7 @@
 * lei_rouanet_porcentagem_de_deducao_do_imposto: como funciona a isenção fiscal das empresas?
    - utter_lei_rouanet_porcentagem_de_deducao_do_imposto
    - utter_continuar_conversa
-* lei_rouanet_quem_pode_incentivar: quem pode incentivar um projeto?
+* lei_rouanet_quem_pode_incentivar: quais a regras de elegibilidade no caso de empresas
    - utter_lei_rouanet_quem_pode_incentivar
    - utter_continuar_conversa
 * lei_rouanet_remuneracao_proponente: qual a remuneração do proponente?
@@ -257,4 +260,23 @@
    - utter_lei_rouanet_valor_maximo_regiao
    - utter_continuar_conversa
 * negar_despedir: não obrigada
+   - utter_despedir
+
+## end-to-end story 15
+* processo_prazo: tenho dúvida sobre prazos
+   - utter_processo_prazo
+   - utter_continuar_conversa
+* processo_prazo_apresentar_proposta: qual a data de apresentação de proposta?
+   - utter_processo_prazo_apresentar_proposta
+   - utter_continuar_conversa
+* processo_prazo_analise_proposta: qual é o prazo para a análise de proposta?
+   - utter_processo_prazo_analise_proposta
+   - utter_continuar_conversa
+* processo_prazo_analise_tecnica: qual é o prazo da análise técnica?
+   - utter_processo_prazo_analise_tecnica
+   - utter_continuar_conversa
+* processo_prazo_prestacao_contas: qual é o prazo para prestação de contas?
+   - utter_processo_prazo_prestacao_contas
+   - utter_continuar_conversa
+* negar_despedir: não tenho mais perguntas
    - utter_despedir
