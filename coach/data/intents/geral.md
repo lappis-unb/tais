@@ -102,13 +102,22 @@
 - nao quero saber mais
 - quero falar sobre outra coisa
 - não quero saber de mais nada
+- não tenho mais dúvidas
+- não tenho mais perguntas
+- você já me respondeu tudo
 - nao era isso, me enganei
 - não quero falar sobre isso
 - ainda nao sei escolher um tópico
 - ainda não pensei sobre isso
 - nao sei do que quero falar
 - não sei do que quero conversar
+- já me respondeu
+- já me ajudou
 - não tenho mais perguntas
+- não tenho mais dúvidas
+- nao tenho mais duvidas
+- não tenho mais
+- não quero saber
 - não obrigado
 - nao obrigado
 - não obrigada

@@ -160,3 +160,25 @@
    - utter_continuar_conversa
 * negar_despedir: nada
    - utter_despedir
+
+## end-to-end story 9
+* tudo_bem: tudo bem?
+   - utter_tudo_bem
+   - utter_menu
+* lei_rouanet_remanejamento: gostaria de saber como fazer o remanejamento orçamentário
+   - utter_lei_rouanet_remanejamento
+   - utter_continuar_conversa
+* lei_rouanet_reembolso_despesa: como fazer o reembolso?
+   - utter_lei_rouanet_reembolso_despesa
+   - utter_continuar_conversa
+* lei_rouanet_recibo_mecenato: como baixar o recibo de mecenato? 
+   - utter_lei_rouanet_recibo_mecenato
+   - utter_continuar_conversa
+* salic_preenchimento_cadastro_fornecedor: como cadastrar fornecedor não cadastrado?
+   - utter_salic_preenchimento_cadastro_fornecedor
+   - utter_continuar_conversa
+* salic_preenchimento_planilha_orcamentaria: como faço para preencher a planilha orçamentária?
+   - utter_salic_preenchimento_planilha_orcamentaria
+   - utter_continuar_conversa
+* negar_despedir: não tenho mais perguntas
+   - utter_despedir
