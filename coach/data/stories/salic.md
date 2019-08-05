@@ -89,3 +89,8 @@
 * salic_preenchimento_cadastro_fornecedor
     - utter_salic_preenchimento_cadastro_fornecedor
     - utter_continuar_conversa
+
+## salic 19
+* salic_preenchimento_comprovacao_financeira
+    - utter_salic_preenchimento_comprovacao_financeira
+    - utter_continuar_conversa

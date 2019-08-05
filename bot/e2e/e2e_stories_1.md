@@ -183,6 +183,9 @@
 * salic_preenchimento_planilha_orcamentaria: como faço para preencher a planilha orçamentária?
    - utter_salic_preenchimento_planilha_orcamentaria
    - utter_continuar_conversa
+* salic_preenchimento_comprovacao_financeira: quero enviar a comprovação financeira do projeto
+   - utter_salic_preenchimento_comprovacao_financeira
+   - utter_continuar_conversa
 * processo_prazo_readequacao: qual o prazo de readequação orçamentária?
    - utter_processo_prazo_readequacao
    - utter_continuar_conversa
@@ -306,4 +309,23 @@
    - utter_salic_erros_achar_proposta
    - utter_continuar_conversa
 * negar_despedir: nada mais
+   - utter_despedir
+
+## end-to-end story 17
+* processo_prazo_envio_cnae: envio do cnae
+   - utter_processo_prazo_envio_cnae
+   - utter_continuar_conversa
+* processo_prazo_diligencias: qual é o prazo de diligências?
+   - utter_processo_prazo_diligencias
+   - utter_continuar_conversa
+* processo_prazo_desistir_recurso: quero desistir do prazo de recurso
+   - utter_processo_prazo_desistir_recurso
+   - utter_continuar_conversa
+* salic_preenchimento_alteracao_proponente: como mudar o proponente do projeto?
+   - utter_salic_preenchimento_alteracao_proponente
+   - utter_continuar_conversa
+* definicao_vinculada: o que é vinculada
+   - utter_definicao_vinculada
+   - utter_continuar_conversa
+* negar_despedir: não obrigada
    - utter_despedir
