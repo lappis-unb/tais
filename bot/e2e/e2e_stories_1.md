@@ -182,3 +182,67 @@
    - utter_continuar_conversa
 * negar_despedir: não tenho mais perguntas
    - utter_despedir
+
+## end-to-end story 10
+* lei_rouanet_etapas_aprovacao_projeto: quais etapas de aprovação de um projeto?
+   - utter_lei_rouanet_etapas_aprovacao_projeto
+   - utter_continuar_conversa
+* lei_rouanet_apresentacao_de_proposta: #apresentaçãodeproposta
+   - utter_lei_rouanet_apresentacao_de_proposta
+   - utter_continuar_conversa
+* lei_rouanet_analise_de_admissibilidade: #análisedeadmissibilidade
+   - utter_lei_rouanet_analise_de_admissibilidade
+   - utter_continuar_conversa
+* lei_rouanet_analise_tecnica: #analisetecnica
+   - utter_lei_rouanet_analise_tecnica
+   - utter_continuar_conversa
+* lei_rouanet_analise_pela_cnic: #análisepelacnic
+   - utter_lei_rouanet_analise_pela_cnic
+   - utter_continuar_conversa
+* negar_despedir: não tenho mais dúvidas
+   - utter_despedir
+
+## end-to-end story 11
+* definicao_proposta: o que é proposta?
+   - utter_definicao_proposta
+   - utter_continuar_conversa
+* definicao_proponente: o que é proponente?
+   - utter_definicao_proponente
+   - utter_continuar_conversa
+* lei_rouanet_etapas_aprovacao_projeto: quais etapas de aprovação de um projeto?
+   - utter_lei_rouanet_etapas_aprovacao_projeto
+   - utter_continuar_conversa
+* lei_rouanet_decisao_final: #decisaofinal
+   - utter_lei_rouanet_decisao_final
+   - utter_continuar_conversa
+* negar_despedir: não obrigado
+   - utter_despedir
+
+## end-to-end story 12
+* o_que_sei_falar: me ajuda
+   - utter_o_que_sei_falar
+* definicao_projeto: o que significa projeto?
+   - utter_definicao_projeto
+   - utter_continuar_conversa
+* lei_rouanet_valor_maximo_projeto: qual é o valor maximo de projetos?
+   - utter_lei_rouanet_valor_maximo_projeto
+* lei_rouanet_valor_maximo_pessoa_fisica: pessoa fisica
+   - utter_lei_rouanet_valor_minimo
+   - utter_lei_rouanet_valor_maximo_pessoa_fisica
+   - utter_lei_rouanet_valor_maximo_regiao
+   - utter_continuar_conversa
+* negar_despedir: nada
+   - utter_despedir
+
+## end-to-end story 13
+* o_que_sei_falar: me ajuda
+   - utter_o_que_sei_falar
+* lei_rouanet_valor_maximo_projeto: qual é o valor maximo de projetos?
+   - utter_lei_rouanet_valor_maximo_projeto
+* lei_rouanet_valor_maximo_pessoa_juridica: pessoa juridica
+   - utter_lei_rouanet_valor_minimo
+   - utter_lei_rouanet_valor_maximo_pessoa_juridica
+   - utter_lei_rouanet_valor_maximo_regiao
+   - utter_continuar_conversa
+* negar_despedir: nada
+   - utter_despedir
