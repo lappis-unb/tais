@@ -16,6 +16,7 @@ stages:
 
 test style:
   stage: test style
+  when: if_latest
   script:
     - pip -V
     - python -V
@@ -25,6 +26,7 @@ test style:
 run dataset validator:
   stage: validate format
   image: lappis/coach:latest
+  when: if_latest
   script:
     - cd coach/
     - make run-validator
@@ -34,6 +36,7 @@ test stories:
   image: docker
   tags:
     - docker
+  when: if_latest
   services:
     - docker:dind
   script:
