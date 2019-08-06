@@ -353,3 +353,25 @@
    - utter_continuar_conversa
 * negar_despedir: só isso mesmo, obrigada
    - utter_despedir
+
+## end-to-end story 19
+* processo_definicao_etapas: gostaria de saber o passo a passo na elaboração do projeto
+   - utter_processo_definicao_etapas
+   - utter_continuar_conversa
+* processo_preenchimento: preenchimento
+   - utter_processo_preenchimento
+   - utter_continuar_conversa
+* processo_admissibilidade: admissibilidade
+   - utter_processo_admissibilidade
+   - utter_continuar_conversa
+* processo_aprovacao: etapa de aprovação
+   - utter_processo_aprovacao
+   - utter_continuar_conversa
+* processo_execucao: fase de execução
+   - utter_processo_execucao
+   - utter_continuar_conversa
+* processo_analise_de_resultados: o que devo fazer na análise de resultados?
+   - utter_processo_analise_de_resultados
+   - utter_continuar_conversa
+* negar_despedir: nada mais
+   - utter_despedir

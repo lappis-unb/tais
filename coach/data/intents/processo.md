@@ -70,6 +70,7 @@
 - documentos necessários
 - quais documentos anexar
 - o que anexar no preenchimento
+- preenchimento
 
 ## intent:processo_admissibilidade
 - o que é admissibilidade
@@ -86,6 +87,9 @@
 - sobre aprovação
 - defina aprovação
 - o que acontece na aprovação
+- o que acontece na etapa aprovação
+- o que ocorre na aprovação
+- o que ocorre na etapa aprovação
 - aprovação
 - fase aprovação
 - etapa aprovação
@@ -100,22 +104,25 @@
 - o que é execução
 - sobre execução
 - defina execução
-- o que devo fazer no execução
+- o que devo fazer na execução
 - fase de execução
 - fase execução
 - etapa execução
 - execução
-- o que acontence em execução
+- o que acontence na etapa execução
+- execução
 - execucao
 
 ## intent:processo_analise_de_resultados
 - o que devo fazer no análise de resultados
+- o que ocorre na análise de resultados
+- o que acontece na análise de resultados
 - o que é análise de resultados
 - sobre análise de resultados
 - defina análise de resultados
 - defina prestação de contas
+- etapa análise de resultados
 - analise de resultados
-
 
 ## intent:processo_reativacao_de_proposta
 - posso encaminhar pedido de reativação
