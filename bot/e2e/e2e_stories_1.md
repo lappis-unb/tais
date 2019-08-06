@@ -76,9 +76,6 @@
 ## end-to-end story 5
 * quem_criou_a_tais: quem te criou?
    - utter_quem_criou_a_tais
-   - utter_continuar_conversa
-* definicao_tais: o que você é?
-   - utter_definicao_tais
    - utter_objetivo
 * negar: não
    - utter_continuar_conversa
@@ -153,7 +150,7 @@
 * lei_rouanet_democratizacao: é necessário a formação de plateia?
    - utter_lei_rouanet_democratizacao
    - utter_continuar_conversa
-* processo_como_funciona: como posso submeter uma proposta?
+* processo_como_funciona: como submeter uma proposta?
    - utter_processo_como_funciona
 * afirmar: sim
    - utter_cadastro_salic_video
@@ -269,7 +266,7 @@
    - utter_despedir
 
 ## end-to-end story 15
-* processo_prazo: tenho dúvida sobre prazos
+* processo_prazo: prazos
    - utter_processo_prazo
    - utter_continuar_conversa
 * processo_prazo_apresentar_proposta: qual a data de apresentação de proposta?

@@ -23,14 +23,6 @@
     - utter_menu
 
 ## Oi Quem e tais 1
-* cumprimentar
-    - utter_cumprimentar
-    - utter_menu
-* quem_criou_a_tais
-    - utter_quem_criou_a_tais
-    - utter_continuar_conversa
-
-## Oi Quem e tais 2
 * quem_criou_a_tais
     - utter_quem_criou_a_tais
     - utter_continuar_conversa
