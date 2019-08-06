@@ -226,10 +226,15 @@
 
 ## intent:processo_prazo_readequacao
 - posso saber sobre o periodo de readequacao
+- preciso fazer uma readequação orçamentária
 - sobre o prazo de readequaçao
 - qual é o periodo de readequacao
 - qual é o prazo de readequacao
+- qual é o prazo para readequação
+- readequação orçamentária
 - périodo readequação
+- período de readequação
+- periodo de readequacao
 - periodo readequacao
 - prazo readequação
 - prazo readequacao
@@ -291,6 +296,9 @@
 
 ## intent:processo_prazo_diligencias
 - tenho duvida sobre o prazo de diligencias
+- quero saber o prazo de diligências
+- me fale sobre o prazo de diligências
+- sobre o prazo de diligências
 - diligências, qual é o prazo
 - diligências, qual é o prazo limite
 - qual é o prazo de diligências
@@ -306,8 +314,18 @@
 
 ## intent:processo_prazo_desarquivar
 - qual é o periodo para desarquivar propostas
+- qual é o perídodo para desarquivar proposta
+- qual é o prazo para desarquivar propostas
+- qual é o prazo para desarquivar proposta
+- quando eu posso desarquivar uma proposta
+- me ajuda desarquivar proposta
+- preciso desarquivar proposta
+- desarquivar proposta
+- desarquivar proposta
+- desarquivar projeto
 - périodo desarquivar
 - periodo desarquivar
+- prazo para desarquivar
 - prazo desarquivar
 - data desarquivar
 - desarquivar

@@ -494,3 +494,8 @@
 * lei_rouanet_beneficios_incentivo_projetos_culturais
     - utter_lei_rouanet_beneficios_incentivo_projetos_culturais
     - utter_continuar_conversa
+
+## Lei Rouanet 51
+* lei_rouanet_comercializacao_de_ingressos
+    - utter_lei_rouanet_comercializacao_de_ingressos
+    - utter_continuar_conversa

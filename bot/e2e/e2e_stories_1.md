@@ -53,7 +53,7 @@
 ## end-to-end story 4
 * o_que_sei_falar: me ajuda
    - utter_o_que_sei_falar
-* captacao: quero falar sobre captação
+* captacao: tenho duvidas sobre captacao
    - utter_captacao
 * captacao_quando_captar: quando posso começar a captar?
    - utter_captacao_quando_captar
@@ -106,9 +106,6 @@
    - utter_continuar_conversa
 * lei_rouanet_quem_pode_incentivar: quais a regras de elegibilidade no caso de empresas
    - utter_lei_rouanet_quem_pode_incentivar
-   - utter_continuar_conversa
-* lei_rouanet_remuneracao_proponente: qual a remuneração do proponente?
-   - utter_lei_rouanet_remuneracao_proponente
    - utter_continuar_conversa
 * negar_despedir: não tenho mais perguntas
    - utter_despedir
@@ -186,7 +183,7 @@
 * salic_preenchimento_comprovacao_financeira: quero enviar a comprovação financeira do projeto
    - utter_salic_preenchimento_comprovacao_financeira
    - utter_continuar_conversa
-* processo_prazo_readequacao: qual o prazo de readequação orçamentária?
+* processo_prazo_readequacao: qual é o prazo para readequação?
    - utter_processo_prazo_readequacao
    - utter_continuar_conversa
 * negar_despedir: não tenho mais perguntas
@@ -271,6 +268,7 @@
 ## end-to-end story 15
 * processo_prazo: tenho dúvida sobre prazos
    - utter_processo_prazo
+   - utter_continuar_conversa
 * processo_prazo_apresentar_proposta: qual a data de apresentação de proposta?
    - utter_processo_prazo_apresentar_proposta
    - utter_continuar_conversa
@@ -315,7 +313,7 @@
 * processo_prazo_envio_cnae: envio do cnae
    - utter_processo_prazo_envio_cnae
    - utter_continuar_conversa
-* processo_prazo_diligencias: qual é o prazo de diligências?
+* processo_prazo_diligencias: quero saber o prazo de diligências
    - utter_processo_prazo_diligencias
    - utter_continuar_conversa
 * processo_prazo_desistir_recurso: quero desistir do prazo de recurso
@@ -326,6 +324,32 @@
    - utter_continuar_conversa
 * definicao_vinculada: o que é vinculada
    - utter_definicao_vinculada
+   - utter_objetivo
+* negar: não
    - utter_continuar_conversa
 * negar_despedir: não obrigada
+   - utter_despedir
+
+## end-to-end story 18
+* definicao_sefic: o que é sefic?
+   - utter_definicao_sefic
+   - utter_objetivo
+* negar: não
+   - utter_continuar_conversa
+* definicao_salic: o que é salic?
+   - utter_definicao_salic
+   - utter_continuar_conversa
+* salic_preenchimento: instruções de preenchimento
+   - utter_salic_preenchimento
+   - utter_continuar_conversa
+* salic_preenchimento_campo_custo_auditoria: como preencher o campo custo de auditoria?
+   - utter_salic_preenchimento_campo_custo_auditoria
+   - utter_continuar_conversa
+* salic_preenchimento_cadastro_rubrica_advogado_contador: cadastrar as rubricas de advogado e contador
+   - utter_salic_preenchimento_cadastro_rubrica_advogado_contador
+   - utter_continuar_conversa
+* salic_preenchimento_valor_ingresso: como calcula o valor do ingresso?
+   - utter_salic_preenchimento_valor_ingresso
+   - utter_continuar_conversa
+* negar_despedir: só isso mesmo, obrigada
    - utter_despedir

@@ -113,6 +113,12 @@
 - não sei do que quero conversar
 - já me respondeu
 - já me ajudou
+- só isso mesmo, obrigada
+- so isso mesmo obrigada
+- só isso mesmo, obrigado
+- so isso mesmo obrigado
+- só isso mesmo
+- so isso mesmo
 - não tenho mais perguntas
 - não tenho mais dúvidas
 - nao tenho mais duvidas

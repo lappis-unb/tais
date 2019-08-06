@@ -1,3 +1,7 @@
+## Oi
+* cumprimentar
+    - utter_cumprimentar
+
 ## Despedir Story
 * despedir
     - utter_despedir

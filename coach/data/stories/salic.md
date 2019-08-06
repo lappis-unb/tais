@@ -41,6 +41,7 @@
 ## salic 9
 * salic_preenchimento
     - utter_salic_preenchimento
+    - utter_continuar_conversa
 
 ## salic 10
 * salic_preenchimento

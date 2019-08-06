@@ -53,8 +53,6 @@
     - utter_continuar_conversa
 
 ## Money 8
-* cumprimentar
-    - utter_cumprimentar
 * captacao
     - utter_captacao
 * captacao_quando_captar
@@ -79,8 +77,6 @@
     - utter_captacao
 
 ## Money 9
-* cumprimentar
-    - utter_cumprimentar
 * captacao
     - utter_captacao
 * captacao_como_captar

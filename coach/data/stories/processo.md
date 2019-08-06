@@ -53,81 +53,56 @@
     - utter_continuar_conversa
 
 ## Processo 12
-* processo_prazo_analise_tecnica
-    - utter_processo_prazo_analise_tecnica
+* processo_prazo
+    - utter_processo_prazo
     - utter_continuar_conversa
 
 ## Processo 13
-* processo_prazo_analise_proposta
-    - utter_processo_prazo_analise_proposta
+* processo_preenchimento
+    - utter_processo_preenchimento
     - utter_continuar_conversa
 
 ## Processo 14
-* processo_prazo_readequacao
-    - utter_processo_prazo_readequacao
+* processo_admissibilidade
+    - utter_processo_admissibilidade
     - utter_continuar_conversa
 
 ## Processo 15
-* processo_prazo_periodo_captacao
-    - utter_processo_prazo_periodo_captacao
+* processo_aprovacao
+    - utter_processo_aprovacao
     - utter_continuar_conversa
 
 ## Processo 16
-* processo_prazo_prestacao_contas
-    - utter_processo_prazo_prestacao_contas
+* processo_execucao
+    - utter_processo_execucao
     - utter_continuar_conversa
 
 ## Processo 17
-* processo_prazo_diligencias
-    - utter_processo_prazo_diligencias
+* processo_analise_de_resultados
+    - utter_processo_analise_de_resultados
     - utter_continuar_conversa
 
 ## Processo 18
-* processo_prazo_desarquivar
-    - utter_processo_prazo_desarquivar
+* processo_definicao_etapas
+    - utter_processo_definicao_etapas
     - utter_continuar_conversa
 
 ## Processo 19
-* processo_prazo_desistir_recurso
-    - utter_processo_prazo_desistir_recurso
+* processo_prazo_apresentar_proposta
+    - utter_processo_prazo_apresentar_proposta
     - utter_continuar_conversa
 
 ## Processo 20
 * processo_prazo
  - utter_processo_prazo
-
-## Processo 21
-* processo_preenchimento
-    - utter_processo_preenchimento
-
-## Processo 22
-* processo_admissibilidade
-    - utter_processo_admissibilidade
-
-## Processo 23
-* processo_aprovacao
-    - utter_processo_aprovacao
-
-## Processo 24
-* processo_execucao
-    - utter_processo_execucao
-
-## Processo 25
-* processo_analise_de_resultados
-    - utter_processo_analise_de_resultados
-
-## Processo 26
-* processo_definicao_etapas
-    - utter_processo_definicao_etapas
-
-## Processo 27
 * processo_prazo_apresentar_proposta
     - utter_processo_prazo_apresentar_proposta
     - utter_continuar_conversa
 
-## Processo 28
-* processo_prazo
- - utter_processo_prazo
-* processo_prazo_apresentar_proposta
-    - utter_processo_prazo_apresentar_proposta
+## Processo 21
+* processo_prazo_envio_cnae
+    - utter_processo_prazo_envio_cnae
+    - utter_continuar_conversa
+* processo_prazo_diligencias
+    - utter_processo_prazo_diligencias
     - utter_continuar_conversa

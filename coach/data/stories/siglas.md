@@ -111,7 +111,7 @@
 ## sigla 1.12
 * definicao_sefic
     - utter_definicao_sefic
-    - utter_continuar_conversa
+    - utter_objetivo
 
 ## sigla 1.13
 * processo_como_funciona
@@ -138,8 +138,6 @@
     - utter_objetivo
 
 ## sigla 2
-* cumprimentar
-    - utter_cumprimentar
 * definicao_salic
     - utter_definicao_salic
     - utter_objetivo
@@ -147,8 +145,6 @@
     - utter_continuar_conversa
 
 ## sigla 2.1
-* cumprimentar
-    - utter_cumprimentar
 * definicao_salic
     - utter_definicao_salic
     - utter_objetivo
@@ -161,8 +157,6 @@
     - utter_continuar_conversa
 
 ## sigla 2.2
-* cumprimentar
-    - utter_cumprimentar
 * definicao_salic
     - utter_definicao_salic
     - utter_objetivo
@@ -176,8 +170,6 @@
     - utter_continuar_conversa
 
 ## sigla 2.3
-* cumprimentar
-    - utter_cumprimentar
 * definicao_salic
     - utter_definicao_salic
     - utter_objetivo
@@ -457,8 +449,6 @@
     - utter_continuar_conversa
 
 ## sigla 6
-* cumprimentar
-    - utter_cumprimentar
 * definicao_sefic
     - utter_definicao_sefic
     - utter_objetivo
@@ -466,8 +456,6 @@
     - utter_continuar_conversa
 
 ## sigla 6.1
-* cumprimentar
-    - utter_cumprimentar
 * definicao_sefic
     - utter_definicao_sefic
     - utter_objetivo
@@ -480,8 +468,6 @@
     - utter_continuar_conversa
 
 ## sigla 6.2
-* cumprimentar
-    - utter_cumprimentar
 * definicao_sefic
     - utter_definicao_sefic
     - utter_objetivo
@@ -495,14 +481,22 @@
     - utter_continuar_conversa
 
 ## sigla 6.3
-* cumprimentar
-    - utter_cumprimentar
 * definicao_sefic
     - utter_definicao_sefic
     - utter_objetivo
 * afirmar
     - utter_processo_como_funciona
 * negar
+    - utter_continuar_conversa
+
+## sigla 6.4
+* definicao_sefic
+    - utter_definicao_sefic
+    - utter_objetivo
+* negar
+    - utter_continuar_conversa
+* definicao_salic
+    - utter_definicao_salic
     - utter_continuar_conversa
 
 ## sigla 7
