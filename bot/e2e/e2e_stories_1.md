@@ -98,6 +98,9 @@
 * tudo_bem: tudo bem, Tais?
    - utter_tudo_bem
    - utter_menu
+* salic_preenchimento_vinculo_cpf_proposta: vinculo de proposta
+   - utter_salic_preenchimento_vinculo_cpf_proposta
+   - utter_continuar_conversa
 * lei_rouanet_beneficios_incentivo_projetos_culturais: tem beneficio para quem incentiva projeto?
    - utter_lei_rouanet_beneficios_incentivo_projetos_culturais
    - utter_continuar_conversa
@@ -373,5 +376,43 @@
 * processo_analise_de_resultados: o que devo fazer na análise de resultados?
    - utter_processo_analise_de_resultados
    - utter_continuar_conversa
+* salic_preenchimento_cadastro_agencia_bancaria: precisa ter conta no banco do brasil?
+   - utter_salic_preenchimento_cadastro_agencia_bancaria
+   - utter_continuar_conversa
 * negar_despedir: nada mais
+   - utter_despedir
+
+## end-to-end story 20
+* tudo_bem: tudo bem
+   - utter_tudo_bem
+   - utter_menu
+* definicao_minc: o que é minc?
+   - utter_definicao_minc
+   - utter_objetivo
+* afirmar: quero
+   - utter_processo_como_funciona
+* afirmar: sim
+   - utter_cadastro_salic_video
+* afirmar: sim
+   - utter_salic_cadastro_usuario
+   - utter_salic_cadastro_proponente
+   - utter_continuar_conversa
+* negar_despedir: não tenho mais dúvidas
+   - utter_despedir
+
+## end-to-end story 21
+* tudo_bem: tudo bem
+   - utter_tudo_bem
+   - utter_menu
+* definicao_cnic: o que é cnic?
+   - utter_definicao_cnic
+   - utter_objetivo
+* afirmar: quero
+   - utter_processo_como_funciona
+* afirmar: sim
+   - utter_cadastro_salic_video
+* negar: não
+   - utter_salic_cadastro_proponente
+   - utter_continuar_conversa
+* negar_despedir: não tenho mais perguntas
    - utter_despedir

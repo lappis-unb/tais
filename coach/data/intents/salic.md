@@ -159,6 +159,7 @@
 - valor do ingresso
 
 ## intent:salic_preenchimento_vinculo_cpf_proposta
+- como vincular uma proposta ao meu cpf
 - vincular uma proposta ao cpf do responsável
 - vincular proposta ao cpf
 - como vincular proposta a pessoa fisica
