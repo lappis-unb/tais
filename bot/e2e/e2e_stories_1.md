@@ -268,7 +268,6 @@
 ## end-to-end story 15
 * processo_prazo: prazos
    - utter_processo_prazo
-   - utter_continuar_conversa
 * processo_prazo_apresentar_proposta: qual a data de apresentação de proposta?
    - utter_processo_prazo_apresentar_proposta
    - utter_continuar_conversa

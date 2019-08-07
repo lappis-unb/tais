@@ -55,7 +55,6 @@
 ## Processo 12
 * processo_prazo
     - utter_processo_prazo
-    - utter_continuar_conversa
 
 ## Processo 13
 * processo_preenchimento
