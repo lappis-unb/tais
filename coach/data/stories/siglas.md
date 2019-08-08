@@ -1,6 +1,4 @@
 ## sigla 1
-* cumprimentar
-    - utter_cumprimentar
 * definicao_tais
     - utter_definicao_tais
     - utter_objetivo
@@ -8,8 +6,6 @@
     - utter_continuar_conversa
 
 ## sigla 1.1
-* cumprimentar
-    - utter_cumprimentar
 * definicao_tais
     - utter_definicao_tais
     - utter_objetivo
@@ -22,8 +18,6 @@
     - utter_continuar_conversa
 
 ## sigla 1.2
-* cumprimentar
-    - utter_cumprimentar
 * definicao_tais
     - utter_definicao_tais
     - utter_objetivo
@@ -37,8 +31,6 @@
     - utter_continuar_conversa
 
 ## sigla 1.3
-* cumprimentar
-    - utter_cumprimentar
 * definicao_tais
     - utter_definicao_tais
     - utter_objetivo
@@ -46,96 +38,6 @@
     - utter_processo_como_funciona
 * negar
     - utter_continuar_conversa
-
-## sigla 1.4
-* definicao_tais
-    - utter_definicao_tais
-    - utter_objetivo
-* negar
-    - utter_continuar_conversa
-* definicao_minc
-    - utter_definicao_minc
-    - utter_continuar_conversa
-
-## sigla 1.5
-* definicao_tais
-    - utter_definicao_tais
-    - utter_objetivo
-* negar
-    - utter_continuar_conversa
-* definicao_salic
-    - utter_definicao_salic
-    - utter_continuar_conversa
-
-## sigla 1.6
-* definicao_tais
-    - utter_definicao_tais
-    - utter_objetivo
-* negar
-    - utter_continuar_conversa
-* definicao_cnic
-    - utter_definicao_cnic
-    - utter_continuar_conversa
-
-## sigla 1.7
-* definicao_tais
-    - utter_definicao_tais
-    - utter_objetivo
-* negar
-    - utter_continuar_conversa
-* definicao_sefic
-    - utter_definicao_sefic
-    - utter_continuar_conversa
-
-## sigla 1.8
-* processo_como_funciona
-    - utter_processo_como_funciona
-* negar
-    - utter_continuar_conversa
-
-## sigla 1.9
-* definicao_minc
-    - utter_definicao_minc
-    - utter_continuar_conversa
-
-## sigla 1.10
-* definicao_salic
-    - utter_definicao_salic
-    - utter_continuar_conversa
-
-## sigla 1.11
-* definicao_cnic
-    - utter_definicao_cnic
-    - utter_continuar_conversa
-
-## sigla 1.12
-* definicao_sefic
-    - utter_definicao_sefic
-    - utter_objetivo
-
-## sigla 1.13
-* processo_como_funciona
-    - utter_processo_como_funciona
-* afirmar
-    - utter_cadastro_salic_video
-* negar
-    - utter_salic_cadastro_proponente
-    - utter_continuar_conversa
-
-## sigla 1.14
-* processo_como_funciona
-    - utter_processo_como_funciona
-* afirmar
-    - utter_cadastro_salic_video
-* afirmar
-    - utter_salic_cadastro_usuario
-    - utter_salic_cadastro_proponente
-    - utter_continuar_conversa
-
-## sigla 1.15
-* definicao_vinculada
-    - utter_definicao_vinculada
-    - utter_objetivo
 
 ## sigla 2
 * definicao_salic
@@ -178,49 +80,7 @@
 * negar
     - utter_continuar_conversa
 
-## sigla 2.4
-* definicao_salic
-    - utter_definicao_salic
-    - utter_objetivo
-* negar
-    - utter_continuar_conversa
-* definicao_cnic
-    - utter_definicao_cnic
-    - utter_continuar_conversa
-
-## sigla 2.5
-* definicao_salic
-    - utter_definicao_salic
-    - utter_objetivo
-* negar
-    - utter_continuar_conversa
-* definicao_sefic
-    - utter_definicao_sefic
-    - utter_continuar_conversa
-
-## sigla 2.6
-* definicao_salic
-    - utter_definicao_salic
-    - utter_objetivo
-* negar
-    - utter_continuar_conversa
-* definicao_vinculada
-    - utter_definicao_vinculada
-    - utter_continuar_conversa
-
-## sigla 2.7
-* definicao_salic
-    - utter_definicao_salic
-    - utter_objetivo
-* negar
-    - utter_continuar_conversa
-* quem_criou_a_tais
-    - utter_quem_criou_a_tais
-    - utter_continuar_conversa
-
 ## sigla 3
-* cumprimentar
-    - utter_cumprimentar
 * definicao_vinculada
     - utter_definicao_vinculada
     - utter_objetivo
@@ -228,8 +88,6 @@
     - utter_continuar_conversa
 
 ## sigla 3.1
-* cumprimentar
-    - utter_cumprimentar
 * definicao_vinculada
     - utter_definicao_vinculada
     - utter_objetivo
@@ -242,8 +100,6 @@
     - utter_continuar_conversa
 
 ## sigla 3.2
-* cumprimentar
-    - utter_cumprimentar
 * definicao_vinculada
     - utter_definicao_vinculada
     - utter_objetivo
@@ -257,8 +113,6 @@
     - utter_continuar_conversa
 
 ## sigla 3.3
-* cumprimentar
-    - utter_cumprimentar
 * definicao_vinculada
     - utter_definicao_vinculada
     - utter_objetivo
@@ -279,8 +133,6 @@
     - utter_continuar_conversa
 
 ## sigla 4
-* cumprimentar
-    - utter_cumprimentar
 * definicao_minc
     - utter_definicao_minc
     - utter_objetivo
@@ -288,8 +140,6 @@
     - utter_continuar_conversa
 
 ## sigla 4.1
-* cumprimentar
-    - utter_cumprimentar
 * definicao_minc
     - utter_definicao_minc
     - utter_objetivo
@@ -309,8 +159,6 @@
     - utter_objetivo
 
 ## sigla 4.3
-* cumprimentar
-    - utter_cumprimentar
 * definicao_minc
     - utter_definicao_minc
     - utter_objetivo
@@ -329,49 +177,7 @@
     - utter_definicao_salic
     - utter_continuar_conversa
 
-## sigla 4.5
-* definicao_minc
-    - utter_definicao_minc
-    - utter_objetivo
-* negar
-    - utter_continuar_conversa
-* definicao_cnic
-    - utter_definicao_cnic
-    - utter_continuar_conversa
-
-## sigla 4.6
-* definicao_minc
-    - utter_definicao_minc
-    - utter_objetivo
-* negar
-    - utter_continuar_conversa
-* definicao_sefic
-    - utter_definicao_sefic
-    - utter_continuar_conversa
-
-## sigla 4.7
-* definicao_minc
-    - utter_definicao_minc
-    - utter_objetivo
-* negar
-    - utter_continuar_conversa
-* definicao_vinculada
-    - utter_definicao_vinculada
-    - utter_continuar_conversa
-
-## sigla 4.8
-* definicao_minc
-    - utter_definicao_minc
-    - utter_objetivo
-* negar
-    - utter_continuar_conversa
-* quem_criou_a_tais
-    - utter_quem_criou_a_tais
-    - utter_continuar_conversa
-
 ## sigla 5
-* cumprimentar
-    - utter_cumprimentar
 * definicao_cnic
     - utter_definicao_cnic
     - utter_objetivo
@@ -379,8 +185,6 @@
     - utter_continuar_conversa
 
 ## sigla 5.1
-* cumprimentar
-    - utter_cumprimentar
 * definicao_cnic
     - utter_definicao_cnic
     - utter_objetivo
@@ -393,8 +197,6 @@
     - utter_continuar_conversa
 
 ## sigla 5.2
-* cumprimentar
-    - utter_cumprimentar
 * definicao_cnic
     - utter_definicao_cnic
     - utter_objetivo
@@ -408,44 +210,12 @@
     - utter_continuar_conversa
 
 ## sigla 5.3
-* cumprimentar
-    - utter_cumprimentar
 * definicao_cnic
     - utter_definicao_cnic
     - utter_objetivo
 * afirmar
     - utter_processo_como_funciona
 * negar
-    - utter_continuar_conversa
-
-## sigla 5.4
-* definicao_cnic
-    - utter_definicao_cnic
-    - utter_objetivo
-* negar
-    - utter_continuar_conversa
-* definicao_sefic
-    - utter_definicao_sefic
-    - utter_continuar_conversa
-
-## sigla 5.5
-* definicao_cnic
-    - utter_definicao_cnic
-    - utter_objetivo
-* negar
-    - utter_continuar_conversa
-* definicao_vinculada
-    - utter_definicao_vinculada
-    - utter_continuar_conversa
-
-## sigla 5.6
-* definicao_cnic
-    - utter_definicao_cnic
-    - utter_objetivo
-* negar
-    - utter_continuar_conversa
-* quem_criou_a_tais
-    - utter_quem_criou_a_tais
     - utter_continuar_conversa
 
 ## sigla 6
@@ -487,16 +257,6 @@
 * afirmar
     - utter_processo_como_funciona
 * negar
-    - utter_continuar_conversa
-
-## sigla 6.4
-* definicao_sefic
-    - utter_definicao_sefic
-    - utter_objetivo
-* negar
-    - utter_continuar_conversa
-* definicao_salic
-    - utter_definicao_salic
     - utter_continuar_conversa
 
 ## sigla 7
@@ -549,15 +309,56 @@
     - utter_continuar_conversa
 
 ## sigla 8
-* cumprimentar
-    - utter_cumprimentar
-* definicao_tais
-    - utter_definicao_tais
-    - utter_objetivo
-* afirmar
+* processo_como_funciona
+    - utter_processo_como_funciona
+* negar
+    - utter_continuar_conversa
+
+## sigla 8.1
+* processo_como_funciona
     - utter_processo_como_funciona
 * afirmar
     - utter_cadastro_salic_video
-* salic_recuperacao_de_senha
-    - utter_salic_recuperacao_de_senha
+* negar
+    - utter_salic_cadastro_proponente
     - utter_continuar_conversa
+0
+## sigla 8.2
+* processo_como_funciona
+    - utter_processo_como_funciona
+* afirmar
+    - utter_cadastro_salic_video
+* afirmar
+    - utter_salic_cadastro_usuario
+    - utter_salic_cadastro_proponente
+    - utter_continuar_conversa
+
+## sigla 9
+* definicao_minc
+    - utter_definicao_minc
+    - utter_objetivo
+
+## sigla 10
+* definicao_salic
+    - utter_definicao_salic
+    - utter_objetivo
+
+## sigla 11
+* definicao_cnic
+    - utter_definicao_cnic
+    - utter_objetivo
+
+## sigla 12
+* definicao_sefic
+    - utter_definicao_sefic
+    - utter_objetivo
+
+## sigla 13
+* definicao_vinculada
+    - utter_definicao_vinculada
+    - utter_objetivo
+
+## sigla 14
+* definicao_tais
+    - utter_definicao_tais
+    - utter_objetivo
