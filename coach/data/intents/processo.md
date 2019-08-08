@@ -237,11 +237,14 @@
 - sobre o prazo de readequaçao
 - qual é o periodo de readequacao
 - qual é o prazo de readequacao
+- qual é o prazo de readequação
 - qual é o prazo para readequação
+- qual e o prazo para readequacao
 - readequação orçamentária
 - périodo readequação
 - período de readequação
 - periodo de readequacao
+- período de readequação
 - periodo readequacao
 - prazo readequação
 - prazo readequacao

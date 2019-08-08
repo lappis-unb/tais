@@ -181,7 +181,7 @@
 * salic_preenchimento_comprovacao_financeira: quero enviar a comprovação financeira do projeto
    - utter_salic_preenchimento_comprovacao_financeira
    - utter_continuar_conversa
-* processo_prazo_readequacao: qual é o prazo para readequação?
+* processo_prazo_readequacao: posso saber sobre o periodo de readequacao
    - utter_processo_prazo_readequacao
    - utter_continuar_conversa
 * negar_despedir: não tenho mais perguntas
