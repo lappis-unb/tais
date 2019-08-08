@@ -76,7 +76,7 @@
 ## end-to-end story 5
 * quem_criou_a_tais: quem te criou?
    - utter_quem_criou_a_tais
-   - utter_continuar_conversa
+   - utter_objetivo
 * lei_rouanet_quantidade_de_projetos: quantos projetos foram aprovados?
    - utter_lei_rouanet_quantidade_de_projetos
    - utter_continuar_conversa
