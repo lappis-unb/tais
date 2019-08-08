@@ -300,7 +300,7 @@
 * salic_recuperacao_de_senha: perdi minha senha
    - utter_salic_recuperacao_de_senha
    - utter_continuar_conversa
-* salic_erros_achar_proposta: não consigo encontrar minha proposta
+* salic_erros_achar_proposta: perdi a proposta
    - utter_salic_erros_achar_proposta
    - utter_continuar_conversa
 * negar_despedir: nada mais
