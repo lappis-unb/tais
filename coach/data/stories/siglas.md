@@ -167,16 +167,6 @@
 * negar
     - utter_continuar_conversa
 
-## sigla 4.4
-* definicao_minc
-    - utter_definicao_minc
-    - utter_objetivo
-* negar
-    - utter_continuar_conversa
-* definicao_salic
-    - utter_definicao_salic
-    - utter_continuar_conversa
-
 ## sigla 5
 * definicao_cnic
     - utter_definicao_cnic
