@@ -42,6 +42,7 @@
 - quem pode se inscrever na lei rouanet
 - quem pode participar
 - quem pode submeter projetos
+- quem pode submeter uma proposta
 - quem pode apresentar projetos
 - quem pode apresentar proposta cultural
 - quem pode apresentar proposta
@@ -130,6 +131,7 @@
 - que beneficios tem para quem incentiva
 - um incentivador pode receber beneficio
 - qual é a vantagem de incentivar
+- qual e a vantagem de incentivar
 - quais as vantagens de ser incentivador
 - quais as vantagens para o patrocinador
 - quais os beneficios de ser incentivador
@@ -137,6 +139,8 @@
 - como financiar um projeto cultural
 - empresas ganham alguma coisa ajudando meus projetos
 - incentivo fiscal federal
+- vantagem de incentivar
+- vantagem incentivar
 - beneficiados
 - benefício
 - patrocínio
@@ -241,6 +245,7 @@
 - toda empresa pode usar a lei rouanet
 - tem alguma execeção para uma empresa não utilizar a lei rouanet
 - quais a regras de elegibilidade no caso de empresas
+- quero incentivar
 - empresa
 - empresas podem se beneficiar
 - empresa se beneficiar
@@ -353,82 +358,92 @@
 - logo
 
 ## intent:lei_rouanet_valores_pagamento_caches
- - quais os valores para pagamento de cachês em projetos realizados com incentivo fiscal
- - há limites nos valores de pagamentos de cachês
- - existe limite de pagamento de cachê
- - qual o limite de pagamento de cachês
- - quanto posso dar de cache para os artitas
- - posso dar quanto de cache para meus funcionarios
- - como funciona o pagamento de cache
- - pagamento de cache para artista solo
- - quanto cada artista do grupo pode receber de cache
- - existe limite de pagamento para artistas
- - valor de pagamento para artista solo e grupos artisticos
- - quanto cada artista da peça pode receber
- - valor cache
- - pagamento cachê
- - limite de cache
- - cache artista
- - cachê projeto
- - pagamento artista solo
- - cache orquestra
- - limite cache artista solo
+- quais os valores para pagamento de cachês em projetos realizados com incentivo fiscal
+- há limites nos valores de pagamentos de cachês
+- existe limite de pagamento de cachê
+- qual o limite de pagamento de cachês
+- quanto posso dar de cache para os artitas
+- posso dar quanto de cache para meus funcionarios
+- como funciona o pagamento de cache
+- pagamento de cache para artista solo
+- quanto cada artista do grupo pode receber de cache
+- existe limite de pagamento para artistas
+- valor de pagamento para artista solo e grupos artisticos
+- quanto cada artista da peça pode receber
+- valor cache
+- pagamento cachê
+- limite de cache
+- cache artista
+- cachê projeto
+- pagamento artista solo
+- cache orquestra
+- limite cache artista solo
 
 ## intent:lei_rouanet_etapas_aprovacao_projeto
- - quais as etapas de aprovação de um projeto
- - o que tenho que fazer pra aprovar meu projeto
- - que passos tenho que fazer durante a criação do projeto
- - o que eu tenho que fazer pra ser aprovado na lei rouanet
- - quais sao os passos pra mandar um projeto para avaliacao
- - como faco pra aprovar um projeto no salic
- - quero mandar um projeto na lei rouanet, o que eu tenho que fazer
- - como funciona o processe de analise da proposta
- - por onde a proposta passa para ser aprovada
- - quem analisa a proposta de projeto ate a decisão final
- - quanto tempo demora a analise
- - tempo de análise
- - tempo de analise
- - etapas projeto
- - passos submissao
- - Andamento do projeto
- - decisao final proposta
- - etapas analise proposta
+- quais as etapas de aprovação de um projeto
+- o que tenho que fazer pra aprovar meu projeto
+- que passos tenho que fazer durante a criação do projeto
+- o que eu tenho que fazer pra ser aprovado na lei rouanet
+- quais sao os passos pra mandar um projeto para avaliacao
+- como faco pra aprovar um projeto no salic
+- quero mandar um projeto na lei rouanet, o que eu tenho que fazer
+- como funciona o processe de analise da proposta
+- por onde a proposta passa para ser aprovada
+- quem analisa a proposta de projeto ate a decisão final
+- quanto tempo demora a analise
+- tempo de análise
+- tempo de analise
+- etapas projeto
+- passos submissao
+- Andamento do projeto
+- decisao final proposta
+- etapas analise proposta
 
 ## intent:lei_rouanet_apresentacao_de_proposta
- - #apresentaçãodeproposta
- - #apresentcaodeproposta
- - apresentaçãodeproposta
- - apresentcaodeproposta
+- #apresentaçãodeproposta
+- #apresentcaodeproposta
+- apresentaçãodeproposta
+- apresentcaodeproposta
+- apresentação de proposta
+- apresentacao de proposta
 
 ## intent:lei_rouanet_analise_de_admissibilidade
- - #análisedeadmissibilidade
- - #analisedeadmissibilidade
- - análisedeadmissibilidade
- - analisedeadmissibilidade
+- #análisedeadmissibilidade
+- #analisedeadmissibilidade
+- análisedeadmissibilidade
+- analisedeadmissibilidade
+- análise de admissibilidade
+- analise de admissibilidade
 
 ## intent:lei_rouanet_analise_tecnica
- - #análisetécnica
- - #análisetecnica
- - #analisetecnica
- - #analisetécnica
- - #analisetecnica
- - análisetécnica
- - análisetecnica
- - analisetecnica
- - analisetécnica
- - analisetecnica
+- #análisetécnica
+- #análisetecnica
+- #analisetecnica
+- #analisetécnica
+- #analisetecnica
+- análisetécnica
+- análisetecnica
+- analisetecnica
+- analisetécnica
+- analisetecnica
+- análise técnica
+- analise tecnica
 
 ## intent:lei_rouanet_analise_pela_cnic
- - #análisepelacnic
- - #analisepelacnic
- - análisepelacnic
- - analisepelacnic
+- #análisepelacnic
+- #analisepelacnic
+- análisepelacnic
+- analisepelacnic
+- análise pela cnic
+- analise pela cnic
 
 ## intent:lei_rouanet_decisao_final
- - #decisãofinal
- - #decisaofinal
- - decisãofinal
- - decisaofinal
+- #decisãofinal
+- #decisaofinal
+- decisãofinal
+- decisaofinal
+- decisão final
+- decisao final
 
 ## intent:lei_rouanet_valor_maximo_projeto
 - queria saber qual o teto para o projeto
@@ -472,54 +487,56 @@
 - qual e o valor minimo de projetos
 
 ## intent:lei_rouanet_valor_maximo_pessoa_fisica
- - pessoa fisica
- - MEI
- - sou uma pessoa fisica
- - sobre pessoa fisica
- - sou um artista
- - microempresario individual
- - primeira opção
- - primeiro tópico
- - se encaixa na 1
- - um
- - de pessoa fisica
- - opção um
- - categoriga um
+- pessoa fisica
+- pessoa física
+- MEI
+- sou uma pessoa fisica
+- sobre pessoa fisica
+- sou um artista
+- microempresario individual
+- primeira opção
+- primeiro tópico
+- se encaixa na 1
+- um
+- de pessoa fisica
+- opção um
+- categoriga um
 
 ## intent:lei_rouanet_valor_maximo_pessoa_juridica
- - pessoa juridica
- - demais pessoas jurídicas
- - demais pessoas juridicas
- - sou uma pessoa juridica
- - sou empresario individual
- - empresario individual
- - empresa individual de responsabilidade limitada
- - EIRELI
- - segunda opção
- - segundo tópico
- - sociedade limitada
- - acho que na 2
- - opção 2
- - na segunda
+- pessoa juridica
+- pessoa jurídica
+- demais pessoas jurídicas
+- demais pessoas juridicas
+- sou uma pessoa juridica
+- sou empresario individual
+- empresario individual
+- empresa individual de responsabilidade limitada
+- EIRELI
+- segunda opção
+- segundo tópico
+- sociedade limitada
+- acho que na 2
+- opção 2
+- na segunda
 
 ## intent:lei_rouanet_valor_maximo_geral
- - terceira opção
- - terceiro tópico
- - todas as opcoes
- - geral
- - quero saber de tudo
- - todas as empresas
- - todos os perfis
- - sobre os dois perfis
- - escolha 3
- - na 3
- - opção três
- - três
- - sobre todos
- - todos os perfis
- - os dois perfis
- - sobre todos os perfis
- - de todos
+- terceira opção
+- terceiro tópico
+- todas as opcoes
+- geral
+- quero saber de tudo
+- todas as empresas
+- todos os perfis
+- sobre os dois perfis
+- escolha 3
+- na 3
+- opção três
+- três
+- sobre todos
+- todos os perfis
+- os dois perfis
+- sobre todos os perfis
+- de todos
 
 ## intent:lei_rouanet_divulgacao_patrocinio
 - como é feita a divulgação de patrocínio
@@ -546,6 +563,7 @@
 
 ## intent:lei_rouanet_receber_incetivo_de_parentes
 - meus parentes podem incentivar meu projeto
+- meus pais podem incentivar meu projeto
 - meus pais e tios podem incentivar meu projeto
 - tem problema parentes incentivarem projetos
 - tenho parentes que desejam incentivar meus projetos
@@ -557,6 +575,12 @@
 - meus familiares podem incentivar meu projeto
 - parentes podem ser patrocinador
 - quero saber se meus parentes podem ajudar a financiar o meu projeto
+- meus pais
+- meus parentes
+- meus tios
+- minhas primas
+- minha família
+- minha familia
 - incentivar
 - incentivado
 - incentivo
