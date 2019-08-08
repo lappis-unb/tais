@@ -25,7 +25,7 @@
 ## Oi Quem e tais 1
 * quem_criou_a_tais
     - utter_quem_criou_a_tais
-    - utter_continuar_conversa
+    - utter_objetivo
 
 ## Nao entendi
 * diga_mais
