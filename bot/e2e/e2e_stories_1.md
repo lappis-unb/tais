@@ -333,22 +333,7 @@
    - utter_objetivo
 * negar: não
    - utter_continuar_conversa
-* definicao_salic: o que é salic?
-   - utter_definicao_salic
-   - utter_continuar_conversa
-* salic_preenchimento: instruções de preenchimento
-   - utter_salic_preenchimento
-   - utter_continuar_conversa
-* salic_preenchimento_campo_custo_auditoria: como preencher o campo custo de auditoria?
-   - utter_salic_preenchimento_campo_custo_auditoria
-   - utter_continuar_conversa
-* salic_preenchimento_cadastro_rubrica_advogado_contador: cadastrar as rubricas de advogado e contador
-   - utter_salic_preenchimento_cadastro_rubrica_advogado_contador
-   - utter_continuar_conversa
-* salic_preenchimento_valor_ingresso: como calcula o valor do ingresso?
-   - utter_salic_preenchimento_valor_ingresso
-   - utter_continuar_conversa
-* negar_despedir: só isso mesmo, obrigada
+* negar_despedir: não obrigada
    - utter_despedir
 
 ## end-to-end story 19
@@ -409,4 +394,25 @@
    - utter_salic_cadastro_proponente
    - utter_continuar_conversa
 * negar_despedir: não tenho mais perguntas
+   - utter_despedir
+
+## end-to-end story 22
+* definicao_salic: o que é salic?
+   - utter_definicao_salic
+   - utter_objetivo
+* negar: não
+   - utter_continuar_conversa
+* salic_preenchimento: instruções de preenchimento
+   - utter_salic_preenchimento
+   - utter_continuar_conversa
+* salic_preenchimento_campo_custo_auditoria: como preencher o campo custo de auditoria?
+   - utter_salic_preenchimento_campo_custo_auditoria
+   - utter_continuar_conversa
+* salic_preenchimento_cadastro_rubrica_advogado_contador: cadastrar as rubricas de advogado e contador
+   - utter_salic_preenchimento_cadastro_rubrica_advogado_contador
+   - utter_continuar_conversa
+* salic_preenchimento_valor_ingresso: como calcula o valor do ingresso?
+   - utter_salic_preenchimento_valor_ingresso
+   - utter_continuar_conversa
+* negar_despedir: só isso mesmo, obrigada
    - utter_despedir
