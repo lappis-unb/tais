@@ -1,3 +1,7 @@
+## Oi
+* cumprimentar
+    - utter_cumprimentar
+
 ## Despedir Story
 * despedir
     - utter_despedir
@@ -19,15 +23,9 @@
     - utter_menu
 
 ## Oi Quem e tais 1
-* cumprimentar
-    - utter_cumprimentar
-    - utter_menu
 * quem_criou_a_tais
     - utter_quem_criou_a_tais
-
-## Oi Quem e tais 2
-* quem_criou_a_tais
-    - utter_quem_criou_a_tais
+    - utter_objetivo
 
 ## Nao entendi
 * diga_mais
@@ -58,7 +56,7 @@
 ## elogios
 * elogios
     - utter_elogios
-    - utter_objetivo
+    - utter_continuar_conversa
 
 ## tem wpp 1
 * tem_wpp

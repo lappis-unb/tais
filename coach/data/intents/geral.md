@@ -43,10 +43,24 @@
 - boa noite
 
 ## intent:elogios
-- Tais, você é muito educada!
-- Adorei
-- Me ajudou muito
+- tais, você é muito educada!
+- você me ajudou muito
+- voce me ajudou muito
+- vc me ajudou muito
+- vc me ajudou mt
+- me ajudou muito
+- você é maravilhosa
+- voce e maravilhosa
+- você é linda
+- voce e linda
 - vc eh linda
+- vc é ótima
+- vc e otima
+- maravilhosa
+- educada
+- linda
+- adorei
+- amei
 
 ## intent:afirmar
 - se não for incomodo
@@ -88,12 +102,32 @@
 - nao quero saber mais
 - quero falar sobre outra coisa
 - não quero saber de mais nada
+- não tenho mais dúvidas
+- não tenho mais perguntas
+- você já me respondeu tudo
 - nao era isso, me enganei
 - não quero falar sobre isso
 - ainda nao sei escolher um tópico
 - ainda não pensei sobre isso
 - nao sei do que quero falar
 - não sei do que quero conversar
+- já me respondeu
+- já me ajudou
+- só isso mesmo, obrigada
+- so isso mesmo obrigada
+- só isso mesmo, obrigado
+- so isso mesmo obrigado
+- só isso mesmo
+- so isso mesmo
+- não tenho mais perguntas
+- não tenho mais dúvidas
+- nao tenho mais duvidas
+- não tenho mais
+- não quero saber
+- não obrigado
+- nao obrigado
+- não obrigada
+- nao obrigada
 - nada
 
 ## intent:diga_mais
