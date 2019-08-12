@@ -198,7 +198,7 @@ services:
     volumes:
       - ./coach:/work/bot
       - ./notebooks:/work/notebooks
-      - ./docs/tutoriais/notebooks:/work/tutoriais
+      - ./docs/tutoriais/:/work/tutoriais
     ports:
       - 8888:8888
 

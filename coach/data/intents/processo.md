@@ -70,6 +70,7 @@
 - documentos necessários
 - quais documentos anexar
 - o que anexar no preenchimento
+- preenchimento
 
 ## intent:processo_admissibilidade
 - o que é admissibilidade
@@ -86,6 +87,9 @@
 - sobre aprovação
 - defina aprovação
 - o que acontece na aprovação
+- o que acontece na etapa aprovação
+- o que ocorre na aprovação
+- o que ocorre na etapa aprovação
 - aprovação
 - fase aprovação
 - etapa aprovação
@@ -100,22 +104,25 @@
 - o que é execução
 - sobre execução
 - defina execução
-- o que devo fazer no execução
+- o que devo fazer na execução
 - fase de execução
 - fase execução
 - etapa execução
 - execução
-- o que acontence em execução
+- o que acontence na etapa execução
+- execução
 - execucao
 
 ## intent:processo_analise_de_resultados
 - o que devo fazer no análise de resultados
+- o que ocorre na análise de resultados
+- o que acontece na análise de resultados
 - o que é análise de resultados
 - sobre análise de resultados
 - defina análise de resultados
 - defina prestação de contas
+- etapa análise de resultados
 - analise de resultados
-
 
 ## intent:processo_reativacao_de_proposta
 - posso encaminhar pedido de reativação
@@ -226,10 +233,18 @@
 
 ## intent:processo_prazo_readequacao
 - posso saber sobre o periodo de readequacao
+- preciso fazer uma readequação orçamentária
 - sobre o prazo de readequaçao
 - qual é o periodo de readequacao
 - qual é o prazo de readequacao
+- qual é o prazo de readequação
+- qual é o prazo para readequação
+- qual e o prazo para readequacao
+- readequação orçamentária
 - périodo readequação
+- período de readequação
+- periodo de readequacao
+- período de readequação
 - periodo readequacao
 - prazo readequação
 - prazo readequacao
@@ -239,6 +254,7 @@
 - readequacao
 
 ## intent:processo_prazo_periodo_captacao
+- gostaria de saber o prazo para captação
 - quando é expirado o prazo para captação total
 - qual prazo para a captação total
 - quanto tempo para captar
@@ -247,6 +263,8 @@
 - captacao, qual é o prazo
 - périodo captacao
 - periodo captacao
+- período de captação
+- periodo de captacao
 - prazo captacao
 - prazo captacao
 - data captacao
@@ -288,6 +306,9 @@
 
 ## intent:processo_prazo_diligencias
 - tenho duvida sobre o prazo de diligencias
+- quero saber o prazo de diligências
+- me fale sobre o prazo de diligências
+- sobre o prazo de diligências
 - diligências, qual é o prazo
 - diligências, qual é o prazo limite
 - qual é o prazo de diligências
@@ -303,8 +324,18 @@
 
 ## intent:processo_prazo_desarquivar
 - qual é o periodo para desarquivar propostas
+- qual é o perídodo para desarquivar proposta
+- qual é o prazo para desarquivar propostas
+- qual é o prazo para desarquivar proposta
+- quando eu posso desarquivar uma proposta
+- me ajuda desarquivar proposta
+- preciso desarquivar proposta
+- desarquivar proposta
+- desarquivar proposta
+- desarquivar projeto
 - périodo desarquivar
 - periodo desarquivar
+- prazo para desarquivar
 - prazo desarquivar
 - data desarquivar
 - desarquivar
@@ -316,20 +347,7 @@
 - como é a desistência do prazo de recurso
 - sobre o prazo de ecaminhamento de recurso, como desisto dele
 - da pra desistir do prazo de recurso
-- após o enquadramento, como desisto do prazo de recurso?
-- qual o prazo para desisitr de entrar com o recurso?
-- não quero entrar com o recurso
-- quero desistir do prazo de recurso
-- desistência
-- desistir
-
-## intent:processo_prazo_desistir_recurso
-- desistir do prazo recursal
-- desistir do recurso
-- prazo pra encaminhar recurso
-- como é a desistência do prazo de recurso
-- sobre o prazo de ecaminhamento de recurso, como desisto dele
-- da pra desistir do prazo de recurso
+- dá pra desistir do prazo de recurso
 - após o enquadramento, como desisto do prazo de recurso?
 - qual o prazo para desisitr de entrar com o recurso?
 - não quero entrar com o recurso

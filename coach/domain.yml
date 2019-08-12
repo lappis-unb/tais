@@ -499,8 +499,6 @@ templates:
           Nesta etapa eu posso responder dúvidas sobre o preenchimento de
           propostas no SALIC.
 
-          Saberei responder mais sobre preenchimento nas minhas próximas versões :P
-
   utter_salic_preenchimento_campo_custo_auditoria:
     - text: |
           Este campo não precisa ser preenchido agora, isso vai ser preenchido na prestação de contas.

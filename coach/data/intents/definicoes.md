@@ -6,6 +6,8 @@
 - o que significa uma assistente virtual
 - o que é uma assistente virtual
 - o que um chatbot faz
+- o que você é
+- o que voce e
 - por que esse nome
 - por que seu nome é tais
 - qual significado de tais
