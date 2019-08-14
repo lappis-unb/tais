@@ -285,7 +285,7 @@
 * processo_reativacao_de_proposta: como reativar uma proposta?
    - utter_processo_reativacao_de_proposta
    - utter_continuar_conversa
-* processo_prazo_desarquivar: data para desarquivar proposta
+* processo_prazo_desarquivar: qual é o prazo para desarquivar proposta?
    - utter_processo_prazo_desarquivar
    - utter_continuar_conversa
 * salic_erros: estou com problemas no salic
