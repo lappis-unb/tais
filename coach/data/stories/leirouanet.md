@@ -413,14 +413,21 @@
     - utter_continuar_conversa
 
 ## Lei Rouanet 43.1
-* tudo_bem: tudo bem?
+* tudo_bem
     - utter_tudo_bem
     - utter_menu
-* lei_rouanet_remanejamento: fazer remanejamento?
+* lei_rouanet_remanejamento
     - utter_lei_rouanet_remanejamento
     - utter_continuar_conversa
 
 ## Lei Rouanet 44
+* lei_rouanet_edital
+    - utter_lei_rouanet_edital
+    - utter_continuar_conversa
+
+## Lei Rouanet 44.1
+* o_que_sei_falar
+    - utter_o_que_sei_falar
 * lei_rouanet_edital
     - utter_lei_rouanet_edital
     - utter_continuar_conversa
