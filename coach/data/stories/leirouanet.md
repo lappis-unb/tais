@@ -1,6 +1,4 @@
 ## LeiRouanet 1
-* cumprimentar
-    - utter_cumprimentar
 * lei_rouanet_o_que_eh
     - utter_lei_rouanet_o_que_eh
     - utter_continuar_conversa
@@ -82,11 +80,6 @@
 ## LeiRouanet 1.13
 * lei_rouanet_decisao_final
     - utter_lei_rouanet_decisao_final
-    - utter_continuar_conversa
-
-##LeiRouanet 1.14
-* lei_rouanet_o_que_eh
-    - utter_lei_rouanet_o_que_eh
     - utter_continuar_conversa
 
 ## LeiRouanet 2
@@ -289,21 +282,6 @@
     - utter_lei_rouanet_quantidade_de_projetos
     - utter_continuar_conversa
 
-## LeiRouanet 27
-* lei_rouanet_denuncia
-    - utter_continuar_conversa
-* lei_rouanet_quem_pode_incentivar
-    - utter_lei_rouanet_quem_pode_incentivar
-    - utter_continuar_conversa
-
-## LeiRouanet 28
-* lei_rouanet_denuncia
-    - utter_lei_rouanet_denuncia
-    - utter_continuar_conversa
-* lei_rouanet_quantidade_de_projetos
-    - utter_lei_rouanet_quantidade_de_projetos
-    - utter_continuar_conversa
-
 ## LeiRouanet 29
 * lei_rouanet_quem_pode_incentivar
     - utter_lei_rouanet_quem_pode_incentivar
@@ -372,13 +350,6 @@
     - utter_lei_rouanet_divulgacao_patrocinio
     - utter_continuar_conversa
 
-## LeiRouanet 36
-* cumprimentar
-    - utter_cumprimentar
-* lei_rouanet_divulgacao_patrocinio
-    - utter_lei_rouanet_divulgacao_patrocinio
-    - utter_continuar_conversa
-
 ## LeiRouanet 37
 * lei_rouanet_o_que_eh
     - utter_lei_rouanet_o_que_eh
@@ -387,24 +358,9 @@
     - utter_lei_rouanet_divulgacao_patrocinio
     - utter_continuar_conversa
 
-## LeiRouanet 38
-* cumprimentar
-    - utter_cumprimentar
-    - utter_menu
-* lei_rouanet_democratizacao
-    - utter_lei_rouanet_democratizacao
-    - utter_continuar_conversa
-
 ## LeiRouanet 38.1
 * lei_rouanet_democratizacao
     - utter_lei_rouanet_democratizacao
-    - utter_continuar_conversa
-
-## LeiRouanet 39
-* cumprimentar
-    - utter_cumprimentar
-* lei_rouanet_receber_incetivo_de_parentes
-    - utter_lei_rouanet_quem_pode_incentivar
     - utter_continuar_conversa
 
 ## LeiRouanet 40
@@ -456,26 +412,20 @@
     - utter_lei_rouanet_remanejamento
     - utter_continuar_conversa
 
+## Lei Rouanet 43.1
+* tudo_bem: tudo bem?
+    - utter_tudo_bem
+    - utter_menu
+* lei_rouanet_remanejamento: fazer remanejamento?
+    - utter_lei_rouanet_remanejamento
+    - utter_continuar_conversa
+
 ## Lei Rouanet 44
 * lei_rouanet_edital
     - utter_lei_rouanet_edital
     - utter_continuar_conversa
 
-## Lei Rouanet 45
-* cumprimentar
-    - utter_cumprimentar
-* lei_rouanet_edital
-    - utter_lei_rouanet_edital
-    - utter_continuar_conversa
-
 ## Lei Rouanet 46
-* lei_rouanet_recibo_mecenato
-    - utter_lei_rouanet_recibo_mecenato
-    - utter_continuar_conversa
-
-## Lei Rouanet 47
-* cumprimentar
-    - utter_cumprimentar
 * lei_rouanet_recibo_mecenato
     - utter_lei_rouanet_recibo_mecenato
     - utter_continuar_conversa
@@ -498,4 +448,9 @@
 ## Lei Rouanet 51
 * lei_rouanet_comercializacao_de_ingressos
     - utter_lei_rouanet_comercializacao_de_ingressos
+    - utter_continuar_conversa
+
+## Lei Rouanet 52
+* lei_rouanet_contrapartidas_sociais
+    - utter_lei_rouanet_contrapartidas_sociais
     - utter_continuar_conversa
