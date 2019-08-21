@@ -734,3 +734,27 @@
 - peca de teatro
 - livro
 - show
+
+## intent:lei_rouanet_contrapartidas_sociais
+- contrapartida sociais lançado na proposta conforme solicitado no o Art. 22 da IN 2/2019
+- contrapartida sociais lancado na proposta conforme solicitado no o Art. 22 da IN 2/2019
+- o que são contrapartidas sociais
+- gostaria de falar sobre contrapartida social
+- gostaria de falar sobre contrapartida sociais
+- dúvidas contrapartidas sociais
+- quero saber sobre contrapartida social
+- me explica o que são contrapartida sociais
+- me fala sobre contrapartidas sociais
+- contrapartidas sociais lançada na proposta
+- contrapartida sociais lancada na proposta
+- artigo 22 da IN 2/2019
+- art. 22 da IN 2/2019
+- dúvida contrapartidas sociais
+- duvida contrapartidas sociais
+- contrapartidas sociais
+- contrapartida sociais
+- contrapartidas
+- contrapartida
+- artigo 22
+- art 22
+

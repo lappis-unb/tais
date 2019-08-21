@@ -60,6 +60,7 @@ intents:
   - lei_rouanet_recibo_mecenato
   - lei_rouanet_reembolso_despesa
   - lei_rouanet_tipos_projeto
+  - lei_rouanet_contrapartidas_sociais
 
   - processo_como_funciona
   - processo_definicao_etapas
@@ -846,6 +847,11 @@ templates:
           São aceitos projetos de incentivo à formação artística e cultural; fomento à criação artística; preservação e difusão do patrimônio artístico, cultural e histórico; estímulo ao conhecimento de bens e valores culturais e de apoio a outras atividades culturais e artísticas.
           Ou seja, é possível propor a restauração ou construção de um centro cultural, planos anuais de manutenção de espaços culturais, orquestras, museus, companhias de teatro e dança, construção de bibliotecas e de projetos literários itinerantes, produção de shows, feiras, espetáculos, livros, festivais, música, etc.
 
+  utter_lei_rouanet_contrapartidas_sociais:
+    - text: |
+          Podemos encontrar informações sobre as Contrapartidas Sociais no artigo 22 da IN 02/2019, lá explica que as propostas culturais devem apresentar ações formativas culturais em suas atividades, ou seja, devem promover o contato com a cultura, com rubricas orçamentárias próprias.
+          Então, é obrigatório que tenha  10% do quantitativo de público de beneficiários, sendo no mínimo 20 limitando-se a 1.000, além disso 50% dos beneficiários devem ser estudantes e professores de instituições públicas de ensino.
+
   utter_agradecimento:
     - text: |
           De nada, é sempre um prazer ajudar!
@@ -913,6 +919,7 @@ actions:
   - utter_lei_rouanet_recibo_mecenato
   - utter_lei_rouanet_reembolso_despesa
   - utter_lei_rouanet_tipos_projeto
+  - utter_lei_rouanet_contrapartidas_sociais
 
   - utter_processo_reativacao_de_proposta
   - utter_processo_prazo

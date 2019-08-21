@@ -163,7 +163,7 @@
 * tudo_bem: tudo bem?
    - utter_tudo_bem
    - utter_menu
-* lei_rouanet_remanejamento: gostaria de saber como fazer o remanejamento orçamentário
+* lei_rouanet_remanejamento: fazer remanejamento?
    - utter_lei_rouanet_remanejamento
    - utter_continuar_conversa
 * lei_rouanet_reembolso_despesa: como fazer o reembolso?
@@ -269,7 +269,7 @@
 * processo_prazo_apresentar_proposta: qual a data de apresentação de proposta?
    - utter_processo_prazo_apresentar_proposta
    - utter_continuar_conversa
-* processo_prazo_analise_proposta: qual é o prazo para a análise de proposta?
+* processo_prazo_analise_proposta: prazo de análise de proposta
    - utter_processo_prazo_analise_proposta
    - utter_continuar_conversa
 * processo_prazo_analise_tecnica: qual é o prazo da análise técnica?
@@ -285,7 +285,7 @@
 * processo_reativacao_de_proposta: como reativar uma proposta?
    - utter_processo_reativacao_de_proposta
    - utter_continuar_conversa
-* processo_prazo_desarquivar: data para desarquivar proposta
+* processo_prazo_desarquivar: qual é o prazo para desarquivar proposta?
    - utter_processo_prazo_desarquivar
    - utter_continuar_conversa
 * salic_erros: estou com problemas no salic
@@ -415,4 +415,16 @@
    - utter_salic_preenchimento_valor_ingresso
    - utter_continuar_conversa
 * negar_despedir: só isso mesmo, obrigada
+   - utter_despedir
+
+## end-to-end story 23
+* cumprimentar: oi, tais
+   - utter_cumprimentar
+* tudo_bem: tudo bem?
+   - utter_tudo_bem
+   - utter_menu
+* lei_rouanet_contrapartidas_sociais: contrapartidas sociais na IN 02/2019
+   - utter_lei_rouanet_contrapartidas_sociais
+   - utter_continuar_conversa
+* negar_despedir: não tenho mais dúvidas
    - utter_despedir
