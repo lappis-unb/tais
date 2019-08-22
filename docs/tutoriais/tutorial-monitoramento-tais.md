@@ -1,3 +1,9 @@
+---
+layout: page
+permalink: /tutoriais/tutorial-monitoramento-tais/
+title: Tutorial de Monitoramento da Tais
+---
+
 # Tutorial de Monitoramento da Tais
 
 O monitoramento da Tais é feito de forma orientada a dados, ou seja, analisamos os dados do Kibana, identificamos as intents que caíram no default (as intents que a Tais não conseguiu responder), e as intents com confiança abaixo de 7, para poder melhorá-as. Além disso, lemos as conversas entre a Tais e os usuários para identificar as melhorias que podemos fazer. O que seriam essas melhorias? Tudo que esteja interferindo no entendimento da Tais para que ela consiga ter uma comunicação eficiente com o usuário. A melhor forma de evoluir um chatbot é tendo o contato real de como ele está interagindo com as pessoas, lendo as conversas podemos enriquecer o nosso bot, tornando-o apto para lidar com as situações reais e não somente com as hipóteses que se passaram na nossa cabeça, tal processo garante que ele se torne cada dia mais eficiente. 
@@ -9,6 +15,7 @@ O monitoramento da Tais é feito de forma orientada a dados, ou seja, analisamos
 ![photo_2019-08-22_18-23-07](https://user-images.githubusercontent.com/42178586/63554020-9e740e80-c512-11e9-9a63-78a6c5f5fc39.jpg)
 
 3 - Após a análise do Kibana é necessário acessar as conversas dos usuários (https://lappis.cultura.gov.br/);
+![photo_2019-08-22_19-39-19](https://user-images.githubusercontent.com/42178586/63554783-062b5900-c515-11e9-9731-29cef85d6b00.jpg)
 
 4 - Leia as conversas e anote os bugs separando-os em categorias de bugs, é imprescindível a leitura das conversas, pois só assim tomamos conhecimento sobre o contexto e conseguimos criar a melhor estratégia para consertá-lo: 
 atualização de intents (melhorar intent),
@@ -18,6 +25,7 @@ inserir conteúdo novo (utter+intent+story),
 melhoria de utter (melhorar a escrita da utter, deixá-las mais compreensível);
 5 - Faça uma análise de quais bugs podem ser consertados imediatamente e quais precisam de mais maturidade da Tais;
 6 - Conserte os bugs imediatos, todos que estão ao nosso alcance e que não vão afetar a Tais;
+![photo_2019-08-22_19-39-15](https://user-images.githubusercontent.com/42178586/63554768-f6137980-c514-11e9-91c3-d44fb092cd49.jpg)
 
 7 - Anote os bugs que precisam de maturidade para quando surgir a oportunidade, quais seriam esses bugs? Um exemplo disso seria um assunto que é muito complexo e ela ainda não conseguiria responder no momento por limitações tecnológicas, assuntos que no momento confundiria a Tais. Como tentar fazer a Tais entender quando o usuário conta a história do seu objetivo, no momento, ela não consegue fazer isso mesmo que a gente tente atualizar e criar intents para isso, pois cada usuário possui uma história muito peculiar e difícil de ser mapeada.
 
@@ -32,8 +40,13 @@ A Tais está constantemente aprendendo a se comunicar melhor, a ser mais gentil 
 ## Frequência e performance
 
 Recomenda-se que o monitoramento seja feito diariamente, é preciso que haja uma pessoa dedicada a esta função para sanar os bugs e implementar as melhorias necessárias.  Em três sprints (um mês e meio) de monitoramento foram feitas 19 issues, sendo:
+
 1 issue de retirada de conteúdo;
+
 10 issues de inserir conteúdo novo;
+
 2 issues de melhoria de utter
+
 5 issues de atualização de Intents
+
 1 issue de atualização de Stories
