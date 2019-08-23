@@ -6,12 +6,12 @@ title: Tutorial de Monitoramento da Tais
 
 # Tutorial de Monitoramento da Tais
 
-O monitoramento da Tais é feito de forma orientada a dados, ou seja, analisamos os dados do Kibana, identificamos as intents que caíram no default (as intents que a Tais não conseguiu responder), e as intents com confiança abaixo de 7, para poder melhorá-as. Além disso, lemos as conversas entre a Tais e os usuários para identificar as melhorias que podemos fazer. O que seriam essas melhorias? Tudo que esteja interferindo no entendimento da Tais para que ela consiga ter uma comunicação eficiente com o usuário. A melhor forma de evoluir um chatbot é tendo o contato real de como ele está interagindo com as pessoas, lendo as conversas podemos enriquecer o nosso bot, tornando-o apto para lidar com as situações reais e não somente com as hipóteses que se passaram na nossa cabeça, tal processo garante que ele se torne cada dia mais eficiente. 
+O monitoramento da Tais é feito de forma orientada a dados, ou seja, analisamos os dados do Kibana, identificamos as intents que caíram no default (as intents que a Tais não conseguiu responder), e as intents com confiança abaixo de 0,7, para poder melhorá-as. Além disso, lemos as conversas entre a Tais e os usuários para identificar as melhorias que podemos fazer. O que seriam essas melhorias? Tudo que esteja interferindo no entendimento da Tais para que ela consiga ter uma comunicação eficiente com o usuário. A melhor forma de evoluir um chatbot é tendo o contato real de como ele está interagindo com as pessoas, lendo as conversas podemos enriquecer o nosso bot, tornando-o apto para lidar com as situações reais e não somente com as hipóteses que se passaram na nossa cabeça, tal processo garante que ele se torne cada dia mais eficiente. 
 
 ## Passo a passo do monitoramento
 
 1 - Primeiro é necessário acessar o Kibana (https://kibana.tais.lappis.rocks/);
-2 - No Kibana analisamos a confiança das intents e as intents que caíram no default e as intents com confiança abaixo de 7, assim podemos ver quais intents ela não está respondendo com eficiência;
+2 - No Kibana analisamos a confiança das intents e as intents que caíram no default e as intents com confiança abaixo de 0,7, assim podemos ver quais intents ela não está respondendo com eficiência;
 ![photo_2019-08-22_18-23-07](https://user-images.githubusercontent.com/42178586/63554020-9e740e80-c512-11e9-9a63-78a6c5f5fc39.jpg)
 
 3 - Após a análise do Kibana é necessário acessar as conversas dos usuários (https://lappis.cultura.gov.br/);
