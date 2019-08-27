@@ -1,6 +1,6 @@
 ---
 layout: page
-permalink: /tais/aperfeiçoamento-da-tais
+permalink: /documentacao/aperfeiçoamento-da-tais/
 title: Aperfeiçoamento da Tais
 ---
 
