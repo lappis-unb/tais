@@ -50,3 +50,7 @@ Recomenda-se que o monitoramento seja feito diariamente, é preciso que haja uma
 5 issues de atualização de Intents
 
 1 issue de atualização de Stories
+
+# Referência
+
+[Aperfeiçoamento da Tais](https://lappis-unb.github.io/tais/documentacao/aperfei%C3%A7oamento-da-tais/)
