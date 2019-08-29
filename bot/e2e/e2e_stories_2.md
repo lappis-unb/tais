@@ -70,9 +70,6 @@
    - utter_despedir
 
 ## end-to-end story 24
-* tudo_bem: tudo bem?
-   - utter_tudo_bem
-   - utter_menu
 * lei_rouanet_acessibilidade: explica acessibilidade
    - utter_lei_rouanet_acessibilidade
    - utter_continuar_conversa
