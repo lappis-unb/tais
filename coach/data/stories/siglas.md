@@ -122,16 +122,6 @@
     - utter_salic_cadastro_proponente
     - utter_continuar_conversa
 
-## sigla 3.4
-* definicao_vinculada
-    - utter_definicao_vinculada
-    - utter_objetivo
-* negar
-    - utter_continuar_conversa
-* quem_criou_a_tais
-    - utter_quem_criou_a_tais
-    - utter_continuar_conversa
-
 ## sigla 4
 * definicao_minc
     - utter_definicao_minc

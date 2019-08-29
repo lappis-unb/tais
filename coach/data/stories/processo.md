@@ -47,6 +47,13 @@
     - utter_processo_prazo_desarquivar
     - utter_continuar_conversa
 
+## Processo 10.1
+* cumprimentar
+    - utter_cumprimentar
+* processo_prazo_desarquivar
+    - utter_processo_prazo_desarquivar
+    - utter_continuar_conversa
+
 ## Processo 11
 * processo_prazo_desistir_recurso
     - utter_processo_prazo_desistir_recurso

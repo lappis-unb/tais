@@ -5,11 +5,11 @@
    - utter_lei_rouanet_remuneracao_proponente
    - utter_continuar_conversa
 * definicao_projeto: como se caracteriza um projeto?
-    - utter_definicao_projeto
-    - utter_continuar_conversa
+   - utter_definicao_projeto
+   - utter_continuar_conversa
 * o_que_sei_falar: o que mais você sabe falar?
-    - utter_o_que_sei_falar
-* lei_rouanet_o_que_eh: me fale sobre a lei rouanet
+   - utter_o_que_sei_falar
+* lei_rouanet_o_que_eh: Lei de Incentivo a Cultura
    - utter_lei_rouanet_o_que_eh
    - utter_continuar_conversa
 * negar_despedir: nada
@@ -17,10 +17,10 @@
 
 ## end-to-end story 2
 * definicao_tais: quem é a tais?
-    - utter_definicao_tais
-    - utter_objetivo
+   - utter_definicao_tais
+   - utter_objetivo
 * afirmar: sim
-    - utter_processo_como_funciona
+   - utter_processo_como_funciona
 * afirmar: sim
    - utter_cadastro_salic_video
 * afirmar: quero
@@ -31,9 +31,6 @@
    - utter_despedir
 
 ## end-to-end story 3
-* lei_rouanet_o_que_eh: me fale sobre a lei rounet 
-   - utter_lei_rouanet_o_que_eh
-   - utter_continuar_conversa
 * lei_rouanet_etapas_aprovacao_projeto: quais são as etapas de aprovação de projeto
    - utter_lei_rouanet_etapas_aprovacao_projeto
    - utter_continuar_conversa
@@ -77,6 +74,8 @@
 * quem_criou_a_tais: quem te criou?
    - utter_quem_criou_a_tais
    - utter_objetivo
+* negar: não
+   - utter_continuar_conversa
 * lei_rouanet_quantidade_de_projetos: quantos projetos foram aprovados?
    - utter_lei_rouanet_quantidade_de_projetos
    - utter_continuar_conversa
@@ -282,11 +281,13 @@
    - utter_despedir
 
 ## end-to-end story 16
+* cumprimentar: Olá
+   - utter_cumprimentar
+* processo_prazo_desarquivar: prazo desarquivar
+   - utter_processo_prazo_desarquivar
+   - utter_continuar_conversa
 * processo_reativacao_de_proposta: como reativar uma proposta?
    - utter_processo_reativacao_de_proposta
-   - utter_continuar_conversa
-* processo_prazo_desarquivar: qual é o prazo para desarquivar proposta?
-   - utter_processo_prazo_desarquivar
    - utter_continuar_conversa
 * salic_erros: estou com problemas no salic
    - utter_salic_erros
@@ -359,75 +360,4 @@
    - utter_salic_preenchimento_cadastro_agencia_bancaria
    - utter_continuar_conversa
 * negar_despedir: nada mais
-   - utter_despedir
-
-## end-to-end story 20
-* tudo_bem: tudo bem
-   - utter_tudo_bem
-   - utter_menu
-* definicao_minc: o que é minc?
-   - utter_definicao_minc
-   - utter_objetivo
-* afirmar: quero
-   - utter_processo_como_funciona
-* afirmar: sim
-   - utter_cadastro_salic_video
-* afirmar: sim
-   - utter_salic_cadastro_usuario
-   - utter_salic_cadastro_proponente
-   - utter_continuar_conversa
-* negar_despedir: não tenho mais dúvidas
-   - utter_despedir
-
-## end-to-end story 21
-* tudo_bem: tudo bem
-   - utter_tudo_bem
-   - utter_menu
-* definicao_cnic: o que é cnic?
-   - utter_definicao_cnic
-   - utter_objetivo
-* afirmar: quero
-   - utter_processo_como_funciona
-* afirmar: sim
-   - utter_cadastro_salic_video
-* negar: não
-   - utter_salic_cadastro_proponente
-   - utter_continuar_conversa
-* negar_despedir: não tenho mais perguntas
-   - utter_despedir
-
-## end-to-end story 22
-* definicao_salic: o que é salic?
-   - utter_definicao_salic
-   - utter_objetivo
-* negar: não
-   - utter_continuar_conversa
-* salic_preenchimento: instruções de preenchimento
-   - utter_salic_preenchimento
-   - utter_continuar_conversa
-* salic_preenchimento_campo_custo_auditoria: como preencher o campo custo de auditoria?
-   - utter_salic_preenchimento_campo_custo_auditoria
-   - utter_continuar_conversa
-* salic_preenchimento_cadastro_rubrica_advogado_contador: cadastrar as rubricas de advogado e contador
-   - utter_salic_preenchimento_cadastro_rubrica_advogado_contador
-   - utter_continuar_conversa
-* salic_preenchimento_valor_ingresso: como calcula o valor do ingresso?
-   - utter_salic_preenchimento_valor_ingresso
-   - utter_continuar_conversa
-* negar_despedir: só isso mesmo, obrigada
-   - utter_despedir
-
-## end-to-end story 23
-* cumprimentar: oi, tais
-   - utter_cumprimentar
-* tudo_bem: tudo bem?
-   - utter_tudo_bem
-   - utter_menu
-* lei_rouanet_contrapartidas_sociais: contrapartidas sociais na IN 02/2019
-   - utter_lei_rouanet_contrapartidas_sociais
-   - utter_continuar_conversa
-* lei_rouanet_pagamento: posso fazer pagamento com cheque?
-   - utter_lei_rouanet_pagamento
-   - utter_continuar_conversa
-* negar_despedir: não tenho mais dúvidas
    - utter_despedir

@@ -62,6 +62,7 @@ intents:
   - lei_rouanet_tipos_projeto
   - lei_rouanet_contrapartidas_sociais
   - lei_rouanet_pagamento
+  - lei_rouanet_acessibilidade
 
   - processo_como_funciona
   - processo_definicao_etapas
@@ -858,6 +859,11 @@ templates:
           Os pagamentos devem ser realizados preferencialmente por meio de cheques ou transferências bancárias.
           Para pagamentos em dinheiro, o saque diário não pode ser superior a mil reais.
 
+  utter_lei_rouanet_acessibilidade:
+    - text: |
+          Podemos definir a acessibilidade como as medidas que visam possibilitar o acesso de pessoas que tem alguma limitação física,
+          sensorial ou intelectual aos produtos culturais financiados via Lei Rouanet.
+
   utter_agradecimento:
     - text: |
           De nada, é sempre um prazer ajudar!
@@ -927,6 +933,7 @@ actions:
   - utter_lei_rouanet_tipos_projeto
   - utter_lei_rouanet_contrapartidas_sociais
   - utter_lei_rouanet_pagamento
+  - utter_lei_rouanet_acessibilidade
 
   - utter_processo_reativacao_de_proposta
   - utter_processo_prazo

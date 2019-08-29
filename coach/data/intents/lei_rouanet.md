@@ -296,6 +296,10 @@
 - qual limite para Remuneração do proponente
 - quanto o proponente pode se remunerar
 - qual a remuneração do proponente
+- o proponente é remunerado
+- o proponente e remunerado
+- proponente é remunerado
+- proponente e remunerado
 - remuneração
 - remunerado
 - honorário
@@ -779,3 +783,25 @@
 - dinheiro
 - cheque
 - pagar
+
+## intent:lei_rouanet_acessibilidade
+- como que funciona a acessibilidade
+- como que funciona acessibilidade
+- como funciona a acessbilidade
+- me explica o que é acessibilidade
+- me explica o que e acessibilidade
+- tenho dúvidas sobre acessibilidade
+- tenho duvidas sobre acessibilidade
+- dúvidas sobre acessibilidade
+- duvidas sobre acessibilidade
+- dúvida sobre acessibilidade
+- duvida sobre acessibilidade
+- o que é acessibilidade
+- o que e acessibilidade
+- funciona acessibilidade
+- sobre acessibilidade
+- sobre acessibilidade
+- explica acessibilidade
+- dúvida acessibilidade
+- duvida acessibilidade
+- acessibilidade

@@ -48,7 +48,6 @@
     - utter_lei_rouanet_etapas_aprovacao_projeto
     - utter_continuar_conversa
 
-
 ## LeiRouanet 1.9
 * lei_rouanet_analise_tecnica
     - utter_lei_rouanet_analise_tecnica
@@ -413,9 +412,8 @@
     - utter_continuar_conversa
 
 ## Lei Rouanet 43.1
-* tudo_bem
-    - utter_tudo_bem
-    - utter_menu
+* cumprimentar
+    - utter_cumprimentar
 * lei_rouanet_remanejamento
     - utter_lei_rouanet_remanejamento
     - utter_continuar_conversa
@@ -465,4 +463,9 @@
 ## Lei Rouanet 53
 * lei_rouanet_pagamento
     - utter_lei_rouanet_pagamento
+    - utter_continuar_conversa
+
+## Lei Rouanet 54
+* lei_rouanet_acessibilidade
+    - utter_lei_rouanet_acessibilidade
     - utter_continuar_conversa
