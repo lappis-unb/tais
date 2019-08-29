@@ -411,13 +411,6 @@
     - utter_lei_rouanet_remanejamento
     - utter_continuar_conversa
 
-## Lei Rouanet 43.1
-* cumprimentar
-    - utter_cumprimentar
-* lei_rouanet_remanejamento
-    - utter_lei_rouanet_remanejamento
-    - utter_continuar_conversa
-
 ## Lei Rouanet 44
 * lei_rouanet_edital
     - utter_lei_rouanet_edital
@@ -478,4 +471,9 @@
 ## Lei Rouanet 56
 * lei_rouanet_contador_advogado
     - utter_lei_rouanet_contador_advogado
+    - utter_continuar_conversa
+
+## Lei Rouanet 57
+* lei_rouanet_custo_vinculado
+    - utter_lei_rouanet_custo_vinculado
     - utter_continuar_conversa

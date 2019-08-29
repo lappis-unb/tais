@@ -79,5 +79,8 @@
 * lei_rouanet_contador_advogado: por que preciso de um advogado no meu projeto?
    - utter_lei_rouanet_contador_advogado
    - utter_continuar_conversa
+* lei_rouanet_custo_vinculado: o que é custo vinculado?
+   - utter_lei_rouanet_custo_vinculado
+   - utter_continuar_conversa
 * negar_despedir: só isso mesmo
    - utter_despedir

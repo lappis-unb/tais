@@ -849,3 +849,25 @@
 - contratar contador
 - contabilidade
 - advocacia
+
+## intent:lei_rouanet_custo_vinculado
+- preciso saber o que é custo vinculado
+- quero saber o que é custo vinculado
+- quero saber o que são custos vinculados
+- quero saber o que sao custos vinculados
+- o que significa custos vinculados
+- o que significa custo vinculado
+- o que são custos vinculados
+- o que sao custos vinculados
+- o que é um custo vinculado
+- o que e um custo vinculado
+- me explica custo vinculado
+- explica custo vinculado
+- custo administrativo
+- um custo vinculado
+- o custo vinculado
+- custo divulgação
+- custos vinculados
+- custo vinculado
+- custos
+- custo
