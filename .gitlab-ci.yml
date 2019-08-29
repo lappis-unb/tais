@@ -43,7 +43,7 @@ test stories:
    - docker:dind
  script:
    - docker build . -f docker/bot/coach.Dockerfile -t $COACH_TEMP_IMAGE > /dev/null 2>&1
-   - docker build -f docker/bot/bot.Dockerfile -t $COACH_BOT_IMAGE .
+   - docker build -f docker/bot/bot.Dockerfile -t $BOT_TEMP_IMAGE .
    - docker run --rm $BOT_TEMP_IMAGE make test-stories
    - docker login -u "gitlab-ci-token" -p "$CI_JOB_TOKEN" $CI_REGISTRY
    - docker push $COACH_TEMP_IMAGE
