@@ -805,3 +805,26 @@
 - dúvida acessibilidade
 - duvida acessibilidade
 - acessibilidade
+
+## intent:lei_rouanet_intermediacao
+- o que significa intermediação
+- o que significa intermediacao
+- intermediação de proposta
+- intermediacao de proposta
+- o que é intermediação
+- o que e intermediacao
+- posso delegar minha proposta
+- posso delegar meu projeto
+- intermediação proposta
+- intermediacao proposta
+- intermediação de projeto
+- intermediacao de projeto
+- intermediação projeto
+- intermediacao projeto
+- proponente delegado
+- delegar proponente
+- delegar proposta
+- delegar projeto
+- intermediação
+- intermediacao
+- delegar

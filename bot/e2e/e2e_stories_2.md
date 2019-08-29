@@ -73,8 +73,11 @@
 * tudo_bem: tudo bem?
    - utter_tudo_bem
    - utter_menu
-* lei_rouanet_acessibilidade: como funciona a acessibilidade?
+* lei_rouanet_acessibilidade: explica acessibilidade
    - utter_lei_rouanet_acessibilidade
+   - utter_continuar_conversa
+* lei_rouanet_intermediacao: o que é intermediação?
+   - utter_lei_rouanet_intermediacao
    - utter_continuar_conversa
 * negar_despedir: só isso mesmo
    - utter_despedir

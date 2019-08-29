@@ -469,3 +469,8 @@
 * lei_rouanet_acessibilidade
     - utter_lei_rouanet_acessibilidade
     - utter_continuar_conversa
+
+## Lei Rouanet 55
+* lei_rouanet_intermediacao
+    - utter_lei_rouanet_intermediacao
+    - utter_continuar_conversa

@@ -63,6 +63,7 @@ intents:
   - lei_rouanet_contrapartidas_sociais
   - lei_rouanet_pagamento
   - lei_rouanet_acessibilidade
+  - lei_rouanet_intermediacao
 
   - processo_como_funciona
   - processo_definicao_etapas
@@ -864,6 +865,11 @@ templates:
           Podemos definir a acessibilidade como as medidas que visam possibilitar o acesso de pessoas que tem alguma limitação física,
           sensorial ou intelectual aos produtos culturais financiados via Lei Rouanet.
 
+  utter_lei_rouanet_intermediacao:
+    - text: |
+          A intermediação ocorre quando a apresentação da proposta pelo proponente tem participação irrelevante em sua execução,
+          acessória ou nula ou em que a gestão do processo decisório tenha sido delegada.
+
   utter_agradecimento:
     - text: |
           De nada, é sempre um prazer ajudar!
@@ -934,6 +940,7 @@ actions:
   - utter_lei_rouanet_contrapartidas_sociais
   - utter_lei_rouanet_pagamento
   - utter_lei_rouanet_acessibilidade
+  - utter_lei_rouanet_intermediacao
 
   - utter_processo_reativacao_de_proposta
   - utter_processo_prazo
