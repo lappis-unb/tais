@@ -883,12 +883,14 @@ templates:
           Custos Vinculados é o somatório dos custos Administrativos e custos de Divulgação.
           Os custos vinculados são calculados sobre as seguintes etapas: pré-produção, produção,
           pós-produção, recolhimentos, assessoria contábil e jurídica.
+
           Os custos de divulgação não poderão ultrapassar:
           30% do Valor do Projeto de até R$ 300.000,00 
           20% para os demais projetos.
 
-Os custos administrativos não poderão ultrapassar: 
-o limite de 15% do Valor do Projeto 
+          Os custos administrativos não poderão ultrapassar: 
+          o limite de 15% do Valor do Projeto
+
   utter_agradecimento:
     - text: |
           De nada, é sempre um prazer ajudar!
