@@ -426,5 +426,8 @@
 * lei_rouanet_contrapartidas_sociais: contrapartidas sociais na IN 02/2019
    - utter_lei_rouanet_contrapartidas_sociais
    - utter_continuar_conversa
+* lei_rouanet_pagamento: posso fazer pagamento com cheque?
+   - utter_lei_rouanet_pagamento
+   - utter_continuar_conversa
 * negar_despedir: não tenho mais dúvidas
    - utter_despedir

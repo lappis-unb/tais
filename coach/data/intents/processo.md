@@ -233,6 +233,7 @@
 
 ## intent:processo_prazo_readequacao
 - posso saber sobre o periodo de readequacao
+- posso saber sobre o período de readequação
 - preciso fazer uma readequação orçamentária
 - sobre o prazo de readequaçao
 - qual é o periodo de readequacao
@@ -240,6 +241,8 @@
 - qual é o prazo de readequação
 - qual é o prazo para readequação
 - qual e o prazo para readequacao
+- sobre o periodo de readequacao
+- sobre o período de readequação
 - readequação orçamentária
 - périodo readequação
 - período de readequação
@@ -336,6 +339,7 @@
 - périodo desarquivar
 - periodo desarquivar
 - prazo para desarquivar
+- prazo desarquivar proposta
 - prazo desarquivar
 - data desarquivar
 - desarquivar

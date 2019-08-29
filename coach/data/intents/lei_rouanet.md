@@ -371,6 +371,8 @@
 - valor de pagamento para artista solo e grupos artisticos
 - quanto cada artista da peça pode receber
 - valor cache
+- pagamento de cachê
+- pagamento de cache
 - pagamento cachê
 - limite de cache
 - cache artista
@@ -378,6 +380,8 @@
 - pagamento artista solo
 - cache orquestra
 - limite cache artista solo
+- cachê
+- cache
 
 ## intent:lei_rouanet_etapas_aprovacao_projeto
 - quais as etapas de aprovação de um projeto
@@ -758,3 +762,20 @@
 - artigo 22
 - art 22
 
+## intent:lei_rouanet_pagamento
+- posso fazer pagamento com transferência bancária
+- posso fazer pagamento com transferencia bancaria
+- posso fazer pagamento com transferência
+- posso fazer pagamento com transferencia
+- posso fazer pagamento com dinheiro
+- posso fazer pagamento com cheque
+- como posso fazer o pagamento
+- como posso pagar
+- transferência bancária
+- transferencia bancaria
+- transferência
+- transferencia
+- pagamento
+- dinheiro
+- cheque
+- pagar

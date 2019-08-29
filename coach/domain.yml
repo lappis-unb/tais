@@ -61,6 +61,7 @@ intents:
   - lei_rouanet_reembolso_despesa
   - lei_rouanet_tipos_projeto
   - lei_rouanet_contrapartidas_sociais
+  - lei_rouanet_pagamento
 
   - processo_como_funciona
   - processo_definicao_etapas
@@ -852,6 +853,11 @@ templates:
           Podemos encontrar informações sobre as Contrapartidas Sociais no artigo 22 da IN 02/2019, lá explica que as propostas culturais devem apresentar ações formativas culturais em suas atividades, ou seja, devem promover o contato com a cultura, com rubricas orçamentárias próprias.
           Então, é obrigatório que tenha  10% do quantitativo de público de beneficiários, sendo no mínimo 20 limitando-se a 1.000, além disso 50% dos beneficiários devem ser estudantes e professores de instituições públicas de ensino.
 
+  utter_lei_rouanet_pagamento:
+    - text: |
+          Os pagamentos devem ser realizados preferencialmente por meio de cheques ou transferências bancárias.
+          Para pagamentos em dinheiro, o saque diário não pode ser superior a mil reais.
+
   utter_agradecimento:
     - text: |
           De nada, é sempre um prazer ajudar!
@@ -920,6 +926,7 @@ actions:
   - utter_lei_rouanet_reembolso_despesa
   - utter_lei_rouanet_tipos_projeto
   - utter_lei_rouanet_contrapartidas_sociais
+  - utter_lei_rouanet_pagamento
 
   - utter_processo_reativacao_de_proposta
   - utter_processo_prazo
