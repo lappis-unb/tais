@@ -76,5 +76,8 @@
 * lei_rouanet_intermediacao: o que é intermediação?
    - utter_lei_rouanet_intermediacao
    - utter_continuar_conversa
+* lei_rouanet_contador_advogado: por que preciso de um advogado no meu projeto?
+   - utter_lei_rouanet_contador_advogado
+   - utter_continuar_conversa
 * negar_despedir: só isso mesmo
    - utter_despedir

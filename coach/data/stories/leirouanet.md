@@ -474,3 +474,8 @@
 * lei_rouanet_intermediacao
     - utter_lei_rouanet_intermediacao
     - utter_continuar_conversa
+
+## Lei Rouanet 56
+* lei_rouanet_contador_advogado
+    - utter_lei_rouanet_contador_advogado
+    - utter_continuar_conversa

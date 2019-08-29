@@ -64,6 +64,7 @@ intents:
   - lei_rouanet_pagamento
   - lei_rouanet_acessibilidade
   - lei_rouanet_intermediacao
+  - lei_rouanet_contador_advogado
 
   - processo_como_funciona
   - processo_definicao_etapas
@@ -870,6 +871,12 @@ templates:
           A intermediação ocorre quando a apresentação da proposta pelo proponente tem participação irrelevante em sua execução,
           acessória ou nula ou em que a gestão do processo decisório tenha sido delegada.
 
+  utter_lei_rouanet_contador_advogado:
+    - text: |
+          O desconhecimento de preceitos legais e contábeis ou a inobservância de alguns itens na realização dos projetos 
+          pode causar prejuízos à sua execução,resultando em reprovação e devolução de recursos ao erário. 
+          A Instrução Normativa da Lei Rouanet permite que o contador seja do quadro de funcionários da empresa do proponente da proposta cultural.
+
   utter_agradecimento:
     - text: |
           De nada, é sempre um prazer ajudar!
@@ -941,6 +948,7 @@ actions:
   - utter_lei_rouanet_pagamento
   - utter_lei_rouanet_acessibilidade
   - utter_lei_rouanet_intermediacao
+  - utter_lei_rouanet_contador_advogado
 
   - utter_processo_reativacao_de_proposta
   - utter_processo_prazo

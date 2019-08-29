@@ -828,3 +828,24 @@
 - intermediação
 - intermediacao
 - delegar
+
+## intent:lei_rouanet_contador_advogado
+- por que é obrigatória a contratação de profissionais de contabilidade e de advocacia para realização do projeto
+- por que é obrigatória a contratação de profissionais de contabilidade para realização do projeto
+- por que é obrigatória a contratação de profissionais de advocacia para realização do projeto
+- por que preciso de um advogado para o projeto
+- por que preciso de um contador para o projeto
+- por que preciso de um advogado
+- por que preciso de um contador
+- por que tenho que contratar um advogado
+- por que tenho que contratar um contador
+- contratação de profissionais de contabilidade e de advocacia
+- contratacao de profissionais de contabilidade e de advocacia
+- contratação de profissionais de contabilidade
+- contratação de proficionais de advocacia
+- contratação de advogado
+- contratação de contador
+- contratar advogado
+- contratar contador
+- contabilidade
+- advocacia
