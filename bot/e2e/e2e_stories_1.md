@@ -50,12 +50,13 @@
 ## end-to-end story 4
 * o_que_sei_falar: me ajuda
    - utter_o_que_sei_falar
-* captacao: tenho duvidas sobre captacao
+* captacao: captação
    - utter_captacao
+   - utter_continuar_conversa
 * captacao_quando_captar: quando posso começar a captar?
    - utter_captacao_quando_captar
    - utter_continuar_conversa
-* captacao_como_captar: como funciona a captação?
+* captacao_como_captar: onde acho os patrocinadores
    - utter_captacao_como_captar
    - utter_continuar_conversa
 * processo_prazo_periodo_captacao: quanto tempo para captar
@@ -76,7 +77,7 @@
    - utter_objetivo
 * negar: não
    - utter_continuar_conversa
-* lei_rouanet_quantidade_de_projetos: quantos projetos foram aprovados?
+* lei_rouanet_quantidade_de_projetos: quantidade de projetos aprovados?
    - utter_lei_rouanet_quantidade_de_projetos
    - utter_continuar_conversa
 * lei_rouanet_quantidade_de_projetos_este_ano: quantos projetos foram aprovados este ano?
@@ -159,9 +160,6 @@
    - utter_despedir
 
 ## end-to-end story 9
-* tudo_bem: tudo bem?
-   - utter_tudo_bem
-   - utter_menu
 * lei_rouanet_remanejamento: fazer remanejamento?
    - utter_lei_rouanet_remanejamento
    - utter_continuar_conversa

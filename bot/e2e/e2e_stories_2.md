@@ -63,7 +63,7 @@
 * lei_rouanet_contrapartidas_sociais: contrapartidas sociais
    - utter_lei_rouanet_contrapartidas_sociais
    - utter_continuar_conversa
-* lei_rouanet_pagamento: posso fazer pagamento com cheque?
+* lei_rouanet_pagamento: como posso pagar?
    - utter_lei_rouanet_pagamento
    - utter_continuar_conversa
 * negar_despedir: não tenho mais dúvidas

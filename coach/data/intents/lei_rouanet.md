@@ -304,7 +304,6 @@
 - remunerado
 - honorário
 - salário
-- pagamento
 - valor
 - recebe
 - ordenado
@@ -777,6 +776,9 @@
 - como posso pagar
 - transferência bancária
 - transferencia bancaria
+- pagamento com transferência
+- pagamento com dinheiro
+- pagamento com cheque
 - transferência
 - transferencia
 - pagamento
@@ -861,6 +863,8 @@
 - o que sao custos vinculados
 - o que é um custo vinculado
 - o que e um custo vinculado
+- o que é custo vinculado
+- o que e custo vinculado
 - me explica custo vinculado
 - explica custo vinculado
 - custo administrativo
