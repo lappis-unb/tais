@@ -875,3 +875,20 @@
 - custo vinculado
 - custos
 - custo
+
+## intent:lei_rouanet_pagamento_direcionado
+- como sei que meu pagamento será direcionado corretamente para o projeto que eu quero
+- como sei que meu pagamento sera direcionado corretamente para o projeto que eu quero
+- como posso saber que meu dinheiro foi direcionado para o projeto que eu quero
+- como posso saber se meu dinheiro foi direcionado pro projeto que eu escolhi
+- como posso saber que meu dinheiro foi pro projeto que eu quero
+- quero saber se meu dinheiro foi pro projeto que eu incentivei
+- meu dinheiro para projeto que eu incentivei
+- meu pagamento direcionado para projeto
+- projeto que eu quero incentivar
+- meu pagamento direcionado
+- meu dinheiro direcionado
+- pagamento direcionado
+- projeto que escolhi
+- projeto que eu quero
+- projeto que eu incentivei
