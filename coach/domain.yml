@@ -67,6 +67,7 @@ intents:
   - lei_rouanet_contador_advogado
   - lei_rouanet_custo_vinculado
   - lei_rouanet_pagamento_direcionado
+  - lei_rouanet_enquadramento
 
   - processo_como_funciona
   - processo_definicao_etapas
@@ -896,6 +897,13 @@ templates:
     - text: |
           Assim... O responsável pelo depósito na conta do projeto é o próprio incentivado ;)
 
+  utter_lei_rouanet_enquadramento:
+    - text: |
+          Os projetos podem ser enquadrados no artigo 18 ou no artigo 26.
+          Isso vai depender do segmento cultural do seu projeto.
+          Para saber mais, pergunte pelo artigo 18 ou pelo artigo 26,
+          Assim você terá acesso ao percentual de dedução do IR de cada categoria de enquadramento.
+
   utter_agradecimento:
     - text: |
           De nada, é sempre um prazer ajudar!
@@ -970,6 +978,7 @@ actions:
   - utter_lei_rouanet_contador_advogado
   - utter_lei_rouanet_custo_vinculado
   - utter_lei_rouanet_pagamento_direcionado
+  - utter_lei_rouanet_enquadramento
 
   - utter_processo_reativacao_de_proposta
   - utter_processo_prazo

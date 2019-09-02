@@ -892,3 +892,25 @@
 - projeto que escolhi
 - projeto que eu quero
 - projeto que eu incentivei
+
+## intent:lei_rouanet_enquadramento
+- o que o enquadramento influencia no meu projeto
+- onde meu projeto pode ser enquadrado
+- quais categorias de enquadramento
+- quais tipos de enquadramento
+- categorias de enquadramento
+- o que é enquadramento
+- o que e enquadramento
+- tipos de enquadramento
+- tipos enquadramento
+- enquadramento de proposta
+- enquadramento de projeto
+- enquadramento artigo 26
+- enquadramento artigo 18
+- enquadramento art 26
+- enquadramento art 18
+- enquadrar proposta
+- enquadrar projeto
+- enquadramento
+- enquadrado
+- enquadrar
