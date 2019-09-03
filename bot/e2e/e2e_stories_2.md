@@ -84,3 +84,13 @@
    - utter_continuar_conversa
 * negar_despedir: só isso mesmo
    - utter_despedir
+
+## end-to-end story 25
+* lei_rouanet_pagamento_direcionado: como sei que meu pagamento foi direcionado para o projeto que eu quero?
+   - utter_lei_rouanet_pagamento_direcionado
+   - utter_continuar_conversa
+* lei_rouanet_enquadramento: o que é enquadramento?
+   - utter_lei_rouanet_enquadramento
+   - utter_continuar_conversa
+* negar_despedir: não tenho mais perguntas
+   - utter_despedir

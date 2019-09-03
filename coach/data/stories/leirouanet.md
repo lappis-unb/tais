@@ -477,3 +477,13 @@
 * lei_rouanet_custo_vinculado
     - utter_lei_rouanet_custo_vinculado
     - utter_continuar_conversa
+
+## Lei Rouanet 58
+* lei_rouanet_pagamento_direcionado
+    - utter_lei_rouanet_pagamento_direcionado
+    - utter_continuar_conversa
+
+## Lei Rouanet 59
+* lei_rouanet_enquadramento
+    - utter_lei_rouanet_enquadramento
+    - utter_continuar_conversa
