@@ -215,21 +215,35 @@
 - mudar proponente
 
 ## intent:salic_preenchimento_comprovacao_financeira
+- quais os documentos fiscais válidos para a prestação de contas dos projetos
 - como fazer a comprovação da despesa executada pelo proponente
 - gostaria de fazer a comprovacao executada pelo proponente
+- como enviar a prestação de contas do projeto?
 - quero enviar a prestacao de contas do projeto
-- como enviar a prestação de contas do projeto 
+- por qual meio eu apresento a prestação de contas
+- posso entregar a prestação de contas meio fisico
+- posso enviar a prestação de contas meio fisico
+- como enviar a prestação de contas do projeto
+- como fazer prestação de contas
 - quero realizar a comprovacao financeira
 - como realizar a comprovação financeira
 - como realizar a comprovação de despesa
 - como realizar a comprovação
 - realizar a comprovação
 - realizar a comprovacao
+- prestação de contas
+- prestacao de contas
 - comprovação financeira
 - comprovacao financeira
 - comprovação de despesa
 - comprovacao de despesa
 - despesa proponente
+- documento prestação de contas
+- entregar prestação de contas
+- enviar prestação de contas
+- enviar prestacao de contas
+- prestação de contas projeto
+- prestacao de contas projeto
 - enviar comprovação
 - enviar comprovacao
 - fazer comprovação
