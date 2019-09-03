@@ -61,6 +61,11 @@ intents:
   - lei_rouanet_reembolso_despesa
   - lei_rouanet_tipos_projeto
   - lei_rouanet_contrapartidas_sociais
+  - lei_rouanet_pagamento
+  - lei_rouanet_acessibilidade
+  - lei_rouanet_intermediacao
+  - lei_rouanet_contador_advogado
+  - lei_rouanet_custo_vinculado
 
   - processo_como_funciona
   - processo_definicao_etapas
@@ -852,6 +857,40 @@ templates:
           Podemos encontrar informações sobre as Contrapartidas Sociais no artigo 22 da IN 02/2019, lá explica que as propostas culturais devem apresentar ações formativas culturais em suas atividades, ou seja, devem promover o contato com a cultura, com rubricas orçamentárias próprias.
           Então, é obrigatório que tenha  10% do quantitativo de público de beneficiários, sendo no mínimo 20 limitando-se a 1.000, além disso 50% dos beneficiários devem ser estudantes e professores de instituições públicas de ensino.
 
+  utter_lei_rouanet_pagamento:
+    - text: |
+          Os pagamentos devem ser realizados preferencialmente por meio de cheques ou transferências bancárias.
+          Para pagamentos em dinheiro, o saque diário não pode ser superior a mil reais.
+
+  utter_lei_rouanet_acessibilidade:
+    - text: |
+          Podemos definir a acessibilidade como as medidas que visam possibilitar o acesso de pessoas que tem alguma limitação física,
+          sensorial ou intelectual aos produtos culturais financiados via Lei Rouanet.
+
+  utter_lei_rouanet_intermediacao:
+    - text: |
+          A intermediação ocorre quando a apresentação da proposta pelo proponente tem participação irrelevante em sua execução,
+          acessória ou nula ou em que a gestão do processo decisório tenha sido delegada.
+
+  utter_lei_rouanet_contador_advogado:
+    - text: |
+          O desconhecimento de preceitos legais e contábeis ou a inobservância de alguns itens na realização dos projetos 
+          pode causar prejuízos à sua execução,resultando em reprovação e devolução de recursos ao erário. 
+          A Instrução Normativa da Lei Rouanet permite que o contador seja do quadro de funcionários da empresa do proponente da proposta cultural.
+
+  utter_lei_rouanet_custo_vinculado:
+    - text: |
+          Custos Vinculados é o somatório dos custos Administrativos e custos de Divulgação.
+          Os custos vinculados são calculados sobre as seguintes etapas: pré-produção, produção,
+          pós-produção, recolhimentos, assessoria contábil e jurídica.
+
+          Os custos de divulgação não poderão ultrapassar:
+          30% do Valor do Projeto de até R$ 300.000,00 
+          20% para os demais projetos.
+
+          Os custos administrativos não poderão ultrapassar: 
+          o limite de 15% do Valor do Projeto
+
   utter_agradecimento:
     - text: |
           De nada, é sempre um prazer ajudar!
@@ -920,6 +959,11 @@ actions:
   - utter_lei_rouanet_reembolso_despesa
   - utter_lei_rouanet_tipos_projeto
   - utter_lei_rouanet_contrapartidas_sociais
+  - utter_lei_rouanet_pagamento
+  - utter_lei_rouanet_acessibilidade
+  - utter_lei_rouanet_intermediacao
+  - utter_lei_rouanet_contador_advogado
+  - utter_lei_rouanet_custo_vinculado
 
   - utter_processo_reativacao_de_proposta
   - utter_processo_prazo

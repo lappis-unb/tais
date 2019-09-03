@@ -1,11 +1,14 @@
 <!-- Captação -->
 ## intent:captacao
+- como funciona a captação
 - quero falar sobre captacao
 - quero falar sobre captação
 - tenho duvidas sobre captacao
 - tenho dúvidas sobre captação
 - voce sabe falar sobre captacao
 - você sabe falar sobre captação
+- dúvidas sobre captação
+- duvidas sobre captacao
 - dúvidas captação
 - duvidas captacao
 - falar captacao
@@ -45,11 +48,8 @@
 - posso contratar alguém pra captar pra mim
 - quero contratar alguem pra captar recurso
 - posso terceirizar a captacao de recursos
-- o proponente pode receber dinheiro
-- quanto o proponete pode ser pago
 - gostaria de saber como captar
 - onde acho os patrocinadores
-- como funciona a captação
 - como captar
 - proponente captação
 - proponente dinheiro

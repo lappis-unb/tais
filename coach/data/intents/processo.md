@@ -137,10 +137,11 @@
 - minha proposta foi rejeitada, como reativar ela?
 - posso fazer o pedido de reativação?
 - como reativar uma proposta?
-- desarquivamento de proposta
+- reativamentovamento de proposta
 - proposta arquivada
 - reativação de proposta
-- desarquivamento
+- reativamento
+- reativação
 
 ## intent:processo_prazo
 - tenho duvida sobre o prazo
@@ -233,6 +234,7 @@
 
 ## intent:processo_prazo_readequacao
 - posso saber sobre o periodo de readequacao
+- posso saber sobre o período de readequação
 - preciso fazer uma readequação orçamentária
 - sobre o prazo de readequaçao
 - qual é o periodo de readequacao
@@ -240,6 +242,8 @@
 - qual é o prazo de readequação
 - qual é o prazo para readequação
 - qual e o prazo para readequacao
+- sobre o periodo de readequacao
+- sobre o período de readequação
 - readequação orçamentária
 - périodo readequação
 - período de readequação
@@ -335,6 +339,8 @@
 - desarquivar projeto
 - périodo desarquivar
 - periodo desarquivar
+- prazo para desarquivar proposta
+- prazo desarquivar proposta
 - prazo para desarquivar
 - prazo desarquivar
 - data desarquivar

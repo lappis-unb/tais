@@ -296,11 +296,14 @@
 - qual limite para Remuneração do proponente
 - quanto o proponente pode se remunerar
 - qual a remuneração do proponente
+- o proponente é remunerado
+- o proponente e remunerado
+- proponente é remunerado
+- proponente e remunerado
 - remuneração
 - remunerado
 - honorário
 - salário
-- pagamento
 - valor
 - recebe
 - ordenado
@@ -371,6 +374,8 @@
 - valor de pagamento para artista solo e grupos artisticos
 - quanto cada artista da peça pode receber
 - valor cache
+- pagamento de cachê
+- pagamento de cache
 - pagamento cachê
 - limite de cache
 - cache artista
@@ -378,6 +383,8 @@
 - pagamento artista solo
 - cache orquestra
 - limite cache artista solo
+- cachê
+- cache
 
 ## intent:lei_rouanet_etapas_aprovacao_projeto
 - quais as etapas de aprovação de um projeto
@@ -758,3 +765,113 @@
 - artigo 22
 - art 22
 
+## intent:lei_rouanet_pagamento
+- posso fazer pagamento com transferência bancária
+- posso fazer pagamento com transferencia bancaria
+- posso fazer pagamento com transferência
+- posso fazer pagamento com transferencia
+- posso fazer pagamento com dinheiro
+- posso fazer pagamento com cheque
+- como posso fazer o pagamento
+- como posso pagar
+- transferência bancária
+- transferencia bancaria
+- pagamento com transferência
+- pagamento com dinheiro
+- pagamento com cheque
+- transferência
+- transferencia
+- pagamento
+- dinheiro
+- cheque
+- pagar
+
+## intent:lei_rouanet_acessibilidade
+- como que funciona a acessibilidade
+- como que funciona acessibilidade
+- como funciona a acessbilidade
+- me explica o que é acessibilidade
+- me explica o que e acessibilidade
+- tenho dúvidas sobre acessibilidade
+- tenho duvidas sobre acessibilidade
+- dúvidas sobre acessibilidade
+- duvidas sobre acessibilidade
+- dúvida sobre acessibilidade
+- duvida sobre acessibilidade
+- o que é acessibilidade
+- o que e acessibilidade
+- funciona acessibilidade
+- sobre acessibilidade
+- sobre acessibilidade
+- explica acessibilidade
+- dúvida acessibilidade
+- duvida acessibilidade
+- acessibilidade
+
+## intent:lei_rouanet_intermediacao
+- o que significa intermediação
+- o que significa intermediacao
+- intermediação de proposta
+- intermediacao de proposta
+- o que é intermediação
+- o que e intermediacao
+- posso delegar minha proposta
+- posso delegar meu projeto
+- intermediação proposta
+- intermediacao proposta
+- intermediação de projeto
+- intermediacao de projeto
+- intermediação projeto
+- intermediacao projeto
+- proponente delegado
+- delegar proponente
+- delegar proposta
+- delegar projeto
+- intermediação
+- intermediacao
+- delegar
+
+## intent:lei_rouanet_contador_advogado
+- por que é obrigatória a contratação de profissionais de contabilidade e de advocacia para realização do projeto
+- por que é obrigatória a contratação de profissionais de contabilidade para realização do projeto
+- por que é obrigatória a contratação de profissionais de advocacia para realização do projeto
+- por que preciso de um advogado para o projeto
+- por que preciso de um contador para o projeto
+- por que preciso de um advogado
+- por que preciso de um contador
+- por que tenho que contratar um advogado
+- por que tenho que contratar um contador
+- contratação de profissionais de contabilidade e de advocacia
+- contratacao de profissionais de contabilidade e de advocacia
+- contratação de profissionais de contabilidade
+- contratação de proficionais de advocacia
+- contratação de advogado
+- contratação de contador
+- contratar advogado
+- contratar contador
+- contabilidade
+- advocacia
+
+## intent:lei_rouanet_custo_vinculado
+- preciso saber o que é custo vinculado
+- quero saber o que é custo vinculado
+- quero saber o que são custos vinculados
+- quero saber o que sao custos vinculados
+- o que significa custos vinculados
+- o que significa custo vinculado
+- o que são custos vinculados
+- o que sao custos vinculados
+- o que é um custo vinculado
+- o que e um custo vinculado
+- o que é custo vinculado
+- o que e custo vinculado
+- me explica custo vinculado
+- explica custo vinculado
+- custo administrativo
+- um custo vinculado
+- o custo vinculado
+- custo divulgação
+- custos vinculados
+- custo vinculado
+- custos
+- custo
