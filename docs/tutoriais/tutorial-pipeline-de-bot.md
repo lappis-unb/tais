@@ -29,13 +29,13 @@ test style:
 
 run dataset validator:
   stage: validate format
-  image: lappis/coach:latest
+  image: lappis/coach:tais
   script:
     - cd coach/
     - make run-validator
 ```
 
-No exemplo acima, foi definida uma imagem base chamada `python:3.6-slim`. Em seguida foram definidos dois *jobs* de teste, o primeiro deles utilizará a imagem padrão do python que foi definida na primeira linha, já que este não possui nenhuma *tag* de definição de imagem. O segundo *job* utilizará a imagem `lappis/coach:latest`, já que possui uma *tag* de definição de imagem que sobreescreve a imagem base.
+No exemplo acima, foi definida uma imagem base chamada `python:3.6-slim`. Em seguida foram definidos dois *jobs* de teste, o primeiro deles utilizará a imagem padrão do python que foi definida na primeira linha, já que este não possui nenhuma *tag* de definição de imagem. O segundo *job* utilizará a imagem `lappis/coach:tais`, já que possui uma *tag* de definição de imagem que sobreescreve a imagem base.
 
 ## Definição dos stages
 
@@ -70,8 +70,8 @@ build bot:
     - docker:dind
   script:
     - docker login -u $DOCKERHUB_USER -p $DOCKERHUB_PASSWORD
-    - docker build -f docker/bot/bot.Dockerfile -t lappis/bot:latest .
-    - docker push lappis/bot:latest
+    - docker build -f docker/bot/bot.Dockerfile -t lappis/bot:tais .
+    - docker push lappis/bot:tais
   only:
     - master
   environment: homolog

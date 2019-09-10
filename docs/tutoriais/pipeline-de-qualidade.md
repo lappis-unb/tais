@@ -65,14 +65,14 @@ Após isso foram definidas duas *tasks* simples para validação dos parâmetros
 ```yml
 run dataset validator:
   stage: validate format
-  image: lappis/coach:latest
+  image: lappis/coach:tais
   script:
     - cd coach/
     - make run-validator
 
 test stories:
   stage: test stories
-  image: lappis/bot:latest
+  image: lappis/bot:tais
   script:
     - cd bot/
     - make test-stories

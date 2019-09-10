@@ -74,7 +74,7 @@ Dentro da arquitetura da TAIS utiliza-se serviços baseado em `Docker`, sendo as
 A imagem `docker` utilizada no serviço de *Trainer* é construída a partir do `Dockerfile` abaixo. É nesta imagem onde estarão os diretórios de `intents` e `stories` do `Rasa` que formam a base de conhecimentos do *bot*. Também é nesta imagem onde estarão os modelos treinados.
 
 ```Dockerfile
-FROM lappis/botrequirements:latest
+FROM lappis/botrequirements:tais
 
 COPY ./coach /coach
 COPY ./scripts /scripts
@@ -88,7 +88,7 @@ RUN make train
 RUN find /. | grep -E "(__pycache__|\.pyc|\.pyo$)" | xargs rm -rf
 ```
 
-A imagem `lappis/botrequirements:latest` possui todas as dependências `Rasa` pré instaladas e é utilizada como base para este serviço e o serviço de bot, explicado na próxima seção deste documento.
+A imagem `lappis/botrequirements:tais` possui todas as dependências `Rasa` pré instaladas e é utilizada como base para este serviço e o serviço de bot, explicado na próxima seção deste documento.
 
 Uma vez que os parâmetros da rede estão bem definidos e o *dataset* do *bot* está finalizado, o processo de treinamento será realizado apenas uma vez, e o mesmo modelo será utilizado sempre que se desejar executar aquele estado de treinamento. Com essa abordagem o versionamento dos modelos do *bot* é feito a partir das *tags* do `docker`, sendo que cada *tag* da imagem de *trainer* reflete uma versão da base de conhecimentos e das configurações de rede utilizadas em um determinado momento.
 
@@ -99,9 +99,9 @@ Isto permite criar facilmente estratégias como a representada no diagrama acima
 O Bot se utiliza dos modelos pré-treinados do *trainer* e do `Rasa` para execução do *bot*. Este módulo é utilizado também através de um serviço executado à partir de um *container* `Docker`. A imagem utilizada neste serviço é gerada à partir do Dockerfile abaixo:
 
 ```Dockerfile
-FROM lappis/coach:latest as coach
+FROM lappis/coach:tais as coach
 
-FROM lappis/botrequirements:latest
+FROM lappis/botrequirements:tais
 
 COPY ./bot /bot
 COPY --from=coach /src_models/ /models/
@@ -129,9 +129,9 @@ Quando se utiliza um `Dockerfile` a linha definida com a palavra `FROM` indica a
 
 No `Dockerfile` acima pode-se notar que a palavra `FROM` foi utilizada duas vezes, o objetivo disto é utilizar um recurso do `docker` chamado [multi-stage build](https://docs.docker.com/develop/develop-images/multistage-build/).
 
-O que a linha `FROM lappis/coach:latest as coach` faz é criar uma referência à imagem `lappis/coach` com o nome de `coach`.
-Depois disso a imagem de base é redefinida na linha `FROM lappis/botrequirements:latest` como sendo a imagem de *requirements* onde já estão instaladas as dependências do `Rasa` necessárias para a execução do *bot*.
-Como a referência à primeira imagem de base foi definida como `coach`, na linha `COPY --from=coach /src_models/ /models/` o diretório de modelos pode ser copiado da primeira imagem de base para a segunda imagem de base. O resultado disso é que a imagem final será criada a partir da imagem `lappis/botrequirements:latest`, mas dentro dela estarão os modelos copiados da imagem `lappis/coach:latest`.
+O que a linha `FROM lappis/coach:tais as coach` faz é criar uma referência à imagem `lappis/coach` com o nome de `coach`.
+Depois disso a imagem de base é redefinida na linha `FROM lappis/botrequirements:tais` como sendo a imagem de *requirements* onde já estão instaladas as dependências do `Rasa` necessárias para a execução do *bot*.
+Como a referência à primeira imagem de base foi definida como `coach`, na linha `COPY --from=coach /src_models/ /models/` o diretório de modelos pode ser copiado da primeira imagem de base para a segunda imagem de base. O resultado disso é que a imagem final será criada a partir da imagem `lappis/botrequirements:tais`, mas dentro dela estarão os modelos copiados da imagem `lappis/coach:tais`.
 
 ## Business Analytics
 

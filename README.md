@@ -97,7 +97,7 @@ make train
 Caso queira atualizar o treinamento padrão da aplicação, será necessário atualizar a versão da imagem Coach no dockerhub do lappis:
 ```bash
 make train
-sudo docker push lappis/coach:latest
+sudo docker push lappis/coach:tais
 ```
 
 ## Site do Beta
