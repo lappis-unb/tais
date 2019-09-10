@@ -1,4 +1,4 @@
-FROM lappis/botrequirements:latest
+FROM lappis/botrequirements:tais
 
 
 COPY ./docs/tutoriais/ /work/tutoriais/
