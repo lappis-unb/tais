@@ -42,7 +42,7 @@ test stories:
  services:
    - docker:dind
  script:
-   - docker build . -f docker/bot/coach.Dockerfile -t lappis/coach:tais > /dev/null 2>&1 # Builds lappis/coach:tais
+   - docker build . -f docker/bot/coach.Dockerfile -t lappis/coach:tais # Builds lappis/coach:tais
    - docker build -f docker/bot/bot.Dockerfile -t $BOT_TEMP_IMAGE . # It uses lappis/coach:tais built locally
    - docker run --rm $BOT_TEMP_IMAGE make test-stories
    - docker login -u "gitlab-ci-token" -p "$CI_JOB_TOKEN" $CI_REGISTRY
