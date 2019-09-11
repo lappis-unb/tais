@@ -68,6 +68,10 @@ intents:
   - lei_rouanet_custo_vinculado
   - lei_rouanet_pagamento_direcionado
   - lei_rouanet_enquadramento
+  - lei_rouanet_readequacao
+  - lei_rouanet_readequacao_orcamentaria
+  - lei_rouanet_readequacao_transferencia
+  - lei_rouanet_readequacao_outros
 
   - processo_como_funciona
   - processo_definicao_etapas
@@ -904,6 +908,69 @@ templates:
           Para saber mais, pergunte pelo artigo 18 ou pelo artigo 26,
           Assim você terá acesso ao percentual de dedução do IR de cada categoria de enquadramento.
 
+  utter_lei_rouanet_readequacao:
+    - text: |
+          Readequações devem ser solicitadas de forma individualizadas, nos campos apropriados no SALIC. 
+          E nunca no campo "Minhas Solicitações"!
+          Fique atento, pois só é permitido o remanejamento de até 50%.
+
+          Tipos de readequações:
+          #Planilha Orçamentária
+          #Transferência de recursos entre projetos
+          #Outros
+          Sua dúvida é sobre qual tipo de readequação?
+
+  utter_lei_rouanet_readequacao_orcamentaria:
+    - text: |
+          Estes são os requisitos para readequar a sua planilha orçamentária:
+          1 - O período de execução do projeto ainda está vigente
+          2 - A conta está liberada
+          3 - Ter captado no mínimo 20% do valor aprovado no Incentivo Fiscal
+          4 - A planilha de remanejamento orçamentária de até 50% não pode estar sendo editada/alterada pelo proponente
+          5 - Não pode alterar a etapa de custos vinculados (remuneração para captação de recurso, custos de administração do projeto, custos de divulgação de projeto)
+
+          Agora vou te explicar como fazer a readequação:
+          1 - Acesse o Salic
+          2 - Vá até o menu lateral "readequação" e depois em "planilha orçamentária"
+          3 - selecione "planilha orçamentária" ou "inserir uma nova planilha"
+          4 - Assim você pode editar/incluir e/ou excluir itens, além de fazer remanejamentos entre itens acima de 50%
+
+  utter_lei_rouanet_readequacao_transferencia:
+    - text: |
+          O proponente pode transferir os recursos captados de um projeto para outro nos seguintes casos:
+
+          1 - Na fase de análise técnica do projeto, quando não for homologado (indeferido)
+          2 - Antes de entrar em execução (liberação da conta)
+          3 - Casos excepcionais estão descritas na instrução normativas
+          4- O proponente pode transferir o saldo remanescente para outro projeto no final de sua execução
+
+  utter_lei_rouanet_readequacao_outros:
+    - text: |
+          Nos casos de readequação apresentados abaixo são permitidos apenas após a captação de 100%. 
+          Caso não haja captação integral, não haverá aprovação da Secretaria Especial da Cultura para a utilização do recurso.
+
+          Tipos de readequações:
+          Alteração de Razão Social
+          Agência Bancária
+          Sinópse da Obra
+          Impacto Ambiental
+          Especificação Técnica
+          Estratégia de Execução
+          Local de Realização
+          Alteração de Proponente
+          Plano de Distribuição
+          Nome do Projeto
+          Período de Execução
+          Plano de Divulgação
+          Resumo do Projeto
+          Objetivos
+          Justificativa
+          Acessibilidade
+          Democratização de Acesso
+          Etapas de Trabalho
+          Ficha Técnica
+          Saldo de Aplicação
+
   utter_agradecimento:
     - text: |
           De nada, é sempre um prazer ajudar!
@@ -979,6 +1046,10 @@ actions:
   - utter_lei_rouanet_custo_vinculado
   - utter_lei_rouanet_pagamento_direcionado
   - utter_lei_rouanet_enquadramento
+  - utter_lei_rouanet_readequacao
+  - utter_lei_rouanet_readequacao_orcamentaria
+  - utter_lei_rouanet_readequacao_transferencia
+  - utter_lei_rouanet_readequacao_outros
 
   - utter_processo_reativacao_de_proposta
   - utter_processo_prazo
