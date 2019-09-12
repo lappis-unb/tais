@@ -1,7 +1,7 @@
 ## end-to-end story 1
 * cumprimentar: oi
    - utter_cumprimentar
-* lei_rouanet_remuneracao_proponente: o proponente é remunerado?
+* lei_rouanet_remuneracao_proponente: o proponente ganha alguma coisa?
    - utter_lei_rouanet_remuneracao_proponente
    - utter_continuar_conversa
 * definicao_projeto: como se caracteriza um projeto?
