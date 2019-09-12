@@ -235,7 +235,6 @@
 ## intent:processo_prazo_readequacao
 - posso saber sobre o periodo de readequacao
 - posso saber sobre o período de readequação
-- preciso fazer uma readequação orçamentária
 - sobre o prazo de readequaçao
 - qual é o periodo de readequacao
 - qual é o prazo de readequacao
@@ -244,7 +243,6 @@
 - qual e o prazo para readequacao
 - sobre o periodo de readequacao
 - sobre o período de readequação
-- readequação orçamentária
 - périodo readequação
 - período de readequação
 - periodo de readequacao
@@ -254,8 +252,6 @@
 - prazo readequacao
 - data readequação
 - data readequacao
-- readequação
-- readequacao
 
 ## intent:processo_prazo_periodo_captacao
 - gostaria de saber o prazo para captação

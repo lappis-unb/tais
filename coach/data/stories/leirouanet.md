@@ -487,3 +487,34 @@
 * lei_rouanet_enquadramento
     - utter_lei_rouanet_enquadramento
     - utter_continuar_conversa
+
+## Lei Rouanet 60
+* lei_rouanet_readequacao
+    - utter_lei_rouanet_readequacao
+
+## Lei Rouanet 61
+* lei_rouanet_readequacao
+    - utter_lei_rouanet_readequacao
+* lei_rouanet_readequacao_orcamentaria
+    - utter_lei_rouanet_readequacao_orcamentaria
+    - utter_continuar_conversa
+
+## Lei Rouanet 62
+* lei_rouanet_readequacao
+    - utter_lei_rouanet_readequacao
+* lei_rouanet_readequacao_transferencia
+    - utter_lei_rouanet_readequacao_transferencia
+    - utter_continuar_conversa
+
+## Lei Rouanet 63
+* lei_rouanet_readequacao
+    - utter_lei_rouanet_readequacao
+* lei_rouanet_readequacao_outros
+    - utter_lei_rouanet_readequacao_outros
+    - utter_continuar_conversa
+
+## Lei Rouanet 64
+* lei_rouanet_readequacao
+    - utter_lei_rouanet_readequacao
+* negar
+    - utter_continuar_conversa

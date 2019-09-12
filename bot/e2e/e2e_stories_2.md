@@ -66,10 +66,20 @@
 * lei_rouanet_pagamento: como posso pagar?
    - utter_lei_rouanet_pagamento
    - utter_continuar_conversa
+* lei_rouanet_readequacao: como fazer uma readequação?
+   - utter_lei_rouanet_readequacao
+* lei_rouanet_readequacao_outros: outros
+   - utter_lei_rouanet_readequacao_outros
+   - utter_continuar_conversa
 * negar_despedir: não tenho mais dúvidas
    - utter_despedir
 
 ## end-to-end story 24
+* lei_rouanet_readequacao: como fazer uma readequação?
+   - utter_lei_rouanet_readequacao
+* lei_rouanet_readequacao_transferencia: transferência de recursos entre projetos
+   - utter_lei_rouanet_readequacao_transferencia
+   - utter_continuar_conversa
 * lei_rouanet_acessibilidade: explica acessibilidade
    - utter_lei_rouanet_acessibilidade
    - utter_continuar_conversa
@@ -86,6 +96,11 @@
    - utter_despedir
 
 ## end-to-end story 25
+* lei_rouanet_readequacao: como fazer uma readequação?
+   - utter_lei_rouanet_readequacao
+* lei_rouanet_readequacao_orcamentaria: planilha orçamentária
+   - utter_lei_rouanet_readequacao_orcamentaria
+   - utter_continuar_conversa
 * lei_rouanet_pagamento_direcionado: como sei que meu pagamento foi direcionado para o projeto que eu quero?
    - utter_lei_rouanet_pagamento_direcionado
    - utter_continuar_conversa

@@ -914,3 +914,79 @@
 - enquadramento
 - enquadrado
 - enquadrar
+
+## intent:lei_rouanet_readequacao
+- como fazer uma readequação na planilha orçamentaria
+- como fazer uma readequacao na planilha orcamentaria 
+- como fazer uma readequação no projeto
+- como fazer uma readequacao no projeto
+- como fazer readequacao no projeto
+- preciso fazer uma readequação
+- tenho dúvidas sobre readequação
+- tenho duvidas sobre readequacao
+- como readequar um projeto
+- como readequar projeto
+- quero fazer uma readequação
+- readequação do projeto lei rouanet
+- readequacao do projeto lei rouanet
+- dúvidas sobre readequação
+- duvidas sobre readequacao
+- quero readequar
+- readequar projeto
+- readequação
+- readequacao
+- readequar
+
+## intent:lei_rouanet_readequacao_orcamentaria
+- como fazer uma readequação de planilha orçamentária
+- como fazer uma readequacao de planilha orçamentaria
+- como fazer uma readequação orçamentária
+- como fazer uma readequacao orçamentaria
+- quero fazer uma readequação de planilha orçamentária
+- quero fazer uma readequacao de planilha orcamentaria
+- quero fazer uma readequação orçamentária
+- quero fazer uma readequacao orcamentaria
+- readequação de planilha orçamentária
+- readequacao de planilha orçamentaria
+- readequar planilha orçamentária
+- readequar planilha orcamentaria
+- readequação orçamentária
+- readequacao orcamentaria
+- #planilha orçamentária
+- #planilha orcamentaria
+- planilha orçamentária
+- planilha orcamentaria
+
+## intent:lei_rouanet_readequacao_transferencia
+- posso transferir recursos pra outro projeto
+- posso transferir dinheiro pra outro projeto
+- quero transferir recursos pra outro projeto
+- quero transferir dinheiro pra outro projeto
+- preciso transferir recursos pra outro projeto
+- preciso transferir dinheiro pra outro projeto
+- como transferir recursos pra outro projeto
+- como transferir dinheiro pra outro projeto
+- transferir o que sobrou pra outro projeto
+- transferir dinheiro que sobrou pra outro projeto
+- transferência de recursos entre projetos
+- transferencia de recursos entre projetos
+- #readequação de transferência
+- #readequacao de transferencia
+- readequação de transferência
+- readequacao de transferencia
+- transferência entre projetos
+- transferencia entre projetos
+- transferir dinheiro
+- transferir recursos
+
+## intent:lei_rouanet_readequacao_outros
+- quero saber quais são os outros tipos de readequação
+- quero saber quais sao os outros tipos de readequacao
+- outros tipos de readequacao
+- outros tipos de readequação
+- tipos de readequacao
+- tipos de readequação
+- última opção
+- ultima opcao
+- #outros
+- outros
