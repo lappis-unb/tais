@@ -49,8 +49,8 @@ build requirements:
     refs:
       - pipeline_refactoring
       - master
-    # changes:
-    #   - ./docker/bot/requirements.txt
+    changes:
+      - ./docker/bot/requirements.txt
   environment: homolog
 
 build temp images:
