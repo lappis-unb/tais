@@ -27,7 +27,7 @@ services:
 
   # ================================= Bot =====================================
   bot:
-    image: lappis/bot:latest
+    image: lappis/bot:tais
     build:
       context: .
       dockerfile: ./docker/bot/bot.Dockerfile
@@ -48,7 +48,7 @@ services:
 
   # =================================== Web ===================================
   web:
-    image: lappis/web:latest
+    image: lappis/web:tais
     build:
       context: .
       dockerfile: ./docker/web/web.Dockerfile

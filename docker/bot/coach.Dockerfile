@@ -1,4 +1,4 @@
-FROM lappis/botrequirements:latest
+FROM lappis/botrequirements:tais
 
 COPY ./coach /coach
 COPY ./scripts /scripts
