@@ -15,3 +15,7 @@ O projeto de assistente virtual do Lappis é um chatbot voltado a orientar cidad
 
 Para saber mais sobre o framework de assistente virtual desenvolvido pelo LAPPIS (licença livre) acesse nosso [medium](https://medium.com/@lappisunbfga/framework-de-assistente-virtual-do-laboratório-lappis-951aafcdbbdd)
 
+O conteúdo referente aos tutorias aqui presente será evoluído na documentação do [Rasa Boilerplate](https://github.com/lappis-unb/rasa-ptbr-boilerplate). Mais informações podem ser acessadas no [GitBook](https://docs.rasaboilerplate.lappis.rocks/) do projeto 
+
+
+
