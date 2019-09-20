@@ -329,6 +329,12 @@
 - quantos ingressos podem ser de graça
 - há um limite de preço das entradas
 - qual o limite de valor das entradas
+- quais os valores máximos de cobrança de ingresso
+- quais os valores máximos de cobrança de ingresso
+- quais os valores máximos de cobranca de ingresso
+- quais os valores máximos de cobranca de ingresso
+- valores máximo de ingresso
+- valores maximo de ingresso
 
 ## intent:lei_rouanet_promocao_de_marca
 - é possível que o patrocinador faça a prospecção da sua marca em um projeto realizado com incentivo fiscal

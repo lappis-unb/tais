@@ -204,6 +204,8 @@
 - como faço a alteração do proponente
 - como faco a alteracao do proponente
 - como mudar o proponente do projeto
+- como alterar dados do responsável
+- como alterar dados do responsavel
 - me ajuda a alterar o proponente
 - realizar troca de proponente
 - troca proponente em propostas
