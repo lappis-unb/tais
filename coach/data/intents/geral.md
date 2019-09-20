@@ -96,6 +96,8 @@
 - duvida
 - ainda não sei
 - nenhum
+- já sei
+- ja sei
 
 ## intent:negar_despedir
 - não sei onde a minha pergunta se encaixa
