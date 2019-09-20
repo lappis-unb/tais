@@ -47,7 +47,6 @@ build requirements:
     - ./build-base.sh publish
   only:
     refs:
-      - pipeline_refactoring
       - master
     changes:
       - ./docker/bot/requirements.txt
@@ -98,7 +97,6 @@ push coach:
     - docker push lappis/coach:tais
   only:
     - master
-    - pipeline_refactoring
   environment: homolog
 
 push bot:
@@ -115,7 +113,6 @@ push bot:
     - docker push lappis/bot:tais
   only:
     - master
-    - pipeline_refactoring
   environment: homolog
 
 push web:
@@ -131,7 +128,6 @@ push web:
     - docker push lappis/bot-web:tais
   only:
     - master
-    - pipeline_refactoring
   environment: homolog
 
 deploy bot to homolog:
