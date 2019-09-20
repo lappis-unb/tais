@@ -26,6 +26,8 @@
 - como eu faço para recuperar meu cadastro
 - não me recordo da senha de acesso
 - não consigo acessar meus dados do salic
+- não consigo entrar no sistema
+- nao consigo entrar no sistema
 - não consigo acessar o salic
 - recuperar meu acesso ao sistema
 - esqueci a senha do salic
@@ -35,9 +37,9 @@
 - esqueci minha senha no salic
 - gostaria de saber como mudar minha senha
 - mudança de senha
-- como realizo a mudança de senha?
-- como mudo a senha?
-- como troco minha senha?
+- como realizo a mudança de senha
+- como mudo a senha
+- como troco minha senha
 - esqueci a senha
 - perdi minha senha
 - recuperar senha
