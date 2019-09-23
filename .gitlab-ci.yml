@@ -6,12 +6,12 @@ variables:
 
 
 stages:
+  - build requirements
+  - build temp images
   - test style
   - validate format
-  - build requirements
   - test stories
-  - build coach
-  - build
+  - push
   - deploy
 
 .set_ssh_config: &set_ssh_config
@@ -29,27 +29,10 @@ test style:
 
 run dataset validator:
   stage: validate format
-  image: lappis/coach:latest
+  image: $COACH_TEMP_IMAGE
   script:
     - cd coach/
     - make run-validator
-
-test stories:
- stage: test stories
- image: docker
- tags:
-   - docker
- services:
-   - docker:dind
- script:
-   - docker build . -f docker/bot/coach.Dockerfile -t lappis/coach:latest > /dev/null 2>&1 # Builds lappis/coach:latest
-   - docker build -f docker/bot/bot.Dockerfile -t $BOT_TEMP_IMAGE . # It uses lappis/coach:latest built locally
-   - docker run --rm $BOT_TEMP_IMAGE make test-stories
-   - docker login -u "gitlab-ci-token" -p "$CI_JOB_TOKEN" $CI_REGISTRY
-   - docker tag lappis/coach:latest $COACH_TEMP_IMAGE # Retags lappis/coach:latest to temp image
-   - docker push $COACH_TEMP_IMAGE # Pushes temp image to the gitlab registry (it will be pulled from gitlab and pushed to Dockerhub later)
-   - docker push $BOT_TEMP_IMAGE
-
 
 build requirements:
   stage: build requirements
@@ -69,8 +52,39 @@ build requirements:
       - ./docker/bot/requirements.txt
   environment: homolog
 
-build coach:
-  stage: build coach
+build temp images:
+  stage: build temp images
+  image: docker
+  tags:
+    - docker
+  services:
+    - docker:dind
+  script:
+   - docker build . -f docker/bot/coach.Dockerfile -t lappis/coach:tais > /dev/null 2>&1 # Builds lappis/coach:tais
+   - docker build -f docker/bot/bot.Dockerfile -t $BOT_TEMP_IMAGE . # It uses lappis/coach:tais built locally
+   - docker login -u "gitlab-ci-token" -p "$CI_JOB_TOKEN" $CI_REGISTRY
+   - docker tag lappis/coach:tais $COACH_TEMP_IMAGE # Retags lappis/coach:tag to temp image
+   - docker push $COACH_TEMP_IMAGE # Pushes temp image to the gitlab registry (it will be pulled from gitlab and pushed to Dockerhub later)
+   - docker push $BOT_TEMP_IMAGE
+  only:
+    refs:
+      - pipeline_refactoring
+      - master
+  environment: homolog
+
+test stories:
+ stage: test stories
+ image: docker
+ tags:
+   - docker
+ services:
+   - docker:dind
+ script:
+   - docker pull $BOT_TEMP_IMAGE
+   - docker run --rm $BOT_TEMP_IMAGE make test-stories
+
+push coach:
+  stage: push
   image: docker
   tags:
     - docker
@@ -79,14 +93,14 @@ build coach:
   script:
     - docker login -u $DOCKERHUB_USER -p $DOCKERHUB_PASSWORD
     - docker pull $COACH_TEMP_IMAGE
-    - docker tag $COACH_TEMP_IMAGE lappis/coach:latest
-    - docker push lappis/coach:latest
+    - docker tag $COACH_TEMP_IMAGE lappis/coach:tais
+    - docker push lappis/coach:tais
   only:
     - master
   environment: homolog
 
-build bot:
-  stage: build
+push bot:
+  stage: push
   image: docker
   tags:
     - docker
@@ -95,14 +109,14 @@ build bot:
   script:
     - docker login -u $DOCKERHUB_USER -p $DOCKERHUB_PASSWORD
     - docker pull $BOT_TEMP_IMAGE
-    - docker tag $BOT_TEMP_IMAGE lappis/bot:latest
-    - docker push lappis/bot:latest
+    - docker tag $BOT_TEMP_IMAGE lappis/bot:tais
+    - docker push lappis/bot:tais
   only:
     - master
   environment: homolog
 
-build web:
-  stage: build
+push web:
+  stage: push
   image: docker
   tags:
     - docker
@@ -110,8 +124,8 @@ build web:
     - docker:dind
   script:
     - docker login -u $DOCKERHUB_USER -p $DOCKERHUB_PASSWORD
-    - docker build -f docker/web/web.Dockerfile -t lappis/bot-web:latest .
-    - docker push lappis/bot-web:latest
+    - docker build -f docker/web/web.Dockerfile -t lappis/bot-web:tais .
+    - docker push lappis/bot-web:tais
   only:
     - master
   environment: homolog

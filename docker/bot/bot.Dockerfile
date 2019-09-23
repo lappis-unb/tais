@@ -1,6 +1,6 @@
-FROM lappis/coach:latest as coach
+FROM lappis/coach:tais as coach
 
-FROM lappis/botrequirements:latest
+FROM lappis/botrequirements:tais
 
 COPY ./bot /bot
 COPY --from=coach /src_models/ /models/

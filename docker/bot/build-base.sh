@@ -1,11 +1,11 @@
-#!/usr/bin/env bash
+#!/bin/sh
 
 
 set -o errexit
 set -o pipefail
 set -o nounset
 
-base_image=lappis/botrequirements:latest
+base_image=lappis/botrequirements:tais
 
 # Build base image
 docker build . -f requirements.Dockerfile -t $base_image
