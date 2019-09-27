@@ -280,7 +280,16 @@
 - mecanismo de denuncia
 - registrar denuncia
 - projeto ilegal
-- como Denúncia de projetos
+- como Denúncia de projetos culturais
+- como faço uma denúncia de um projeto cultural
+- como faço para denunciar um projeto cultural
+- como faço denúncia de um projeto cultural
+- como faço para denunciar um projeto cultural
+- como faço pra denúnciar um projeto cultural
+- como faço uma reclamação de um projeto cultural
+- como faço pra denunciar um projeto cultural
+- gostaria de saber como faço uma denuncia sobre um projeto cultural
+- se eu quiser fazer uma denuncia, como faço
 
 ## intent:lei_rouanet_remuneracao_proponente
 - o proponente autor do projeto é remunerado
